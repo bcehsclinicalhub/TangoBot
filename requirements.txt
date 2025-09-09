@@ -4,3 +4,4 @@ sentence-transformers
 PyMuPDF
 transformers
 streamlit-pdf-viewer
+python-docx
