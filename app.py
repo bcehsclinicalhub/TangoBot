@@ -74,7 +74,7 @@ files = [f for f in os.listdir(folder_path) if f.endswith((".pdf", ".docx", ".do
 selected_file = st.selectbox("📄 Choose a document:", files)
 
 # Display PDF viewer if PDF is selected
-if selected_file.endswith(".pdf"):
+if selected_file and selected_file.endswith(".pdf"):
     full_path = os.path.join(folder_path, selected_file)
     with open(full_path, "rb") as f:
         binary_data = f.read()
