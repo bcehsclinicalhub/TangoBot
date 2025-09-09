@@ -14,7 +14,7 @@ def load_model():
 
 model = load_model()
 
-# Load and chunk all PDFs across folders
+# Chunking function with overlap
 def extract_chunks_from_all_pdfs(base_folder, chunk_size=100, overlap=20):
     chunks = []
     for subject in os.listdir(base_folder):
