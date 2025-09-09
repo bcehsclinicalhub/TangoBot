@@ -15,7 +15,7 @@ def load_model():
 
 model = load_model()
 
-# Chunking function for PDFs and DOC/DOCX
+# Chunking function for PDFs and Word docs
 def extract_chunks_from_folder(folder_path, chunk_size=100, overlap=20):
     chunks = []
     for filename in os.listdir(folder_path):
@@ -23,15 +23,19 @@ def extract_chunks_from_folder(folder_path, chunk_size=100, overlap=20):
         text = ""
 
         if filename.endswith(".pdf"):
-            doc = fitz.open(path)
-            text = " ".join([page.get_text() for page in doc])
+            try:
+                doc = fitz.open(path)
+                text = " ".join([page.get_text() for page in doc])
+            except Exception as e:
+                st.warning(f"⚠️ Could not read PDF {filename}: {e}")
+                continue
 
-        elif filename.endswith(".docx") or filename.endswith(".doc"):
+        elif filename.endswith((".docx", ".doc")):
             try:
                 doc = docx.Document(path)
                 text = "\n".join([para.text for para in doc.paragraphs])
             except Exception as e:
-                st.warning(f"⚠️ Could not read {filename}: {e}")
+                st.warning(f"⚠️ Could not read Word file {filename}: {e}")
                 continue
 
         words = text.split()
@@ -59,8 +63,8 @@ def load_generator():
 generator = load_generator()
 
 # Streamlit UI
-st.set_page_config(page_title="📚 Document Chatbot", page_icon="📄")
-st.title("📚 Document Chatbot")
+st.set_page_config(page_title="📚 Tango Bot", page_icon="📄")
+st.title("📚 Tango Bot")
 st.write("Search and view documents by subject. Ask questions and get answers.")
 
 # Folder-based filtering
@@ -73,30 +77,34 @@ folder_path = os.path.join(base_folder, selected_subject)
 files = [f for f in os.listdir(folder_path) if f.endswith((".pdf", ".docx", ".doc"))]
 selected_file = st.selectbox("📄 Choose a document:", files)
 
-# Display PDF viewer if PDF is selected
-if selected_file and selected_file.endswith(".pdf"):
-    full_path = os.path.join(folder_path, selected_file)
-    with open(full_path, "rb") as f:
-        binary_data = f.read()
-    pdf_viewer(input=binary_data, width=700)
+# Display message if no file selected
+if not selected_file:
+    st.info("👆 Please select a document to view or search.")
 else:
-    st.info("📄 Word document selected — content will be used for search but not displayed.")
+    # Display PDF viewer or info message
+    if selected_file.endswith(".pdf"):
+        full_path = os.path.join(folder_path, selected_file)
+        with open(full_path, "rb") as f:
+            binary_data = f.read()
+        pdf_viewer(input=binary_data, width=700)
+    else:
+        st.info("📄 Word document selected — content will be used for search but not displayed.")
 
-# Load and index only selected folder
-chunks = extract_chunks_from_folder(folder_path)
-index, chunk_texts = create_index(chunks)
+    # Load and index selected folder
+    chunks = extract_chunks_from_folder(folder_path)
+    index, chunk_texts = create_index(chunks)
 
-# Search interface
-st.subheader("🔍 Ask a Question")
-query = st.text_input("Type your question here:")
+    # Search interface
+    st.subheader("🔍 Ask a Question")
+    query = st.text_input("Type your question here:")
 
-if query:
-    query_embedding = model.encode([query])
-    D, I = index.search(np.array(query_embedding), k=3)
-    context = "\n\n".join([chunk_texts[i] for i in I[0]])
+    if query:
+        query_embedding = model.encode([query])
+        D, I = index.search(np.array(query_embedding), k=3)
+        context = "\n\n".join([chunk_texts[i] for i in I[0]])
 
-    prompt = f"Context:\n{context}\n\nQuestion: {query}\nAnswer:"
-    response = generator(prompt, max_length=100, do_sample=True)[0]['generated_text']
+        prompt = f"Context:\n{context}\n\nQuestion: {query}\nAnswer:"
+        response = generator(prompt, max_length=100, do_sample=True)[0]['generated_text']
 
-    st.markdown("### 💡 Answer:")
-    st.write(response)
+        st.markdown("### 💡 Answer:")
+        st.write(response)
