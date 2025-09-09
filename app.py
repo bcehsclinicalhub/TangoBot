@@ -15,7 +15,7 @@ def load_model():
 model = load_model()
 
 # Load and chunk all PDFs across folders
-def extract_chunks_from_all_pdfs(base_folder, chunk_size=100):
+def extract_chunks_from_all_pdfs(base_folder, chunk_size=100, overlap=20):
     chunks = []
     for subject in os.listdir(base_folder):
         subject_path = os.path.join(base_folder, subject)
@@ -24,9 +24,15 @@ def extract_chunks_from_all_pdfs(base_folder, chunk_size=100):
                 if filename.endswith(".pdf"):
                     path = os.path.join(subject_path, filename)
                     doc = fitz.open(path)
-                    text = " ".join([page.get_text() for page in doc])
-                    words = text.split()
-                    chunks += [' '.join(words[i:i+chunk_size]) for i in range(0, len(words), chunk_size)]
+                    full_text = " ".join([page.get_text() for page in doc])
+                    words = full_text.split()
+
+                    # Chunking with overlap
+                    i = 0
+                    while i < len(words):
+                        chunk = words[i:i+chunk_size]
+                        chunks.append(" ".join(chunk))
+                        i += chunk_size - overlap
     return chunks
 
 # Embed and index chunks
