@@ -48,8 +48,8 @@ def load_generator():
 generator = load_generator()
 
 # Streamlit UI
-st.set_page_config(page_title="PDF Chatbot", page_icon="📄")
-st.title("📄 PDF Document Chatbot")
+st.set_page_config(page_title="Tango Bot", page_icon="📄")
+st.title("📄 Tango Bot")
 st.write("Ask a question and get answers from your uploaded PDFs.")
 
 # Display PDF viewer
