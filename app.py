@@ -3,10 +3,12 @@ import os
 import fitz  # PyMuPDF
 import numpy as np
 import faiss
+import base64
 from sentence_transformers import SentenceTransformer
 from transformers import pipeline
+from streamlit_pdf_viewer import pdf_viewer
 
-# Load embedding model once
+# Load embedding model
 @st.cache_resource
 def load_model():
     return SentenceTransformer('all-MiniLM-L6-v2')
@@ -15,10 +17,15 @@ model = load_model()
 
 # Load and chunk PDF text
 def extract_chunks_from_pdfs(folder, chunk_size=100):
+    folder_path = os.path.join(os.path.dirname(__file__), folder)
+    if not os.path.exists(folder_path):
+        st.error(f"📁 Folder not found: {folder_path}")
+        st.stop()
+
     chunks = []
-    for filename in os.listdir(folder):
+    for filename in os.listdir(folder_path):
         if filename.endswith(".pdf"):
-            path = os.path.join(folder, filename)
+            path = os.path.join(folder_path, filename)
             doc = fitz.open(path)
             text = " ".join([page.get_text() for page in doc])
             words = text.split()
@@ -33,10 +40,6 @@ def create_index(chunks):
     index.add(np.array(embeddings))
     return index, chunks
 
-# Load and index documents
-chunks = extract_chunks_from_pdfs("documents")
-index, chunk_texts = create_index(chunks)
-
 # Load generator model
 @st.cache_resource
 def load_generator():
@@ -49,6 +52,22 @@ st.set_page_config(page_title="PDF Chatbot", page_icon="📄")
 st.title("📄 PDF Document Chatbot")
 st.write("Ask a question and get answers from your uploaded PDFs.")
 
+# Display PDF viewer
+st.subheader("📑 View a PDF")
+pdf_files = [f for f in os.listdir("documents") if f.endswith(".pdf")]
+selected_pdf = st.selectbox("Choose a PDF to view:", pdf_files)
+
+if selected_pdf:
+    with open(os.path.join("documents", selected_pdf), "rb") as f:
+        binary_data = f.read()
+    pdf_viewer(input=binary_data, width=700)
+
+# Load and index documents
+chunks = extract_chunks_from_pdfs("documents")
+index, chunk_texts = create_index(chunks)
+
+# Chatbot interface
+st.subheader("💬 Ask a Question")
 query = st.text_input("🔍 Your question:")
 
 if query:
