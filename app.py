@@ -3,7 +3,6 @@ import os
 import fitz  # PyMuPDF
 import numpy as np
 import faiss
-import base64
 from sentence_transformers import SentenceTransformer
 from transformers import pipeline
 from streamlit_pdf_viewer import pdf_viewer
@@ -15,21 +14,19 @@ def load_model():
 
 model = load_model()
 
-# Load and chunk PDF text
-def extract_chunks_from_pdfs(folder, chunk_size=100):
-    folder_path = os.path.join(os.path.dirname(__file__), folder)
-    if not os.path.exists(folder_path):
-        st.error(f"📁 Folder not found: {folder_path}")
-        st.stop()
-
+# Load and chunk all PDFs across folders
+def extract_chunks_from_all_pdfs(base_folder, chunk_size=100):
     chunks = []
-    for filename in os.listdir(folder_path):
-        if filename.endswith(".pdf"):
-            path = os.path.join(folder_path, filename)
-            doc = fitz.open(path)
-            text = " ".join([page.get_text() for page in doc])
-            words = text.split()
-            chunks += [' '.join(words[i:i+chunk_size]) for i in range(0, len(words), chunk_size)]
+    for subject in os.listdir(base_folder):
+        subject_path = os.path.join(base_folder, subject)
+        if os.path.isdir(subject_path):
+            for filename in os.listdir(subject_path):
+                if filename.endswith(".pdf"):
+                    path = os.path.join(subject_path, filename)
+                    doc = fitz.open(path)
+                    text = " ".join([page.get_text() for page in doc])
+                    words = text.split()
+                    chunks += [' '.join(words[i:i+chunk_size]) for i in range(0, len(words), chunk_size)]
     return chunks
 
 # Embed and index chunks
@@ -48,22 +45,29 @@ def load_generator():
 generator = load_generator()
 
 # Streamlit UI
-st.set_page_config(page_title="Tango Bot", page_icon="📄")
-st.title("📄 Tango Bot")
-st.write("Ask a question and get answers from your uploaded PDFs.")
+st.set_page_config(page_title="PDF Chatbot", page_icon="📄")
+st.title("📄 PDF Document Chatbot")
+st.write("Organized by subject folders. Ask questions or view documents.")
 
-# Display PDF viewer
-st.subheader("📑 View a PDF")
-pdf_files = [f for f in os.listdir("documents") if f.endswith(".pdf")]
-selected_pdf = st.selectbox("Choose a PDF to view:", pdf_files)
+# Folder-based filtering
+base_folder = "documents"
+subject_folders = [f for f in os.listdir(base_folder) if os.path.isdir(os.path.join(base_folder, f))]
+selected_subject = st.selectbox("📁 Choose a subject:", subject_folders)
 
+# PDF selection
+pdf_path = os.path.join(base_folder, selected_subject)
+pdf_files = [f for f in os.listdir(pdf_path) if f.endswith(".pdf")]
+selected_pdf = st.selectbox("📄 Choose a PDF:", pdf_files)
+
+# Display selected PDF
 if selected_pdf:
-    with open(os.path.join("documents", selected_pdf), "rb") as f:
+    full_path = os.path.join(pdf_path, selected_pdf)
+    with open(full_path, "rb") as f:
         binary_data = f.read()
     pdf_viewer(input=binary_data, width=700)
 
-# Load and index documents
-chunks = extract_chunks_from_pdfs("documents")
+# Load and index all documents
+chunks = extract_chunks_from_all_pdfs(base_folder)
 index, chunk_texts = create_index(chunks)
 
 # Chatbot interface
