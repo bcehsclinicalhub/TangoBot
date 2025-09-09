@@ -1,6 +1,7 @@
 import streamlit as st
 import os
-import fitz  # PyMuPDF
+import fitz  # PyMuPDF for PDFs
+import docx  # python-docx for Word files
 import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
@@ -14,25 +15,32 @@ def load_model():
 
 model = load_model()
 
-# Chunking function with overlap
-def extract_chunks_from_all_pdfs(base_folder, chunk_size=100, overlap=20):
+# Chunking function for PDFs and DOC/DOCX
+def extract_chunks_from_folder(folder_path, chunk_size=100, overlap=20):
     chunks = []
-    for subject in os.listdir(base_folder):
-        subject_path = os.path.join(base_folder, subject)
-        if os.path.isdir(subject_path):
-            for filename in os.listdir(subject_path):
-                if filename.endswith(".pdf"):
-                    path = os.path.join(subject_path, filename)
-                    doc = fitz.open(path)
-                    full_text = " ".join([page.get_text() for page in doc])
-                    words = full_text.split()
+    for filename in os.listdir(folder_path):
+        path = os.path.join(folder_path, filename)
+        text = ""
 
-                    # Chunking with overlap
-                    i = 0
-                    while i < len(words):
-                        chunk = words[i:i+chunk_size]
-                        chunks.append(" ".join(chunk))
-                        i += chunk_size - overlap
+        if filename.endswith(".pdf"):
+            doc = fitz.open(path)
+            text = " ".join([page.get_text() for page in doc])
+
+        elif filename.endswith(".docx") or filename.endswith(".doc"):
+            try:
+                doc = docx.Document(path)
+                text = "\n".join([para.text for para in doc.paragraphs])
+            except Exception as e:
+                st.warning(f"⚠️ Could not read {filename}: {e}")
+                continue
+
+        words = text.split()
+        i = 0
+        while i < len(words):
+            chunk = words[i:i+chunk_size]
+            chunks.append(" ".join(chunk))
+            i += chunk_size - overlap
+
     return chunks
 
 # Embed and index chunks
@@ -51,34 +59,36 @@ def load_generator():
 generator = load_generator()
 
 # Streamlit UI
-st.set_page_config(page_title="PDF Chatbot", page_icon="📄")
-st.title("📄 PDF Document Chatbot")
-st.write("Organized by subject folders. Ask questions or view documents.")
+st.set_page_config(page_title="📚 Document Chatbot", page_icon="📄")
+st.title("📚 Document Chatbot")
+st.write("Search and view documents by subject. Ask questions and get answers.")
 
 # Folder-based filtering
 base_folder = "documents"
 subject_folders = [f for f in os.listdir(base_folder) if os.path.isdir(os.path.join(base_folder, f))]
 selected_subject = st.selectbox("📁 Choose a subject:", subject_folders)
 
-# PDF selection
-pdf_path = os.path.join(base_folder, selected_subject)
-pdf_files = [f for f in os.listdir(pdf_path) if f.endswith(".pdf")]
-selected_pdf = st.selectbox("📄 Choose a PDF:", pdf_files)
+# File selection
+folder_path = os.path.join(base_folder, selected_subject)
+files = [f for f in os.listdir(folder_path) if f.endswith((".pdf", ".docx", ".doc"))]
+selected_file = st.selectbox("📄 Choose a document:", files)
 
-# Display selected PDF
-if selected_pdf:
-    full_path = os.path.join(pdf_path, selected_pdf)
+# Display PDF viewer if PDF is selected
+if selected_file.endswith(".pdf"):
+    full_path = os.path.join(folder_path, selected_file)
     with open(full_path, "rb") as f:
         binary_data = f.read()
     pdf_viewer(input=binary_data, width=700)
+else:
+    st.info("📄 Word document selected — content will be used for search but not displayed.")
 
-# Load and index all documents
-chunks = extract_chunks_from_all_pdfs(base_folder)
+# Load and index only selected folder
+chunks = extract_chunks_from_folder(folder_path)
 index, chunk_texts = create_index(chunks)
 
-# Chatbot interface
-st.subheader("💬 Ask a Question")
-query = st.text_input("🔍 Your question:")
+# Search interface
+st.subheader("🔍 Ask a Question")
+query = st.text_input("Type your question here:")
 
 if query:
     query_embedding = model.encode([query])
