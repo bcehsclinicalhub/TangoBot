@@ -3,3 +3,4 @@ faiss-cpu
 sentence-transformers
 PyMuPDF
 transformers
+streamlit-pdf-viewer
