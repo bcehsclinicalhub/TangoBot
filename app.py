@@ -84,10 +84,8 @@ def search_filenames_semantically(base_folder, query, scope="Selected Folder", s
     file_embeddings = model.encode(file_labels)
 
     similarities = cosine_similarity(query_embedding, file_embeddings)[0]
-    filtered = [(file_labels[i], file_paths[i], similarities[i]) for i in range(len(similarities)) if similarities[i] >= threshold]
-    filtered.sort(key=lambda x: x[2], reverse=True)
-
-    return [(label, path, sim) for label, path, sim in filtered]
+    filtered = [(file_labels[i], file_paths[i]) for i in range(len(similarities)) if similarities[i] >= threshold]
+    return filtered
 
 # UI
 st.set_page_config(page_title="🚑 Tango Bot", page_icon="📄")
@@ -108,8 +106,8 @@ if filename_query:
     results = search_filenames_semantically(base_folder, filename_query, search_scope, selected_subject if selected_subject else None, threshold=0.15)
     if results:
         st.markdown("### 📄 Matching Files:")
-        for label, path, sim in results:
-            if st.button(f"{label} ({sim:.2f})"):
+        for label, path in results:
+            if st.button(f"{label}"):
                 clicked_file = path
     else:
         st.warning("No matching files found above the threshold.")
