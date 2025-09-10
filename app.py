@@ -7,6 +7,7 @@ import faiss
 from sentence_transformers import SentenceTransformer
 from transformers import pipeline
 from sklearn.metrics.pairwise import cosine_similarity
+from streamlit_pdf_viewer import pdf_viewer
 
 # Load models
 @st.cache_resource
@@ -115,21 +116,14 @@ if filename_query:
 
 # Load and index content from clicked file
 if clicked_file:
+    # Inline PDF viewer
+    if clicked_file.endswith(".pdf"):
+        with open(clicked_file, "rb") as f:
+            binary_data = f.read()
+        pdf_viewer(input=binary_data, width=700)
+    else:
+        st.info("📄 Word document selected — content will be used for search but not displayed.")
+
+    # Index content for Q&A
     chunks = extract_chunks_from_folder(os.path.dirname(clicked_file))
-    index, chunk_texts = create_index(chunks)
-
-    st.subheader("🧠 Ask a Question")
-    query = st.text_input("Type your question here:")
-
-    if query:
-        query_embedding = model.encode([query])
-        D, I = index.search(np.array(query_embedding), k=3)
-        context = "\n\n".join([chunk_texts[i] for i in I[0]])
-
-        prompt = f"Context:\n{context}\n\nQuestion: {query}\nAnswer:"
-        response = generator(prompt, max_length=100, do_sample=True)[0]['generated_text']
-
-        st.markdown("### 💡 Answer:")
-        st.write(response)
-else:
-    st.info("👆 Search for a file and click to select it before asking a question.")
+    index, chunk
