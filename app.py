@@ -63,8 +63,8 @@ def load_generator():
 generator = load_generator()
 
 # Streamlit UI
-st.set_page_config(page_title="📚 Tango Bot", page_icon="📄")
-st.title("📚 Tango Bot")
+st.set_page_config(page_title="🚑 Tango Bot ", page_icon="📄")
+st.title("🚑 Tango Bot")
 st.write("Search and view documents by subject. Ask questions and get answers.")
 
 # Folder-based filtering
