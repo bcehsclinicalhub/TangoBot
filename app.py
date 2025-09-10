@@ -96,34 +96,37 @@ base_folder = "documents"
 subject_folders = [f for f in os.listdir(base_folder) if os.path.isdir(os.path.join(base_folder, f))]
 selected_subject = st.selectbox("📁 Select folder if file location known:", [""] + subject_folders)
 
+# Initialize session state for clicked file
+if "clicked_file" not in st.session_state:
+    st.session_state.clicked_file = None
+
 # File name search
 st.subheader("🔎 Search for a file name")
 search_scope = st.radio("Search scope:", ["Selected Folder", "All Folders"])
 filename_query = st.text_input("Type a keyword or phrase:")
 
-clicked_file = None
 if filename_query:
     results = search_filenames_semantically(base_folder, filename_query, search_scope, selected_subject if selected_subject else None, threshold=0.15)
     if results:
         st.markdown("### 📄 Matching Files:")
         for label, path in results:
             if st.button(f"{label}"):
-                clicked_file = path
+                st.session_state.clicked_file = path
     else:
         st.warning("No matching files found above the threshold.")
 
 # Load and index content from clicked file
-if clicked_file:
+if st.session_state.clicked_file:
     # Inline PDF viewer
-    if clicked_file.endswith(".pdf"):
-        with open(clicked_file, "rb") as f:
+    if st.session_state.clicked_file.endswith(".pdf"):
+        with open(st.session_state.clicked_file, "rb") as f:
             binary_data = f.read()
         pdf_viewer(input=binary_data, width=700)
     else:
         st.info("📄 Word document selected — content will be used for search but not displayed.")
 
     # Index content for Q&A
-    chunks = extract_chunks_from_folder(os.path.dirname(clicked_file))
+    chunks = extract_chunks_from_folder(os.path.dirname(st.session_state.clicked_file))
     index, chunk_texts = create_index(chunks)
 
     st.subheader("🧠 Ask a Question")
