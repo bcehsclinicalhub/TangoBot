@@ -7,6 +7,7 @@ import faiss
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from streamlit_pdf_viewer import pdf_viewer
+import re
 
 # Load models
 @st.cache_resource
@@ -15,9 +16,14 @@ def load_model():
 
 model = load_model()
 
+# Extract links from text
+def extract_links(text):
+    return re.findall(r'https?://\S+', text)
+
 # Chunking function
-def extract_chunks_from_folder(folder_path, chunk_size=100, overlap=20):
+def extract_chunks_and_links(folder_path, chunk_size=100, overlap=20):
     chunks = []
+    all_links = []
     for filename in os.listdir(folder_path):
         path = os.path.join(folder_path, filename)
         text = ""
@@ -45,7 +51,9 @@ def extract_chunks_from_folder(folder_path, chunk_size=100, overlap=20):
             chunks.append(" ".join(chunk))
             i += chunk_size - overlap
 
-    return chunks
+        all_links.extend(extract_links(text))
+
+    return chunks, list(set(all_links))
 
 # Semantic filename search with fixed threshold
 def search_filenames_semantically(base_folder, query, scope="Selected Folder", selected_folder=None, threshold=0.15):
@@ -101,12 +109,23 @@ if filename_query:
     else:
         st.warning("No matching files found above the threshold.")
 
-# Display selected file
+# Display selected file and extract links
 if st.session_state.clicked_file:
     if st.session_state.clicked_file.endswith(".pdf"):
         with open(st.session_state.clicked_file, "rb") as f:
             binary_data = f.read()
         pdf_viewer(input=binary_data, width=700)
+
+        # Extract links from the selected PDF
+        folder_path = os.path.dirname(st.session_state.clicked_file)
+        chunks, links = extract_chunks_and_links(folder_path)
+
+        if links:
+            st.markdown("### 🔗 Links found in this document:")
+            for link in links:
+                st.markdown(f"- [{link}]({link})")
+        else:
+            st.info("No links found in this document.")
     else:
         st.info("📄 Word document selected — content will be used for search but not displayed.")
 else:
