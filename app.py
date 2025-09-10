@@ -60,8 +60,8 @@ def create_index(chunks):
     index.add(np.array(embeddings))
     return index, chunks
 
-# Semantic filename search with threshold
-def search_filenames_semantically(base_folder, query, scope="Selected Folder", selected_folder=None, threshold=0.65):
+# Semantic filename search with fixed threshold
+def search_filenames_semantically(base_folder, query, scope="Selected Folder", selected_folder=None, threshold=0.15):
     file_paths = []
     file_labels = []
 
@@ -101,11 +101,10 @@ selected_subject = st.selectbox("📁 Choose a subject:", subject_folders)
 st.subheader("🔎 Search for a file name")
 search_scope = st.radio("Search scope:", ["Selected Folder", "All Folders"])
 filename_query = st.text_input("Type a keyword or phrase:")
-threshold = st.slider("Similarity threshold", min_value=0.0, max_value=1.0, value=0.65, step=0.01)
 
 clicked_file = None
 if filename_query:
-    results = search_filenames_semantically(base_folder, filename_query, search_scope, selected_subject, threshold)
+    results = search_filenames_semantically(base_folder, filename_query, search_scope, selected_subject, threshold=0.15)
     if results:
         st.markdown("### 📄 Matching Files:")
         for label, path, sim in results:
