@@ -6,7 +6,6 @@ import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
 from transformers import pipeline
-from streamlit_pdf_viewer import pdf_viewer
 
 # Load models
 @st.cache_resource
@@ -97,10 +96,6 @@ base_folder = "documents"
 subject_folders = [f for f in os.listdir(base_folder) if os.path.isdir(os.path.join(base_folder, f))]
 selected_subject = st.selectbox("📁 Choose a subject:", subject_folders)
 
-folder_path = os.path.join(base_folder, selected_subject)
-files = [f for f in os.listdir(folder_path) if f.endswith((".pdf", ".docx", ".doc"))]
-selected_file = st.selectbox("📄 Choose a document:", files)
-
 # File name search
 st.subheader("🔎 Search for a file name")
 search_scope = st.radio("Search scope:", ["Selected Folder", "All Folders"])
@@ -116,19 +111,9 @@ if filename_query:
     else:
         st.warning("No matching files found.")
 
-# Determine which file to load
-file_to_load = clicked_file if clicked_file else os.path.join(folder_path, selected_file) if selected_file else None
-
-if file_to_load:
-    if file_to_load.endswith(".pdf"):
-        with open(file_to_load, "rb") as f:
-            binary_data = f.read()
-        pdf_viewer(input=binary_data, width=700)
-    else:
-        st.info("📄 Word document selected — content will be used for search but not displayed.")
-
-    # Load and index content
-    chunks = extract_chunks_from_folder(os.path.dirname(file_to_load))
+# Load and index content from clicked file
+if clicked_file:
+    chunks = extract_chunks_from_folder(os.path.dirname(clicked_file))
     index, chunk_texts = create_index(chunks)
 
     st.subheader("🧠 Ask a Question")
@@ -145,4 +130,4 @@ if file_to_load:
         st.markdown("### 💡 Answer:")
         st.write(response)
 else:
-    st.info("👆 Please select or search for a document to view or query.")
+    st.info("👆 Search for a file and click to select it before asking a question.")
