@@ -5,7 +5,6 @@ import docx
 import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
-from transformers import pipeline
 from sklearn.metrics.pairwise import cosine_similarity
 from streamlit_pdf_viewer import pdf_viewer
 
@@ -14,12 +13,7 @@ from streamlit_pdf_viewer import pdf_viewer
 def load_model():
     return SentenceTransformer('all-MiniLM-L6-v2')
 
-@st.cache_resource
-def load_generator():
-    return pipeline("text-generation", model="distilgpt2")
-
 model = load_model()
-generator = load_generator()
 
 # Chunking function
 def extract_chunks_from_folder(folder_path, chunk_size=100, overlap=20):
@@ -53,14 +47,6 @@ def extract_chunks_from_folder(folder_path, chunk_size=100, overlap=20):
 
     return chunks
 
-# Embed and index chunks
-@st.cache_resource
-def create_index(chunks):
-    embeddings = model.encode(chunks, batch_size=16, show_progress_bar=True)
-    index = faiss.IndexFlatL2(len(embeddings[0]))
-    index.add(np.array(embeddings))
-    return index, chunks
-
 # Semantic filename search with fixed threshold
 def search_filenames_semantically(base_folder, query, scope="Selected Folder", selected_folder=None, threshold=0.15):
     file_paths = []
@@ -90,7 +76,7 @@ def search_filenames_semantically(base_folder, query, scope="Selected Folder", s
 # UI
 st.set_page_config(page_title="🚑 Tango Bot", page_icon="📄")
 st.title("🚑 Tango Bot")
-st.write("Search and view documents by subject. Ask questions and get answers.")
+st.write("Search and view documents by subject.")
 
 base_folder = "documents"
 subject_folders = [f for f in os.listdir(base_folder) if os.path.isdir(os.path.join(base_folder, f))]
@@ -115,32 +101,13 @@ if filename_query:
     else:
         st.warning("No matching files found above the threshold.")
 
-# Load and index content from clicked file
+# Display selected file
 if st.session_state.clicked_file:
-    # Inline PDF viewer
     if st.session_state.clicked_file.endswith(".pdf"):
         with open(st.session_state.clicked_file, "rb") as f:
             binary_data = f.read()
         pdf_viewer(input=binary_data, width=700)
     else:
         st.info("📄 Word document selected — content will be used for search but not displayed.")
-
-    # Index content for Q&A
-    chunks = extract_chunks_from_folder(os.path.dirname(st.session_state.clicked_file))
-    index, chunk_texts = create_index(chunks)
-
-    st.subheader("🧠 Ask a Question")
-    query = st.text_input("Type your question here:")
-
-    if query:
-        query_embedding = model.encode([query])
-        D, I = index.search(np.array(query_embedding), k=3)
-        context = "\n\n".join([chunk_texts[i] for i in I[0]])
-
-        prompt = f"Context:\n{context}\n\nQuestion: {query}\nAnswer:"
-        response = generator(prompt, max_length=100, do_sample=True)[0]['generated_text']
-
-        st.markdown("### 💡 Answer:")
-        st.write(response)
 else:
-    st.info("👆 Search for a file and click to select it before asking a question.")
+    st.info("👆 Search for a file and click to view it.")
