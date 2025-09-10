@@ -6,6 +6,7 @@ import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
 from transformers import pipeline
+from sklearn.metrics.pairwise import cosine_similarity
 
 # Load models
 @st.cache_resource
@@ -59,8 +60,8 @@ def create_index(chunks):
     index.add(np.array(embeddings))
     return index, chunks
 
-# Semantic filename search
-def search_filenames_semantically(base_folder, query, scope="Selected Folder", selected_folder=None):
+# Semantic filename search with threshold
+def search_filenames_semantically(base_folder, query, scope="Selected Folder", selected_folder=None, threshold=0.65):
     file_paths = []
     file_labels = []
 
@@ -80,12 +81,12 @@ def search_filenames_semantically(base_folder, query, scope="Selected Folder", s
 
     query_embedding = model.encode([query])
     file_embeddings = model.encode(file_labels)
-    index = faiss.IndexFlatL2(len(file_embeddings[0]))
-    index.add(np.array(file_embeddings))
-    D, I = index.search(np.array(query_embedding), k=min(10, len(file_labels)))
 
-    results = [(file_labels[i], file_paths[i]) for i in I[0]]
-    return results
+    similarities = cosine_similarity(query_embedding, file_embeddings)[0]
+    filtered = [(file_labels[i], file_paths[i], similarities[i]) for i in range(len(similarities)) if similarities[i] >= threshold]
+    filtered.sort(key=lambda x: x[2], reverse=True)
+
+    return [(label, path, sim) for label, path, sim in filtered]
 
 # UI
 st.set_page_config(page_title="🚑 Tango Bot", page_icon="📄")
@@ -100,16 +101,18 @@ selected_subject = st.selectbox("📁 Choose a subject:", subject_folders)
 st.subheader("🔎 Search for a file name")
 search_scope = st.radio("Search scope:", ["Selected Folder", "All Folders"])
 filename_query = st.text_input("Type a keyword or phrase:")
+threshold = st.slider("Similarity threshold", min_value=0.0, max_value=1.0, value=0.65, step=0.01)
 
 clicked_file = None
 if filename_query:
-    results = search_filenames_semantically(base_folder, filename_query, search_scope, selected_subject)
+    results = search_filenames_semantically(base_folder, filename_query, search_scope, selected_subject, threshold)
     if results:
-        for label, path in results:
-            if st.button(f"📄 {label}"):
+        st.markdown("### 📄 Matching Files:")
+        for label, path, sim in results:
+            if st.button(f"{label} ({sim:.2f})"):
                 clicked_file = path
     else:
-        st.warning("No matching files found.")
+        st.warning("No matching files found above the threshold.")
 
 # Load and index content from clicked file
 if clicked_file:
