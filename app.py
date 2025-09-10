@@ -66,7 +66,7 @@ def search_filenames_semantically(base_folder, query, scope="Selected Folder", s
     file_paths = []
     file_labels = []
 
-    folders = [selected_folder] if scope == "Selected Folder" else os.listdir(base_folder)
+    folders = [selected_folder] if scope == "Selected Folder" and selected_folder else os.listdir(base_folder)
 
     for folder in folders:
         folder_path = os.path.join(base_folder, folder)
@@ -96,7 +96,7 @@ st.write("Search and view documents by subject. Ask questions and get answers.")
 
 base_folder = "documents"
 subject_folders = [f for f in os.listdir(base_folder) if os.path.isdir(os.path.join(base_folder, f))]
-selected_subject = st.selectbox("📁 Choose a subject:", subject_folders)
+selected_subject = st.selectbox("📁 Select folder if file location known:", [""] + subject_folders)
 
 # File name search
 st.subheader("🔎 Search for a file name")
@@ -105,7 +105,7 @@ filename_query = st.text_input("Type a keyword or phrase:")
 
 clicked_file = None
 if filename_query:
-    results = search_filenames_semantically(base_folder, filename_query, search_scope, selected_subject, threshold=0.15)
+    results = search_filenames_semantically(base_folder, filename_query, search_scope, selected_subject if selected_subject else None, threshold=0.15)
     if results:
         st.markdown("### 📄 Matching Files:")
         for label, path, sim in results:
@@ -126,4 +126,20 @@ if clicked_file:
 
     # Index content for Q&A
     chunks = extract_chunks_from_folder(os.path.dirname(clicked_file))
-    index, chunk
+    index, chunk_texts = create_index(chunks)
+
+    st.subheader("🧠 Ask a Question")
+    query = st.text_input("Type your question here:")
+
+    if query:
+        query_embedding = model.encode([query])
+        D, I = index.search(np.array(query_embedding), k=3)
+        context = "\n\n".join([chunk_texts[i] for i in I[0]])
+
+        prompt = f"Context:\n{context}\n\nQuestion: {query}\nAnswer:"
+        response = generator(prompt, max_length=100, do_sample=True)[0]['generated_text']
+
+        st.markdown("### 💡 Answer:")
+        st.write(response)
+else:
+    st.info("👆 Search for a file and click to select it before asking a question.")
