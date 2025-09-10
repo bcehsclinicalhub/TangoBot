@@ -1,21 +1,26 @@
 import streamlit as st
 import os
-import fitz  # PyMuPDF for PDFs
-import docx  # python-docx for Word files
+import fitz  # PyMuPDF
+import docx
 import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
 from transformers import pipeline
 from streamlit_pdf_viewer import pdf_viewer
 
-# Load embedding model
+# Load models
 @st.cache_resource
 def load_model():
     return SentenceTransformer('all-MiniLM-L6-v2')
 
-model = load_model()
+@st.cache_resource
+def load_generator():
+    return pipeline("text-generation", model="distilgpt2")
 
-# Chunking function for PDFs and Word docs
+model = load_model()
+generator = load_generator()
+
+# Chunking function
 def extract_chunks_from_folder(folder_path, chunk_size=100, overlap=20):
     chunks = []
     for filename in os.listdir(folder_path):
@@ -55,47 +60,78 @@ def create_index(chunks):
     index.add(np.array(embeddings))
     return index, chunks
 
-# Load generator model
-@st.cache_resource
-def load_generator():
-    return pipeline("text-generation", model="distilgpt2")
+# Semantic filename search
+def search_filenames_semantically(base_folder, query, scope="Selected Folder", selected_folder=None):
+    file_paths = []
+    file_labels = []
 
-generator = load_generator()
+    folders = [selected_folder] if scope == "Selected Folder" else os.listdir(base_folder)
 
-# Streamlit UI
-st.set_page_config(page_title="🚑 Tango Bot ", page_icon="📄")
+    for folder in folders:
+        folder_path = os.path.join(base_folder, folder)
+        if not os.path.isdir(folder_path):
+            continue
+        for filename in os.listdir(folder_path):
+            if filename.lower().endswith((".pdf", ".docx", ".doc")):
+                file_paths.append(os.path.join(folder_path, filename))
+                file_labels.append(f"{folder}/{filename}")
+
+    if not file_labels:
+        return []
+
+    query_embedding = model.encode([query])
+    file_embeddings = model.encode(file_labels)
+    index = faiss.IndexFlatL2(len(file_embeddings[0]))
+    index.add(np.array(file_embeddings))
+    D, I = index.search(np.array(query_embedding), k=min(10, len(file_labels)))
+
+    results = [(file_labels[i], file_paths[i]) for i in I[0]]
+    return results
+
+# UI
+st.set_page_config(page_title="🚑 Tango Bot", page_icon="📄")
 st.title("🚑 Tango Bot")
 st.write("Search and view documents by subject. Ask questions and get answers.")
 
-# Folder-based filtering
 base_folder = "documents"
 subject_folders = [f for f in os.listdir(base_folder) if os.path.isdir(os.path.join(base_folder, f))]
 selected_subject = st.selectbox("📁 Choose a subject:", subject_folders)
 
-# File selection
 folder_path = os.path.join(base_folder, selected_subject)
 files = [f for f in os.listdir(folder_path) if f.endswith((".pdf", ".docx", ".doc"))]
 selected_file = st.selectbox("📄 Choose a document:", files)
 
-# Display message if no file selected
-if not selected_file:
-    st.info("👆 Please select a document to view or search.")
-else:
-    # Display PDF viewer or info message
-    if selected_file.endswith(".pdf"):
-        full_path = os.path.join(folder_path, selected_file)
-        with open(full_path, "rb") as f:
+# File name search
+st.subheader("🔎 Search for a file name")
+search_scope = st.radio("Search scope:", ["Selected Folder", "All Folders"])
+filename_query = st.text_input("Type a keyword or phrase:")
+
+clicked_file = None
+if filename_query:
+    results = search_filenames_semantically(base_folder, filename_query, search_scope, selected_subject)
+    if results:
+        for label, path in results:
+            if st.button(f"📄 {label}"):
+                clicked_file = path
+    else:
+        st.warning("No matching files found.")
+
+# Determine which file to load
+file_to_load = clicked_file if clicked_file else os.path.join(folder_path, selected_file) if selected_file else None
+
+if file_to_load:
+    if file_to_load.endswith(".pdf"):
+        with open(file_to_load, "rb") as f:
             binary_data = f.read()
         pdf_viewer(input=binary_data, width=700)
     else:
         st.info("📄 Word document selected — content will be used for search but not displayed.")
 
-    # Load and index selected folder
-    chunks = extract_chunks_from_folder(folder_path)
+    # Load and index content
+    chunks = extract_chunks_from_folder(os.path.dirname(file_to_load))
     index, chunk_texts = create_index(chunks)
 
-    # Search interface
-    st.subheader("🔍 Ask a Question")
+    st.subheader("🧠 Ask a Question")
     query = st.text_input("Type your question here:")
 
     if query:
@@ -108,3 +144,5 @@ else:
 
         st.markdown("### 💡 Answer:")
         st.write(response)
+else:
+    st.info("👆 Please select or search for a document to view or query.")
