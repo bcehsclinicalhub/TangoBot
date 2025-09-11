@@ -88,9 +88,6 @@ col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
     st.image("BCEHS_Logo_2.jpg", width=300)
 
-if st.button("🔄 Refresh Page"):
-    st.session_state.clicked_file = None
-    st.experimental_rerun()
 
 # Hide Streamlit footer
 st.markdown("""
