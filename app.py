@@ -135,7 +135,7 @@ if selected_subject:
 
 # Optional semantic search
 st.subheader("🔎 Search for a file name")
-search_scope = st.radio("Search scope:", ["Selected Folder", "All Folders"])
+search_scope = st.radio("Search scope:", ["Selected Folder", "All Folders"], index=1)
 filename_query = st.text_input("Type a keyword or phrase:")
 
 if filename_query:
