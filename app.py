@@ -88,6 +88,9 @@ col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
     st.image("BCEHS_Logo_2.jpg", width=300)
 
+if st.button("🔄 Refresh Page"):
+    st.session_state.clicked_file = None
+    st.experimental_rerun()
 
 # Hide Streamlit footer
 st.markdown("""
@@ -102,7 +105,7 @@ st.write("Search and view documents by subject.")
 
 # Folder selection
 base_folder = "documents"
-subject_folders = [f for f in os.listdir(base_folder) if os.path.isdir(os.path.join(base_folder, f))]
+subject_folders = sorted([f for f in os.listdir(base_folder) if os.path.isdir(os.path.join(base_folder, f))])
 selected_subject = st.selectbox("📁 Select folder if file location known:", [""] + subject_folders)
 
 # Initialize session state for clicked file
