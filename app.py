@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from streamlit_pdf_viewer import pdf_viewer
 import re
 
-# Load models
+# Load model
 @st.cache_resource
 def load_model():
     return SentenceTransformer('all-MiniLM-L6-v2')
@@ -55,7 +55,7 @@ def extract_chunks_and_links(folder_path, chunk_size=100, overlap=20):
 
     return chunks, list(set(all_links))
 
-# Semantic filename search with fixed threshold
+# Exact filename search with keyword highlighting
 def search_filenames_exact(base_folder, query, scope="Selected Folder", selected_folder=None):
     file_paths = []
     file_labels = []
@@ -68,39 +68,20 @@ def search_filenames_exact(base_folder, query, scope="Selected Folder", selected
             continue
         for filename in os.listdir(folder_path):
             if filename.lower().endswith((".pdf", ".docx", ".doc")):
-                label = f"{folder}/{filename}"
                 if query.lower() in filename.lower():
+                    label = f"{folder}/{filename}"
                     file_paths.append(os.path.join(folder_path, filename))
                     file_labels.append(label)
 
     return list(zip(file_labels, file_paths))
 
-    # Step 1: Exact keyword match boost
-    keyword_matches = [(label, path) for label, path in zip(file_labels, file_paths) if query.lower() in label.lower()]
-
-    # Step 2: Semantic similarity
-    query_embedding = model.encode([query])
-    file_embeddings = model.encode(file_labels)
-    similarities = cosine_similarity(query_embedding, file_embeddings)[0]
-
-    semantic_matches = [
-        (file_labels[i], file_paths[i], similarities[i])
-        for i in range(len(similarities)) if similarities[i] >= threshold
-    ]
-
-    # Step 3: Combine and prioritize
-    seen = set(label for label, _ in keyword_matches)
-    combined = keyword_matches + [(label, path) for label, path, _ in sorted(semantic_matches, key=lambda x: x[2], reverse=True) if label not in seen]
-
-    return combined
-
 # UI setup
 st.set_page_config(page_title="🚑 Tango Bot", page_icon="📄")
 
+# Centered logo
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
     st.image("BCEHS_Logo_2.jpg", width=300)
-
 
 # Hide Streamlit footer
 st.markdown("""
@@ -146,20 +127,25 @@ if selected_subject:
         if selected_file:
             st.session_state.clicked_file = os.path.join(folder_path, selected_file)
 
-# Optional semantic search
+# Exact filename search
 st.subheader("🔎 Search for a file name")
 search_scope = st.radio("Search scope:", ["Selected Folder", "All Folders"], index=1)
 filename_query = st.text_input("Type a keyword or phrase:")
 
 if filename_query:
-    results = search_filenames_semantically(base_folder, filename_query, search_scope, selected_subject if selected_subject else None, threshold=0.15)
+    results = search_filenames_exact(base_folder, filename_query, search_scope, selected_subject if selected_subject else None)
     if results:
         st.markdown("### 📄 Matching Files:")
         for label, path in results:
-            if st.button(f"{label}"):
+            highlighted = label.replace(
+                filename_query,
+                f"<mark>{filename_query}</mark>"
+            )
+            st.markdown(f"- {highlighted}", unsafe_allow_html=True)
+            if st.button(label, key=label):
                 st.session_state.clicked_file = path
     else:
-        st.warning("No matching files found above the threshold.")
+        st.warning("No exact matches found.")
 
 # Display selected file and extract links
 if st.session_state.clicked_file:
