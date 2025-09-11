@@ -94,10 +94,25 @@ selected_subject = st.selectbox("📁 Select folder if file location known:", ["
 if "clicked_file" not in st.session_state:
     st.session_state.clicked_file = None
 
-# File dropdown under folder
+# File dropdown under folder with sort toggle
 if selected_subject:
     folder_path = os.path.join(base_folder, selected_subject)
-    file_options = [f for f in os.listdir(folder_path) if f.lower().endswith((".pdf", ".docx", ".doc"))]
+    sort_by_date = st.toggle("📅 Sort by last modified date", value=False)
+
+    file_candidates = [
+        f for f in os.listdir(folder_path)
+        if f.lower().endswith((".pdf", ".docx", ".doc"))
+    ]
+
+    if sort_by_date:
+        file_options = sorted(
+            file_candidates,
+            key=lambda f: os.path.getmtime(os.path.join(folder_path, f)),
+            reverse=True
+        )
+    else:
+        file_options = sorted(file_candidates)
+
     selected_file = st.selectbox("📄 Select a file:", [""] + file_options)
 
     if selected_file:
