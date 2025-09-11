@@ -88,15 +88,6 @@ col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
     st.image("BCEHS_Logo_2.jpg", width=300)
 
-# Centered logo
-st.markdown(
-    """
-    <div style='text-align: center; margin-bottom: 20px;'>
-        <img src='BCEHS_Logo_2.jpg' width='300'/>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
 
 # Hide Streamlit footer
 st.markdown("""
