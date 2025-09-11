@@ -86,7 +86,7 @@ st.set_page_config(page_title="🚑 Tango Bot", page_icon="📄")
 
 # Logo (with fallback)
 try:
-    st.image("logo.png", width=150)
+    st.image("BCEHS_Logo_2.jpg", width=150)
 except Exception:
     st.warning("⚠️ Logo could not be loaded.")
 
