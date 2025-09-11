@@ -81,14 +81,27 @@ def search_filenames_semantically(base_folder, query, scope="Selected Folder", s
     filtered = [(file_labels[i], file_paths[i]) for i in range(len(similarities)) if similarities[i] >= threshold]
     return filtered
 
-# UI
-st.image("logo.png", width=150)  # Adjust width as needed
-except exception:
-st.warning("Logo could not be loaded")
+# UI setup
 st.set_page_config(page_title="🚑 Tango Bot", page_icon="📄")
+
+# Logo (with fallback)
+try:
+    st.image("logo.png", width=150)
+except Exception:
+    st.warning("⚠️ Logo could not be loaded.")
+
+# Hide Streamlit footer
+st.markdown("""
+    <style>
+    footer {visibility: hidden;}
+    .stApp {margin-bottom: 0px;}
+    </style>
+""", unsafe_allow_html=True)
+
 st.title("🚑 Tango Bot")
 st.write("Search and view documents by subject.")
 
+# Folder selection
 base_folder = "documents"
 subject_folders = [f for f in os.listdir(base_folder) if os.path.isdir(os.path.join(base_folder, f))]
 selected_subject = st.selectbox("📁 Select folder if file location known:", [""] + subject_folders)
@@ -121,7 +134,7 @@ if selected_subject:
     if selected_file:
         st.session_state.clicked_file = os.path.join(folder_path, selected_file)
 
-# File name search
+# Optional semantic search
 st.subheader("🔎 Search for a file name")
 search_scope = st.radio("Search scope:", ["Selected Folder", "All Folders"])
 filename_query = st.text_input("Type a keyword or phrase:")
