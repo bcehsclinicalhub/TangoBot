@@ -82,6 +82,7 @@ def search_filenames_semantically(base_folder, query, scope="Selected Folder", s
     return filtered
 
 # UI
+st.image("logo.png", width=150)  # Adjust width as needed
 st.set_page_config(page_title="🚑 Tango Bot", page_icon="📄")
 st.title("🚑 Tango Bot")
 st.write("Search and view documents by subject.")
