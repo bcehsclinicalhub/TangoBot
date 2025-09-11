@@ -56,7 +56,7 @@ def extract_chunks_and_links(folder_path, chunk_size=100, overlap=20):
     return chunks, list(set(all_links))
 
 # Semantic filename search with fixed threshold
-def search_filenames_semantically(base_folder, query, scope="Selected Folder", selected_folder=None, threshold=0.7):
+def search_filenames_exact(base_folder, query, scope="Selected Folder", selected_folder=None):
     file_paths = []
     file_labels = []
 
@@ -68,13 +68,12 @@ def search_filenames_semantically(base_folder, query, scope="Selected Folder", s
             continue
         for filename in os.listdir(folder_path):
             if filename.lower().endswith((".pdf", ".docx", ".doc")):
-                full_path = os.path.join(folder_path, filename)
                 label = f"{folder}/{filename}"
-                file_paths.append(full_path)
-                file_labels.append(label)
+                if query.lower() in filename.lower():
+                    file_paths.append(os.path.join(folder_path, filename))
+                    file_labels.append(label)
 
-    if not file_labels:
-        return []
+    return list(zip(file_labels, file_paths))
 
     # Step 1: Exact keyword match boost
     keyword_matches = [(label, path) for label, path in zip(file_labels, file_paths) if query.lower() in label.lower()]
