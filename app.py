@@ -88,7 +88,7 @@ st.set_page_config(page_title="🚑 Tango Bot", page_icon="📄")
 st.markdown(
     """
     <div style='text-align: center; margin-bottom: 20px;'>
-        <img src='logo.png' width='300'/>
+        <img src='BCEHS_Logo_2.jpg' width='300'/>
     </div>
     """,
     unsafe_allow_html=True
