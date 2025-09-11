@@ -68,18 +68,32 @@ def search_filenames_semantically(base_folder, query, scope="Selected Folder", s
             continue
         for filename in os.listdir(folder_path):
             if filename.lower().endswith((".pdf", ".docx", ".doc")):
-                file_paths.append(os.path.join(folder_path, filename))
-                file_labels.append(f"{folder}/{filename}")
+                full_path = os.path.join(folder_path, filename)
+                label = f"{folder}/{filename}"
+                file_paths.append(full_path)
+                file_labels.append(label)
 
     if not file_labels:
         return []
 
+    # Step 1: Exact keyword match boost
+    keyword_matches = [(label, path) for label, path in zip(file_labels, file_paths) if query.lower() in label.lower()]
+
+    # Step 2: Semantic similarity
     query_embedding = model.encode([query])
     file_embeddings = model.encode(file_labels)
-
     similarities = cosine_similarity(query_embedding, file_embeddings)[0]
-    filtered = [(file_labels[i], file_paths[i]) for i in range(len(similarities)) if similarities[i] >= threshold]
-    return filtered
+
+    semantic_matches = [
+        (file_labels[i], file_paths[i], similarities[i])
+        for i in range(len(similarities)) if similarities[i] >= threshold
+    ]
+
+    # Step 3: Combine and prioritize
+    seen = set(label for label, _ in keyword_matches)
+    combined = keyword_matches + [(label, path) for label, path, _ in sorted(semantic_matches, key=lambda x: x[2], reverse=True) if label not in seen]
+
+    return combined
 
 # UI setup
 st.set_page_config(page_title="🚑 Tango Bot", page_icon="📄")
