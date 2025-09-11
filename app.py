@@ -55,7 +55,7 @@ def extract_chunks_and_links(folder_path, chunk_size=100, overlap=20):
 
     return chunks, list(set(all_links))
 
-# Exact filename search with keyword highlighting
+# Exact filename search
 def search_filenames_exact(base_folder, query, scope="Selected Folder", selected_folder=None):
     file_paths = []
     file_labels = []
@@ -137,11 +137,7 @@ if filename_query:
     if results:
         st.markdown("### 📄 Matching Files:")
         for label, path in results:
-            highlighted = label.replace(
-                filename_query,
-                f"<mark>{filename_query}</mark>"
-            )
-            st.markdown(f"- {highlighted}", unsafe_allow_html=True)
+            st.markdown(f"- {label}")
             if st.button(label, key=label):
                 st.session_state.clicked_file = path
     else:
