@@ -84,6 +84,10 @@ def search_filenames_semantically(base_folder, query, scope="Selected Folder", s
 # UI setup
 st.set_page_config(page_title="🚑 Tango Bot", page_icon="📄")
 
+col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
+    st.image("BCEHS_Logo_2.jpg", width=300)
+
 # Centered logo
 st.markdown(
     """
