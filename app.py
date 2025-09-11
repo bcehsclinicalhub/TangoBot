@@ -135,8 +135,10 @@ filename_query = st.text_input("Type a keyword or phrase:")
 if filename_query:
     results = search_filenames_exact(base_folder, filename_query, search_scope, selected_subject if selected_subject else None)
     if results:
-        first_match_path = results[0][1]
-        st.session_state.clicked_file = first_match_path
+        st.markdown("### 📄 Matching Files:")
+        for label, path in results:
+            if st.button(label, key=label):
+                st.session_state.clicked_file = path
     else:
         st.warning("No exact matches found.")
 
@@ -161,3 +163,4 @@ if st.session_state.clicked_file:
         st.info("📄 Word document selected — content will be used for search but not displayed.")
 else:
     st.info("👆 Select a file or search to view it.")
+    
