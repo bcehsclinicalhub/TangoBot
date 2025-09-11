@@ -67,7 +67,7 @@ def search_filenames_exact(base_folder, query, scope="Selected Folder", selected
         if not os.path.isdir(folder_path):
             continue
         for filename in os.listdir(folder_path):
-            if filename.lower().endswith((".pdf", ".docx", ".doc")):
+            if filename.lower().endswith(".pdf"):
                 if query.lower() in filename.lower():
                     label = f"{folder}/{filename}"
                     file_paths.append(os.path.join(folder_path, filename))
@@ -110,11 +110,11 @@ if selected_subject:
 
     file_candidates = [
         f for f in os.listdir(folder_path)
-        if f.lower().endswith((".pdf", ".docx", ".doc"))
+        if f.lower().endswith(".pdf")
     ]
 
     if not file_candidates:
-        st.info("📂 No supported files found in this folder.")
+        st.info("📂 No supported PDF files found in this folder.")
     else:
         file_options = sorted(
             file_candidates,
@@ -135,11 +135,8 @@ filename_query = st.text_input("Type a keyword or phrase:")
 if filename_query:
     results = search_filenames_exact(base_folder, filename_query, search_scope, selected_subject if selected_subject else None)
     if results:
-        st.markdown("### 📄 Matching Files:")
-        for label, path in results:
-            st.markdown(f"- {label}")
-            if st.button(label, key=label):
-                st.session_state.clicked_file = path
+        first_match_path = results[0][1]
+        st.session_state.clicked_file = first_match_path
     else:
         st.warning("No exact matches found.")
 
