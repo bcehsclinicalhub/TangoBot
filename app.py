@@ -94,6 +94,15 @@ selected_subject = st.selectbox("📁 Select folder if file location known:", ["
 if "clicked_file" not in st.session_state:
     st.session_state.clicked_file = None
 
+# File dropdown under folder
+if selected_subject:
+    folder_path = os.path.join(base_folder, selected_subject)
+    file_options = [f for f in os.listdir(folder_path) if f.lower().endswith((".pdf", ".docx", ".doc"))]
+    selected_file = st.selectbox("📄 Select a file:", [""] + file_options)
+
+    if selected_file:
+        st.session_state.clicked_file = os.path.join(folder_path, selected_file)
+
 # File name search
 st.subheader("🔎 Search for a file name")
 search_scope = st.radio("Search scope:", ["Selected Folder", "All Folders"])
@@ -129,4 +138,4 @@ if st.session_state.clicked_file:
     else:
         st.info("📄 Word document selected — content will be used for search but not displayed.")
 else:
-    st.info("👆 Search for a file and click to view it.")
+    st.info("👆 Select a file or search to view it.")
