@@ -84,11 +84,15 @@ def search_filenames_semantically(base_folder, query, scope="Selected Folder", s
 # UI setup
 st.set_page_config(page_title="🚑 Tango Bot", page_icon="📄")
 
-# Logo (with fallback)
-try:
-    st.image("BCEHS_Logo_2.jpg", width=150)
-except Exception:
-    st.warning("⚠️ Logo could not be loaded.")
+# Centered logo
+st.markdown(
+    """
+    <div style='text-align: center; margin-bottom: 20px;'>
+        <img src='logo.png' width='300'/>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 # Hide Streamlit footer
 st.markdown("""
@@ -120,19 +124,19 @@ if selected_subject:
         if f.lower().endswith((".pdf", ".docx", ".doc"))
     ]
 
-    if sort_by_date:
+    if not file_candidates:
+        st.info("📂 No supported files found in this folder.")
+    else:
         file_options = sorted(
             file_candidates,
             key=lambda f: os.path.getmtime(os.path.join(folder_path, f)),
-            reverse=True
+            reverse=sort_by_date
         )
-    else:
-        file_options = sorted(file_candidates)
 
-    selected_file = st.selectbox("📄 Select a file:", [""] + file_options)
+        selected_file = st.selectbox("📄 Select a file:", [""] + file_options)
 
-    if selected_file:
-        st.session_state.clicked_file = os.path.join(folder_path, selected_file)
+        if selected_file:
+            st.session_state.clicked_file = os.path.join(folder_path, selected_file)
 
 # Optional semantic search
 st.subheader("🔎 Search for a file name")
