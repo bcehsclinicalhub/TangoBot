@@ -56,7 +56,7 @@ def extract_chunks_and_links(folder_path, chunk_size=100, overlap=20):
     return chunks, list(set(all_links))
 
 # Semantic filename search with fixed threshold
-def search_filenames_semantically(base_folder, query, scope="Selected Folder", selected_folder=None, threshold=0.15):
+def search_filenames_semantically(base_folder, query, scope="Selected Folder", selected_folder=None, threshold=0.4):
     file_paths = []
     file_labels = []
 
