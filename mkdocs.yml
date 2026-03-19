@@ -1,0 +1,17 @@
+site_name: BCEHS Clinical Hub Wiki
+theme:
+  name: material
+  palette:
+    primary: red  # Professional BCEHS feel
+    accent: red
+
+nav:
+  - Home: index.md
+  - Clinical Procedures:
+    - Bed Bugs: Clinical/bed-bugs-procedure.md
+  - Operational Guidelines:
+    - Wreck Beach SOG: Operational/wreck_beach_procedure.md
+
+markdown_extensions:
+  - admonition # Allows for "Warning" or "Note" boxes
+  - attr_list  # Helps with image alignment
