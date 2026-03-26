@@ -35,11 +35,14 @@ theme:
 nav:
   - Home: index.md
   - Clinical Procedures:
+      - Overview: clincial/index.md
       - Bed Bugs: clinical/bed-bugs-procedure.md
   - Operational Guidelines:
+      - Overview: operational/ index.md
       - Wreck Beach SOG: operational/wreck-beach-procedure.md
   - Chemical Data Sheets:
-      - sodium-hypochlorite: chemical/sodium-hypochlorite.md
+      - Overview: chemical/ image.md
+      - Bleach: chemical/sodium-hypochlorite.md
 
 markdown_extensions:
   - admonition
