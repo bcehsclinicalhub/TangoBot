@@ -39,10 +39,7 @@ nav:
 markdown_extensions:
   - admonition
   - attr_list
-  - pymdownx.details    # Allows "Collapsible" sections for long protocols
-  - pymdownx.superfences # Allows better nesting of lists and notes
-  - toc:
-      permalink: true    # Adds a link icon next to headers for easy sharing
-      markdown_extensions:
-  - attr_list
+  - pymdownx.details
   - pymdownx.superfences
+  - toc:
+      permalink: true
