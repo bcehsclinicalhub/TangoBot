@@ -1,11 +1,15 @@
 <p align="center">
-  <img src="assets/logo.png" class="hero-logo" />
+  <img src="../assets/logo.png" class="hero-logo" />
 </p>
 
 
 \| TangoBot | Clinical
 
 
+# Clinical References
+Select a reference below.
 
-Welcome.
+---
+### 🧪 Available References
+* [Bed Bugs](bed-bugs-procedure.md)
 

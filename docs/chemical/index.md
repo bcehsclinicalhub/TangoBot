@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" class="hero-logo" />
+  <img src="../assets/logo.png" class="hero-logo" />
 </p>
 
 
@@ -11,7 +11,5 @@ Select a chemical below for safety and handling protocols.
 
 ---
 ### 🧪 Available Sheets
-* [Ammonia](ammonia.md)
-* [Bleach](bleach.md)
 * [Sodium Hypochlorite](sodium-hypochlorite.md)
 
