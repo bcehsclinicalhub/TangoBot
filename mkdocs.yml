@@ -1,17 +1,48 @@
 site_name: BCEHS Clinical Hub Wiki
+site_url: https://bcehsclinicalhub.github.io/TangoBot/
+use_directory_urls: false
+
 theme:
   name: material
-  palette:
-    primary: red  # Professional BCEHS feel
-    accent: red
+  features:
+    - navigation.instant #helps GitHub resolve internal links
+  logo: assets/logo.png  # Optional: add your BCEHS logo here
+  favicon: assets/favicon.ico
+  palette: 
+    - scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant      # Pages load without refreshing
+    - navigation.tracking     # URL updates as you scroll
+    - navigation.tabs         # Better for desktop view
+    - search.suggest          # The "ChatBot" search feel
+    - search.highlight        # Highlights the staff's search term
+    - content.code.copy       # Great if staff need to copy phone numbers/codes
 
 nav:
   - Home: index.md
   - Clinical Procedures:
-    - Bed Bugs: Clinical/bed-bugs-procedure.md
+      - Bed Bugs: clinical/bed-bugs-procedure.md
   - Operational Guidelines:
-    - Wreck Beach SOG: Operational/wreck_beach_procedure.md
+      - Wreck Beach SOG: operational/wreck_beach_procedure.md
 
 markdown_extensions:
-  - admonition # Allows for "Warning" or "Note" boxes
-  - attr_list  # Helps with image alignment
+  - admonition
+  - attr_list
+  - pymdownx.details    # Allows "Collapsible" sections for long protocols
+  - pymdownx.superfences # Allows better nesting of lists and notes
+  - toc:
+      permalink: true    # Adds a link icon next to headers for easy sharing
+      markdown_extensions:
+  - attr_list
+  - pymdownx.superfences
