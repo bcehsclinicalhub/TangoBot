@@ -79,3 +79,18 @@ body, input {
     font-size: 0.8rem;
     opacity: 0.8;
 }
+/* --- 5. TANGO-PULSE SEARCH ICON --- */
+.md-search__icon[for="__search"]::before {
+    background-color: #FF0000; /* BCEHS Red Pulse */
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
+    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
+    content: "";
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+/* Optional: Make the search bar background a bit darker to help the red pop */
+.md-search__form {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
