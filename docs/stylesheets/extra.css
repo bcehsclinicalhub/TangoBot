@@ -4,14 +4,21 @@ body, input {
     font-weight: 300;
 }
 
+/* Force bolding to work against global light weight */
+.md-typeset strong, 
+.md-typeset b,
+.md-typeset .admonition li strong {
+    font-weight: 800 !important;
+    color: #000000 !important;
+}
+
 /* --- 2. HEADER: LOGO LEFT | SEARCH CENTER | TOGGLE RIGHT --- */
 .md-header, .md-tabs {
     background-color: #004B8D !important;
 }
 
-/* Hide the default title entirely */
 .md-header__title {
-    display: none !important;
+    display: none !important; /* Hides default title */
 }
 
 .md-header__inner {
@@ -21,7 +28,6 @@ body, input {
     padding: 0 20px !important;
 }
 
-/* ZONE 1: LOGO (Left) */
 .md-header__button.md-logo {
     margin-right: auto !important;
 }
@@ -31,31 +37,27 @@ body, input {
     height: 2.8rem !important;
 }
 
-/* ZONE 2: SEARCH BAR (Pinned Right-Center) */
 .md-header__search {
     display: block !important;
-    flex: 0 1 350px !important; /* Larger footprint for clinical use */
+    flex: 0 1 350px !important;
     margin-left: auto !important;
     margin-right: 20px !important;
 }
 
-/* ZONE 3: DARK MODE TOGGLE (Far Right) */
 .md-header__option {
     margin-left: 0 !important;
     order: 3 !important;
 }
 
-/* --- 3. TANGO-PULSE SEARCH ICON (RESTORED) --- */
+/* --- 3. TANGO-PULSE SEARCH ICON (ECG) --- */
 .md-search__input {
     padding-left: 2.8rem !important;
 }
 
-/* Kill default magnifying glass */
 .md-search__icon svg {
     display: none !important;
 }
 
-/* Centered Red ECG Pulse in Header Search */
 .md-search__icon[for="__search"] {
     display: flex !important;
     align-items: center !important;
@@ -74,25 +76,41 @@ body, input {
     height: 1.3rem;
 }
 
-/* --- 4. MAIN PAGE: HERO IMAGE FIX --- */
+/* --- 4. HERO SECTION (Main Page) --- */
 .hero-logo {
     width: 350px !important;
     display: block;
     margin: 0 auto 20px auto;
 }
 
-/* --- 5. LANDING PAGE & FOOTER CLEANUP --- */
-.md-breadcrumb, .md-content h1:first-child {
+.hero-container {
+    text-align: center;
+    margin: 30px auto 40px auto !important;
+    max-width: 900px;
+}
+
+.hero-title {
+    font-size: 2.2rem !important; 
+    font-weight: 800 !important;
+    color: #004B8D !important;
+    margin-bottom: 2px !important;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem !important; 
+    font-style: italic;           
+    color: #555 !important;       
+    margin-top: 0 !important;
+}
+
+/* --- 5. CLEANUP & PERMALINKS --- */
+.md-breadcrumb, .md-content h1:first-child, .headerlink, .md-copyright {
     display: none !important;
 }
 
 .md-footer, .md-footer-meta {
     background-color: #004B8D !important;
     border: none !important;
-}
-
-.md-copyright {
-    display: none !important;
 }
 
 .md-footer-meta__inner {
@@ -107,97 +125,53 @@ body, input {
     opacity: 0.8;
 }
 
-/* --- 6. REMOVE PERMALINK ICONS --- */
-.headerlink {
-    display: none !important;
-}
-
-/* --- 7. HERO TEXT HIERARCHY --- */
-.hero-container {
-    text-align: center;
-    margin: 30px auto 40px auto !important;
-    max-width: 900px;
-}
-
-.hero-title {
-    font-size: 2.2rem !important; 
-    font-weight: 800 !important;
-    color: #004B8D !important;
-    margin-bottom: 2px !important;
-    line-height: 1.2;
-}
-
-.hero-subtitle {
-    font-size: 1.2rem !important; 
-    font-style: italic;           
-    font-weight: 400 !important;
-    color: #555 !important;       
-    margin-top: 0 !important;
-    letter-spacing: 0.02em;
-}
-
-/* --- 8. FORCE BOLDING FIX --- */
-.md-typeset strong, 
-.md-typeset b {
-    font-weight: 700 !important;
-    color: #000000 !important; /* Ensuring it's deep black for contrast */
-}
-
-/* Specific fix for the admonition lists */
-.md-typeset .admonition li strong {
-    font-weight: 800 !important; /* Extra weight for visibility */
-}
-
-/* --- 10. ALPHABETICAL INDEX STYLING --- */
-
-/* The Container for each letter group */
+/* --- 6. ALPHABETICAL INDEX STYLING --- */
 .index-section {
     display: flex;
     align-items: flex-start;
     gap: 30px;
-    margin-bottom: 40px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #f0f0f0; /* Light line between groups */
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f0f0f0;
 }
 
-/* The Large Letter on the left */
 .index-letter {
-    font-size: 3.5rem;
+    font-size: 2.5rem; /* Standardized smaller size */
     font-weight: 800;
-    color: #004B8D; /* BCEHS Blue */
-    line-height: 1;
-    min-width: 60px;
-    border-right: 2px solid #eee; /* The vertical divider line */
-    padding-right: 20px;
+    color: #004B8D;
+    line-height: 1.2;
+    min-width: 55px;
+    border-right: 2px solid #eee;
+    padding-right: 15px;
 }
 
-/* The column of links on the right */
 .index-links {
     flex: 1;
 }
 
 .index-links ul {
-    list-style: none !important;
-    padding-left: 0 !important;
-    margin-top: 5px !important;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Grid layout for multiple links */
-    gap: 10px;
+    list-style: disc !important;
+    padding-left: 20px !important;
+    margin: 0 !important;
+}
+
+.index-links li {
+    margin-bottom: 8px !important; /* Force each item to own line */
 }
 
 .index-links li a {
     font-size: 1.1rem;
-    color: #333;
-    text-decoration: none;
     font-weight: 500;
+    color: #004B8D;
+    text-decoration: none;
 }
 
 .index-links li a:hover {
-    color: #D32F2F; /* Turns clinical red on hover */
+    color: #D32F2F;
     text-decoration: underline;
 }
 
-/* Hides the standard H2 markers so we only see the big letter */
+/* Hide standard H2s visually but keep them for TOC sidebar */
 .md-typeset h2 {
     display: none !important; 
 }
