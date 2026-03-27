@@ -4,170 +4,84 @@ body, input {
     font-weight: 300;
 }
 
-/* Force bolding to work against global light weight */
-.md-typeset strong, 
-.md-typeset b,
-.md-typeset .admonition li strong {
+.md-typeset strong, .md-typeset b {
     font-weight: 800 !important;
     color: #000000 !important;
 }
 
-/* --- 2. HEADER: LOGO LEFT | SEARCH CENTER | TOGGLE RIGHT --- */
+/* --- 2. HEADER: PINNED TOGGLE TO RIGHT --- */
 .md-header, .md-tabs {
     background-color: #004B8D !important;
 }
 
-.md-header__title {
-    display: none !important; 
-}
+.md-header__title { display: none !important; }
 
 .md-header__inner {
     display: flex !important;
     align-items: center !important;
-    justify-content: space-between !important;
-    padding: 0 20px !important;
 }
 
-.md-header__button.md-logo img {
-    filter: brightness(0) invert(1);
-    height: 2.8rem !important;
-}
+/* LOGO LEFT */
+.md-header__button.md-logo { margin-right: 20px !important; }
 
+/* SEARCH CENTERED */
 .md-header__search {
-    display: block !important;
-    flex: 0 1 350px !important;
+    flex: 1 !important;
+    max-width: 400px !important;
+    margin: 0 auto !important;
+}
+
+/* DARK MODE TOGGLE FAR RIGHT */
+.md-header__option {
     margin-left: auto !important;
-    margin-right: 20px !important;
+    order: 10 !important;
 }
 
-/* --- 3. TANGO-PULSE SEARCH ICON (ECG) --- */
-.md-search__input {
-    padding-left: 2.8rem !important;
-}
-
-.md-search__icon svg {
-    display: none !important;
-}
-
+/* --- 3. ECG SEARCH ICON --- */
+.md-search__input { padding-left: 2.8rem !important; }
+.md-search__icon svg { display: none !important; }
 .md-search__icon[for="__search"]::before {
     background-color: #FF0000;
     -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
     mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
-    content: "";
-    display: block;
-    width: 1.3rem;
-    height: 1.3rem;
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
+    content: ""; display: block; width: 1.3rem; height: 1.3rem;
+    position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
 }
 
-/* --- 4. HERO SECTION (Landing Page Only) --- */
-.hero-logo {
-    width: 350px !important;
-    max-width: 100% !important;
-    height: auto !important;
-    display: block;
-    margin: 0 auto 20px auto;
+/* --- 4. HERO & INDEX --- */
+.hero-logo { width: 350px !important; display: block; margin: 0 auto 20px auto; }
+.hero-container { text-align: center; margin: 20px auto 40px auto !important; }
+.hero-title { font-size: 2.2rem !important; font-weight: 800 !important; color: #004B8D !important; display: block; }
+.hero-subtitle { font-size: 1.2rem !important; font-style: italic; color: #555 !important; display: block; }
+
+/* ENSURE TOC IS VISIBLE */
+.md-sidebar--secondary { 
+    display: block !important; 
+    visibility: visible !important;
 }
 
-.hero-container {
-    text-align: center;
-    margin: 20px auto 40px auto !important;
-    max-width: 900px;
-}
-
-.hero-title {
-    font-size: 2.2rem !important; 
-    font-weight: 800 !important;
-    color: #004B8D !important;
-    margin-bottom: 2px !important;
-    display: block;
-}
-
-.hero-subtitle {
-    font-size: 1.2rem !important; 
-    font-style: italic;           
-    color: #555 !important;       
-    margin-top: 0 !important;
-    display: block;
-}
-
-/* --- 5. CLEANUP & FOOTER --- */
-.md-breadcrumb, .md-content h1:first-child, .headerlink, .md-copyright {
-    display: none !important;
-}
-
-.md-footer, .md-footer-meta {
-    background-color: #004B8D !important;
-    border: none !important;
-}
-
-.md-footer-meta__inner {
-    display: flex !important;
-    justify-content: center !important;
-    color: white !important;
-    padding: 20px 0 !important;
-}
-
-.md-footer-meta__inner::after {
-    content: "Internal Use Only | © 2026 BC Emergency Health Services";
-    font-size: 0.8rem;
-    opacity: 0.8;
-}
-
-/* --- 6. ALPHABETICAL INDEX (Clinical/Operational Pages) --- */
 .index-section-header {
-    display: block !important;
-    font-size: 1.8rem !important;
-    font-weight: 800 !important;
-    color: #004B8D !important;
-    border-bottom: 2px solid #eee;
-    margin-top: 40px !important;
-    padding-bottom: 10px !important;
+    display: block !important; font-size: 1.8rem !important; font-weight: 800 !important;
+    color: #004B8D !important; border-bottom: 2px solid #eee; margin-top: 40px !important;
 }
 
 .index-grid {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 10px 20px !important;
-    margin-top: 15px !important;
-    margin-bottom: 30px !important;
+    display: grid !important; grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px 20px !important; margin-top: 15px !important;
 }
 
-.index-grid a {
-    font-size: 0.95rem;
-    font-weight: 500;
-    color: #004B8D !important;
-    text-decoration: none !important;
-    display: block !important;
-    padding: 4px 0;
-}
+.index-grid a { font-size: 0.95rem; font-weight: 500; color: #004B8D !important; text-decoration: none !important; display: block !important; }
 
-.index-grid a:hover {
-    color: #D32F2F !important;
-    text-decoration: underline !important;
-}
+/* --- 5. FOOTER --- */
+.md-footer, .md-footer-meta { background-color: #004B8D !important; }
+.md-footer-meta__inner { display: flex !important; justify-content: center !important; color: white !important; padding: 20px 0 !important; }
+.md-footer-meta__inner::after { content: "Internal Use Only | © 2026 BC Emergency Health Services"; font-size: 0.8rem; opacity: 0.8; }
+.md-copyright, .headerlink { display: none !important; }
 
-/* --- 7. FLOATING NAV (UP LINK) --- */
+/* --- 7. FLOATING NAV --- */
 .back-to-top {
-    position: fixed !important;
-    bottom: 30px !important;
-    left: 30px !important;
-    background-color: #004B8D !important;
-    color: white !important;
-    padding: 10px 20px !important;
-    border-radius: 50px !important;
-    font-weight: 700 !important;
-    font-size: 0.85rem;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3) !important;
-    z-index: 9999 !important;
+    position: fixed !important; bottom: 30px !important; left: 30px !important;
+    background-color: #004B8D !important; color: white !important; padding: 10px 20px !important;
+    border-radius: 50px !important; font-weight: 700; z-index: 9999 !important;
     text-decoration: none !important;
-    transition: all 0.2s ease-in-out;
-}
-
-.back-to-top:hover {
-    background-color: #D32F2F !important;
-    transform: translateY(-3px) !important;
 }
