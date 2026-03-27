@@ -12,16 +12,14 @@ Welcome to the central portal for all clinical operations, guidelines, and safet
 | :--- | :--- | :--- |
 | **Clinical Procedures** | All SOP, SOG and clinically relevant resources | [View Clinical →](clinical/bed-bugs-procedure.md) |
 | **Operational Guidelines** | Provincial resources relating to Operations | [View Operational →](operational/wreck-beach-procedure.md) |
-| **Safety Data Sheets** | Safety Data Sheets (SDS) and handling guidelines. | [View Chemicals →](chemical/sodium-hypochlorite.md) |
-| **Clinical Procedures** | SOPs and clinical resources | [View Clinical →](clinical/index.md) |
-| **Operational Guidelines** | BC-specific field ops resources | [View Ops →](operational/index.md) |
+| **Safety Data Sheets** | Safety Data Sheets (SDS) and handling guidelines. | [View Safety Data →](chemical/sodium-hypochlorite.md) |
 
 ---
 !!! danger "Critical Alerts"
     **March 26, 2026**: All Tango units attending Wreck Beach MCIs must utilize the new Staging Area 'Bravo' located at the upper trailhead. See [Operational Guidelines](operational/index.md) for map.
 
 !!! info "Clinical Updates"
-    * **SOG 2.4 Updated**: Revised protocols for high-ambient temperature transport.
+    * **CPG E07 Updated**: Revised protocols for high-ambient temperature transport Visit the [Handbook](https://handbook.bcehs.ca/clinical-practice-guidelines/e-medical-emergencies/e07-nausea-and-vomiting/)
     * **New SDS Added**: CaviCide HP surface disinfectant.
     * **TangoPulse v1.2**: Header alignment fixes and ECG search icon added.
 

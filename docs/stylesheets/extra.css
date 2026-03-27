@@ -4,25 +4,22 @@ body, input {
     font-weight: 300;
 }
 
-/* --- 2. HEADER: 3-COLUMN GRID WITH BALANCED SPACERS --- */
+/* --- 2. HEADER: THREE-ZONE FLEXBOX --- */
 .md-header, .md-tabs {
     background-color: #004B8D !important;
 }
 
 .md-header__inner {
-    display: grid !important;
-    /* [280px Logo] | [Centered Title] | [280px Search Area] */
-    grid-template-columns: 280px 1fr 280px !important; 
+    display: flex !important;
     align-items: center !important;
-    width: 100%;
-    padding: 0 20px !important;
+    justify-content: space-between !important;
+    padding: 0 10px !important;
 }
 
-/* ZONE 1: LOGO */
+/* ZONE 1: LOGO (Left) */
 .md-header__button.md-logo {
-    grid-column: 1;
-    justify-self: start;
-    margin: 0 !important;
+    flex: 0 0 auto !important;
+    margin-right: 0 !important;
 }
 
 .md-header__button.md-logo img {
@@ -30,11 +27,14 @@ body, input {
     height: 2.8rem !important;
 }
 
-/* ZONE 2: TITLE (TRUE MATHEMATICAL CENTER) */
+/* ZONE 2: TITLE (CENTER) */
 .md-header__title {
-    grid-column: 2;
-    justify-self: center;
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: auto !important;
     text-align: center;
+    z-index: 5;
 }
 
 .md-header__topic {
@@ -42,59 +42,22 @@ body, input {
     font-size: 1.6rem !important;
     font-weight: 700 !important;
     color: white !important;
+    white-space: nowrap;
 }
 
-/* ZONE 3: SEARCH & TOGGLE (RIGHT ALIGNED) */
+/* ZONE 3: SEARCH & TOGGLE (RIGHT) */
 .md-header__search {
-    grid-column: 3;
-    justify-self: end;
-    width: 220px !important; 
-    margin: 0 !important;
+    flex: 0 0 240px !important; /* Forces search to be a fixed size */
+    margin-left: auto !important;
+    z-index: 10;
 }
 
-.md-header__option {
-    grid-column: 3;
-    justify-self: end;
-    margin-right: -45px; 
-}
-
-/* --- 3. LANDING PAGE & FOOTER --- */
-.md-breadcrumb, .md-content h1:first-child {
-    display: none !important;
-}
-
-.md-footer, .md-footer-meta {
-    background-color: #004B8D !important;
-    border: none !important;
-}
-
-.md-copyright, .md-copyright__highlight {
-    display: none !important;
-}
-
-.md-footer-meta__inner {
-    display: flex !important;
-    justify-content: center !important;
-    color: white !important;
-    padding: 20px 0 !important;
-}
-
-.md-footer-meta__inner::after {
-    content: "Internal Use Only | © 2026 BC Emergency Health Services";
-    font-size: 0.8rem;
-    opacity: 0.8;
-}
-
-/* --- 4. TANGO-PULSE SEARCH ICON & INPUT --- */
-.md-search__input {
-    padding-left: 2.5rem !important; 
-    line-height: 1.5 !important;
-}
-
+/* Hides all default magnifying glasses */
 .md-search__icon svg {
     display: none !important;
 }
 
+/* Adds the Red ECG Pulse centrally */
 .md-search__icon[for="__search"] {
     display: flex !important;
     align-items: center !important;
@@ -111,4 +74,32 @@ body, input {
     display: block;
     width: 1.2rem;
     height: 1.2rem;
+}
+
+/* Pins the Dark Mode toggle far right */
+.md-header__option {
+    margin-left: 10px !important;
+    order: 3 !important;
+}
+
+/* --- 3. LANDING PAGE & FOOTER --- */
+.md-breadcrumb, .md-content h1:first-child { display: none !important; }
+
+.hero-logo { width: 320px; display: block; margin: -10px auto 20px auto; }
+
+.md-footer, .md-footer-meta { background-color: #004B8D !important; border: none !important; }
+
+.md-copyright { display: none !important; }
+
+.md-footer-meta__inner {
+    display: flex !important;
+    justify-content: center !important;
+    color: white !important;
+    padding: 20px 0 !important;
+}
+
+.md-footer-meta__inner::after {
+    content: "Internal Use Only | © 2026 BC Emergency Health Services";
+    font-size: 0.8rem;
+    opacity: 0.8;
 }
