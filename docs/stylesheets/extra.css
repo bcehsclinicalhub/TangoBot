@@ -4,12 +4,19 @@ body, input {
     font-weight: 300;
 }
 
-/* --- 2. HEADER: FORCE TITLE & CENTERING --- */
+/* --- 2. HEADER: PINNED ENDS & CENTERED TITLE --- */
 .md-header, .md-tabs {
     background-color: #004B8D !important;
 }
 
-/* FORCE the title to show up even with a logo present */
+/* Forces the header to spread its children to the far edges */
+.md-header__inner {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+/* PINS TITLE IN CENTER: Absolute positioning relative to the header bar */
 .md-header__title .md-header__topic {
     display: block !important;
     position: absolute;
@@ -20,23 +27,32 @@ body, input {
     font-weight: 700 !important;
     color: white !important;
     white-space: nowrap;
+    z-index: 5;
+}
+
+/* PINS LOGO ON FAR LEFT */
+.md-header__button.md-logo {
+    order: 1;
+    margin-right: auto !important;
     z-index: 10;
 }
 
-/* Kills the 'Home' hover popup / tooltip */
-.md-header__button[title], 
-.md-logo[title] {
-    pointer-events: none;
+/* PINS SEARCH ON FAR RIGHT */
+.md-header__search {
+    order: 3;
+    margin-left: auto !important;
+    z-index: 10;
 }
-
-/* Keep search and logo out of the center */
-.md-header__search { margin-left: auto; z-index: 11; }
-.md-header__button.md-logo { z-index: 11; }
 
 /* Header logo color fix */
 .md-header__button.md-logo img {
     filter: brightness(0) invert(1);
     height: 2.8rem !important;
+}
+
+/* Remove hover popup tooltips */
+.md-header__button[title], .md-logo[title] {
+    pointer-events: none;
 }
 
 /* --- 3. LANDING PAGE CLEANUP --- */
