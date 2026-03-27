@@ -20,11 +20,11 @@
     **February 20, 2026**: Ondansetron will now be considered first line parenteral antiemetic for most causes of nausea and vomiting. Orally dissolving tablets of ondansetron will continue to be available and should still be used where appropriate. Parenteral dimenHYDRINATE will continue to be used as first line for nausea and vomiting associated with motion sickness, vertigo, and pregnancy and where ondansetron is contraindicated. [More Info on the Intranet](https://intranet.bcehs.ca/mlink/post/MzMxNw){:target="_blank"}
 
 ## ⚕️ Clinical Updates
-!!! info "Latest Protocols & SDS"
-!!! info "Latest Protocols & SDS"
-    * **March 27, 2026 — Epi Infusion:** Updated epinephrine medication infusions to include 15 drop set change. [Visit the Handbook →](https://handbook.bcehs.ca){:target="_blank"}
-    * **March 25, 2026 — Parenteral Ondansetron:** Now considered first-line parenteral antiemetic for most causes of nausea/vomiting. ODTs remain available. [More Info on Intranet →](https://intranet.bcehs.ca){:target="_blank"}
-    * **March 20, 2026 — Updated M09:** Revised Neonatal Resuscitation flowchart now live. [Visit the Handbook →](https://handbook.bcehs.ca/clinical-practice-guidelines/m-pediatric-and-neonatal-emergencies/m09-neonatal-resuscitation/){:target="_blank"}
+!!! info "Latest Practice and CPG Updates"
+
+    ***March 27, 2026 | Epi Infusion:** Updated epinephrine medication infusions to include 15 drop set change. [Visit the Handbook →](https://handbook.bcehs.ca){:target="_blank"}
+    ***March 25, 2026 | Parenteral Ondansetron:** Now considered first-line parenteral antiemetic for most causes of nausea/vomiting. ODTs remain available. [More Info on Intranet →](https://intranet.bcehs.ca){:target="_blank"}
+    ***March 20, 2026 | Updated M09:** Revised Neonatal Resuscitation flowchart now live. [Visit the Handbook →](https://handbook.bcehs.ca/clinical-practice-guidelines/m-pediatric-and-neonatal-emergencies/m09-neonatal-resuscitation/){:target="_blank"}
 
 ## 📣 Wiki News
 !!! success "Introducing TangoPulse (April 2026)"
