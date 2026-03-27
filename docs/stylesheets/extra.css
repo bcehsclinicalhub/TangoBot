@@ -107,15 +107,26 @@ body, input {
     font-size: 0.8rem;
     opacity: 0.8;
 }
-/* --- 7. HERO LEAD STYLING (PSEUDO-TITLE) --- */
-.hero-lead {
-    font-size: 1.4rem !important; /* Larger than standard text */
-    font-weight: 700 !important;   /* Bold */
-    color: #004B8D !important;     /* BCEHS Blue */
-    text-align: center;            /* Centered under the logo */
-    margin: 20px 0 40px 0 !important;
-    line-height: 1.4;
-    max-width: 800px;
-    margin-left: auto !important;
-    margin-right: auto !important;
+
+/* --- 7. HERO TEXT HIERARCHY --- */
+.hero-container {
+    text-align: center;
+    margin: 20px auto 40px auto !important;
+    max-width: 900px;
+}
+
+.hero-title {
+    font-size: 2.2rem !important; /* Large and authoritative */
+    font-weight: 800 !important;
+    color: #004B8D !important;
+    margin-bottom: 5px !important;
+    line-height: 1.2;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem !important; /* Smaller than title */
+    font-style: italic;           /* Italicized as requested */
+    font-weight: 400 !important;
+    color: #444 !important;       /* Slightly softer grey/black */
+    margin-top: 0 !important;
 }

@@ -2,9 +2,10 @@
   <img src="assets/hublogo.png" class="hero-logo" />
 </p>
 
-<p class="hero-lead">
-  Welcome to TangoPulse—the clinical operations wiki for BCEHS Clinical Hub staff.
-</p>
+<div class="hero-container">
+  <p class="hero-title">Welcome to TangoPulse</p>
+  <p class="hero-subtitle">the clinical operations wiki for BCEHS Clinical Hub staff</p>
+</div>
 ---
 ## 🚑 Key Sections
 
@@ -25,7 +26,7 @@
     * **TangoPulse v1.2**: Switched to Body-Search layout and finalized BCEHS branding.
 
 ## 📣 Wiki News
-!!! info "Introducing TangoPulse (April 2026)"
+!!! success "Introducing TangoPulse (April 2026)"
     The **Clinical Hub TangoPulse** is replacing the old Tango shared drive. This wiki is designed for mobile-first use on crew iPads. We will continue to migrate legacy documents over the coming weeks.
 
 ## ❓ Need Help?
