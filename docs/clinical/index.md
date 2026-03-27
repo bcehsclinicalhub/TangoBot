@@ -6,10 +6,11 @@
 
 <div class="index-section-header">B</div>
 <div class="index-grid">
-  <a href="bed-bugs-procedure/">Bed Bugs</a>
+  <a href="../bed-bugs-procedure/">Bed Bugs</a>
   <a href="../bp-monitoring/">Blood Pressure Monitoring</a>
   <a href="../burns/">Burns - Initial Assessment</a>
 </div>
+
 
 <div class="index-section-header">C</div>
 <div class="index-grid">

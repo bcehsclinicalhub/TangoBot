@@ -6,6 +6,7 @@
   <p class="hero-title">Welcome to TangoPulse</p>
   <p class="hero-subtitle">the Paramedic Specialist clinical and operational wiki</p>
 </div>
+
 ---
 ## 🚑 Key Sections
 

@@ -4,12 +4,15 @@ body, input {
     font-weight: 300;
 }
 
-.md-typeset strong, .md-typeset b, .md-typeset .admonition li strong {
+/* Force bolding to work against global light weight */
+.md-typeset strong, 
+.md-typeset b,
+.md-typeset .admonition li strong {
     font-weight: 800 !important;
     color: #000000 !important;
 }
 
-/* --- 2. HEADER & TABS --- */
+/* --- 2. HEADER: LOGO LEFT | SEARCH CENTER | TOGGLE RIGHT --- */
 .md-header, .md-tabs {
     background-color: #004B8D !important;
 }
@@ -30,7 +33,6 @@ body, input {
     height: 2.8rem !important;
 }
 
-/* --- 3. SEARCH & ECG ICON --- */
 .md-header__search {
     display: block !important;
     flex: 0 1 350px !important;
@@ -38,6 +40,7 @@ body, input {
     margin-right: 20px !important;
 }
 
+/* --- 3. TANGO-PULSE SEARCH ICON (ECG) --- */
 .md-search__input {
     padding-left: 2.8rem !important;
 }
@@ -60,7 +63,7 @@ body, input {
     transform: translateY(-50%);
 }
 
-/* --- 4. HERO SECTION --- */
+/* --- 4. HERO SECTION (Landing Page Only) --- */
 .hero-logo {
     width: 350px !important;
     max-width: 100% !important;
@@ -69,13 +72,36 @@ body, input {
     margin: 0 auto 20px auto;
 }
 
-/* --- 5. CLEANUP & FOOTER RESTORATION --- */
+.hero-container {
+    text-align: center;
+    margin: 20px auto 40px auto !important;
+    max-width: 900px;
+}
+
+.hero-title {
+    font-size: 2.2rem !important; 
+    font-weight: 800 !important;
+    color: #004B8D !important;
+    margin-bottom: 2px !important;
+    display: block;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem !important; 
+    font-style: italic;           
+    color: #555 !important;       
+    margin-top: 0 !important;
+    display: block;
+}
+
+/* --- 5. CLEANUP & FOOTER --- */
 .md-breadcrumb, .md-content h1:first-child, .headerlink, .md-copyright {
     display: none !important;
 }
 
 .md-footer, .md-footer-meta {
     background-color: #004B8D !important;
+    border: none !important;
 }
 
 .md-footer-meta__inner {
@@ -91,16 +117,7 @@ body, input {
     opacity: 0.8;
 }
 
-/* --- 6. ALPHABETICAL INDEX (2-COLUMN GRID) --- */
-
-/* Only style H2s that are immediately followed by an index-grid */
-/* This keeps your Home Page and Procedure Page titles normal size */
-.md-typeset h2 {
-    font-size: 1.5rem; /* Standard size for most pages */
-    color: #333;
-}
-
-/* Big Blue Letters for the Index Pages only */
+/* --- 6. ALPHABETICAL INDEX (Clinical/Operational Pages) --- */
 .index-section-header {
     display: block !important;
     font-size: 1.8rem !important;
@@ -115,12 +132,12 @@ body, input {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 10px 20px !important;
-    margin-top: 10px !important;
+    margin-top: 15px !important;
     margin-bottom: 30px !important;
 }
 
 .index-grid a {
-    font-size: 0.95rem; /* Slightly smaller for better iPad fit */
+    font-size: 0.95rem;
     font-weight: 500;
     color: #004B8D !important;
     text-decoration: none !important;
@@ -131,4 +148,26 @@ body, input {
 .index-grid a:hover {
     color: #D32F2F !important;
     text-decoration: underline !important;
+}
+
+/* --- 7. FLOATING NAV (UP LINK) --- */
+.back-to-top {
+    position: fixed !important;
+    bottom: 30px !important;
+    left: 30px !important;
+    background-color: #004B8D !important;
+    color: white !important;
+    padding: 10px 20px !important;
+    border-radius: 50px !important;
+    font-weight: 700 !important;
+    font-size: 0.85rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3) !important;
+    z-index: 9999 !important;
+    text-decoration: none !important;
+    transition: all 0.2s ease-in-out;
+}
+
+.back-to-top:hover {
+    background-color: #D32F2F !important;
+    transform: translateY(-3px) !important;
 }
