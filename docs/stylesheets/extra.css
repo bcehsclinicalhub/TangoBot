@@ -1,82 +1,58 @@
-/* Ensure the Header Logo is visible on Blue */
-.md-header__button.md-logo img {
-    filter: brightness(0) invert(1);
-    height: 2.5rem !important;
-}
-
-/* Centers the Large Hub Logo in the Body */
-.hero-logo {
-    width: 500px; /* Made it a bit bigger for impact */
-    max-width: 90%;
-    display: block;
-    margin: 40px auto;
-}
-
-/* Typography to match BCEHS Light style */
+/* --- 1. FONTS & GLOBAL --- */
 body, input {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
 }
 
-/* 1. Shrink and move Hub Logo up */
-.hero-logo {
-    width: 300px;         /* Smaller size */
-    margin: -10px auto 20px auto; /* Negative top margin pulls it closer to header */
+/* --- 2. HEADER: BLUE BACKGROUND & CENTERED TITLE --- */
+.md-header {
+    background-color: #004B8D !important;
 }
 
-/* 2. Hide the 'Home' breadcrumb on the left */
-.md-breadcrumb {
-    display: none;
-}
-
-/* 3. Hide the 'Home' title that appears in the center of the body */
-.md-content h1:first-child {
-    display: none;
-}
-/* Centers the Header Title and increases size */
 .md-header__title {
     flex-grow: 1;
     text-align: center;
-    font-size: 1.4rem; /* Increased from default */
+    font-size: 1.5rem; 
     font-weight: 500;
-    margin-left: -48px; /* Counter-balances the logo width to keep it perfectly centered */
+    margin-left: -48px; /* Counter-balance the logo */
 }
 
-/* Ensures the title doesn't get squished by the search bar on smaller screens */
-.md-header__topic {
-    justify-content: center;
-    width: 100%;
+/* Fixes the header logo visibility */
+.md-header__button.md-logo img {
+    filter: brightness(0) invert(1);
+    height: 2.8rem !important;
 }
 
-/* Adjusts the logo container so it doesn't push the title off-center */
-.md-header__button.md-logo {
-    margin-right: 0;
+/* --- 3. LANDING PAGE: HUB LOGO & CLEANUP --- */
+.hero-logo {
+    width: 350px; 
+    max-width: 90%;
+    display: block;
+    margin: -20px auto 20px auto; /* Pulls it closer to the blue header */
 }
 
-/* Removes the 'Made with Material for MkDocs' footer text */
+/* Hide the 'Home' breadcrumbs and body title */
+.md-breadcrumb, .md-content h1:first-child {
+    display: none;
+}
+
+/* --- 4. FOOTER: BLUE BAR & COPYRIGHT --- */
+.md-footer, .md-footer-meta {
+    background-color: #004B8D !important;
+    border-top: none;
+}
+
+/* Hide the "Made with MkDocs" branding */
 .md-copyright, .md-footer-meta__inner {
     display: none;
 }
-/* 1. Set the footer to BCEHS Blue */
-.md-footer {
-    background-color: #004B8D;
-}
 
-/* 2. Hide the 'Made with' branding specifically */
-.md-copyright {
-    display: none;
-}
-
-/* 3. Ensure the footer bar doesn't have a weird top border */
-.md-footer-meta {
-    background-color: #004B8D;
-    border-top: none;
-}
-copyright: |
-  Internal Use Only | © 2026 BC Emergency Health Services
-
-  .md-copyright__highlight {
+/* If you want to show a custom copyright notice later */
+.custom-footer-text {
     color: white;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
     opacity: 0.8;
 }

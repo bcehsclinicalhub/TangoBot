@@ -40,3 +40,5 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+
+copyright: "Internal Use Only | © 2026 BC Emergency Health Services"
