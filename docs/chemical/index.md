@@ -6,7 +6,7 @@
 \| TangoBot | Chemicals
 
 
-# Chemical Data Sheets
+# Safety Data Sheets
 Select a chemical below for safety and handling protocols.
 
 ---
