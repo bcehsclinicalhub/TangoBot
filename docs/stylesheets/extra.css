@@ -17,3 +17,38 @@ body, input {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
 }
+
+/* 1. Shrink and move Hub Logo up */
+.hero-logo {
+    width: 300px;         /* Smaller size */
+    margin: -10px auto 20px auto; /* Negative top margin pulls it closer to header */
+}
+
+/* 2. Hide the 'Home' breadcrumb on the left */
+.md-breadcrumb {
+    display: none;
+}
+
+/* 3. Hide the 'Home' title that appears in the center of the body */
+.md-content h1:first-child {
+    display: none;
+}
+/* Centers the Header Title and increases size */
+.md-header__title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 1.4rem; /* Increased from default */
+    font-weight: 500;
+    margin-left: -48px; /* Counter-balances the logo width to keep it perfectly centered */
+}
+
+/* Ensures the title doesn't get squished by the search bar on smaller screens */
+.md-header__topic {
+    justify-content: center;
+    width: 100%;
+}
+
+/* Adjusts the logo container so it doesn't push the title off-center */
+.md-header__button.md-logo {
+    margin-right: 0;
+}

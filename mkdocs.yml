@@ -23,8 +23,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.instant
-    - navigation.tracking
-    
+
 nav:
   - Home: index.md
   - Clinical Procedures: clinical/index.md
