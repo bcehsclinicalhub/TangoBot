@@ -106,3 +106,14 @@ body, input {
     font-size: 0.8rem;
     opacity: 0.8;
 }
+/* Ensures search results from the body-search don't overlap the header */
+.md-search__inner {
+    top: 100px !important;
+}
+
+/* Centers the Hero Logo if the standard markdown fails */
+.hero-logo {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 350px;
+}

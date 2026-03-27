@@ -8,7 +8,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   logo: assets/logo.png
-  favicon: assets/logo.png
+  favicon: assets/favicon.ico
   language: en
   palette: 
     - scheme: default
