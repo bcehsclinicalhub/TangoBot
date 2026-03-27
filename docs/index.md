@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="assets/logo.png" class="hero-logo" />
+  <img src="assets/hublogo" class="hub-logo" />
 </p>
+
 
 # BCEHS Clinical Hub TangoBot
 Welcome to the central portal for all clinical operations, guidelines, and safety data.

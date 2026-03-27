@@ -26,6 +26,9 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+    - navigation.tabs
+    - navigation.tabs.sticky # Keeps the menu visible as you scroll
+    - navigation.sections    # Grouping for better organization
 
 nav:
   - Home: index.md

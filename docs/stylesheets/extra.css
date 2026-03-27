@@ -1,3 +1,13 @@
+body, input {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300; /* This gives it that "Light" feel */
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+    color: #004B8D; /* BCEHS Blue for headings */
+}
+
 /* This makes the logo in the top navigation bar larger */
 .md-header__button.md-logo img {
     height: 3.5rem; /* Default is usually 1.5rem or 2rem */
@@ -37,4 +47,10 @@
   --md-primary-bg-color: #004B8D;
   --md-accent-fg-color:  #FF0000;   /* Official BCEHS Red */
   --md-accent-bg-color:  #FF0000;
+}
+
+/* Makes the header logo white so it's visible on the blue background */
+.md-header__button.md-logo img {
+    filter: brightness(0) invert(1);
+    height: 2.5rem; /* Adjust size if needed */
 }
