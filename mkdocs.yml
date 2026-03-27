@@ -1,15 +1,11 @@
 site_name: BCEHS Clinical Hub TangoBot
-site_url: https://bcehsclinicalhub.github.io/TangoBot/
+site_url: https://bcehsclinicalhub.github.io/tangoBot/
 use_directory_urls: false
 
 theme:
   name: material
   logo: assets/logo.png
-  favicon: assets/favicon.ico
-  features:
-    - navigation.instant
-    - search.suggest
-    - search.highlight
+  favicon: assets/logo.png
   palette: 
     - scheme: default
       primary: red
@@ -23,26 +19,25 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-
   features:
-    - navigation.instant      # Pages load without refreshing
-    - navigation.tracking     # URL updates as you scroll
-    - navigation.tabs         # Better for desktop view
-    - search.suggest          # The "ChatBot" search feel
-    - search.highlight        # Highlights the staff's search term
-    - content.code.copy       # Great if staff need to copy phone numbers/codes
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
+    - content.code.copy
 
 nav:
   - Home: index.md
   - Clinical Procedures:
-      - Overview: clincial/index.md
+      - Overview: clinical/index.md
       - Bed Bugs: clinical/bed-bugs-procedure.md
   - Operational Guidelines:
-      - Overview: operational/ index.md
+      - Overview: operational/index.md
       - Wreck Beach SOG: operational/wreck-beach-procedure.md
   - Chemical Data Sheets:
-      - Overview: chemical/ image.md
-      - Bleach: chemical/sodium-hypochlorite.md
+      - Overview: chemical/index.md
+      - Sodium Hypochlorite: chemical/sodium-hypochlorite.md
 
 markdown_extensions:
   - admonition
