@@ -28,7 +28,7 @@ nav:
   - Home: index.md
   - Clinical Procedures: clinical/index.md
   - Operational Guidelines: operational/index.md
-  - Chemical Data Sheets: chemical/index.md
+  - Safety Data Sheets: chemical/index.md
 
 markdown_extensions:
   - admonition
