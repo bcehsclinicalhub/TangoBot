@@ -9,7 +9,8 @@
 <div class="index-section">
   <span class="index-letter">B</span>
   <div class="index-links">
-    <a href="../bed-bugs-procedure/">Bed Bugs</a>
+    * [Wreck Beach](bed-bugs-procedure.md)
+    * [Wreck Beach](wreck-beach-procedure.md)
     <a href="../bp-monitoring/">Blood Pressure Monitoring</a>
     <a href="../burns/">Burns - Initial Assessment</a>
   </div>
