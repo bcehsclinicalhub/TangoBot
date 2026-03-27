@@ -4,9 +4,10 @@ body, input {
     font-weight: 300;
 }
 
-/* --- 2. HEADER: BLUE BACKGROUND & CENTERED TITLE --- */
-.md-header {
-    background-color: #004B8D !important;
+/* --- 2. HEADER & TABS: MATCHING BCEHS BLUE --- */
+.md-header, 
+.md-tabs {
+    background-color: #004B8D !important; /* Force both bars to match */
 }
 
 .md-header__title {
@@ -14,45 +15,48 @@ body, input {
     text-align: center;
     font-size: 1.5rem; 
     font-weight: 500;
-    margin-left: -48px; /* Counter-balance the logo */
+    margin-left: -48px; 
 }
 
-/* Fixes the header logo visibility */
+/* Header logo color fix */
 .md-header__button.md-logo img {
     filter: brightness(0) invert(1);
     height: 2.8rem !important;
 }
 
-/* --- 3. LANDING PAGE: HUB LOGO & CLEANUP --- */
+/* --- 3. LANDING PAGE --- */
 .hero-logo {
     width: 350px; 
     max-width: 90%;
     display: block;
-    margin: -20px auto 20px auto; /* Pulls it closer to the blue header */
+    margin: -20px auto 20px auto;
 }
 
-/* Hide the 'Home' breadcrumbs and body title */
 .md-breadcrumb, .md-content h1:first-child {
     display: none;
 }
 
-/* --- 4. FOOTER: BLUE BAR & COPYRIGHT --- */
-.md-footer, .md-footer-meta {
+/* --- 4. FOOTER: BLUE BAR RESTORED --- */
+.md-footer {
+    background-color: #004B8D !important;
+    display: block !important; /* Ensure it isn't hidden */
+}
+
+.md-footer-meta {
     background-color: #004B8D !important;
     border-top: none;
 }
 
-/* Hide the "Made with MkDocs" branding */
-.md-copyright, .md-footer-meta__inner {
+/* Hide only the 'Made with MkDocs' text, not the bar itself */
+.md-copyright {
     display: none;
 }
 
-/* If you want to show a custom copyright notice later */
-.custom-footer-text {
-    color: white;
-    font-size: 0.8rem;
-    text-align: center;
-    width: 100%;
-    padding: 10px;
-    opacity: 0.8;
+/* Show our custom copyright text if added to yml */
+.md-footer-meta__inner {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.75rem;
+    padding: 15px 0;
 }
