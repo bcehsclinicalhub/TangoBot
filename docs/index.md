@@ -2,18 +2,17 @@
   <img src="assets/hublogo.png" class="hero-logo" />
 </p>
 
-# BCEHS Clinical Hub TangoBot
 Welcome to the central portal for all clinical operations, guidelines, and safety data.
 
 ---
 
-## 🚀 Key Departments
+## 🚑 Key Sections
 
-| Section | Description | Staff Action |
+| Section | Description | Page |
 | :--- | :--- | :--- |
-| **Clinical Procedures** | Bed bugs, infectious disease, treatment protocols. | [View Clinical →](clinical/bed-bugs-procedure.md) |
-| **Operational Guidelines** | Wreck Beach SOG, staging, and logistics. | [View Operational →](operational/wreck-beach-procedure.md) |
-| **Chemical Data Sheets** | Safety Data Sheets (SDS) and handling guidelines. | [View Chemicals →](chemical/sodium-hypochlorite.md) |
+| **Clinical Procedures** | All SOP, SOG and clinically relevant resources | [View Clinical →](clinical/bed-bugs-procedure.md) |
+| **Operational Guidelines** | Provincial resources relating to Operations | [View Operational →](operational/wreck-beach-procedure.md) |
+| **Safety Data Sheets** | Safety Data Sheets (SDS) and handling guidelines. | [View Chemicals →](chemical/sodium-hypochlorite.md) |
 
 ---
 
