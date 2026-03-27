@@ -4,80 +4,93 @@ body, input {
     font-weight: 300;
 }
 
-/* --- 2. HEADER: ISOLATED LANES --- */
+/* --- 2. THE NEW CLEAN HEADER --- */
 .md-header, .md-tabs {
     background-color: #004B8D !important;
+}
+
+/* HIDE THE OLD HEADER SEARCH BAR COMPLETELY */
+.md-header__search, .md-search__icon[for="__search"] {
+    display: none !important;
 }
 
 .md-header__inner {
     display: flex !important;
     align-items: center !important;
     justify-content: space-between !important;
-    position: relative !important;
     padding: 0 20px !important;
 }
 
-/* ZONE 1: LOGO (Left) */
-.md-header__button.md-logo {
-    flex: 0 0 auto !important;
-    z-index: 10;
+/* ZONE 1: LOGO & TITLE (Grouped Left) */
+.md-header__title {
+    display: flex !important;
+    align-items: center !important;
+    gap: 20px;
+    flex: 1;
 }
 
 .md-header__button.md-logo img {
     filter: brightness(0) invert(1);
     height: 2.8rem !important;
-}
-
-/* ZONE 2: TITLE (CENTERED & MASKED) */
-.md-header__title {
-    position: absolute !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    width: auto !important;
-    text-align: center;
-    z-index: 12; /* Sits above the search bar if they touch */
+    margin-right: 10px;
 }
 
 .md-header__topic {
-    display: block !important;
     font-size: 1.6rem !important;
     font-weight: 700 !important;
     color: white !important;
-    background-color: #004B8D !important; /* Masks any overlapping search elements */
-    padding: 0 20px; /* Buffer zone */
     white-space: nowrap;
 }
 
-/* ZONE 3: SEARCH & TOGGLE (RIGHT) */
-.md-header__search {
-    flex: 0 0 210px !important; /* STRICT limit to prevent center overlap */
+/* ZONE 2: DARK MODE TOGGLE (Far Right) */
+.md-header__option {
     margin-left: auto !important;
     z-index: 10;
 }
 
-.md-header__option {
-    margin-left: 10px !important;
-    z-index: 10;
+/* --- 3. THE BODY SEARCH BAR STYLING --- */
+/* This styles the search bar we are putting into index.md */
+.custom-search-container {
+    max-width: 700px;
+    margin: 40px auto;
+    position: relative;
 }
 
-/* --- 3. LANDING PAGE CLEANUP --- */
+.custom-search-input {
+    width: 100%;
+    padding: 15px 20px 15px 50px;
+    font-size: 1.2rem;
+    border: 2px solid #004B8D;
+    border-radius: 30px;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Re-injecting the Red ECG Pulse into the Body Search */
+.custom-search-container::before {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+    background-color: #FF0000;
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
+    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
+}
+
+/* --- 4. LANDING PAGE & FOOTER --- */
 .md-breadcrumb, .md-content h1:first-child {
     display: none !important;
 }
 
-.hero-logo {
-    width: 320px; 
-    display: block;
-    margin: -10px auto 20px auto;
-}
-
-/* --- 4. FOOTER: BCEHS BRANDING --- */
 .md-footer, .md-footer-meta {
     background-color: #004B8D !important;
     border: none !important;
 }
 
-.md-copyright, .md-copyright__highlight {
+.md-copyright {
     display: none !important;
 }
 
@@ -92,36 +105,4 @@ body, input {
     content: "Internal Use Only | © 2026 BC Emergency Health Services";
     font-size: 0.8rem;
     opacity: 0.8;
-}
-
-/* --- 5. TANGO-PULSE SEARCH ICON & INPUT --- */
-.md-search__input {
-    padding-left: 2.5rem !important; 
-    line-height: 1.5 !important;
-    font-size: 0.9rem !important;
-}
-
-/* Remove default search icons */
-.md-search__icon svg {
-    display: none !important;
-}
-
-/* Centered Red ECG Pulse */
-.md-search__icon[for="__search"] {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    height: 100% !important;
-    left: 0.5rem !important;
-    top: 0 !important;
-}
-
-.md-search__icon[for="__search"]::before {
-    background-color: #FF0000;
-    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
-    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
-    content: "";
-    display: block;
-    width: 1.1rem;
-    height: 1.1rem;
 }
