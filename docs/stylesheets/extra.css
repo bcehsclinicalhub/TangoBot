@@ -4,32 +4,38 @@ body, input {
     font-weight: 300;
 }
 
-/* --- 2. HEADER: FLEX-GRID (ANTI-COLLISION) --- */
+/* --- 2. HEADER: 3-COLUMN GRID LOCK (PRECISION ALIGN) --- */
 .md-header, .md-tabs {
     background-color: #004B8D !important;
 }
 
 .md-header__inner {
-    display: flex !important;
-    justify-content: space-between !important;
+    display: grid !important;
+    /* Forces symmetry: 280px on both ends makes the middle '1fr' a true center */
+    grid-template-columns: 280px 1fr 280px !important; 
     align-items: center !important;
-    gap: 15px; /* Minimum safety gap between elements */
+    width: 100%;
 }
 
 /* ZONE 1: LOGO (Left) */
 .md-header__button.md-logo {
-    flex: 0 0 auto;
-    margin-right: 0 !important;
+    grid-column: 1;
+    justify-self: start;
+    margin: 0 !important;
     z-index: 10;
 }
 
-/* ZONE 2: TITLE (Center-Weighted) */
+.md-header__button.md-logo img {
+    filter: brightness(0) invert(1);
+    height: 2.8rem !important;
+}
+
+/* ZONE 2: TITLE (TRUE MATHEMATICAL CENTER) */
 .md-header__title {
-    flex: 1 1 auto; 
-    display: flex !important;
-    justify-content: center;
+    grid-column: 2;
+    justify-self: center;
     text-align: center;
-    min-width: 0;
+    width: auto !important;
 }
 
 .md-header__topic {
@@ -38,27 +44,22 @@ body, input {
     font-weight: 700 !important;
     color: white !important;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; /* Prevents overlap on small screens */
 }
 
 /* ZONE 3: SEARCH & TOGGLE (Right) */
 .md-header__search {
-    flex: 0 1 250px; /* Fixed max width for search */
-    margin-left: 0 !important;
-    margin-right: 10px !important;
+    grid-column: 3;
+    justify-self: end;
+    width: 230px !important; 
+    margin: 0 !important;
     z-index: 10;
 }
 
 .md-header__option {
-    flex: 0 0 auto;
-    z-index: 10;
-}
-
-/* Header logo color fix (White) */
-.md-header__button.md-logo img {
-    filter: brightness(0) invert(1);
-    height: 2.8rem !important;
+    grid-column: 3;
+    justify-self: end;
+    margin-right: -45px; /* Adjusts gear to the far right of search */
+    z-index: 11;
 }
 
 /* Remove hover tooltips */
@@ -100,22 +101,26 @@ body, input {
     opacity: 0.8;
 }
 
-/* --- 5. TANGO-PULSE SEARCH ICON & INPUT FIX --- */
+/* --- 5. TANGO-PULSE SEARCH ICON & VERTICAL CENTERING --- */
 .md-search__input {
     padding-left: 2.5rem !important; 
     line-height: 1.5 !important;
     font-size: 0.9rem !important;
 }
 
-/* Hide all default search SVGs */
+/* HARD HIDE: Kills default magnifying glasses */
 .md-search__icon svg {
     display: none !important;
 }
 
-/* Add the Red ECG Pulse */
+/* VERTICAL CENTERING: Forces the Pulse to the middle of the bar height */
 .md-search__icon[for="__search"] {
-    padding-top: 4px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 100% !important;
     left: 0.5rem !important;
+    top: 0 !important;
 }
 
 .md-search__icon[for="__search"]::before {
@@ -126,5 +131,4 @@ body, input {
     display: block;
     width: 1.2rem;
     height: 1.2rem;
-    margin-top: 3px;
 }
