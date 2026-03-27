@@ -6,10 +6,10 @@
 
 <div class="index-section-header">B</div>
 <div class="index-grid">
-    <a href="../bed-bugs-procedure/">Bed Bugs</a>
-    <a href="../bp-monitoring/">Blood Pressure Monitoring</a>
-    <a href="../burns/">Burns - Initial Assessment</a>
+    <a href="/TangoBot/bed-bugs-procedure/">Bed Bugs</a>
+    <a href="/TangoBot/bp-monitoring/">Blood Pressure Monitoring</a>
 </div>
+
 
 <div class="index-section-header">C</div>
 <div class="index-grid">

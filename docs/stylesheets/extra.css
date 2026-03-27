@@ -2,73 +2,85 @@
 body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 300; }
 .md-typeset strong, .md-typeset b { font-weight: 800 !important; color: #000000 !important; }
 
-/* --- 2. HEADER: STABILIZED --- */
-.md-header, .md-tabs { background-color: #004B8D !important; }
-.md-header__title { display: none !important; } /* Hides "Home" title */
+/* --- 2. HEADER: PINNED ELEMENTS --- */
+.md-header, .md-tabs { background-color: #004B8D !important; height: 3.5rem !important; }
+.md-header__title { display: none !important; }
 
 .md-header__inner {
     display: flex !important;
     align-items: center !important;
-    position: relative !important; /* Context for absolute positioning */
+    position: relative !important;
+    height: 100% !important;
 }
 
-/* LOGO: Locked Left */
-.md-header__button.md-logo img {
-    filter: brightness(0) invert(1) !important;
-    height: 2.8rem !important;
-    width: auto !important;
-}
-
-/* SEARCH: Forced Center */
+/* SEARCH: Locked to Center-Right */
 .md-header__search {
     position: absolute !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    width: 350px !important;
+    right: 80px !important; /* Adjust this to move left/right */
+    width: 300px !important;
     margin: 0 !important;
+    display: block !important;
 }
 
-/* TOGGLE: Locked Far Right */
+/* DARK MODE TOGGLE: Locked Far Right */
 .md-header__option {
     position: absolute !important;
     right: 20px !important;
+    z-index: 10 !important;
 }
 
-/* --- 3. ECG SEARCH ICON --- */
+/* --- 3. ECG SEARCH ICON (RE-INJECTED) --- */
 .md-search__input { padding-left: 2.8rem !important; }
 .md-search__icon svg { display: none !important; }
 .md-search__icon[for="__search"]::before {
-    background-color: #FF0000;
+    background-color: #FF0000 !important;
     -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
-    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/xml" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
+    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
     content: ""; display: block; width: 1.3rem; height: 1.3rem;
     position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+    z-index: 5 !important;
 }
 
-/* --- 4. HERO SECTION --- */
-.hero-logo { width: 350px !important; display: block; margin: 0 auto 20px auto; }
-.hero-container { text-align: center; margin: 20px auto 40px auto !important; }
-.hero-title { font-size: 2.2rem !important; font-weight: 800 !important; color: #004B8D !important; display: block; }
-.hero-subtitle { font-size: 1.2rem !important; font-style: italic; color: #555 !important; display: block; }
+/* --- 4. INDEX GRID & CATEGORY LETTERS --- */
+.index-section-header { 
+    display: block !important; 
+    font-size: 1.8rem !important; 
+    font-weight: 800 !important; 
+    color: #004B8D !important; 
+    border-bottom: 2px solid #eee; 
+    margin: 30px 0 10px 0 !important; 
+}
 
-/* --- 5. CLEANUP & FOOTER --- */
-.md-breadcrumb, .headerlink, .md-copyright { display: none !important; }
-/* Hides the "Home" breadcrumb above the hero logo */
-.md-content h1:first-child { display: none !important; }
+.index-grid { 
+    display: grid !important; 
+    grid-template-columns: 1fr 1fr !important; 
+    gap: 10px 40px !important; 
+    margin-bottom: 30px !important;
+}
 
+.index-grid a { 
+    font-size: 1rem !important; 
+    font-weight: 500 !important; 
+    color: #004B8D !important; 
+    text-decoration: none !important; 
+}
+
+/* --- 5. FLOATING TOP BUTTON (LOCKED) --- */
+.back-to-top { 
+    position: fixed !important; 
+    bottom: 30px !important; 
+    left: 30px !important; 
+    background-color: #004B8D !important; 
+    color: white !important; 
+    padding: 10px 20px !important; 
+    border-radius: 50px !important; 
+    font-weight: 700; 
+    z-index: 9999 !important; 
+    display: block !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3) !important;
+}
+
+/* --- 6. FOOTER --- */
 .md-footer, .md-footer-meta { background-color: #004B8D !important; }
 .md-footer-meta__inner { display: flex !important; justify-content: center !important; color: white !important; padding: 20px 0 !important; }
 .md-footer-meta__inner::after { content: "Internal Use Only | © 2026 BC Emergency Health Services"; font-size: 0.8rem; opacity: 0.8; }
-
-/* --- 6. INDEX GRID (The Link Fix) --- */
-.index-section-header { display: block !important; font-size: 1.8rem !important; font-weight: 800 !important; color: #004B8D !important; border-bottom: 2px solid #eee; margin-top: 40px !important; }
-.index-grid { display: grid !important; grid-template-columns: repeat(2, 1fr) !important; gap: 10px 20px !important; margin-top: 15px !important; }
-
-/* Force raw HTML links inside grid to look like clean links */
-.index-grid a { 
-    font-size: 0.95rem; 
-    font-weight: 500; 
-    color: #004B8D !important; 
-    text-decoration: none !important; 
-    display: block !important; 
-}
