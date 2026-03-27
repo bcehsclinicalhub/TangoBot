@@ -4,25 +4,25 @@ body, input {
     font-weight: 300;
 }
 
-/* --- 2. HEADER: 3-COLUMN GRID LOCK (PRECISION ALIGN) --- */
+/* --- 2. HEADER: 3-COLUMN GRID WITH BALANCED SPACERS --- */
 .md-header, .md-tabs {
     background-color: #004B8D !important;
 }
 
 .md-header__inner {
     display: grid !important;
-    /* Forces symmetry: 280px on both ends makes the middle '1fr' a true center */
+    /* [280px Logo] | [Centered Title] | [280px Search Area] */
     grid-template-columns: 280px 1fr 280px !important; 
     align-items: center !important;
     width: 100%;
+    padding: 0 20px !important;
 }
 
-/* ZONE 1: LOGO (Left) */
+/* ZONE 1: LOGO */
 .md-header__button.md-logo {
     grid-column: 1;
     justify-self: start;
     margin: 0 !important;
-    z-index: 10;
 }
 
 .md-header__button.md-logo img {
@@ -35,7 +35,6 @@ body, input {
     grid-column: 2;
     justify-self: center;
     text-align: center;
-    width: auto !important;
 }
 
 .md-header__topic {
@@ -43,42 +42,27 @@ body, input {
     font-size: 1.6rem !important;
     font-weight: 700 !important;
     color: white !important;
-    white-space: nowrap;
 }
 
-/* ZONE 3: SEARCH & TOGGLE (Right) */
+/* ZONE 3: SEARCH & TOGGLE (RIGHT ALIGNED) */
 .md-header__search {
     grid-column: 3;
     justify-self: end;
-    width: 230px !important; 
+    width: 220px !important; 
     margin: 0 !important;
-    z-index: 10;
 }
 
 .md-header__option {
     grid-column: 3;
     justify-self: end;
-    margin-right: -45px; /* Adjusts gear to the far right of search */
-    z-index: 11;
+    margin-right: -45px; 
 }
 
-/* Remove hover tooltips */
-.md-header__button[title], .md-logo[title] {
-    pointer-events: none;
-}
-
-/* --- 3. LANDING PAGE CLEANUP --- */
+/* --- 3. LANDING PAGE & FOOTER --- */
 .md-breadcrumb, .md-content h1:first-child {
     display: none !important;
 }
 
-.hero-logo {
-    width: 320px; 
-    display: block;
-    margin: -10px auto 20px auto;
-}
-
-/* --- 4. FOOTER: BLUE BAR & COPYRIGHT --- */
 .md-footer, .md-footer-meta {
     background-color: #004B8D !important;
     border: none !important;
@@ -101,26 +85,22 @@ body, input {
     opacity: 0.8;
 }
 
-/* --- 5. TANGO-PULSE SEARCH ICON & VERTICAL CENTERING --- */
+/* --- 4. TANGO-PULSE SEARCH ICON & INPUT --- */
 .md-search__input {
     padding-left: 2.5rem !important; 
     line-height: 1.5 !important;
-    font-size: 0.9rem !important;
 }
 
-/* HARD HIDE: Kills default magnifying glasses */
 .md-search__icon svg {
     display: none !important;
 }
 
-/* VERTICAL CENTERING: Forces the Pulse to the middle of the bar height */
 .md-search__icon[for="__search"] {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     height: 100% !important;
     left: 0.5rem !important;
-    top: 0 !important;
 }
 
 .md-search__icon[for="__search"]::before {
