@@ -4,6 +4,9 @@ use_directory_urls: false
 
 theme:
   name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
   logo: assets/logo.png
   favicon: assets/logo.png
   language: en

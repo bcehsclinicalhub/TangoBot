@@ -4,30 +4,45 @@ body, input {
     font-weight: 300;
 }
 
-/* --- 2. HEADER: ABSOLUTE CENTERING --- */
+/* --- 2. HEADER: FLEX-CENTERING --- */
 .md-header, .md-tabs {
     background-color: #004B8D !important;
 }
 
-/* Forces the title to ignore the logo and search bar */
+/* Forces the header container to use all available space */
+.md-header__inner {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+/* This forces the title to stay visible even with a logo */
 .md-header__title {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: auto;
-    z-index: 10;
-    pointer-events: none;
+    display: flex !important;
+    order: 2;
+    flex: 1;
+    justify-content: center;
+    visibility: visible !important;
 }
 
 .md-header__topic {
-    font-size: 1.6rem; 
-    font-weight: 500;
+    font-size: 1.6rem !important; 
+    font-weight: 700 !important;
     color: white !important;
+    white-space: nowrap;
 }
 
-/* Ensures Logo and Search stay on the ends */
-.md-header__button.md-logo { z-index: 11; margin-right: 0; }
-.md-header__search { z-index: 11; margin-left: auto; }
+/* Positions the Logo on the left */
+.md-header__button.md-logo {
+    order: 1;
+    margin-right: 0 !important;
+}
+
+/* Positions the Search on the right */
+.md-header__search {
+    order: 3;
+    margin-left: 0 !important;
+}
 
 /* Header logo color fix */
 .md-header__button.md-logo img {
