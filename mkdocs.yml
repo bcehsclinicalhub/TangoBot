@@ -20,27 +20,16 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.instant
     - navigation.tracking
-    - navigation.tabs
-    - search.suggest
-    - search.highlight
-    - content.code.copy
-    - navigation.tabs
-    - navigation.tabs.sticky # Keeps the menu visible as you scroll
-    - navigation.sections    # Grouping for better organization
-
+    
 nav:
   - Home: index.md
-  - Clinical Procedures:
-      - Overview: clinical/index.md
-      - Bed Bugs: clinical/bed-bugs-procedure.md
-  - Operational Guidelines:
-      - Overview: operational/index.md
-      - Wreck Beach SOG: operational/wreck-beach-procedure.md
-  - Chemical Data Sheets:
-      - Overview: chemical/index.md
-      - Sodium Hypochlorite: chemical/sodium-hypochlorite.md
+  - Clinical Procedures: clinical/index.md
+  - Operational Guidelines: operational/index.md
+  - Chemical Data Sheets: chemical/index.md
 
 markdown_extensions:
   - admonition
