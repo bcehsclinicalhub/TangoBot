@@ -147,3 +147,57 @@ body, input {
 .md-typeset .admonition li strong {
     font-weight: 800 !important; /* Extra weight for visibility */
 }
+
+/* --- 10. ALPHABETICAL INDEX STYLING --- */
+
+/* The Container for each letter group */
+.index-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0; /* Light line between groups */
+}
+
+/* The Large Letter on the left */
+.index-letter {
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: #004B8D; /* BCEHS Blue */
+    line-height: 1;
+    min-width: 60px;
+    border-right: 2px solid #eee; /* The vertical divider line */
+    padding-right: 20px;
+}
+
+/* The column of links on the right */
+.index-links {
+    flex: 1;
+}
+
+.index-links ul {
+    list-style: none !important;
+    padding-left: 0 !important;
+    margin-top: 5px !important;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Grid layout for multiple links */
+    gap: 10px;
+}
+
+.index-links li a {
+    font-size: 1.1rem;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.index-links li a:hover {
+    color: #D32F2F; /* Turns clinical red on hover */
+    text-decoration: underline;
+}
+
+/* Hides the standard H2 markers so we only see the big letter */
+.md-typeset h2 {
+    display: none !important; 
+}
