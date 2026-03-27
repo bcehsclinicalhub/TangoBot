@@ -4,15 +4,12 @@ body, input {
     font-weight: 300;
 }
 
-/* Force bolding to work against global light weight */
-.md-typeset strong, 
-.md-typeset b,
-.md-typeset .admonition li strong {
+.md-typeset strong, .md-typeset b, .md-typeset .admonition li strong {
     font-weight: 800 !important;
     color: #000000 !important;
 }
 
-/* --- 2. HEADER: LOGO LEFT | SEARCH CENTER | TOGGLE RIGHT --- */
+/* --- 2. HEADER & TABS --- */
 .md-header, .md-tabs {
     background-color: #004B8D !important;
 }
@@ -28,15 +25,12 @@ body, input {
     padding: 0 20px !important;
 }
 
-.md-header__button.md-logo {
-    margin-right: auto !important;
-}
-
 .md-header__button.md-logo img {
     filter: brightness(0) invert(1);
     height: 2.8rem !important;
 }
 
+/* --- 3. SEARCH & ECG ICON --- */
 .md-header__search {
     display: block !important;
     flex: 0 1 350px !important;
@@ -44,26 +38,12 @@ body, input {
     margin-right: 20px !important;
 }
 
-.md-header__option {
-    margin-left: 0 !important;
-    order: 3 !important;
-}
-
-/* --- 3. TANGO-PULSE SEARCH ICON (ECG) --- */
 .md-search__input {
     padding-left: 2.8rem !important;
 }
 
 .md-search__icon svg {
     display: none !important;
-}
-
-.md-search__icon[for="__search"] {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    height: 100% !important;
-    left: 0.8rem !important;
 }
 
 .md-search__icon[for="__search"]::before {
@@ -74,9 +54,13 @@ body, input {
     display: block;
     width: 1.3rem;
     height: 1.3rem;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-/* --- 4. HERO SECTION (Main Page) --- */
+/* --- 4. HERO SECTION --- */
 .hero-logo {
     width: 350px !important;
     max-width: 100% !important;
@@ -85,14 +69,70 @@ body, input {
     margin: 0 auto 20px auto;
 }
 
-.hero-container {
-    text-align: center;
-    margin: 30px auto 40px auto !important;
-    max-width: 900px;
+/* --- 5. CLEANUP & FOOTER RESTORATION --- */
+.md-breadcrumb, .md-content h1:first-child, .headerlink, .md-copyright {
+    display: none !important;
 }
 
-.hero-title {
-    font-size: 2.2rem !important; 
+.md-footer, .md-footer-meta {
+    background-color: #004B8D !important;
+}
+
+.md-footer-meta__inner {
+    display: flex !important;
+    justify-content: center !important;
+    color: white !important;
+    padding: 20px 0 !important;
+}
+
+.md-footer-meta__inner::after {
+    content: "Internal Use Only | © 2026 BC Emergency Health Services";
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+/* --- 6. ALPHABETICAL INDEX (2-COLUMN GRID) --- */
+.md-typeset h2 {
+    display: block !important;
+    font-size: 1.8rem !important;
     font-weight: 800 !important;
     color: #004B8D !important;
-    margin-bottom: 2px
+    border-bottom: 2px solid #eee;
+    margin-top: 40px !important;
+    padding-bottom: 10px !important;
+}
+
+.index-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important; /* Forces 2 columns */
+    gap: 10px 20px !important;
+    margin-top: 20px !important;
+}
+
+.index-grid a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #004B8D !important;
+    text-decoration: none !important;
+    display: block !important;
+}
+
+.index-grid a:hover {
+    color: #D32F2F !important;
+    text-decoration: underline !important;
+}
+
+/* --- 7. FLOATING UP BUTTON --- */
+.back-to-top {
+    position: fixed !important;
+    bottom: 30px !important;
+    left: 30px !important;
+    background-color: #004B8D !important;
+    color: white !important;
+    padding: 10px 20px !important;
+    border-radius: 50px !important;
+    font-weight: 700 !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3) !important;
+    z-index: 9999 !important;
+    display: block !important;
+}
