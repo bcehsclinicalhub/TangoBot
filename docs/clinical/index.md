@@ -3,7 +3,6 @@
 </p>
 
 # Clinical References
-Select a reference below.
 ---
 
 ### 🧪 Available References

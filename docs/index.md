@@ -16,8 +16,8 @@
 | **Safety Data Sheets** | Safety data sheets and other exposure resources | [Safety Data Sheets →](chemical/index.md) |
 
 ## ⚠️ Critical Alerts
-!!! danger "Staging Area Change: Wreck Beach"
-    **March 26, 2026**: All Tango units attending Wreck Beach MCIs must utilize the new **Staging Area 'Bravo'** located at the upper trailhead. See [Operational Guidelines](operational/wreck-beach-procedure.md) for map.
+!!! danger "Parenteral ondansetron now available for use in practice at the PCP license level."
+    **February 20, 2026**: Ondansetron will now be considered first line parenteral antiemetic for most causes of nausea and vomiting. Orally dissolving tablets of ondansetron will continue to be available and should still be used where appropriate. Parenteral dimenHYDRINATE will continue to be used as first line for nausea and vomiting associated with motion sickness, vertigo, and pregnancy and where ondansetron is contraindicated. [More Info on the Intranet](https://intranet.bcehs.ca/mlink/post/MzMxNw){:target="_blank"}
 
 ## ⚕️ Clinical Updates
 !!! info "Latest Protocols & SDS"
