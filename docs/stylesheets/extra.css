@@ -1,54 +1,33 @@
-/* --- 1. FONTS & GLOBAL --- */
+/* --- 1. GLOBAL TYPOGRAPHY --- */
 body, input {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
 }
 
-/* --- 2. HEADER & TABS: BCEHS BLUE --- */
+/* --- 2. HEADER: ABSOLUTE CENTERING --- */
 .md-header, .md-tabs {
     background-color: #004B8D !important;
 }
 
-/* --- 2. HEADER: TRUE CENTERING & CLEANUP --- */
-.md-header, .md-tabs {
-    background-color: #004B8D !important;
-}
-
-/* Forces the header to allow centering */
-.md-header__inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* This is the magic: it pushes the title to the absolute center */
+/* Forces the title to ignore the logo and search bar */
 .md-header__title {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     width: auto;
-    text-align: center;
-    z-index: 1;
+    z-index: 10;
+    pointer-events: none;
 }
 
 .md-header__topic {
     font-size: 1.6rem; 
     font-weight: 500;
     color: white !important;
-    white-space: nowrap;
 }
 
-/* Keeps the logo on the far left */
-.md-header__button.md-logo {
-    margin-right: 0;
-    z-index: 2;
-}
-
-/* Keeps search on the far right */
-.md-header__search {
-    margin-left: auto;
-    z-index: 2;
-}
+/* Ensures Logo and Search stay on the ends */
+.md-header__button.md-logo { z-index: 11; margin-right: 0; }
+.md-header__search { z-index: 11; margin-left: auto; }
 
 /* Header logo color fix */
 .md-header__button.md-logo img {
@@ -56,61 +35,47 @@ body, input {
     height: 2.8rem !important;
 }
 
-/* --- 3. LANDING PAGE CLEANUP --- */
-/* Removes that 'Home' indicator on the left body */
+/* --- 3. LANDING PAGE: REMOVALS --- */
+/* Kills the 'Home' link on the left body */
 .md-breadcrumb {
     display: none !important;
 }
 
-/* Removes the extra 'Home' title that appears in the body */
-.md-content h1:first-child {
+/* Kills the 'Home' title in the body */
+.md-content h1:first-child, 
+.md-content__button {
     display: none !important;
 }
 
 .hero-logo {
-    width: 350px; 
-    max-width: 90%;
+    width: 320px; 
     display: block;
     margin: -10px auto 20px auto;
 }
 
-/* --- 3. LANDING PAGE --- */
-.hero-logo {
-    width: 350px; 
-    max-width: 90%;
-    display: block;
-    margin: -20px auto 20px auto;
-}
-
-.md-breadcrumb, .md-content h1:first-child {
-    display: none;
-}
-
-/* --- 4. FOOTER: BLUE BAR & COPYRIGHT --- */
+/* --- 4. FOOTER: THE BRANDING KILLER --- */
 .md-footer, .md-footer-meta {
     background-color: #004B8D !important;
-    border-top: none;
-    display: block !important;
+    border: none !important;
 }
 
-/* TARGETED HIDE: This kills 'Made with MkDocs' but keeps your text */
-.md-copyright {
-    display: block !important;
-    text-align: center;
-    width: 100%;
-}
-
-.md-copyright > a, 
-.md-copyright__highlight {
+/* This kills the 'Made with' text permanently */
+.md-copyright, 
+.md-copyright__highlight, 
+.md-footer-meta__inner > .md-footer-meta__link {
     display: none !important;
 }
 
-/* This styles your 'Internal Use Only' text in white */
+/* This forces your BCEHS Copyright to show up centered and white */
 .md-footer-meta__inner {
     display: flex !important;
-    justify-content: center;
+    justify-content: center !important;
     color: white !important;
-    opacity: 0.9;
+    padding: 20px 0 !important;
+}
+
+.md-footer-meta__inner::after {
+    content: "Internal Use Only | © 2026 BC Emergency Health Services";
     font-size: 0.8rem;
-    padding: 20px 0;
+    opacity: 0.8;
 }
