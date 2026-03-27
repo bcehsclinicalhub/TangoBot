@@ -11,9 +11,9 @@
 
 | Section | Description | Link |
 | :--- | :--- | :--- |
-| **Clinical Procedures** | SOP, SOG, and clinical resources | [View Clinical Procedures →](clinical/index.md) |
-| **Operational Guidelines** | Provincial Operational resources | [View Operational Guidelines →](operational/index.md) |
-| **Safety Data Sheets** | SDS and chemical handling | [Safety Data Sheets →](chemical/index.md) |
+| **Clinical Procedures** | Clinical Guidelines, resources and other clinical references | [View Clinical Procedures →](clinical/index.md) |
+| **Operational Guidelines** | Practice Updates and  Provincial operational resources | [View Operational Guidelines →](operational/index.md) |
+| **Safety Data Sheets** | Safety data sheets, decon instructions and resources for exposures | [Safety Data Sheets →](chemical/index.md) |
 
 ## ⚠️ Critical Alerts
 !!! danger "Staging Area Change: Wreck Beach"
