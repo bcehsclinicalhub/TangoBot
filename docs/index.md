@@ -16,8 +16,8 @@
 | **Safety Data Sheets** | Safety data sheets and other exposure resources | [Safety Data Sheets →](chemical/index.md) |
 
 ## ⚠️ Critical Alerts
-!!! danger "Parenteral ondansetron now available for use in practice at the PCP license level."
-    **February 20, 2026**: Ondansetron will now be considered first line parenteral antiemetic for most causes of nausea and vomiting. Orally dissolving tablets of ondansetron will continue to be available and should still be used where appropriate. Parenteral dimenHYDRINATE will continue to be used as first line for nausea and vomiting associated with motion sickness, vertigo, and pregnancy and where ondansetron is contraindicated. [More Info on the Intranet](https://intranet.bcehs.ca/mlink/post/MzMxNw){:target="_blank"}
+!!! danger "Update to IFT CRM model."
+    **February 10, 2026**: PURPLE and RED interfacility transfers will be classified as Life, Limb, or Organ Threatened (LLTO) events, while the ORANGE interfacility transfers will be classified non-LLTO events and represent stable patients who have a moderate likelihood of deterioration or require an urgent diagnostic or therapeutic intervention. [More Info on the Intranet](https://intranet.bcehs.ca/mlink/post/MzI4MQ){:target="_blank"}
 
 
 ## ⚕️ Clinical Updates
