@@ -4,60 +4,45 @@ body, input {
     font-weight: 300;
 }
 
-/* --- 2. HEADER & TABS: BCEHS BLUE --- */
+/* --- 2. HEADER: PINNED ENDS & CENTERED TITLE --- */
 .md-header, .md-tabs {
     background-color: #004B8D !important;
 }
 
-.md-header__inner {
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
+/* 1. Logo: Keep it Far Left */
+.md-header__button.md-logo {
+    margin-right: auto !important;
 }
 
-/* TITLE: Absolute Center */
+/* 2. Title: Force Absolute Center */
 .md-header__title .md-header__topic {
     display: block !important;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.6rem !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    font-size: 1.65rem !important;
     font-weight: 700 !important;
     color: white !important;
-    z-index: 5;
     white-space: nowrap;
+    z-index: 5;
 }
 
-/* LOGO: Pinned Left */
-.md-header__button.md-logo {
-    order: 1 !important;
-    z-index: 10;
-}
-
-/* SEARCH: Pinned Right (but before Toggle) */
+/* 3. Search: Pinned Right */
 .md-header__search {
-    order: 2 !important;
     margin-left: auto !important;
-    margin-right: 15px !important;
-    z-index: 10;
+    margin-right: 10px !important;
 }
 
-/* DARK MODE TOGGLE: Pinned Far Right */
+/* 4. Dark Mode Toggle: Far Right flank */
 .md-header__option {
-    order: 3 !important;
-    z-index: 10;
+    margin-left: 0 !important;
 }
 
-/* Header logo color fix (White) */
+/* Header logo color fix */
 .md-header__button.md-logo img {
     filter: brightness(0) invert(1);
     height: 2.8rem !important;
-}
-
-/* Remove hover tooltips */
-.md-header__button[title], .md-logo[title] {
-    pointer-events: none;
 }
 
 /* --- 3. LANDING PAGE CLEANUP --- */
@@ -95,8 +80,9 @@ body, input {
 }
 
 /* --- 5. TANGO-PULSE SEARCH ICON & CLEANUP --- */
-/* Hide ALL default search SVGs (magnifying glass, reset, etc) */
-.md-search__icon svg {
+/* HARD HIDE: Kills all default magnifying glasses/reset icons */
+.md-search__icon svg, 
+.md-search__icon[for="__search"] svg {
     display: none !important;
 }
 
@@ -104,4 +90,10 @@ body, input {
 .md-search__icon[for="__search"]::before {
     background-color: #FF0000;
     -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
-    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5
+    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
+    content: "";
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: 2px;
+}
