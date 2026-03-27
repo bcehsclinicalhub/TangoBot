@@ -1,48 +1,37 @@
-/* --- 1. GLOBAL TYPOGRAPHY --- */
+/* --- 1. FONTS & GLOBAL --- */
 body, input {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 300;
 }
 
-/* --- 2. HEADER: FLEX-CENTERING --- */
+/* --- 2. HEADER: FORCE TITLE & CENTERING --- */
 .md-header, .md-tabs {
     background-color: #004B8D !important;
 }
 
-/* Forces the header container to use all available space */
-.md-header__inner {
-    display: flex !important;
-    justify-content: space-between !important;
-    align-items: center !important;
-}
-
-/* This forces the title to stay visible even with a logo */
-.md-header__title {
-    display: flex !important;
-    order: 2;
-    flex: 1;
-    justify-content: center;
-    visibility: visible !important;
-}
-
-.md-header__topic {
-    font-size: 1.6rem !important; 
+/* FORCE the title to show up even with a logo present */
+.md-header__title .md-header__topic {
+    display: block !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.6rem !important;
     font-weight: 700 !important;
     color: white !important;
     white-space: nowrap;
+    z-index: 10;
 }
 
-/* Positions the Logo on the left */
-.md-header__button.md-logo {
-    order: 1;
-    margin-right: 0 !important;
+/* Kills the 'Home' hover popup / tooltip */
+.md-header__button[title], 
+.md-logo[title] {
+    pointer-events: none;
 }
 
-/* Positions the Search on the right */
-.md-header__search {
-    order: 3;
-    margin-left: 0 !important;
-}
+/* Keep search and logo out of the center */
+.md-header__search { margin-left: auto; z-index: 11; }
+.md-header__button.md-logo { z-index: 11; }
 
 /* Header logo color fix */
 .md-header__button.md-logo img {
@@ -50,15 +39,8 @@ body, input {
     height: 2.8rem !important;
 }
 
-/* --- 3. LANDING PAGE: REMOVALS --- */
-/* Kills the 'Home' link on the left body */
-.md-breadcrumb {
-    display: none !important;
-}
-
-/* Kills the 'Home' title in the body */
-.md-content h1:first-child, 
-.md-content__button {
+/* --- 3. LANDING PAGE CLEANUP --- */
+.md-breadcrumb, .md-content h1:first-child {
     display: none !important;
 }
 
@@ -68,20 +50,16 @@ body, input {
     margin: -10px auto 20px auto;
 }
 
-/* --- 4. FOOTER: THE BRANDING KILLER --- */
+/* --- 4. FOOTER: BLUE BAR & COPYRIGHT --- */
 .md-footer, .md-footer-meta {
     background-color: #004B8D !important;
     border: none !important;
 }
 
-/* This kills the 'Made with' text permanently */
-.md-copyright, 
-.md-copyright__highlight, 
-.md-footer-meta__inner > .md-footer-meta__link {
+.md-copyright, .md-copyright__highlight {
     display: none !important;
 }
 
-/* This forces your BCEHS Copyright to show up centered and white */
 .md-footer-meta__inner {
     display: flex !important;
     justify-content: center !important;
@@ -94,18 +72,14 @@ body, input {
     font-size: 0.8rem;
     opacity: 0.8;
 }
+
 /* --- 5. TANGO-PULSE SEARCH ICON --- */
 .md-search__icon[for="__search"]::before {
-    background-color: #FF0000; /* BCEHS Red Pulse */
+    background-color: #FF0000;
     -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
     mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
     content: "";
     display: block;
     width: 1.2rem;
     height: 1.2rem;
-}
-
-/* Optional: Make the search bar background a bit darker to help the red pop */
-.md-search__form {
-    background-color: rgba(0, 0, 0, 0.2) !important;
 }
