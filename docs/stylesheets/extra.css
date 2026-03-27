@@ -149,33 +149,32 @@ body, input {
     flex: 1;
 }
 
-/* FORCE VERTICAL ALIGNMENT: Targets both lists and raw paragraph links */
-.index-links ul, 
-.index-links p {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 10px !important;
-    margin: 0 !important;
+/* THE CLINICAL CURE: This forces each link onto its own line */
+.index-links ul {
+    list-style: none !important;
     padding: 0 !important;
-    list-style: disc !important;
+    margin: 0 !important;
 }
 
-.index-links li,
+.index-links li {
+    display: block !important; /* Force separate lines */
+    margin-bottom: 10px !important;
+}
+
 .index-links a {
-    display: block !important;
-    margin-bottom: 5px !important;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     font-weight: 500;
     color: #004B8D;
     text-decoration: none;
+    display: inline-block;
 }
 
-.index-links li a:hover {
+.index-links a:hover {
     color: #D32F2F;
     text-decoration: underline;
 }
 
-/* Hide standard H2s visually but keep them for TOC sidebar */
+/* Hides standard H2s visually but keeps them for TOC sidebar */
 .md-typeset h2 {
     display: none !important; 
 }
