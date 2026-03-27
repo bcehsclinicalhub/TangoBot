@@ -5,25 +5,19 @@
 
 ---
 
-## B
-<div class="index-section">
-  <span class="index-letter">B</span>
-  <div class="index-links">
-    * [Wreck Beach](bed-bugs-procedure.md)
-    * [Wreck Beach](wreck-beach-procedure.md)
-    <a href="../bp-monitoring/">Blood Pressure Monitoring</a>
-    <a href="../burns/">Burns - Initial Assessment</a>
-  </div>
-</div>
+# 💉 Clinical References
 
-## C
-<div class="index-section">
-  <span class="index-letter">C</span>
-  <div class="index-links">
-    <a href="cardiac-arrest.md">Cardiac Arrest - Adult</a>
-    <a href="cavicide-sds.md">CaviCide HP Application</a>      
-    <a href="cold-exposure.md">Cold Weather Exposure</a>
-  </div>
-</div>
+---
+
+## **B**
+&nbsp;&nbsp;&nbsp;&nbsp;* [Bed Bugs](bed-bugs-procedure.md)
+&nbsp;&nbsp;&nbsp;&nbsp;* [Blood Pressure Monitoring](bp-monitoring.md)
+&nbsp;&nbsp;&nbsp;&nbsp;* [Burns - Initial Assessment](burns.md)
+
+---
+
+## **C**
+&nbsp;&nbsp;&nbsp;&nbsp;* [Cardiac Arrest - Adult](cardiac-arrest.md)
+&nbsp;&nbsp;&nbsp;&nbsp;* [CaviCide HP Application](cavicide-sds.md)
 
 <a href="#" class="back-to-top">↑ TOP</a>
