@@ -4,7 +4,7 @@ body, input {
     font-weight: 300;
 }
 
-/* --- 2. HEADER & TABS: MATCHING BCEHS BLUE --- */
+/* --- 2. HEADER & TABS: BCEHS BLUE --- */
 .md-header, .md-tabs {
     background-color: #004B8D !important;
 }
@@ -14,23 +14,27 @@ body, input {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: auto;
-    z-index: 0;
+    width: 60%; 
+    z-index: 10;
+    pointer-events: none; 
 }
 
 .md-header__topic {
-    font-size: 1.6rem; 
+    display: block;
+    font-size: 1.5rem; 
     font-weight: 500;
-    white-space: nowrap; 
+    text-align: center;
+    color: white !important;
+    white-space: nowrap;
 }
 
-/* Ensure Logo and Search icons stay on top of the centered title */
+/* Ensure Logo and Search icons stay clickable on top of the title */
 .md-header__button.md-logo, 
 .md-header__search {
-    z-index: 1;
+    z-index: 11;
 }
 
-/* Header logo color fix */
+/* Header logo color fix (White) */
 .md-header__button.md-logo img {
     filter: brightness(0) invert(1);
     height: 2.8rem !important;
@@ -44,29 +48,30 @@ body, input {
     margin: -20px auto 20px auto;
 }
 
-/* Hide breadcrumbs and the extra "Home" title in the body */
 .md-breadcrumb, .md-content h1:first-child {
     display: none;
 }
 
 /* --- 4. FOOTER: BLUE BAR & COPYRIGHT --- */
-.md-footer {
-    background-color: #004B8D !important;
-}
-
-.md-footer-meta {
+.md-footer, .md-footer-meta {
     background-color: #004B8D !important;
     border-top: none;
-    display: flex;
-    justify-content: center;
+    display: block !important;
 }
 
-/* Hide the 'Made with MkDocs' branding */
+/* TARGETED HIDE: This kills 'Made with MkDocs' but keeps your text */
 .md-copyright {
-    display: none;
+    display: block !important;
+    text-align: center;
+    width: 100%;
 }
 
-/* This makes your 'Internal Use Only' text visible in white */
+.md-copyright > a, 
+.md-copyright__highlight {
+    display: none !important;
+}
+
+/* This styles your 'Internal Use Only' text in white */
 .md-footer-meta__inner {
     display: flex !important;
     justify-content: center;
