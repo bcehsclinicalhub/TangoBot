@@ -4,39 +4,54 @@ body, input {
     font-weight: 300;
 }
 
-/* --- 2. HEADER: PINNED ENDS & CENTERED TITLE --- */
+/* --- 2. HEADER: THE GREAT ANCHORING --- */
 .md-header, .md-tabs {
     background-color: #004B8D !important;
 }
 
-/* 1. Logo: Keep it Far Left */
-.md-header__button.md-logo {
-    margin-right: auto !important;
+.md-header__inner {
+    display: flex !important;
+    align-items: center !important;
+    position: relative !important;
 }
 
-/* 2. Title: Force Absolute Center */
-.md-header__title .md-header__topic {
-    display: block !important;
-    position: absolute;
+/* ZONE 1: LOGO (FAR LEFT) */
+.md-header__button.md-logo {
+    order: 0 !important;
+    margin-right: auto !important;
+    position: relative !important;
+    z-index: 10;
+}
+
+/* ZONE 2: TITLE (DEAD CENTER) */
+/* We use absolute centering so it doesn't care where the logo/search are */
+.md-header__title {
+    position: absolute !important;
     left: 50% !important;
-    top: 50% !important;
-    transform: translate(-50%, -50%) !important;
-    font-size: 1.65rem !important;
-    font-weight: 700 !important;
-    color: white !important;
-    white-space: nowrap;
+    transform: translateX(-50%) !important;
+    width: auto !important;
     z-index: 5;
 }
 
-/* 3. Search: Pinned Right */
-.md-header__search {
-    margin-left: auto !important;
-    margin-right: 10px !important;
+.md-header__topic {
+    display: block !important;
+    font-size: 1.6rem !important;
+    font-weight: 700 !important;
+    color: white !important;
+    white-space: nowrap;
 }
 
-/* 4. Dark Mode Toggle: Far Right flank */
+/* ZONE 3: SEARCH & TOGGLE (FAR RIGHT) */
+.md-header__search {
+    order: 1 !important;
+    margin-left: auto !important; /* Pushes everything to the right */
+    margin-right: 15px !important;
+    z-index: 10;
+}
+
 .md-header__option {
-    margin-left: 0 !important;
+    order: 2 !important;
+    z-index: 10;
 }
 
 /* Header logo color fix */
@@ -45,7 +60,7 @@ body, input {
     height: 2.8rem !important;
 }
 
-/* --- 3. LANDING PAGE CLEANUP --- */
+/* --- 3. LANDING PAGE & FOOTER CLEANUP --- */
 .md-breadcrumb, .md-content h1:first-child {
     display: none !important;
 }
@@ -56,7 +71,6 @@ body, input {
     margin: -10px auto 20px auto;
 }
 
-/* --- 4. FOOTER: BLUE BAR & COPYRIGHT --- */
 .md-footer, .md-footer-meta {
     background-color: #004B8D !important;
     border: none !important;
@@ -79,10 +93,9 @@ body, input {
     opacity: 0.8;
 }
 
-/* --- 5. TANGO-PULSE SEARCH ICON & CLEANUP --- */
-/* HARD HIDE: Kills all default magnifying glasses/reset icons */
-.md-search__icon svg, 
-.md-search__icon[for="__search"] svg {
+/* --- 4. TANGO-PULSE SEARCH ICON (THE FINAL HIDE) --- */
+/* This kills the magnifying glass icon and all other SVGs in the search box */
+.md-search__icon svg {
     display: none !important;
 }
 
@@ -95,5 +108,5 @@ body, input {
     display: block;
     width: 1.2rem;
     height: 1.2rem;
-    margin-top: 2px;
+    margin-top: 3px;
 }
