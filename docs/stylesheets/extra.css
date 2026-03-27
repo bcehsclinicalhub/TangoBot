@@ -136,21 +136,25 @@ body, input {
 }
 
 .index-letter {
-    font-size: 2.5rem;
+    font-size: 1.8rem; /* Decreased from 2.5rem */
     font-weight: 800;
     color: #004B8D;
     line-height: 1.2;
-    min-width: 55px;
+    min-width: 45px; /* Shrunk slightly to match new font size */
     border-right: 2px solid #eee;
-    padding-right: 15px;
+    padding-right: 12px;
 }
 
-.index-links {
-    flex: 1;
-    display: flex !important;
-    flex-direction: column !important; /* Forces vertical stack for HTML links */
-    gap: 12px !important;
+.index-links a {
+    font-size: 1rem; /* Decreased from 1.15rem - Standard reading size */
+    font-weight: 500;
+    color: #004B8D !important;
+    text-decoration: none !important;
+    display: block !important;
+    margin-bottom: 6px !important; /* Tighter vertical spacing */
 }
+
+/* ... (keep the hover and H2 hiding code the same) ... */
 
 .index-links a {
     font-size: 1.15rem;
@@ -190,3 +194,5 @@ body, input {
     background-color: #D32F2F;
     transform: translateY(-3px);
 }
+
+
