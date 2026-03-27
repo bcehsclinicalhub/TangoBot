@@ -9,9 +9,9 @@
 <div class="index-section">
   <span class="index-letter">B</span>
   <div class="index-links">
-   <a href="../bed-bugs-procedure.md">Bed Bugs</a>
-   <a href="bp-monitoring.md">Blood Pressure Monitoring</a>
-   <a href="burns.md">Burns - Initial Assessment</a>
+    <a href="../bed-bugs-procedure/">Bed Bugs</a>
+    <a href="../bp-monitoring/">Blood Pressure Monitoring</a>
+    <a href="../burns/">Burns - Initial Assessment</a>
   </div>
 </div>
 
