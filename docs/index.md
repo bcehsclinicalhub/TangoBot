@@ -2,12 +2,6 @@
   <img src="assets/hublogo.png" class="hero-logo" />
 </p>
 
-<div class="custom-search-container">
-  <form action="search.html" method="get">
-    <input type="text" name="q" class="custom-search-input" placeholder="Search Procedures, Guidelines, or SDS..." autofocus>
-  </form>
-</div>
-
 <p align="center">Welcome to <strong>TangoPulse</strong>—the clinical operations wiki for BCEHS Clinical Hub staff.</p>
 
 ---
