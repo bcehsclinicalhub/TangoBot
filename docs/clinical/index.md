@@ -1,10 +1,11 @@
 <p align="center">
-  <img src="../assets/logo.png" class="hero-logo" />
+  <img src="assets/hublogo.png" class="hero-logo" />
 </p>
 
-
-\| TangoBot | Clinical
-
+<div class="hero-container">
+  <p class="hero-title">Clinical References</p>
+</div>
+---
 
 # Clinical References
 Select a reference below.

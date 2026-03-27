@@ -4,16 +4,16 @@
 
 <div class="hero-container">
   <p class="hero-title">Welcome to TangoPulse</p>
-  <p class="hero-subtitle">the clinical operations wiki for BCEHS Clinical Hub staff</p>
+  <p class="hero-subtitle">the Paramedic Specialist clinical and operational wiki</p>
 </div>
 ---
 ## 🚑 Key Sections
 
 | Section | Description | Link |
 | :--- | :--- | :--- |
-| **Clinical Procedures** | Clinical Guidelines, resources and other clinical references | [View Clinical Procedures →](clinical/index.md) |
-| **Operational Guidelines** | Practice Updates and  Provincial operational resources | [View Operational Guidelines →](operational/index.md) |
-| **Safety Data Sheets** | Safety data sheets, decon instructions and resources for exposures | [Safety Data Sheets →](chemical/index.md) |
+| **Clinical Procedures** | Clinical Guidelines and other clinical references | [View Clinical Procedures →](clinical/index.md) |
+| **Operational Guidelines** | Practice Updates and operational resources | [View Operational Guidelines →](operational/index.md) |
+| **Safety Data Sheets** | Safety data sheets and other exposure resources | [Safety Data Sheets →](chemical/index.md) |
 
 ## ⚠️ Critical Alerts
 !!! danger "Staging Area Change: Wreck Beach"
