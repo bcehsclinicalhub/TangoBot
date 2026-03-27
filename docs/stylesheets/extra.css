@@ -18,7 +18,7 @@ body, input {
 }
 
 .md-header__title {
-    display: none !important; /* Hides default title */
+    display: none !important; 
 }
 
 .md-header__inner {
@@ -79,6 +79,8 @@ body, input {
 /* --- 4. HERO SECTION (Main Page) --- */
 .hero-logo {
     width: 350px !important;
+    max-width: 100% !important;
+    height: auto !important;
     display: block;
     margin: 0 auto 20px auto;
 }
@@ -93,106 +95,4 @@ body, input {
     font-size: 2.2rem !important; 
     font-weight: 800 !important;
     color: #004B8D !important;
-    margin-bottom: 2px !important;
-}
-
-.hero-subtitle {
-    font-size: 1.2rem !important; 
-    font-style: italic;           
-    color: #555 !important;       
-    margin-top: 0 !important;
-}
-
-/* --- 5. CLEANUP & PERMALINKS --- */
-.md-breadcrumb, .md-content h1:first-child, .headerlink, .md-copyright {
-    display: none !important;
-}
-
-.md-footer, .md-footer-meta {
-    background-color: #004B8D !important;
-    border: none !important;
-}
-
-.md-footer-meta__inner {
-    display: flex !important;
-    justify-content: center !important;
-    color: white !important;
-}
-
-.md-footer-meta__inner::after {
-    content: "Internal Use Only | © 2026 BC Emergency Health Services";
-    font-size: 0.8rem;
-    opacity: 0.8;
-}
-
-/* --- 6. ALPHABETICAL INDEX STYLING --- */
-.index-section {
-    display: flex;
-    align-items: flex-start;
-    gap: 30px;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #f0f0f0;
-}
-
-.index-letter {
-    font-size: 1.8rem; /* Decreased from 2.5rem */
-    font-weight: 800;
-    color: #004B8D;
-    line-height: 1.2;
-    min-width: 45px; /* Shrunk slightly to match new font size */
-    border-right: 2px solid #eee;
-    padding-right: 12px;
-}
-
-.index-links a {
-    font-size: 1rem; /* Decreased from 1.15rem - Standard reading size */
-    font-weight: 500;
-    color: #004B8D !important;
-    text-decoration: none !important;
-    display: block !important;
-    margin-bottom: 6px !important; /* Tighter vertical spacing */
-}
-
-/* ... (keep the hover and H2 hiding code the same) ... */
-
-.index-links a {
-    font-size: 1.15rem;
-    font-weight: 500;
-    color: #004B8D !important;
-    text-decoration: none !important;
-    display: block !important; /* Ensures one link per line */
-}
-
-.index-links a:hover {
-    color: #D32F2F !important;
-    text-decoration: underline !important;
-}
-
-/* Hide standard H2s visually but keep them for TOC sidebar */
-.md-typeset h2 {
-    display: none !important; 
-}
-
-/* --- 7. FLOATING NAV (UP LINK) --- */
-.back-to-top {
-    position: fixed;
-    bottom: 30px;
-    left: 30px;
-    background-color: #004B8D;
-    color: white !important;
-    padding: 10px 20px;
-    border-radius: 50px;
-    font-weight: 700;
-    font-size: 0.85rem;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    z-index: 1000;
-    transition: all 0.2s ease-in-out;
-}
-
-.back-to-top:hover {
-    background-color: #D32F2F;
-    transform: translateY(-3px);
-}
-
-
+    margin-bottom: 2px
