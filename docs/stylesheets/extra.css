@@ -110,3 +110,15 @@ body, input {
     height: 1.2rem;
     margin-top: 3px;
 }
+/* Fixes the jumbled/overlapping text in the search bar */
+.md-search__input {
+    padding-left: 2.5rem !important; /* Pushes text to the right of the ECG pulse */
+    line-height: 1.5 !important;    /* Resets text height so it doesn't squish */
+    font-size: 0.9rem !important;   /* Professional, legible size */
+}
+
+/* Ensures the Red Pulse doesn't overlap the 'Search TangoPulse...' placeholder */
+.md-search__icon[for="__search"] {
+    padding-top: 4px !important;
+    left: 0.5rem !important;
+}
