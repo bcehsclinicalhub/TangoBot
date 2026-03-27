@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hublogo.png" class="hero-logo" />
+  <img src="../assets/hublogo.png" class="hero-logo" />
 </p>
 
 <div class="hero-container">

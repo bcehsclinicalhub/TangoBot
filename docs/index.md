@@ -11,8 +11,8 @@
 
 | Section | Description | Link |
 | :--- | :--- | :--- |
-| **Clinical Procedures** | Clinical Guidelines and other clinical references | [View Clinical Procedures →](clinical/index.md) |
-| **Operational Guidelines** | Practice Updates and operational resources | [View Operational Guidelines →](operational/index.md) |
+| **Clinical Procedures** | Clinical Guidelines and other clinical references | [Clinical Procedures →](clinical/index.md) |
+| **Operational Guidelines** | Practice Updates and operational resources | [Operational Guidelines →](operational/index.md) |
 | **Safety Data Sheets** | Safety data sheets and other exposure resources | [Safety Data Sheets →](chemical/index.md) |
 
 ## ⚠️ Critical Alerts
