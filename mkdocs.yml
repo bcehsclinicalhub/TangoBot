@@ -5,16 +5,17 @@ use_directory_urls: false
 theme:
   name: material
   logo: assets/logo.png
-  favicon: assets/favicon.ico
+  favicon: assets/logo.png
+  language: en
   palette: 
     - scheme: default
-      primary: custom   # Defines the custom colors below
+      primary: custom
       accent: custom
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
     - scheme: slate
-      primary: custom   # For Dark Mode
+      primary: custom
       accent: custom
       toggle:
         icon: material/brightness-4
@@ -42,3 +43,7 @@ extra_css:
   - stylesheets/extra.css
 
 copyright: "Internal Use Only | © 2026 BC Emergency Health Services"
+
+extra:
+  search:
+    placeholder: "Search TangoPulse..."
