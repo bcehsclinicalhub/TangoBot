@@ -92,7 +92,16 @@ body, input {
 }
 
 /* --- 6. ALPHABETICAL INDEX (2-COLUMN GRID) --- */
+
+/* Only style H2s that are immediately followed by an index-grid */
+/* This keeps your Home Page and Procedure Page titles normal size */
 .md-typeset h2 {
+    font-size: 1.5rem; /* Standard size for most pages */
+    color: #333;
+}
+
+/* Big Blue Letters for the Index Pages only */
+.index-section-header {
     display: block !important;
     font-size: 1.8rem !important;
     font-weight: 800 !important;
@@ -104,35 +113,22 @@ body, input {
 
 .index-grid {
     display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important; /* Forces 2 columns */
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 10px 20px !important;
-    margin-top: 20px !important;
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
 }
 
 .index-grid a {
-    font-size: 1rem;
+    font-size: 0.95rem; /* Slightly smaller for better iPad fit */
     font-weight: 500;
     color: #004B8D !important;
     text-decoration: none !important;
     display: block !important;
+    padding: 4px 0;
 }
 
 .index-grid a:hover {
     color: #D32F2F !important;
     text-decoration: underline !important;
-}
-
-/* --- 7. FLOATING UP BUTTON --- */
-.back-to-top {
-    position: fixed !important;
-    bottom: 30px !important;
-    left: 30px !important;
-    background-color: #004B8D !important;
-    color: white !important;
-    padding: 10px 20px !important;
-    border-radius: 50px !important;
-    font-weight: 700 !important;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.3) !important;
-    z-index: 9999 !important;
-    display: block !important;
 }
