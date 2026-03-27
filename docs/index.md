@@ -21,9 +21,9 @@
 
 ## ⚕️ Clinical Updates
 !!! info "Latest Protocols & SDS"
-    * **CPG E07 Updated**: Revised protocols for high-ambient temperature transport. [Visit the Handbook →](https://handbook.bcehs.ca/clinical-practice-guidelines/e-medical-emergencies/e07-nausea-and-vomiting/)
-    * **New SDS Added**: CaviCide HP surface disinfectant.
-    * **TangoPulse v1.2**: Switched to Body-Search layout and finalized BCEHS branding.
+    * **Epi Infusion**: Updated epinephrine under medication infusions to include 15 drop set change. [Visit the Handbook →](https://handbook.bcehs.ca/drug-monographs/medication-infusions/epinephrine-infusion/)
+    * **Parenteral ondansetron**: Ondansetron will now be considered first line parenteral antiemetic for most causes of nausea and vomiting. Orally dissolving tablets of ondansetron will continue to be available and should still be used where appropriate.[More Info on the Intranet](https://intranet.bcehs.ca/mlink/post/MzMxNw){:target="_blank"}
+    * **Updated M09**: : updated Neonatal Resuscitation flowchart. [Visit the Handbook→] (https://handbook.bcehs.ca/clinical-practice-guidelines/m-pediatric-and-neonatal-emergencies/m09-neonatal-resuscitation/) {:target='_blank"}
 
 ## 📣 Wiki News
 !!! success "Introducing TangoPulse (April 2026)"

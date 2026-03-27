@@ -30,7 +30,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Clinical Procedures: clinical/index.md
+  - Clinical References: clinical/index.md
   - Operational Guidelines: operational/index.md
   - Safety Data Sheets: chemical/index.md
 
