@@ -147,34 +147,25 @@ body, input {
 
 .index-links {
     flex: 1;
-}
-
-/* THE CLINICAL CURE: This forces each link onto its own line */
-.index-links ul {
-    list-style: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-.index-links li {
-    display: block !important; /* Force separate lines */
-    margin-bottom: 10px !important;
+    display: flex !important;
+    flex-direction: column !important; /* Forces vertical stack for HTML links */
+    gap: 12px !important;
 }
 
 .index-links a {
     font-size: 1.15rem;
     font-weight: 500;
-    color: #004B8D;
-    text-decoration: none;
-    display: inline-block;
+    color: #004B8D !important;
+    text-decoration: none !important;
+    display: block !important; /* Ensures one link per line */
 }
 
 .index-links a:hover {
-    color: #D32F2F;
-    text-decoration: underline;
+    color: #D32F2F !important;
+    text-decoration: underline !important;
 }
 
-/* Hides standard H2s visually but keeps them for TOC sidebar */
+/* Hide standard H2s visually but keep them for TOC sidebar */
 .md-typeset h2 {
     display: none !important; 
 }
@@ -183,7 +174,7 @@ body, input {
 .back-to-top {
     position: fixed;
     bottom: 30px;
-    left: 30px; /* Pinned to the left for easy thumb access on iPad */
+    left: 30px;
     background-color: #004B8D;
     color: white !important;
     padding: 10px 20px;
