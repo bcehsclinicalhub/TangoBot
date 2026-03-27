@@ -24,7 +24,6 @@ body, input {
 }
 
 /* ZONE 2: TITLE (DEAD CENTER) */
-/* We use absolute centering so it doesn't care where the logo/search are */
 .md-header__title {
     position: absolute !important;
     left: 50% !important;
@@ -44,14 +43,22 @@ body, input {
 /* ZONE 3: SEARCH & TOGGLE (FAR RIGHT) */
 .md-header__search {
     order: 1 !important;
-    margin-left: auto !important; /* Pushes everything to the right */
+    margin-left: auto !important; 
     margin-right: 15px !important;
+    width: 250px !important; 
     z-index: 10;
 }
 
 .md-header__option {
     order: 2 !important;
     z-index: 10;
+}
+
+/* Search Input Text Fixes */
+.md-search__input {
+    padding-left: 2.5rem !important; 
+    line-height: 1.5 !important;
+    font-size: 0.9rem !important;
 }
 
 /* Header logo color fix */
@@ -93,13 +100,16 @@ body, input {
     opacity: 0.8;
 }
 
-/* --- 4. TANGO-PULSE SEARCH ICON (THE FINAL HIDE) --- */
-/* This kills the magnifying glass icon and all other SVGs in the search box */
+/* --- 4. TANGO-PULSE SEARCH ICON --- */
 .md-search__icon svg {
     display: none !important;
 }
 
-/* Add the Red ECG Pulse */
+.md-search__icon[for="__search"] {
+    padding-top: 4px !important;
+    left: 0.5rem !important;
+}
+
 .md-search__icon[for="__search"]::before {
     background-color: #FF0000;
     -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
@@ -109,16 +119,4 @@ body, input {
     width: 1.2rem;
     height: 1.2rem;
     margin-top: 3px;
-}
-/* Fixes the jumbled/overlapping text in the search bar */
-.md-search__input {
-    padding-left: 2.5rem !important; /* Pushes text to the right of the ECG pulse */
-    line-height: 1.5 !important;    /* Resets text height so it doesn't squish */
-    font-size: 0.9rem !important;   /* Professional, legible size */
-}
-
-/* Ensures the Red Pulse doesn't overlap the 'Search TangoPulse...' placeholder */
-.md-search__icon[for="__search"] {
-    padding-top: 4px !important;
-    left: 0.5rem !important;
 }
