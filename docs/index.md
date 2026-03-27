@@ -19,8 +19,6 @@
 !!! danger "Parenteral ondansetron now available for use in practice at the PCP license level."
     **February 20, 2026**: Ondansetron will now be considered first line parenteral antiemetic for most causes of nausea and vomiting. Orally dissolving tablets of ondansetron will continue to be available and should still be used where appropriate. Parenteral dimenHYDRINATE will continue to be used as first line for nausea and vomiting associated with motion sickness, vertigo, and pregnancy and where ondansetron is contraindicated. [More Info on the Intranet](https://intranet.bcehs.ca/mlink/post/MzMxNw){:target="_blank"}
 
-## ⚕️ Clinical Updates
-!!! info "Latest Practice and CPG Updates"
 
 ## ⚕️ Clinical Updates
 !!! info "Latest Practice and CPG Updates"

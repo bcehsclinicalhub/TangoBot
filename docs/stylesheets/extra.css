@@ -135,3 +135,15 @@ body, input {
     margin-top: 0 !important;
     letter-spacing: 0.02em;
 }
+
+/* --- 8. FORCE BOLDING FIX --- */
+.md-typeset strong, 
+.md-typeset b {
+    font-weight: 700 !important;
+    color: #000000 !important; /* Ensuring it's deep black for contrast */
+}
+
+/* Specific fix for the admonition lists */
+.md-typeset .admonition li strong {
+    font-weight: 800 !important; /* Extra weight for visibility */
+}
