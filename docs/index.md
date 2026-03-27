@@ -19,8 +19,8 @@ Welcome to the central portal for all clinical operations, guidelines, and safet
 ## 📣 Latest Wiki Updates
 Stay current on operational changes.
 
-!!! info "April 2026 Introducing TangoBot"
+!!! info "April 2026 Introducing TangoPulse"
     The **Clinical Hub TangoBot** is a new tool to quickly reference all resources that were previosuly available in the Tango shared drive. Over time, we will continue to update with new pages. 
 
 ### ❓ Have a question?
-Try using the **Ask TangoBot** search bar above! You can ask things like *"Where is the staging area for Wreck Beach MCI?"* or *"What is the protocol for bed bugs?"*
+Try using the **Ask TangoPulse** search bar above! You can ask things like *"Where is the staging area for Wreck Beach MCI?"* or *"What is the protocol for bed bugs?"*
