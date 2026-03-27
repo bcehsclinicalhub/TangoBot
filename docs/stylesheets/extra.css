@@ -1,41 +1,24 @@
 /* --- 1. FONTS & GLOBAL --- */
-body, input {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-}
-
-.md-typeset strong, .md-typeset b {
-    font-weight: 800 !important;
-    color: #000000 !important;
-}
+body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 300; }
+.md-typeset strong, .md-typeset b { font-weight: 800 !important; color: #000000 !important; }
 
 /* --- 2. HEADER: PINNED TOGGLE TO RIGHT --- */
-.md-header, .md-tabs {
-    background-color: #004B8D !important;
-}
-
+.md-header, .md-tabs { background-color: #004B8D !important; }
 .md-header__title { display: none !important; }
+.md-header__inner { display: flex !important; align-items: center !important; justify-content: space-between !important; }
 
-.md-header__inner {
-    display: flex !important;
-    align-items: center !important;
+/* LOGO FIX */
+.md-header__button.md-logo img {
+    filter: brightness(0) invert(1) !important;
+    height: 2.8rem !important;
+    width: auto !important;
 }
-
-/* LOGO LEFT */
-.md-header__button.md-logo { margin-right: 20px !important; }
 
 /* SEARCH CENTERED */
-.md-header__search {
-    flex: 1 !important;
-    max-width: 400px !important;
-    margin: 0 auto !important;
-}
+.md-header__search { flex: 0 1 350px !important; margin: 0 auto !important; }
 
-/* DARK MODE TOGGLE FAR RIGHT */
-.md-header__option {
-    margin-left: auto !important;
-    order: 10 !important;
-}
+/* TOGGLE FAR RIGHT */
+.md-header__option { order: 3 !important; margin-left: auto !important; }
 
 /* --- 3. ECG SEARCH ICON --- */
 .md-search__input { padding-left: 2.8rem !important; }
@@ -54,34 +37,15 @@ body, input {
 .hero-title { font-size: 2.2rem !important; font-weight: 800 !important; color: #004B8D !important; display: block; }
 .hero-subtitle { font-size: 1.2rem !important; font-style: italic; color: #555 !important; display: block; }
 
-/* ENSURE TOC IS VISIBLE */
-.md-sidebar--secondary { 
-    display: block !important; 
-    visibility: visible !important;
-}
-
-.index-section-header {
-    display: block !important; font-size: 1.8rem !important; font-weight: 800 !important;
-    color: #004B8D !important; border-bottom: 2px solid #eee; margin-top: 40px !important;
-}
-
-.index-grid {
-    display: grid !important; grid-template-columns: repeat(2, 1fr) !important;
-    gap: 10px 20px !important; margin-top: 15px !important;
-}
-
+.index-section-header { display: block !important; font-size: 1.8rem !important; font-weight: 800 !important; color: #004B8D !important; border-bottom: 2px solid #eee; margin-top: 40px !important; }
+.index-grid { display: grid !important; grid-template-columns: repeat(2, 1fr) !important; gap: 10px 20px !important; margin-top: 15px !important; }
 .index-grid a { font-size: 0.95rem; font-weight: 500; color: #004B8D !important; text-decoration: none !important; display: block !important; }
 
-/* --- 5. FOOTER --- */
+/* --- 5. FOOTER & CLEANUP --- */
 .md-footer, .md-footer-meta { background-color: #004B8D !important; }
 .md-footer-meta__inner { display: flex !important; justify-content: center !important; color: white !important; padding: 20px 0 !important; }
 .md-footer-meta__inner::after { content: "Internal Use Only | © 2026 BC Emergency Health Services"; font-size: 0.8rem; opacity: 0.8; }
-.md-copyright, .headerlink { display: none !important; }
+.md-copyright, .headerlink, .md-content__button { display: none !important; }
 
 /* --- 7. FLOATING NAV --- */
-.back-to-top {
-    position: fixed !important; bottom: 30px !important; left: 30px !important;
-    background-color: #004B8D !important; color: white !important; padding: 10px 20px !important;
-    border-radius: 50px !important; font-weight: 700; z-index: 9999 !important;
-    text-decoration: none !important;
-}
+.back-to-top { position: fixed !important; bottom: 30px !important; left: 30px !important; background-color: #004B8D !important; color: white !important; padding: 10px 20px !important; border-radius: 50px !important; font-weight: 700; z-index: 9999 !important; text-decoration: none !important; }
