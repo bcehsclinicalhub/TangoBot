@@ -107,3 +107,15 @@ body, input {
     font-size: 0.8rem;
     opacity: 0.8;
 }
+/* --- 7. HERO LEAD STYLING (PSEUDO-TITLE) --- */
+.hero-lead {
+    font-size: 1.4rem !important; /* Larger than standard text */
+    font-weight: 700 !important;   /* Bold */
+    color: #004B8D !important;     /* BCEHS Blue */
+    text-align: center;            /* Centered under the logo */
+    margin: 20px 0 40px 0 !important;
+    line-height: 1.4;
+    max-width: 800px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

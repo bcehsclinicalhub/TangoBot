@@ -2,16 +2,17 @@
   <img src="assets/hublogo.png" class="hero-logo" />
 </p>
 
-<p align="center">Welcome to <strong>TangoPulse</strong>—the clinical operations wiki for BCEHS Clinical Hub staff.</p>
-
+<p class="hero-lead">
+  Welcome to TangoPulse—the clinical operations wiki for BCEHS Clinical Hub staff.
+</p>
 ---
 ## 🚑 Key Sections
 
 | Section | Description | Link |
 | :--- | :--- | :--- |
-| **Clinical Procedures** | SOP, SOG, and clinical resources | [View Clinical Procedures →](clinical/bed-bugs-procedure.md) |
-| **Operational Guidelines** | Provincial Operational resources | [View Operational Guidelines →](operational/wreck-beach-procedure.md) |
-| **Safety Data Sheets** | SDS and chemical handling | [Safety Data Sheets →](chemical/sodium-hypochlorite.md) |
+| **Clinical Procedures** | SOP, SOG, and clinical resources | [View Clinical Procedures →](clinical/index.md) |
+| **Operational Guidelines** | Provincial Operational resources | [View Operational Guidelines →](operational/index.md) |
+| **Safety Data Sheets** | SDS and chemical handling | [Safety Data Sheets →](chemical/index.md) |
 
 ## ⚠️ Critical Alerts
 !!! danger "Staging Area Change: Wreck Beach"
