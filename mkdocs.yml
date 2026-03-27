@@ -5,17 +5,17 @@ use_directory_urls: false
 theme:
   name: material
   logo: assets/logo.png
-  favicon: assets/logo.png
+  favicon: assets/favicon.ico
   palette: 
     - scheme: default
-      primary: red
-      accent: red
+      primary: custom   # Defines the custom colors below
+      accent: custom
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
     - scheme: slate
-      primary: red
-      accent: red
+      primary: custom   # For Dark Mode
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode

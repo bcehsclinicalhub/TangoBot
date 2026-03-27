@@ -1,0 +1,40 @@
+/* This makes the logo in the top navigation bar larger */
+.md-header__button.md-logo img {
+    height: 3.5rem; /* Default is usually 1.5rem or 2rem */
+    width: auto;
+}
+
+/* This centers and sizes the logo on your Landing Page */
+.hero-logo {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* --- BCEHS Portal Customization --- */
+
+/* Centers and improves the hero text/logo on the home page */
+.hero-logo {
+    width: 350px; /* Slightly larger BCEHS branding */
+    display: block;
+    margin: 0 auto 30px auto; /* Centered with a 30px gap below */
+}
+
+/* Identifies the Home Page and hides the Main Header Menu (Tabs) */
+[data-md-color-scheme="default"][data-md-id="__home"] .md-header__topic {
+    display: none;
+}
+
+/* Ensures the header titles and search icon are vertically aligned */
+.md-header__topic {
+    display: flex;
+    align-items: center;
+}
+
+/* --- BCEHS Color Definition --- */
+:root {
+  --md-primary-fg-color: #004B8D;   /* Official BCEHS Blue */
+  --md-primary-bg-color: #004B8D;
+  --md-accent-fg-color:  #FF0000;   /* Official BCEHS Red */
+  --md-accent-bg-color:  #FF0000;
+}
