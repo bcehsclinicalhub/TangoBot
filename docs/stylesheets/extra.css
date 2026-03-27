@@ -5,17 +5,29 @@ body, input {
 }
 
 /* --- 2. HEADER & TABS: MATCHING BCEHS BLUE --- */
-.md-header, 
-.md-tabs {
-    background-color: #004B8D !important; /* Force both bars to match */
+.md-header, .md-tabs {
+    background-color: #004B8D !important;
 }
 
+/* TRUE CENTERING: Forces the title to the absolute middle */
 .md-header__title {
-    flex-grow: 1;
-    text-align: center;
-    font-size: 1.5rem; 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    z-index: 0;
+}
+
+.md-header__topic {
+    font-size: 1.6rem; 
     font-weight: 500;
-    margin-left: -48px; 
+    white-space: nowrap; 
+}
+
+/* Ensure Logo and Search icons stay on top of the centered title */
+.md-header__button.md-logo, 
+.md-header__search {
+    z-index: 1;
 }
 
 /* Header logo color fix */
@@ -32,31 +44,34 @@ body, input {
     margin: -20px auto 20px auto;
 }
 
+/* Hide breadcrumbs and the extra "Home" title in the body */
 .md-breadcrumb, .md-content h1:first-child {
     display: none;
 }
 
-/* --- 4. FOOTER: BLUE BAR RESTORED --- */
+/* --- 4. FOOTER: BLUE BAR & COPYRIGHT --- */
 .md-footer {
     background-color: #004B8D !important;
-    display: block !important; /* Ensure it isn't hidden */
 }
 
 .md-footer-meta {
     background-color: #004B8D !important;
     border-top: none;
+    display: flex;
+    justify-content: center;
 }
 
-/* Hide only the 'Made with MkDocs' text, not the bar itself */
+/* Hide the 'Made with MkDocs' branding */
 .md-copyright {
     display: none;
 }
 
-/* Show our custom copyright text if added to yml */
+/* This makes your 'Internal Use Only' text visible in white */
 .md-footer-meta__inner {
-    display: flex;
+    display: flex !important;
     justify-content: center;
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 0.75rem;
-    padding: 15px 0;
+    color: white !important;
+    opacity: 0.9;
+    font-size: 0.8rem;
+    padding: 20px 0;
 }
