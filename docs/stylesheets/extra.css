@@ -131,12 +131,12 @@ body, input {
     align-items: flex-start;
     gap: 30px;
     margin-bottom: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     border-bottom: 1px solid #f0f0f0;
 }
 
 .index-letter {
-    font-size: 2.5rem; /* Standardized smaller size */
+    font-size: 2.5rem;
     font-weight: 800;
     color: #004B8D;
     line-height: 1.2;
@@ -149,17 +149,21 @@ body, input {
     flex: 1;
 }
 
-.index-links ul {
-    list-style: disc !important;
-    padding-left: 20px !important;
+/* FORCE VERTICAL ALIGNMENT: Targets both lists and raw paragraph links */
+.index-links ul, 
+.index-links p {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
     margin: 0 !important;
+    padding: 0 !important;
+    list-style: disc !important;
 }
 
-.index-links li {
-    margin-bottom: 8px !important; /* Force each item to own line */
-}
-
-.index-links li a {
+.index-links li,
+.index-links a {
+    display: block !important;
+    margin-bottom: 5px !important;
     font-size: 1.1rem;
     font-weight: 500;
     color: #004B8D;
@@ -174,4 +178,25 @@ body, input {
 /* Hide standard H2s visually but keep them for TOC sidebar */
 .md-typeset h2 {
     display: none !important; 
+}
+
+/* --- 7. FLOATING NAV (UP LINK) --- */
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    left: 30px; /* Pinned to the left for easy thumb access on iPad */
+    background-color: #004B8D;
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: all 0.2s ease-in-out;
+}
+
+.back-to-top:hover {
+    background-color: #D32F2F;
+    transform: translateY(-3px);
 }
