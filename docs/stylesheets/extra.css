@@ -3,7 +3,7 @@ body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-
 .md-typeset strong, .md-typeset b { font-weight: 800 !important; color: #000000 !important; }
 
 /* --- 2. HEADER: LOCKED POSITIONS --- */
-.md-header, .md-tabs { background-color: #004B8D !important; height: 3.5rem !important; }
+.md-header, .md-tabs { background-color: #004B8D !important; height: 3.5rem !important; border: none !important; }
 .md-header__title { display: none !important; } 
 
 .md-header__inner {
@@ -19,10 +19,10 @@ body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-
     width: auto !important;
 }
 
-/* SEARCH: Pushed to the Right per your arrow */
+/* SEARCH: Pushed to the Right */
 .md-header__search {
     position: absolute !important;
-    right: 120px !important; /* Shifting further right */
+    right: 120px !important; 
     width: 300px !important;
     margin: 0 !important;
 }
@@ -44,25 +44,33 @@ body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-
     position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
 }
 
-/* --- 4. HERO SECTION (CENTERED & BLUE) --- */
+/* --- 4. HERO SECTION --- */
 .hero-logo { width: 350px !important; display: block; margin: 0 auto 20px auto; }
 .hero-container { text-align: center; margin: 20px auto 40px auto !important; }
-.hero-title { font-size: 2.2rem !important; font-weight: 800 !important; color: #004B8D !important; display: block; line-height: 1.2; }
-.hero-subtitle { font-size: 1.2rem !important; font-style: italic; color: #555 !important; display: block; margin-top: 5px !important; }
+.hero-title { font-size: 2.2rem !important; font-weight: 800 !important; color: #004B8D !important; display: block; }
+.hero-subtitle { font-size: 1.2rem !important; font-style: italic; color: #555 !important; display: block; }
 
-/* --- 5. CLEANUP: THE "WHITE BAR" KILLER --- */
-/* This removes the breadcrumb bar and the extra page titles */
-.md-main__inner { margin-top: 0 !important; }
-.md-nav__source, .md-breadcrumb, .headerlink, .md-copyright, .md-content h1:first-child { display: none !important; }
+/* --- 5. THE "GAP KILLER" (FORCE COLLAPSE) --- */
+/* This forces the main content area to sit flush against the blue bars */
+.md-main__inner { margin-top: 0 !important; padding-top: 0 !important; }
+.md-content { margin-top: 0 !important; }
 
+/* Hide the White Breadcrumb Bar Completely */
+nav.md-breadcrumb { display: none !important; }
+.md-nav__item--active { display: none !important; } /* Targets that "Home" link */
+
+/* Hide standard page titles and copyright */
+.headerlink, .md-copyright, .md-content h1:first-child { display: none !important; }
+
+/* --- 6. FOOTER --- */
 .md-footer, .md-footer-meta { background-color: #004B8D !important; border-top: none !important; }
 .md-footer-meta__inner { display: flex !important; justify-content: center !important; color: white !important; padding: 20px 0 !important; }
 .md-footer-meta__inner::after { content: "Internal Use Only | © 2026 BC Emergency Health Services"; font-size: 0.85rem; }
 
-/* --- 6. INDEX GRID --- */
+/* --- 7. INDEX GRID --- */
 .index-section-header { display: block !important; font-size: 1.8rem !important; font-weight: 800 !important; color: #004B8D !important; border-bottom: 2px solid #eee; margin-top: 40px !important; }
 .index-grid { display: grid !important; grid-template-columns: repeat(2, 1fr) !important; gap: 10px 40px !important; margin-top: 15px !important; }
 .index-grid a { font-size: 1rem; font-weight: 500; color: #004B8D !important; text-decoration: none !important; display: block !important; }
 
-/* --- 7. FLOATING NAV --- */
+/* --- 8. FLOATING NAV --- */
 .back-to-top { position: fixed !important; bottom: 30px !important; left: 30px !important; background-color: #004B8D !important; color: white !important; padding: 10px 20px !important; border-radius: 50px !important; font-weight: 700; z-index: 9999 !important; text-decoration: none !important; }
