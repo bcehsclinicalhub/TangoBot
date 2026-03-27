@@ -75,9 +75,8 @@ body, input {
 }
 
 /* --- 4. MAIN PAGE: HERO IMAGE FIX --- */
-/* Shrinks that massive banner to half size */
 .hero-logo {
-    width: 350px !important; /* Half the current size */
+    width: 350px !important;
     display: block;
     margin: 0 auto 20px auto;
 }
@@ -108,25 +107,31 @@ body, input {
     opacity: 0.8;
 }
 
+/* --- 6. REMOVE PERMALINK ICONS --- */
+.headerlink {
+    display: none !important;
+}
+
 /* --- 7. HERO TEXT HIERARCHY --- */
 .hero-container {
     text-align: center;
-    margin: 20px auto 40px auto !important;
+    margin: 30px auto 40px auto !important;
     max-width: 900px;
 }
 
 .hero-title {
-    font-size: 2.2rem !important; /* Large and authoritative */
+    font-size: 2.2rem !important; 
     font-weight: 800 !important;
     color: #004B8D !important;
-    margin-bottom: 5px !important;
+    margin-bottom: 2px !important;
     line-height: 1.2;
 }
 
 .hero-subtitle {
-    font-size: 1.2rem !important; /* Smaller than title */
-    font-style: italic;           /* Italicized as requested */
+    font-size: 1.2rem !important; 
+    font-style: italic;           
     font-weight: 400 !important;
-    color: #444 !important;       /* Slightly softer grey/black */
+    color: #555 !important;       
     margin-top: 0 !important;
+    letter-spacing: 0.02em;
 }
