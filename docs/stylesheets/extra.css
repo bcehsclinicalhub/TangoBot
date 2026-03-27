@@ -4,19 +4,18 @@ body, input {
     font-weight: 300;
 }
 
-/* --- 2. HEADER: PINNED ENDS & CENTERED TITLE --- */
+/* --- 2. HEADER & TABS: BCEHS BLUE --- */
 .md-header, .md-tabs {
     background-color: #004B8D !important;
 }
 
-/* Forces the header to spread its children to the far edges */
 .md-header__inner {
     display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
 }
 
-/* PINS TITLE IN CENTER: Absolute positioning relative to the header bar */
+/* TITLE: Absolute Center */
 .md-header__title .md-header__topic {
     display: block !important;
     position: absolute;
@@ -26,31 +25,37 @@ body, input {
     font-size: 1.6rem !important;
     font-weight: 700 !important;
     color: white !important;
-    white-space: nowrap;
     z-index: 5;
+    white-space: nowrap;
 }
 
-/* PINS LOGO ON FAR LEFT */
+/* LOGO: Pinned Left */
 .md-header__button.md-logo {
-    order: 1;
-    margin-right: auto !important;
+    order: 1 !important;
     z-index: 10;
 }
 
-/* PINS SEARCH ON FAR RIGHT */
+/* SEARCH: Pinned Right (but before Toggle) */
 .md-header__search {
-    order: 3;
+    order: 2 !important;
     margin-left: auto !important;
+    margin-right: 15px !important;
     z-index: 10;
 }
 
-/* Header logo color fix */
+/* DARK MODE TOGGLE: Pinned Far Right */
+.md-header__option {
+    order: 3 !important;
+    z-index: 10;
+}
+
+/* Header logo color fix (White) */
 .md-header__button.md-logo img {
     filter: brightness(0) invert(1);
     height: 2.8rem !important;
 }
 
-/* Remove hover popup tooltips */
+/* Remove hover tooltips */
 .md-header__button[title], .md-logo[title] {
     pointer-events: none;
 }
@@ -89,13 +94,14 @@ body, input {
     opacity: 0.8;
 }
 
-/* --- 5. TANGO-PULSE SEARCH ICON --- */
+/* --- 5. TANGO-PULSE SEARCH ICON & CLEANUP --- */
+/* Hide ALL default search SVGs (magnifying glass, reset, etc) */
+.md-search__icon svg {
+    display: none !important;
+}
+
+/* Add the Red ECG Pulse */
 .md-search__icon[for="__search"]::before {
     background-color: #FF0000;
     -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
-    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z" /></svg>');
-    content: "";
-    display: block;
-    width: 1.2rem;
-    height: 1.2rem;
-}
+    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5
