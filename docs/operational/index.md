@@ -1,6 +1,6 @@
 <div align="center">
   <img src="../assets/hublogo.png" class="hero-logo-small" />
-  <h1 style="margin-top: 10px;">💉 Operational Guidelines</h1>
+  <h1 style="margin-top: 10px;">🚑 Operational Guidelines</h1>
 </div>
 
 ## B

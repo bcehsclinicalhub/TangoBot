@@ -1,15 +1,34 @@
-<p align="center">
-  <img src="../assets/logo.png" class="hero-logo" />
-</p>
+<div align="center">
+  <img src="../assets/hublogo.png" class="hero-logo-small" />
+  <h1 style="margin-top: 10px;">☣️ Chemical Data Sheets</h1>
+</div>
 
+## B
+<div class="index-grid">
+    <a href="sodium-hypochlorite/">Sodium Chlorite</a>
+    <a href="bp-monitoring/">Blood Pressure Monitoring</a>
+    <a href="cold-exposure/">Cold Weather Exposure</a>
+</div>
 
-\| TangoBot | Chemicals
+## C
+<div class="index-grid">
+    <a href="cardiac-arrest/">Cardiac Arrest - Adult</a>
+    <a href="cavicide-sds/">CaviCide HP Application</a>
+    <a href="cold-exposure/">Cold Weather Exposure</a>
+</div>
 
+## G
+<div class="index-grid">
+    <a href="bed-bugs-procedure/">Bed Bugs</a>
+    <a href="bp-monitoring/">Blood Pressure Monitoring</a>
+    <a href="burns/">Burns - Initial Assessment</a>
+</div>
 
-# Safety Data Sheets
-Select a chemical below for safety and handling protocols.
+## H
+<div class="index-grid">
+    <a href="cardiac-arrest/">Cardiac Arrest - Adult</a>
+    <a href="cavicide-sds/">CaviCide HP Application</a>
+    <a href="cold-exposure/">Cold Weather Exposure</a>
+</div>
 
----
-### 🧪 Available Sheets
-* [Sodium Hypochlorite](sodium-hypochlorite.md)
-
+<a href="#" class="back-to-top">↑ TOP</a>
