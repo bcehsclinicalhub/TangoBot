@@ -16,8 +16,25 @@ body, input {
     border: none !important; 
 }
 
-/* HIDE "HOME" TEXT AND BREADCRUMBS */
-.md-header__title, .md-breadcrumb, .md-typeset h1:first-child { 
+/* SMART H1 LOGIC */
+/* Hide the "Home" title ONLY on the landing page */
+.hero-text-container + h1, 
+.md-content__inner > h1:first-child:has(+ .hero-text-container) {
+    display: none !important;
+}
+
+/* Style the restored H1 for SOG and Procedure pages */
+.md-typeset h1 {
+    display: block !important;
+    font-size: 2.2rem !important;
+    font-weight: 800 !important;
+    color: #004B8D !important;
+    margin-bottom: 0.5rem !important;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.md-header__title, .md-breadcrumb { 
     display: none !important; 
 }
 
@@ -70,7 +87,7 @@ body, input {
     content: ""; display: block; width: 1.3rem; height: 1.3rem; position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
 }
 
-/* --- 4. HOME PAGE HERO & LOGO --- */
+/* --- 4. HERO & LOGO --- */
 .hero-text-container {
     text-align: center;
     margin-bottom: 30px;
@@ -78,7 +95,7 @@ body, input {
 }
 
 .hero-logo-small {
-    width: 250px !important; /* Half size as requested */
+    width: 250px !important; 
     display: block;
     margin: 0 auto 15px auto;
 }
@@ -99,7 +116,6 @@ body, input {
 }
 
 /* --- 5. SECTION HEADERS (HOME & PROCEDURES) --- */
-/* This handles "Key Sections" and keeps it a reasonable size */
 .md-typeset h2 {
     font-size: 1.4rem !important;
     font-weight: 700 !important;
@@ -110,7 +126,6 @@ body, input {
 }
 
 /* --- 6. CATEGORY LETTERS (SUB-PAGE INDEXES ONLY) --- */
-/* Use <span class="category-letter">B</span> in your Markdown */
 .category-letter {
     display: block !important;
     font-size: 2rem !important;
