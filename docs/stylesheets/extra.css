@@ -1,218 +1,238 @@
 /* --- 1. FONTS & GLOBAL --- */
+
 body, input {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 300;
 }
 
 .md-typeset strong,
 .md-typeset b {
-  font-weight: 800 !important;
-  color: #000000 !important;
+font-weight: 800 !important;
+color: #000000 !important;
 }
-
 
 /* --- 2. HEADER --- */
 
 .md-header,
 .md-tabs {
-  background-color: #004B8D !important;
-  border: none !important;
+background-color: #004B8D !important;
+border: none !important;
 }
 
-/* remove site title text */
+/* hide site title text */
 .md-header__title {
-  display: none !important;
+display: none !important;
 }
 
 /* header layout */
 .md-header__inner {
-  display: flex !important;
-  align-items: center !important;
+display: flex !important;
+align-items: center !important;
 }
 
 /* LOGO */
+
 .md-header__button.md-logo img {
-  filter: brightness(0) invert(1) !important;
-  height: 2.8rem !important;
-  width: auto !important;
+filter: brightness(0) invert(1) !important;
+height: 2.8rem !important;
+width: auto !important;
 }
 
-
-/* SEARCH BAR (RIGHT SIDE) */
+/* --- 3. SEARCH BAR (BCEHS STYLE) --- */
 
 .md-header__search {
-  margin-left: auto !important;
-  margin-right: 70px !important;
-  width: 320px !important;
+margin-left: auto !important;
+margin-right: 10px !important;
+width: 340px !important;
 }
 
-/* remove white search bar */
+/* remove default material search background */
+
 .md-search__form {
-  background: transparent !important;
-  box-shadow: none !important;
+background: transparent !important;
+box-shadow: none !important;
 }
 
 /* search field styling */
+
 .md-search__input {
-  background: rgba(255,255,255,0.15) !important;
-  color: white !important;
-  border-radius: 6px !important;
-  padding-left: 2.6rem !important;
+background: rgba(255,255,255,0.15) !important;
+color: white !important;
+
+border-radius: 25px !important;
+border: 1px solid rgba(255,255,255,0.25) !important;
+
+height: 2.1rem !important;
+
+padding-left: 2.6rem !important;
+
+transition: all 0.2s ease !important;
 }
 
 /* placeholder text */
+
 .md-search__input::placeholder {
-  color: rgba(255,255,255,0.85) !important;
+color: rgba(255,255,255,0.8) !important;
 }
 
+/* glow when focused */
 
-/* DARK MODE TOGGLE */
+.md-search__input:focus {
+background: rgba(255,255,255,0.22) !important;
+box-shadow: 0 0 6px rgba(255,255,255,0.35) !important;
+}
+
+/* --- 4. DARK MODE BUTTON --- */
 
 .md-header__option {
-  margin-left: auto !important;
+margin-left: 5px !important;
+margin-right: 10px !important;
 }
 
+/* --- 5. ECG SEARCH ICON --- */
 
-/* --- 3. ECG SEARCH ICON --- */
+.md-search__input {
+padding-left: 2.8rem !important;
+}
 
 .md-search__icon svg {
-  display: none !important;
+display: none !important;
 }
 
 .md-search__icon[for="__search"]::before {
-  background-color: #FF0000;
 
-  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
-  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
+background-color: #FF0000;
 
-  content: "";
-  display: block;
-  width: 1.3rem;
-  height: 1.3rem;
+-webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
+mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
 
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
+content: "";
+
+display: block;
+
+width: 1.3rem;
+height: 1.3rem;
+
+position: absolute;
+left: 12px;
+top: 50%;
+
+transform: translateY(-50%);
 }
 
-
-/* --- 4. HERO SECTION --- */
+/* --- 6. HERO SECTION --- */
 
 .hero-logo {
-  width: 350px !important;
-  display: block;
-  margin: 0 auto 20px auto;
+width: 350px !important;
+display: block;
+margin: 0 auto 20px auto;
 }
 
 .hero-container {
-  text-align: center;
-  margin: 10px auto 40px auto !important;
+text-align: center;
+margin: 10px auto 40px auto !important;
 }
 
 .hero-title {
-  font-size: 2.2rem !important;
-  font-weight: 800 !important;
-  color: #004B8D !important;
-  margin-bottom: 5px !important;
+font-size: 2.2rem !important;
+font-weight: 800 !important;
+color: #004B8D !important;
+margin-bottom: 5px !important;
 }
 
 .hero-subtitle {
-  font-size: 1.2rem !important;
-  font-style: italic;
-  color: #555 !important;
-  margin-top: 0 !important;
+font-size: 1.2rem !important;
+font-style: italic;
+color: #555 !important;
+margin-top: 0 !important;
 }
 
-
-/* --- 5. GAP KILLER --- */
+/* --- 7. GAP KILLER --- */
 
 .md-main__inner {
-  margin-top: 0 !important;
-  padding-top: 0 !important;
+margin-top: 0 !important;
+padding-top: 0 !important;
 }
 
 .md-content {
-  margin-top: 0 !important;
+margin-top: 0 !important;
 }
 
-
 /* hide breadcrumb bar */
+
 nav.md-breadcrumb {
-  display: none !important;
+display: none !important;
 }
 
 .md-nav__item--active {
-  display: none !important;
+display: none !important;
 }
 
-/* hide page title + copyright text */
+/* hide page titles */
+
 .headerlink,
 .md-copyright,
 .md-content h1:first-child {
-  display: none !important;
+display: none !important;
 }
 
-
-/* --- 6. FOOTER --- */
+/* --- 8. FOOTER --- */
 
 .md-footer,
 .md-footer-meta {
-  background-color: #004B8D !important;
-  border-top: none !important;
+background-color: #004B8D !important;
+border-top: none !important;
 }
 
 .md-footer-meta__inner {
-  display: flex !important;
-  justify-content: center !important;
-  color: white !important;
-  padding: 20px 0 !important;
+display: flex !important;
+justify-content: center !important;
+color: white !important;
+padding: 20px 0 !important;
 }
 
 .md-footer-meta__inner::after {
-  content: "Internal Use Only | © 2026 BC Emergency Health Services";
-  font-size: 0.85rem;
+content: "Internal Use Only | © 2026 BC Emergency Health Services";
+font-size: 0.85rem;
 }
 
-
-/* --- 7. INDEX GRID --- */
+/* --- 9. INDEX GRID --- */
 
 .index-section-header {
-  display: block !important;
-  font-size: 1.8rem !important;
-  font-weight: 800 !important;
-  color: #004B8D !important;
-  border-bottom: 2px solid #eee;
-  margin-top: 40px !important;
+display: block !important;
+font-size: 1.8rem !important;
+font-weight: 800 !important;
+color: #004B8D !important;
+border-bottom: 2px solid #eee;
+margin-top: 40px !important;
 }
 
 .index-grid {
-  display: grid !important;
-  grid-template-columns: repeat(2, 1fr) !important;
-  gap: 10px 40px !important;
-  margin-top: 15px !important;
+display: grid !important;
+grid-template-columns: repeat(2, 1fr) !important;
+gap: 10px 40px !important;
+margin-top: 15px !important;
 }
 
 .index-grid a {
-  font-size: 1rem;
-  font-weight: 500;
-  color: #004B8D !important;
-  text-decoration: none !important;
-  display: block !important;
+font-size: 1rem;
+font-weight: 500;
+color: #004B8D !important;
+text-decoration: none !important;
+display: block !important;
 }
 
-
-/* --- 8. FLOATING NAV --- */
+/* --- 10. FLOATING NAV --- */
 
 .back-to-top {
-  position: fixed !important;
-  bottom: 30px !important;
-  left: 30px !important;
-  background-color: #004B8D !important;
-  color: white !important;
-  padding: 10px 20px !important;
-  border-radius: 50px !important;
-  font-weight: 700;
-  z-index: 9999 !important;
-  text-decoration: none !important;
+position: fixed !important;
+bottom: 30px !important;
+left: 30px !important;
+background-color: #004B8D !important;
+color: white !important;
+padding: 10px 20px !important;
+border-radius: 50px !important;
+font-weight: 700;
+z-index: 9999 !important;
+text-decoration: none !important;
 }
