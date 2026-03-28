@@ -93,3 +93,21 @@ body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-
   border-bottom: 2px solid #eee; margin-top: 40px !important;
 }
 .index-grid { display: grid !important; grid-template-columns: repeat(2,1fr) !important; gap: 10px 40px !important; }
+
+/* --- 7. HERO (TIGHTENED SPACING) --- */
+
+.hero-title {
+  font-size: 2.2rem !important;
+  font-weight: 800 !important;
+  color: #004B8D !important;
+  margin-bottom: 0 !important; /* Removes bottom gap from title */
+  padding-bottom: 0 !important;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem !important;
+  font-style: italic;
+  color: #555 !important;
+  margin-top: -5px !important; /* Pulls subtitle UP toward title */
+  display: block;
+}
