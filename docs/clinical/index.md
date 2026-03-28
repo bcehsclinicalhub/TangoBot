@@ -4,7 +4,6 @@
 </div>
 
 ## B { #B }
-<div class="index-section-header">B</div>
 <div class="index-grid">
     <a href="bed-bugs-procedure/">Bed Bugs</a>
     <a href="bp-monitoring/">Blood Pressure Monitoring</a>
@@ -12,7 +11,6 @@
 </div>
 
 ## C { #C }
-<div class="index-section-header">C</div>
 <div class="index-grid">
     <a href="cardiac-arrest/">Cardiac Arrest - Adult</a>
     <a href="cavicide-sds/">CaviCide HP Application</a>

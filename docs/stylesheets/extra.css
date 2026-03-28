@@ -153,7 +153,6 @@ body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-
     width: 1.5rem;
     height: 1.5rem;
 }
-}
 
 /* --- TOC GHOST HEADER FIX --- */
 /* This hides the standard ## B headers so they don't clutter the page, 

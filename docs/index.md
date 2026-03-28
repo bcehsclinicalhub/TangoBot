@@ -32,4 +32,5 @@
     The **Clinical Hub TangoPulse** is replacing the old Tango shared drive. This wiki is designed for mobile-first use on crew iPads. We will continue to migrate legacy documents over the coming weeks.
 
 ## ❓ Need Help?
-This site is **NOT** supported by the BCEHS Help Desk | contact Lee Roberts for feedback or support.
+!!! info "Support"
+    This site is **NOT** supported by the BCEHS Help Desk | contact Lee Roberts for feedback or support.
