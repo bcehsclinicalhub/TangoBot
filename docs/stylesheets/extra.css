@@ -95,12 +95,33 @@ body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-
     opacity: 1 !important;
 }
 
-/* --- 6. INDEX GRID --- */
-.index-section-header {
-  font-size: 1.8rem !important; font-weight: 800 !important; color: #004B8D !important;
-  border-bottom: 2px solid #eee; margin-top: 40px !important;
+/* --- 6. INDEX GRID & TOC FIX --- */
+
+/* This styles the ## B and ## C headers for the ToC to find */
+.md-typeset h2 {
+    display: block !important;
+    font-size: 1.8rem !important;
+    font-weight: 800 !important;
+    color: #004B8D !important;
+    border-bottom: 2px solid #eee;
+    margin-top: 30px !important;
+    padding-bottom: 5px !important;
 }
-.index-grid { display: grid !important; grid-template-columns: repeat(2,1fr) !important; gap: 10px 40px !important; }
+
+.index-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px 40px !important;
+    margin-bottom: 20px !important;
+    padding-left: 15px !important;
+}
+
+.index-grid a {
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    color: #004B8D !important;
+    text-decoration: none !important;
+}
 
 /* --- 7. FLOATING NAV (LOCKED & VISIBLE) --- */
 .back-to-top {
