@@ -1,16 +1,34 @@
-<p align="center">
-  <img src="../assets/logo.png" class="hero-logo" />
-</p>
+<div align="center">
+  <img src="../assets/hublogo.png" class="hero-logo-small" />
+  <h1 style="margin-top: 10px;">💉 Operational Guidelines</h1>
+</div>
 
+## B
+<div class="index-grid">
+    <a href="wreck-beach-procedure/">Wreck Beach</a>
+    <a href="bp-monitoring/">Blood Pressure Monitoring</a>
+    <a href="cold-exposure/">Cold Weather Exposure</a>
+</div>
 
-\| TangoBot | Operational
+## C
+<div class="index-grid">
+    <a href="cardiac-arrest/">Cardiac Arrest - Adult</a>
+    <a href="cavicide-sds/">CaviCide HP Application</a>
+    <a href="cold-exposure/">Cold Weather Exposure</a>
+</div>
 
+## G
+<div class="index-grid">
+    <a href="bed-bugs-procedure/">Bed Bugs</a>
+    <a href="bp-monitoring/">Blood Pressure Monitoring</a>
+    <a href="burns/">Burns - Initial Assessment</a>
+</div>
 
-# Operational Reference Guides
-Select a reference below for safety and handling protocols.
+## H
+<div class="index-grid">
+    <a href="cardiac-arrest/">Cardiac Arrest - Adult</a>
+    <a href="cavicide-sds/">CaviCide HP Application</a>
+    <a href="cold-exposure/">Cold Weather Exposure</a>
+</div>
 
----
-### 🧪 Available Sheets
-* [Wreck Beach](wreck-beach-procedure.md)
-
-
+<a href="#" class="back-to-top">↑ TOP</a>
