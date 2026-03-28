@@ -27,6 +27,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.instant
+    - navigation.top  # This enables the official 'Back to Top' button
 
 nav:
   - Home: index.md

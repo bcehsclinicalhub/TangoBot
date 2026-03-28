@@ -129,27 +129,30 @@ body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-
     text-decoration: none !important;
 }
 
-/* --- 7. FLOATING NAV (LOCKED & VISIBLE) --- */
-.back-to-top {
-    position: fixed !important;
-    bottom: 30px !important;
-    left: 30px !important;
+/* --- 7. BUILT-IN TOP BUTTON STYLING --- */
+[data-md-component="top"] {
     background-color: #004B8D !important;
     color: white !important;
-    padding: 12px 22px !important;
+    padding: 10px !important;
     border-radius: 50px !important;
-    font-weight: 700 !important;
-    text-decoration: none !important;
-    /* This ensures it sits ON TOP of your index grid */
-    z-index: 9999 !important; 
     box-shadow: 0 4px 15px rgba(0,0,0,0.4) !important;
-    display: flex !important;
-    align-items: center !important;
+    transition: background-color 0.25s, transform 0.25s !important;
+    /* This moves it to the LEFT side as you had it before */
+    left: 30px !important;
+    right: auto !important; 
 }
 
-.back-to-top:hover {
+[data-md-component="top"]:hover {
     background-color: #D32F2F !important;
-    transform: translateY(-3px)
+    transform: translateY(-3px) !important;
+}
+
+/* Ensure the arrow icon inside is white */
+[data-md-component="top"] svg {
+    fill: white !important;
+    width: 1.5rem;
+    height: 1.5rem;
+}
 }
 
 /* --- TOC GHOST HEADER FIX --- */
