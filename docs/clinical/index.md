@@ -5,7 +5,7 @@
 
 <div class="index-section-header">B</div>
 <div class="index-grid">
-    <a href="/tangoBot/docs/clinical/bed-bugs-procedure/">Bed Bugs</a>
+    <a href="/tangoBot/clinical/bed-bugs-procedure/">Bed Bugs</a>
     <a href="/tangoBot/clinical/bp-monitoring/">Blood Pressure Monitoring</a>
     <a href="/tangoBot/clinical/burns/">Burns - Initial Assessment</a>
 </div>
