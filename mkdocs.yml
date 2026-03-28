@@ -1,6 +1,6 @@
 site_name: Clinical Hub TangoPulse
 site_url: https://bcehsclinicalhub.github.io/tangoBot/
-use_directory_urls: false
+use_directory_urls: true
 
 theme:
   name: material

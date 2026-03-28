@@ -95,19 +95,26 @@ body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-
     opacity: 1 !important;
 }
 
-/* --- 6. INDEX HEADERS (For ToC) --- */
-/* This targets the ## B, ## C etc. specifically on index pages */
+/* --- 6. INDEX HEADERS (Scoping to prevent Home Page inflation) --- */
+
+/* Standard H2 for Home Page / Procedures */
 .md-typeset h2 {
+    font-size: 1.5rem !important; /* Normal size */
+    color: #333 !important;
+    border-bottom: 1px solid #eee;
+}
+
+/* Big Blue Letters ONLY for Index Pages */
+.index-section-header {
+    display: block !important;
     font-size: 1.8rem !important;
     font-weight: 800 !important;
-    color: #004B8D !important; /* BCEHS Blue */
+    color: #004B8D !important;
     border-bottom: 2px solid #eee;
     margin-top: 40px !important;
     padding-bottom: 10px !important;
-    letter-spacing: -0.02em;
 }
 
-/* Fix the grid spacing so it doesn't overlap the headers */
 .index-grid {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
@@ -120,11 +127,6 @@ body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-
     font-weight: 500 !important;
     color: #004B8D !important;
     text-decoration: none !important;
-}
-
-.index-grid a:hover {
-    color: #D32F2F !important;
-    text-decoration: underline !important;
 }
 
 /* --- 7. FLOATING NAV (LOCKED & VISIBLE) --- */
