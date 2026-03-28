@@ -95,8 +95,17 @@ body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-
     opacity: 1 !important;
 }
 
-/* --- 6. CATEGORY HEADERS (The B, C, G, H Letters) --- */
+/* --- 6. CATEGORY HEADERS (Clinical Index Only) --- */
+/* This ensures standard H2s on Home/Procedures stay normal */
 .md-typeset h2 {
+    display: block !important;
+    font-size: 1.5rem !important;
+    color: #333 !important;
+    border-bottom: 1px solid #eee;
+}
+
+/* This forces the Big Blue Letters ONLY when we tell it to */
+.clinical-index h2 {
     display: block !important;
     visibility: visible !important;
     font-size: 1.8rem !important;
@@ -104,42 +113,25 @@ body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-
     color: #004B8D !important;
     border-bottom: 2px solid #eee !important;
     margin-top: 40px !important;
-    margin-bottom: 15px !important;
     padding-bottom: 5px !important;
-    clear: both !important;
-}
-
-/* Ensure the anchors work for the ToC sidebar without disappearing */
-.md-typeset h2 :target {
-    padding-top: 3.5rem;
-}
-
-/* Grid Spacing to sit correctly under headers */
-.index-grid {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 10px 40px !important;
-    margin-bottom: 30px !important;
 }
 
 /* --- 7. MANUAL TOP BUTTON (LOCKED LEFT) --- */
 .back-to-top {
-    display: inline-block !important;
-    width: auto !important;
+    display: block !important;
+    width: fit-content !important;
     margin: 40px 0 20px 0 !important;
     color: #004B8D !important;
     font-weight: 700 !important;
     text-decoration: none !important;
     font-size: 1rem !important;
     text-align: left !important;
-    border: none !important;
 }
 
 .back-to-top:hover {
     color: #D32F2F !important;
     text-decoration: underline !important;
 }
-
 /* --- TOC GHOST HEADER FIX --- */
 /* This hides the standard ## B headers so they don't clutter the page, 
    but keeps them in the code for the Table of Contents to find. */
