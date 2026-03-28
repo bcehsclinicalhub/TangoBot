@@ -5,13 +5,10 @@
 
 ## **B**
 <div class="index-grid">
-    <a href="bed-bugs-procedure/">Bed Bugs</a>
+    <a href="../bed-bugs-procedure/">Bed Bugs</a>
     <a href="../bp-monitoring/">Blood Pressure Monitoring</a>
     <a href="../burns/">Burns - Initial Assessment</a>
 </div>
-
-### 🧪 Available Sheets
-* [Wreck Beach](wreck-beach-procedure.md)
 
 
 ## **C**
