@@ -7,7 +7,7 @@
   <p class="hero-subtitle">the Paramedic Specialist clinical and operational wiki</p>
 </div>
 
----
+
 ## 🚑 Key Sections
 
 | Section | Description | Link |
