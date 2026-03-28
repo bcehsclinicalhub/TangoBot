@@ -14,7 +14,7 @@ body, input {
 }
 
 /* ------------------------------------------------ */
-/* 2. HEADER STYLING                                */
+/* 2. HEADER BASE                                   */
 /* ------------------------------------------------ */
 
 .md-header,
@@ -23,15 +23,17 @@ body, input {
   border: none !important;
 }
 
-/* hide duplicate title */
+/* remove title */
 .md-header__title {
   display: none !important;
 }
 
-/* keep native layout (IMPORTANT FIX) */
+/* FULL CONTROL HEADER LAYOUT */
 .md-header__inner {
   display: flex !important;
   align-items: center !important;
+  width: 100% !important;
+  padding: 0 20px !important;
 }
 
 /* logo */
@@ -41,30 +43,31 @@ body, input {
 }
 
 /* ------------------------------------------------ */
-/* 3. SEARCH + DARK MODE ALIGNMENT                  */
+/* 3. RIGHT SIDE (SEARCH + DARK MODE)               */
 /* ------------------------------------------------ */
 
-/* push search to right */
+/* push search all the way right */
 .md-header__search {
   margin-left: auto !important;
   margin-right: 10px !important;
-  width: 320px !important;
+  width: 340px !important;
+  order: 2;
 }
 
-/* dark mode toggle spacing */
+/* dark mode toggle */
 .md-header__option {
-  margin-right: 10px !important;
+  order: 3;
+  margin-right: 0 !important;
 }
 
-/* ------------------------------------------------ */
-/* 4. BCEHS STYLE SEARCH BOX                        */
-/* ------------------------------------------------ */
-
+/* remove shadow/background behind search */
+.md-search,
 .md-search__form {
   background: transparent !important;
   box-shadow: none !important;
 }
 
+/* search input */
 .md-search__input {
   background: rgba(255,255,255,0.15) !important;
   color: white !important;
@@ -72,23 +75,12 @@ body, input {
   border-radius: 24px !important;
   border: 1px solid rgba(255,255,255,0.25) !important;
 
-  height: 2.1rem !important;
+  height: 2.2rem !important;
   padding-left: 2.8rem !important;
-
-  transition: all 0.2s ease;
-}
-
-.md-search__input::placeholder {
-  color: rgba(255,255,255,0.8) !important;
-}
-
-.md-search__input:focus {
-  background: rgba(255,255,255,0.22) !important;
-  box-shadow: 0 0 6px rgba(255,255,255,0.35) !important;
 }
 
 /* ------------------------------------------------ */
-/* 5. ECG SEARCH ICON                               */
+/* 4. ECG ICON                                      */
 /* ------------------------------------------------ */
 
 .md-search__icon svg {
@@ -110,12 +102,11 @@ body, input {
   position: absolute;
   left: 12px;
   top: 50%;
-
   transform: translateY(-50%);
 }
 
 /* ------------------------------------------------ */
-/* 6. FIX NAV TABS (CRITICAL FIX)                   */
+/* 5. TABS FIX                                      */
 /* ------------------------------------------------ */
 
 .md-tabs {
@@ -129,7 +120,15 @@ body, input {
 }
 
 /* ------------------------------------------------ */
-/* 7. HERO SECTION                                  */
+/* 6. REMOVE PAGE TITLE (HOME TEXT)                 */
+/* ------------------------------------------------ */
+
+.md-content h1 {
+  display: none !important;
+}
+
+/* ------------------------------------------------ */
+/* 7. HERO                                          */
 /* ------------------------------------------------ */
 
 .hero-logo {
@@ -147,30 +146,16 @@ body, input {
   font-size: 2.2rem !important;
   font-weight: 800 !important;
   color: #004B8D !important;
-  margin-bottom: 5px !important;
 }
 
 .hero-subtitle {
   font-size: 1.2rem !important;
   font-style: italic;
   color: #555 !important;
-  margin-top: 0 !important;
 }
 
 /* ------------------------------------------------ */
-/* 8. REMOVE BREADCRUMB                             */
-/* ------------------------------------------------ */
-
-nav.md-breadcrumb {
-  display: none !important;
-}
-
-.md-nav__item--active {
-  display: none !important;
-}
-
-/* ------------------------------------------------ */
-/* 9. CONTENT SPACING                               */
+/* 8. CONTENT SPACING                               */
 /* ------------------------------------------------ */
 
 .md-main__inner {
@@ -183,13 +168,12 @@ nav.md-breadcrumb {
 }
 
 /* ------------------------------------------------ */
-/* 10. FOOTER                                       */
+/* 9. FOOTER                                        */
 /* ------------------------------------------------ */
 
 .md-footer,
 .md-footer-meta {
   background-color: #004B8D !important;
-  border-top: none !important;
 }
 
 .md-footer-meta__inner {
@@ -205,11 +189,10 @@ nav.md-breadcrumb {
 }
 
 /* ------------------------------------------------ */
-/* 11. INDEX GRID                                   */
+/* 10. INDEX GRID                                   */
 /* ------------------------------------------------ */
 
 .index-section-header {
-  display: block !important;
   font-size: 1.8rem !important;
   font-weight: 800 !important;
   color: #004B8D !important;
@@ -221,30 +204,9 @@ nav.md-breadcrumb {
   display: grid !important;
   grid-template-columns: repeat(2,1fr) !important;
   gap: 10px 40px !important;
-  margin-top: 15px !important;
 }
 
 .index-grid a {
-  font-size: 1rem;
-  font-weight: 500;
   color: #004B8D !important;
-  text-decoration: none !important;
-  display: block !important;
-}
-
-/* ------------------------------------------------ */
-/* 12. FLOATING NAV BUTTON                          */
-/* ------------------------------------------------ */
-
-.back-to-top {
-  position: fixed !important;
-  bottom: 30px !important;
-  left: 30px !important;
-  background-color: #004B8D !important;
-  color: white !important;
-  padding: 10px 20px !important;
-  border-radius: 50px !important;
-  font-weight: 700;
-  z-index: 9999 !important;
   text-decoration: none !important;
 }
