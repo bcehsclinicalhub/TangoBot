@@ -1,4 +1,6 @@
-/* --- 1. FONTS & GLOBAL --- */
+/* ------------------------------------------------ */
+/* 1. GLOBAL FONTS                                  */
+/* ------------------------------------------------ */
 
 body, input {
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -8,10 +10,12 @@ font-weight: 300;
 .md-typeset strong,
 .md-typeset b {
 font-weight: 800 !important;
-color: #000000 !important;
+color: #000 !important;
 }
 
-/* --- 2. HEADER --- */
+/* ------------------------------------------------ */
+/* 2. HEADER STYLING                                */
+/* ------------------------------------------------ */
 
 .md-header,
 .md-tabs {
@@ -19,84 +23,89 @@ background-color: #004B8D !important;
 border: none !important;
 }
 
-/* hide site title text */
+/* hide duplicate title text */
+
 .md-header__title {
 display: none !important;
 }
 
-/* header layout container */
+/* header container */
+
 .md-header__inner {
 display: flex !important;
 align-items: center !important;
-position: relative !important;
+max-width: 100% !important;
 }
 
-/* LOGO */
+/* logo */
 
 .md-header__button.md-logo img {
-filter: brightness(0) invert(1) !important;
+filter: brightness(0) invert(1);
 height: 2.8rem !important;
-width: auto !important;
 }
 
-/* --- 3. SEARCH BAR (RIGHT SIDE) --- */
+/* ------------------------------------------------ */
+/* 3. SEARCH BAR POSITION (RIGHT SIDE)              */
+/* ------------------------------------------------ */
 
 .md-header__search {
 
-position: absolute !important;
-right: 70px !important;
-width: 340px !important;
+margin-left: auto !important;
+margin-right: 12px !important;
 
+width: 340px !important;
 }
 
-/* remove default material search background */
+/* remove default white search box */
 
 .md-search__form {
 background: transparent !important;
 box-shadow: none !important;
 }
 
-/* search field styling */
+/* ------------------------------------------------ */
+/* 4. BCEHS STYLE SEARCH BOX                        */
+/* ------------------------------------------------ */
 
 .md-search__input {
 
 background: rgba(255,255,255,0.15) !important;
 color: white !important;
 
-border-radius: 25px !important;
+border-radius: 24px !important;
 border: 1px solid rgba(255,255,255,0.25) !important;
 
 height: 2.1rem !important;
 
 padding-left: 2.8rem !important;
 
-transition: all 0.2s ease !important;
-
+transition: all 0.2s ease;
 }
 
-/* placeholder text */
+/* placeholder */
 
 .md-search__input::placeholder {
 color: rgba(255,255,255,0.8) !important;
 }
 
-/* glow when focused */
+/* glow when active */
 
 .md-search__input:focus {
 background: rgba(255,255,255,0.22) !important;
 box-shadow: 0 0 6px rgba(255,255,255,0.35) !important;
 }
 
-/* --- 4. DARK MODE BUTTON (RIGHT OF SEARCH) --- */
+/* ------------------------------------------------ */
+/* 5. DARK MODE BUTTON POSITION                     */
+/* ------------------------------------------------ */
 
 .md-header__option {
-
-position: absolute !important;
-right: 15px !important;
-
+margin-right: 10px !important;
 }
 
-/* --- 5. ECG SEARCH ICON --- */
+/* ------------------------------------------------ */
+/* 6. ECG SEARCH ICON                               */
+/* ------------------------------------------------ */
 
 .md-search__icon svg {
 display: none !important;
@@ -117,13 +126,16 @@ width: 1.3rem;
 height: 1.3rem;
 
 position: absolute;
+
 left: 12px;
 top: 50%;
 
 transform: translateY(-50%);
 }
 
-/* --- 6. HERO SECTION --- */
+/* ------------------------------------------------ */
+/* 7. HERO SECTION                                  */
+/* ------------------------------------------------ */
 
 .hero-logo {
 width: 350px !important;
@@ -150,7 +162,21 @@ color: #555 !important;
 margin-top: 0 !important;
 }
 
-/* --- 7. GAP KILLER --- */
+/* ------------------------------------------------ */
+/* 8. REMOVE BREADCRUMB BAR                         */
+/* ------------------------------------------------ */
+
+nav.md-breadcrumb {
+display: none !important;
+}
+
+.md-nav__item--active {
+display: none !important;
+}
+
+/* ------------------------------------------------ */
+/* 9. CONTENT SPACING                               */
+/* ------------------------------------------------ */
 
 .md-main__inner {
 margin-top: 0 !important;
@@ -161,25 +187,9 @@ padding-top: 0 !important;
 margin-top: 0 !important;
 }
 
-/* hide breadcrumb bar */
-
-nav.md-breadcrumb {
-display: none !important;
-}
-
-.md-nav__item--active {
-display: none !important;
-}
-
-/* hide page titles */
-
-.headerlink,
-.md-copyright,
-.md-content h1:first-child {
-display: none !important;
-}
-
-/* --- 8. FOOTER --- */
+/* ------------------------------------------------ */
+/* 10. FOOTER                                       */
+/* ------------------------------------------------ */
 
 .md-footer,
 .md-footer-meta {
@@ -199,7 +209,9 @@ content: "Internal Use Only | © 2026 BC Emergency Health Services";
 font-size: 0.85rem;
 }
 
-/* --- 9. INDEX GRID --- */
+/* ------------------------------------------------ */
+/* 11. INDEX GRID                                   */
+/* ------------------------------------------------ */
 
 .index-section-header {
 display: block !important;
@@ -212,7 +224,7 @@ margin-top: 40px !important;
 
 .index-grid {
 display: grid !important;
-grid-template-columns: repeat(2, 1fr) !important;
+grid-template-columns: repeat(2,1fr) !important;
 gap: 10px 40px !important;
 margin-top: 15px !important;
 }
@@ -225,7 +237,9 @@ text-decoration: none !important;
 display: block !important;
 }
 
-/* --- 10. FLOATING NAV --- */
+/* ------------------------------------------------ */
+/* 12. FLOATING NAV BUTTON                          */
+/* ------------------------------------------------ */
 
 .back-to-top {
 position: fixed !important;
