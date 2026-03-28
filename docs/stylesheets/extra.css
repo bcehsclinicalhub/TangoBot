@@ -1,22 +1,67 @@
-/* --- 1. GLOBAL FONTS --- */
-body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 300; }
-.md-typeset strong, .md-typeset b { font-weight: 800 !important; color: #000 !important; }
+/* --- 1. GLOBAL FONTS & RESET --- */
+body, input { 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 300; 
+}
 
-/* --- 2. HEADER & TABS --- */
-.md-header, .md-tabs { background-color: #004B8D !important; border: none !important; }
-.md-header__title, .md-breadcrumb { display: none !important; }
+/* Make bold text pop */
+.md-typeset strong, .md-typeset b { 
+    font-weight: 800 !important; 
+    color: #000 !important; 
+}
 
-.md-header__inner { display: flex !important; align-items: center !important; padding: 0 20px !important; }
-.md-header__button.md-logo { margin-right: auto !important; }
-.md-header__button.md-logo img { filter: brightness(0) invert(1); height: 2.8rem !important; }
+/* --- 2. HEADER & NAVIGATION --- */
+.md-header, .md-tabs { 
+    background-color: #004B8D !important; 
+    border: none !important; 
+}
 
-/* --- 3. SEARCH & DARK MODE --- */
-.md-header__search { width: 340px !important; margin-right: 15px !important; order: 2 !important; }
-.md-header__option { order: 3 !important; display: flex !important; align-items: center !important; }
-.md-search__form { background-color: rgba(255,255,255,0.15) !important; border-radius: 24px !important; }
-.md-search__input { color: white !important; height: 2.2rem !important; padding-left: 2.8rem !important; }
+/* HIDE "HOME" TEXT AND BREADCRUMBS */
+.md-header__title, .md-breadcrumb, .md-typeset h1:first-child { 
+    display: none !important; 
+}
 
-/* ECG ICON */
+.md-header__inner { 
+    display: flex !important; 
+    align-items: center !important; 
+    padding: 0 20px !important; 
+}
+
+/* LOGO IN TOP NAV */
+.md-header__button.md-logo { 
+    margin-right: auto !important; 
+}
+
+.md-header__button.md-logo img { 
+    filter: brightness(0) invert(1); 
+    height: 2.8rem !important; 
+}
+
+/* --- 3. SEARCH & DARK MODE (ALIGNED RIGHT) --- */
+.md-header__search { 
+    width: 340px !important; 
+    margin-right: 15px !important; 
+    order: 2 !important; 
+}
+
+.md-header__option { 
+    order: 3 !important; 
+    display: flex !important; 
+    align-items: center !important; 
+}
+
+.md-search__form { 
+    background-color: rgba(255,255,255,0.15) !important; 
+    border-radius: 24px !important; 
+}
+
+.md-search__input { 
+    color: white !important; 
+    height: 2.2rem !important; 
+    padding-left: 2.8rem !important; 
+}
+
+/* ECG SEARCH ICON */
 .md-search__icon svg { display: none !important; }
 .md-search__icon[for="__search"]::before {
     background-color: #FF0000;
@@ -25,17 +70,59 @@ body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-
     content: ""; display: block; width: 1.3rem; height: 1.3rem; position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
 }
 
-/* --- 4. CATEGORY HEADERS (Standard & Safe) --- */
-.md-typeset h2 {
-    display: block !important;
-    font-size: 1.8rem !important;
-    font-weight: 800 !important;
-    color: #004B8D !important;
-    border-bottom: 2px solid #eee;
-    margin-top: 40px !important;
-    padding-bottom: 5px !important;
+/* --- 4. HOME PAGE HERO & LOGO --- */
+.hero-text-container {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
+.hero-logo-small {
+    width: 250px !important; /* Half size as requested */
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.hero-welcome {
+    font-size: 1.8rem !important;
+    font-weight: 800;
+    color: #004B8D;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.hero-tagline {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #666;
+    display: block;
+}
+
+/* --- 5. SECTION HEADERS (HOME & PROCEDURES) --- */
+/* This handles "Key Sections" and keeps it a reasonable size */
+.md-typeset h2 {
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+    color: #004B8D !important;
+    margin-top: 2rem !important;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+/* --- 6. CATEGORY LETTERS (SUB-PAGE INDEXES ONLY) --- */
+/* Use <span class="category-letter">B</span> in your Markdown */
+.category-letter {
+    display: block !important;
+    font-size: 2rem !important;
+    font-weight: 900 !important;
+    color: #004B8D !important;
+    border-bottom: 3px solid #004B8D;
+    margin-top: 40px !important;
+    margin-bottom: 15px !important;
+    padding-bottom: 5px;
+}
+
+/* --- 7. INDEX GRID --- */
 .index-grid {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
@@ -43,19 +130,33 @@ body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-
     margin-bottom: 30px !important;
 }
 
-.index-grid a { font-size: 1rem; font-weight: 500; color: #004B8D !important; text-decoration: none !important; }
+.index-grid a { 
+    font-size: 1rem; 
+    font-weight: 500; 
+    color: #004B8D !important; 
+    text-decoration: none !important; 
+}
 
-/* --- 5. TOP BUTTON (Left Aligned) --- */
+/* --- 8. FOOTER & TOP BUTTON --- */
 .back-to-top {
     display: block !important;
     margin: 40px 0 !important;
     color: #004B8D !important;
     font-weight: 700 !important;
     text-decoration: none !important;
+    text-align: left !important;
 }
 
-/* --- 6. FOOTER --- */
 .md-footer, .md-footer-meta { background-color: #004B8D !important; }
 .md-copyright { display: none !important; }
-.md-footer-meta__inner { display: flex !important; justify-content: center !important; color: white !important; padding: 20px 0 !important; }
-.md-footer-meta__inner::after { content: "Internal Use Only | © 2026 BC Emergency Health Services"; font-size: 0.85rem; }
+.md-footer-meta__inner { 
+    display: flex !important; 
+    justify-content: center !important; 
+    color: white !important; 
+    padding: 20px 0 !important; 
+}
+
+.md-footer-meta__inner::after { 
+    content: "Internal Use Only | © 2026 BC Emergency Health Services"; 
+    font-size: 0.85rem; 
+}

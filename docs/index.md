@@ -1,13 +1,10 @@
-<p align="center">
-  <img src="assets/hublogo.png" class="hero-logo" />
-</p>
-
-<div class="hero-container">
-  <p class="hero-title">Welcome to TangoPulse</p>
-  <p class="hero-subtitle">your Paramedic Specialist clinical and operational wiki page</p>
+<div class="hero-text-container">
+  <img src="assets/hublogo.png" class="hero-logo-small" />
+  <span class="hero-welcome">Welcome to TangoPulse</span>
+  <span class="hero-tagline">your Paramedic Specialist clinical and operational wiki page</span>
 </div>
 
-
+## 🚑 Key Sections
 ## 🚑 Key Sections
 
 | Section | Description | Link |

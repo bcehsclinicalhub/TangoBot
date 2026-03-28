@@ -1,14 +1,15 @@
 <div align="center">
-  <img src="../assets/hublogo.png" class="hero-logo" />
+  <img src="../assets/hublogo.png" class="hero-logo-small" />
   <h1 style="margin-top: 10px;">💉 Clinical References</h1>
 </div>
 
-## B
+<span class="category-letter">B</span>
 <div class="index-grid">
     <a href="bed-bugs-procedure/">Bed Bugs</a>
     <a href="bp-monitoring/">Blood Pressure Monitoring</a>
-    <a href="burns/">Burns - Initial Assessment</a>
 </div>
+
+<span class="category-letter">C</span>
 
 ## C
 <div class="index-grid">
