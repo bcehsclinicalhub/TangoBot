@@ -3,13 +3,12 @@
   <h1 style="margin-top: 10px;">💉 Clinical References</h1>
 </div>
 
-<span class="category-letter">B</span>
+## B
 <div class="index-grid">
     <a href="bed-bugs-procedure/">Bed Bugs</a>
     <a href="bp-monitoring/">Blood Pressure Monitoring</a>
+    <a href="cold-exposure/">Cold Weather Exposure</a>
 </div>
-
-<span class="category-letter">C</span>
 
 ## C
 <div class="index-grid">
