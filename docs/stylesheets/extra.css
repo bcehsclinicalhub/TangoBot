@@ -17,7 +17,6 @@ body, input {
 }
 
 /* SMART H1 LOGIC */
-/* Hide the "Home" title ONLY on the landing page */
 .hero-text-container + h1, 
 .md-content__inner > h1:first-child:has(+ .hero-text-container) {
     display: none !important;
@@ -26,12 +25,13 @@ body, input {
 /* Style the restored H1 for SOG and Procedure pages */
 .md-typeset h1 {
     display: block !important;
-    font-size: 2.2rem !important;
+    font-size: 1.6rem !important; /* Reduced from 2.2rem */
+    line-height: 1.3 !important;  /* Better spacing for multi-line titles */
     font-weight: 800 !important;
     color: #004B8D !important;
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 0.8rem !important;
     border-bottom: 2px solid #eee;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 
 .md-header__title, .md-breadcrumb { 
