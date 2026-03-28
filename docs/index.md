@@ -4,7 +4,8 @@
   <span class="hero-tagline">your Paramedic Specialist clinical and operational wiki page</span>
 </div>
 
-## 🚑 Key Sections
+---
+
 ## 🚑 Key Sections
 
 | Section | Description | Link |
