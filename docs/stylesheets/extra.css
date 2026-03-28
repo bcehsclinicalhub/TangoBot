@@ -2,158 +2,60 @@
 body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 300; }
 .md-typeset strong, .md-typeset b { font-weight: 800 !important; color: #000 !important; }
 
-/* --- 2. HEADER BASE --- */
+/* --- 2. HEADER & TABS --- */
 .md-header, .md-tabs { background-color: #004B8D !important; border: none !important; }
+.md-header__title, .md-breadcrumb { display: none !important; }
 
-/* HIDE THE "HOME" TEXT AND BREADCRUMBS */
-.md-header__title, .md-breadcrumb, .md-content h1 {
-  display: none !important;
-}
+.md-header__inner { display: flex !important; align-items: center !important; padding: 0 20px !important; }
+.md-header__button.md-logo { margin-right: auto !important; }
+.md-header__button.md-logo img { filter: brightness(0) invert(1); height: 2.8rem !important; }
 
-.md-header__inner {
-  display: flex !important;
-  align-items: center !important;
-  padding: 0 20px !important;
-}
-
-/* LOGO LEFT */
-.md-header__button.md-logo {
-  margin-right: auto !important;
-}
-
-.md-header__button.md-logo img {
-  filter: brightness(0) invert(1);
-  height: 2.8rem !important;
-}
-
-/* --- 3. RIGHT SIDE: SEARCH THEN DARK MODE --- */
-
-/* Search bar sits second to last */
-.md-header__search {
-  width: 340px !important;
-  margin-right: 15px !important;
-  margin-left: 10px !important;
-  order: 2 !important; 
-}
-
-/* Dark mode gear sits at the far right */
-.md-header__option {
-  order: 3 !important;
-  margin-right: 0 !important;
-  display: flex !important;
-  align-items: center !important;
-}
-
-/* Search Bar Styling */
-.md-search__form {
-  background-color: rgba(255, 255, 255, 0.15) !important;
-  border-radius: 24px !important;
-  border: 1px solid rgba(255, 255, 255, 0.25) !important;
-}
-
-.md-search__input {
-  color: white !important;
-  height: 2.2rem !important;
-  padding-left: 2.8rem !important;
-}
+/* --- 3. SEARCH & DARK MODE --- */
+.md-header__search { width: 340px !important; margin-right: 15px !important; order: 2 !important; }
+.md-header__option { order: 3 !important; display: flex !important; align-items: center !important; }
+.md-search__form { background-color: rgba(255,255,255,0.15) !important; border-radius: 24px !important; }
+.md-search__input { color: white !important; height: 2.2rem !important; padding-left: 2.8rem !important; }
 
 /* ECG ICON */
 .md-search__icon svg { display: none !important; }
 .md-search__icon[for="__search"]::before {
-  background-color: #FF0000;
-  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
-  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
-  content: ""; display: block; width: 1.3rem; height: 1.3rem;
-  position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+    background-color: #FF0000;
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
+    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
+    content: ""; display: block; width: 1.3rem; height: 1.3rem; position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
 }
 
-/* --- 4. CONTENT & HERO --- */
-.md-tabs__list { margin-left: 0 !important; }
-.hero-logo { width: 350px !important; display: block; margin: 0 auto 20px auto; }
-.hero-container { text-align: center; margin: 10px auto 40px auto !important; }
-.hero-title { font-size: 2.2rem !important; font-weight: 800 !important; color: #004B8D !important; }
-.hero-subtitle { font-size: 1.2rem !important; font-style: italic; color: #555 !important; }
-
-/* SPACING FIX */
-.md-main__inner { margin-top: 0 !important; padding-top: 0 !important; }
-
-/* --- 5. FOOTER FIX --- */
-.md-footer, .md-footer-meta { background-color: #004B8D !important; }
-.md-copyright { display: none !important; }
-.md-footer-meta__inner { display: flex !important; justify-content: center !important; color: white !important; padding: 20px 0 !important; }
-.md-footer-meta__inner::after {
-  content: "Internal Use Only | © 2026 BC Emergency Health Services";
-  font-size: 0.85rem;
-  font-weight: 500;
-}
-
-/* --- 5. SIDEBAR & TOC RESTORATION --- */
-/* Forces the Right Sidebar (ToC) to stay visible on iPad/Desktop */
-.md-sidebar--secondary {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-}
-
-/* --- 6. CATEGORY HEADERS (Clinical Index Only) --- */
-/* This ensures standard H2s on Home/Procedures stay normal */
+/* --- 4. CATEGORY HEADERS (Standard & Safe) --- */
 .md-typeset h2 {
-    display: block !important;
-    font-size: 1.5rem !important;
-    color: #333 !important;
-    border-bottom: 1px solid #eee;
-}
-
-/* This forces the Big Blue Letters ONLY when we tell it to */
-.clinical-index h2 {
-    display: block !important;
-    visibility: visible !important;
-    font-size: 1.8rem !important;
-    font-weight: 800 !important;
-    color: #004B8D !important;
-    border-bottom: 2px solid #eee !important;
-    margin-top: 40px !important;
-    padding-bottom: 5px !important;
-}
-
-/* --- 7. MANUAL TOP BUTTON (LOCKED LEFT) --- */
-.back-to-top {
-    display: block !important;
-    width: fit-content !important;
-    margin: 40px 0 20px 0 !important;
-    color: #004B8D !important;
-    font-weight: 700 !important;
-    text-decoration: none !important;
-    font-size: 1rem !important;
-    text-align: left !important;
-}
-
-.back-to-top:hover {
-    color: #D32F2F !important;
-    text-decoration: underline !important;
-}
-/* --- TOC GHOST HEADER FIX --- */
-/* This hides the standard ## B headers so they don't clutter the page, 
-   but keeps them in the code for the Table of Contents to find. */
-.md-typeset h2 {
-    position: absolute !important;
-    width: 1px !important;
-    height: 1px !important;
-    padding: 0 !important;
-    margin: -1px !important;
-    overflow: hidden !important;
-    clip: rect(0, 0, 0, 0) !important;
-    white-space: nowrap !important;
-    border: 0 !important;
-}
-
-/* This keeps your blue category letters looking sharp */
-.index-section-header {
     display: block !important;
     font-size: 1.8rem !important;
     font-weight: 800 !important;
     color: #004B8D !important;
     border-bottom: 2px solid #eee;
     margin-top: 40px !important;
-    padding-bottom: 10px !important;
+    padding-bottom: 5px !important;
 }
+
+.index-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px 40px !important;
+    margin-bottom: 30px !important;
+}
+
+.index-grid a { font-size: 1rem; font-weight: 500; color: #004B8D !important; text-decoration: none !important; }
+
+/* --- 5. TOP BUTTON (Left Aligned) --- */
+.back-to-top {
+    display: block !important;
+    margin: 40px 0 !important;
+    color: #004B8D !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+}
+
+/* --- 6. FOOTER --- */
+.md-footer, .md-footer-meta { background-color: #004B8D !important; }
+.md-copyright { display: none !important; }
+.md-footer-meta__inner { display: flex !important; justify-content: center !important; color: white !important; padding: 20px 0 !important; }
+.md-footer-meta__inner::after { content: "Internal Use Only | © 2026 BC Emergency Health Services"; font-size: 0.85rem; }
