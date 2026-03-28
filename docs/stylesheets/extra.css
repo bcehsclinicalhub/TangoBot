@@ -95,63 +95,47 @@ body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-
     opacity: 1 !important;
 }
 
-/* --- 6. INDEX HEADERS (Scoping to prevent Home Page inflation) --- */
-
-/* Standard H2 for Home Page / Procedures */
+/* --- 6. CATEGORY HEADERS & TOC FIX --- */
+/* This styles the ## B, ## C etc. as your big blue category letters */
 .md-typeset h2 {
-    font-size: 1.5rem !important; /* Normal size */
-    color: #333 !important;
-    border-bottom: 1px solid #eee;
-}
-
-/* Big Blue Letters ONLY for Index Pages */
-.index-section-header {
     display: block !important;
     font-size: 1.8rem !important;
     font-weight: 800 !important;
     color: #004B8D !important;
     border-bottom: 2px solid #eee;
     margin-top: 40px !important;
-    padding-bottom: 10px !important;
+    padding-bottom: 5px !important;
 }
 
+/* Ensure the anchors work for the ToC sidebar */
+.md-typeset h2 :target {
+    padding-top: 3.5rem;
+}
+
+/* Grid Spacing */
 .index-grid {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
-    gap: 12px 40px !important;
-    margin: 20px 0 40px 15px !important;
+    gap: 10px 40px !important;
+    margin-bottom: 20px !important;
 }
 
-.index-grid a {
-    font-size: 1rem !important;
-    font-weight: 500 !important;
+/* --- 7. MANUAL TOP BUTTON (LOCKED LEFT) --- */
+.back-to-top {
+    display: inline-block !important;
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
     color: #004B8D !important;
+    font-weight: 700 !important;
     text-decoration: none !important;
+    font-size: 0.9rem;
+    /* This ensures it aligns with the left edge of your text */
+    text-align: left !important;
 }
 
-/* --- 7. BUILT-IN TOP BUTTON STYLING --- */
-[data-md-component="top"] {
-    background-color: #004B8D !important;
-    color: white !important;
-    padding: 10px !important;
-    border-radius: 50px !important;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.4) !important;
-    transition: background-color 0.25s, transform 0.25s !important;
-    /* This moves it to the LEFT side as you had it before */
-    left: 30px !important;
-    right: auto !important; 
-}
-
-[data-md-component="top"]:hover {
-    background-color: #D32F2F !important;
-    transform: translateY(-3px) !important;
-}
-
-/* Ensure the arrow icon inside is white */
-[data-md-component="top"] svg {
-    fill: white !important;
-    width: 1.5rem;
-    height: 1.5rem;
+.back-to-top:hover {
+    color: #D32F2F !important;
+    text-decoration: underline !important;
 }
 
 /* --- TOC GHOST HEADER FIX --- */
