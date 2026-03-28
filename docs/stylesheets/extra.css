@@ -24,10 +24,11 @@ border: none !important;
 display: none !important;
 }
 
-/* header layout */
+/* header layout container */
 .md-header__inner {
 display: flex !important;
 align-items: center !important;
+position: relative !important;
 }
 
 /* LOGO */
@@ -38,12 +39,14 @@ height: 2.8rem !important;
 width: auto !important;
 }
 
-/* --- 3. SEARCH BAR (BCEHS STYLE) --- */
+/* --- 3. SEARCH BAR (RIGHT SIDE) --- */
 
 .md-header__search {
-margin-left: auto !important;
-margin-right: 10px !important;
+
+position: absolute !important;
+right: 70px !important;
 width: 340px !important;
+
 }
 
 /* remove default material search background */
@@ -56,6 +59,7 @@ box-shadow: none !important;
 /* search field styling */
 
 .md-search__input {
+
 background: rgba(255,255,255,0.15) !important;
 color: white !important;
 
@@ -64,9 +68,10 @@ border: 1px solid rgba(255,255,255,0.25) !important;
 
 height: 2.1rem !important;
 
-padding-left: 2.6rem !important;
+padding-left: 2.8rem !important;
 
 transition: all 0.2s ease !important;
+
 }
 
 /* placeholder text */
@@ -82,18 +87,16 @@ background: rgba(255,255,255,0.22) !important;
 box-shadow: 0 0 6px rgba(255,255,255,0.35) !important;
 }
 
-/* --- 4. DARK MODE BUTTON --- */
+/* --- 4. DARK MODE BUTTON (RIGHT OF SEARCH) --- */
 
 .md-header__option {
-margin-left: 5px !important;
-margin-right: 10px !important;
+
+position: absolute !important;
+right: 15px !important;
+
 }
 
 /* --- 5. ECG SEARCH ICON --- */
-
-.md-search__input {
-padding-left: 2.8rem !important;
-}
 
 .md-search__icon svg {
 display: none !important;
