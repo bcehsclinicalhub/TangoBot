@@ -150,6 +150,30 @@ body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-
 .back-to-top:hover {
     background-color: #D32F2F !important;
     transform: translateY(-3px)
+}
 
+/* --- TOC GHOST HEADER FIX --- */
+/* This hides the standard ## B headers so they don't clutter the page, 
+   but keeps them in the code for the Table of Contents to find. */
+.md-typeset h2 {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
 
+/* This keeps your blue category letters looking sharp */
+.index-section-header {
+    display: block !important;
+    font-size: 1.8rem !important;
+    font-weight: 800 !important;
+    color: #004B8D !important;
+    border-bottom: 2px solid #eee;
+    margin-top: 40px !important;
+    padding-bottom: 10px !important;
 }

@@ -4,7 +4,7 @@
 
 <div class="hero-container">
   <p class="hero-title">Welcome to TangoPulse</p>
-  <p class="hero-subtitle">the Paramedic Specialist clinical and operational wiki</p>
+  <p class="hero-subtitle">your Paramedic Specialist clinical and operational wiki page</p>
 </div>
 
 
