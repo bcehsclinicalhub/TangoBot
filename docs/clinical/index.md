@@ -4,10 +4,10 @@
 </div>
 
 
-<div class="index-section-header">B</div>
 <div class="index-grid">
-    <a href="/TangoBot/docs/clinical/bed-bugs-procedure/">Bed Bugs</a>
-    <a href="/TangoBot/bp-monitoring/">Blood Pressure Monitoring</a>
+    <a href="bed-bugs-procedure/">Bed Bugs</a>
+    <a href="bp-monitoring/">Blood Pressure Monitoring</a>
+    <a href="burns/">Burns - Initial Assessment</a>
 </div>
 
 

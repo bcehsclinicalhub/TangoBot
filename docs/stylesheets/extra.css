@@ -87,6 +87,14 @@ body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-
   font-weight: 500;
 }
 
+/* --- 5. SIDEBAR & TOC RESTORATION --- */
+/* Forces the Right Sidebar (ToC) to stay visible on iPad/Desktop */
+.md-sidebar--secondary {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
 /* --- 6. INDEX GRID --- */
 .index-section-header {
   font-size: 1.8rem !important; font-weight: 800 !important; color: #004B8D !important;
@@ -94,20 +102,27 @@ body, input { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-
 }
 .index-grid { display: grid !important; grid-template-columns: repeat(2,1fr) !important; gap: 10px 40px !important; }
 
-/* --- 7. HERO (TIGHTENED SPACING) --- */
-
-.hero-title {
-  font-size: 2.2rem !important;
-  font-weight: 800 !important;
-  color: #004B8D !important;
-  margin-bottom: 0 !important; /* Removes bottom gap from title */
-  padding-bottom: 0 !important;
+/* --- 7. FLOATING NAV (LOCKED & VISIBLE) --- */
+.back-to-top {
+    position: fixed !important;
+    bottom: 30px !important;
+    left: 30px !important;
+    background-color: #004B8D !important;
+    color: white !important;
+    padding: 12px 22px !important;
+    border-radius: 50px !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    /* This ensures it sits ON TOP of your index grid */
+    z-index: 9999 !important; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4) !important;
+    display: flex !important;
+    align-items: center !important;
 }
 
-.hero-subtitle {
-  font-size: 1.2rem !important;
-  font-style: italic;
-  color: #555 !important;
-  margin-top: -5px !important; /* Pulls subtitle UP toward title */
-  display: block;
+.back-to-top:hover {
+    background-color: #D32F2F !important;
+    transform: translateY(-3px)
+
+
 }
