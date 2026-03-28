@@ -31,5 +31,4 @@
     <a href="../cold-exposure/">Cold Weather Exposure</a>
 </div>
 
-
 <a href="#" class="back-to-top">↑ TOP</a>
