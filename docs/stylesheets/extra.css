@@ -45,22 +45,43 @@ height: 2.8rem !important;
 }
 
 /* ------------------------------------------------ */
-/* 3. SEARCH BAR POSITION (RIGHT SIDE)              */
+/* 3. HEADER LAYOUT FIX (RIGHT ALIGN SEARCH + TOGGLE) */
 /* ------------------------------------------------ */
 
-.md-header__search {
-
-margin-left: auto !important;
-margin-right: 12px !important;
-
-width: 340px !important;
+.md-header__inner {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
 }
 
-/* remove default white search box */
+/* push everything right of logo */
+.md-header__title {
+  display: none !important;
+}
 
-.md-search__form {
-background: transparent !important;
-box-shadow: none !important;
+/* group right-side controls */
+.md-header__option,
+.md-header__search {
+  order: 3;
+}
+
+/* ensure search stays right */
+.md-header__search {
+  margin-left: auto !important;
+  margin-right: 10px !important;
+  width: 320px !important;
+}
+
+/* dark mode toggle spacing */
+.md-header__option {
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+}
+
+/* ensure nav tabs stay left */
+.md-tabs {
+  display: flex !important;
+  justify-content: flex-start !important;
 }
 
 /* ------------------------------------------------ */
@@ -95,13 +116,6 @@ background: rgba(255,255,255,0.22) !important;
 box-shadow: 0 0 6px rgba(255,255,255,0.35) !important;
 }
 
-/* ------------------------------------------------ */
-/* 5. DARK MODE BUTTON POSITION                     */
-/* ------------------------------------------------ */
-
-.md-header__option {
-margin-right: 10px !important;
-}
 
 /* ------------------------------------------------ */
 /* 6. ECG SEARCH ICON                               */
