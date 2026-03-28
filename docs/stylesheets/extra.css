@@ -3,14 +3,14 @@
 /* ------------------------------------------------ */
 
 body, input {
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
 }
 
 .md-typeset strong,
 .md-typeset b {
-font-weight: 800 !important;
-color: #000 !important;
+  font-weight: 800 !important;
+  color: #000 !important;
 }
 
 /* ------------------------------------------------ */
@@ -19,53 +19,32 @@ color: #000 !important;
 
 .md-header,
 .md-tabs {
-background-color: #004B8D !important;
-border: none !important;
+  background-color: #004B8D !important;
+  border: none !important;
 }
 
-/* hide duplicate title text */
-
-.md-header__title {
-display: none !important;
-}
-
-/* header container */
-
-.md-header__inner {
-display: flex !important;
-align-items: center !important;
-max-width: 100% !important;
-}
-
-/* logo */
-
-.md-header__button.md-logo img {
-filter: brightness(0) invert(1);
-height: 2.8rem !important;
-}
-
-/* ------------------------------------------------ */
-/* 3. HEADER LAYOUT FIX (RIGHT ALIGN SEARCH + TOGGLE) */
-/* ------------------------------------------------ */
-
-.md-header__inner {
-  display: flex !important;
-  align-items: center !important;
-  justify-content: space-between !important;
-}
-
-/* push everything right of logo */
+/* hide duplicate title */
 .md-header__title {
   display: none !important;
 }
 
-/* group right-side controls */
-.md-header__option,
-.md-header__search {
-  order: 3;
+/* keep native layout (IMPORTANT FIX) */
+.md-header__inner {
+  display: flex !important;
+  align-items: center !important;
 }
 
-/* ensure search stays right */
+/* logo */
+.md-header__button.md-logo img {
+  filter: brightness(0) invert(1);
+  height: 2.8rem !important;
+}
+
+/* ------------------------------------------------ */
+/* 3. SEARCH + DARK MODE ALIGNMENT                  */
+/* ------------------------------------------------ */
+
+/* push search to right */
 .md-header__search {
   margin-left: auto !important;
   margin-right: 10px !important;
@@ -74,77 +53,79 @@ height: 2.8rem !important;
 
 /* dark mode toggle spacing */
 .md-header__option {
-  margin-left: 8px !important;
-  margin-right: 8px !important;
-}
-
-/* ensure nav tabs stay left */
-.md-tabs {
-  display: flex !important;
-  justify-content: flex-start !important;
+  margin-right: 10px !important;
 }
 
 /* ------------------------------------------------ */
 /* 4. BCEHS STYLE SEARCH BOX                        */
 /* ------------------------------------------------ */
 
-.md-search__input {
-
-background: rgba(255,255,255,0.15) !important;
-color: white !important;
-
-border-radius: 24px !important;
-border: 1px solid rgba(255,255,255,0.25) !important;
-
-height: 2.1rem !important;
-
-padding-left: 2.8rem !important;
-
-transition: all 0.2s ease;
+.md-search__form {
+  background: transparent !important;
+  box-shadow: none !important;
 }
 
-/* placeholder */
+.md-search__input {
+  background: rgba(255,255,255,0.15) !important;
+  color: white !important;
+
+  border-radius: 24px !important;
+  border: 1px solid rgba(255,255,255,0.25) !important;
+
+  height: 2.1rem !important;
+  padding-left: 2.8rem !important;
+
+  transition: all 0.2s ease;
+}
 
 .md-search__input::placeholder {
-color: rgba(255,255,255,0.8) !important;
+  color: rgba(255,255,255,0.8) !important;
 }
-
-/* glow when active */
 
 .md-search__input:focus {
-background: rgba(255,255,255,0.22) !important;
-box-shadow: 0 0 6px rgba(255,255,255,0.35) !important;
+  background: rgba(255,255,255,0.22) !important;
+  box-shadow: 0 0 6px rgba(255,255,255,0.35) !important;
 }
 
-
 /* ------------------------------------------------ */
-/* 6. ECG SEARCH ICON                               */
+/* 5. ECG SEARCH ICON                               */
 /* ------------------------------------------------ */
 
 .md-search__icon svg {
-display: none !important;
+  display: none !important;
 }
 
 .md-search__icon[for="__search"]::before {
+  background-color: #FF0000;
 
-background-color: #FF0000;
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
+  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
 
--webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
+  content: "";
+  display: block;
 
-content: "";
+  width: 1.3rem;
+  height: 1.3rem;
 
-display: block;
+  position: absolute;
+  left: 12px;
+  top: 50%;
 
-width: 1.3rem;
-height: 1.3rem;
+  transform: translateY(-50%);
+}
 
-position: absolute;
+/* ------------------------------------------------ */
+/* 6. FIX NAV TABS (CRITICAL FIX)                   */
+/* ------------------------------------------------ */
 
-left: 12px;
-top: 50%;
+.md-tabs {
+  display: flex !important;
+  justify-content: flex-start !important;
+  padding-left: 20px !important;
+}
 
-transform: translateY(-50%);
+.md-tabs__list {
+  margin-left: 0 !important;
 }
 
 /* ------------------------------------------------ */
@@ -152,40 +133,40 @@ transform: translateY(-50%);
 /* ------------------------------------------------ */
 
 .hero-logo {
-width: 350px !important;
-display: block;
-margin: 0 auto 20px auto;
+  width: 350px !important;
+  display: block;
+  margin: 0 auto 20px auto;
 }
 
 .hero-container {
-text-align: center;
-margin: 10px auto 40px auto !important;
+  text-align: center;
+  margin: 10px auto 40px auto !important;
 }
 
 .hero-title {
-font-size: 2.2rem !important;
-font-weight: 800 !important;
-color: #004B8D !important;
-margin-bottom: 5px !important;
+  font-size: 2.2rem !important;
+  font-weight: 800 !important;
+  color: #004B8D !important;
+  margin-bottom: 5px !important;
 }
 
 .hero-subtitle {
-font-size: 1.2rem !important;
-font-style: italic;
-color: #555 !important;
-margin-top: 0 !important;
+  font-size: 1.2rem !important;
+  font-style: italic;
+  color: #555 !important;
+  margin-top: 0 !important;
 }
 
 /* ------------------------------------------------ */
-/* 8. REMOVE BREADCRUMB BAR                         */
+/* 8. REMOVE BREADCRUMB                             */
 /* ------------------------------------------------ */
 
 nav.md-breadcrumb {
-display: none !important;
+  display: none !important;
 }
 
 .md-nav__item--active {
-display: none !important;
+  display: none !important;
 }
 
 /* ------------------------------------------------ */
@@ -193,12 +174,12 @@ display: none !important;
 /* ------------------------------------------------ */
 
 .md-main__inner {
-margin-top: 0 !important;
-padding-top: 0 !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 .md-content {
-margin-top: 0 !important;
+  margin-top: 0 !important;
 }
 
 /* ------------------------------------------------ */
@@ -207,20 +188,20 @@ margin-top: 0 !important;
 
 .md-footer,
 .md-footer-meta {
-background-color: #004B8D !important;
-border-top: none !important;
+  background-color: #004B8D !important;
+  border-top: none !important;
 }
 
 .md-footer-meta__inner {
-display: flex !important;
-justify-content: center !important;
-color: white !important;
-padding: 20px 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  color: white !important;
+  padding: 20px 0 !important;
 }
 
 .md-footer-meta__inner::after {
-content: "Internal Use Only | © 2026 BC Emergency Health Services";
-font-size: 0.85rem;
+  content: "Internal Use Only | © 2026 BC Emergency Health Services";
+  font-size: 0.85rem;
 }
 
 /* ------------------------------------------------ */
@@ -228,27 +209,27 @@ font-size: 0.85rem;
 /* ------------------------------------------------ */
 
 .index-section-header {
-display: block !important;
-font-size: 1.8rem !important;
-font-weight: 800 !important;
-color: #004B8D !important;
-border-bottom: 2px solid #eee;
-margin-top: 40px !important;
+  display: block !important;
+  font-size: 1.8rem !important;
+  font-weight: 800 !important;
+  color: #004B8D !important;
+  border-bottom: 2px solid #eee;
+  margin-top: 40px !important;
 }
 
 .index-grid {
-display: grid !important;
-grid-template-columns: repeat(2,1fr) !important;
-gap: 10px 40px !important;
-margin-top: 15px !important;
+  display: grid !important;
+  grid-template-columns: repeat(2,1fr) !important;
+  gap: 10px 40px !important;
+  margin-top: 15px !important;
 }
 
 .index-grid a {
-font-size: 1rem;
-font-weight: 500;
-color: #004B8D !important;
-text-decoration: none !important;
-display: block !important;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #004B8D !important;
+  text-decoration: none !important;
+  display: block !important;
 }
 
 /* ------------------------------------------------ */
@@ -256,14 +237,14 @@ display: block !important;
 /* ------------------------------------------------ */
 
 .back-to-top {
-position: fixed !important;
-bottom: 30px !important;
-left: 30px !important;
-background-color: #004B8D !important;
-color: white !important;
-padding: 10px 20px !important;
-border-radius: 50px !important;
-font-weight: 700;
-z-index: 9999 !important;
-text-decoration: none !important;
+  position: fixed !important;
+  bottom: 30px !important;
+  left: 30px !important;
+  background-color: #004B8D !important;
+  color: white !important;
+  padding: 10px 20px !important;
+  border-radius: 50px !important;
+  font-weight: 700;
+  z-index: 9999 !important;
+  text-decoration: none !important;
 }
