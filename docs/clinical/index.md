@@ -5,16 +5,16 @@
 
 <div class="index-section-header">B</div>
 <div class="index-grid">
-    <a href="/tangoBot/clinical/bed-bugs-procedure/">Bed Bugs</a>
-    <a href="/tangoBot/clinical/bp-monitoring/">Blood Pressure Monitoring</a>
-    <a href="/tangoBot/clinical/burns/">Burns - Initial Assessment</a>
+    <a href="bed-bugs-procedure/">Bed Bugs</a>
+    <a href="bp-monitoring/">Blood Pressure Monitoring</a>
+    <a href="burns/">Burns - Initial Assessment</a>
 </div>
 
 <div class="index-section-header">C</div>
 <div class="index-grid">
-    <a href="/tangoBot/clinical/cardiac-arrest/">Cardiac Arrest - Adult</a>
-    <a href="/tangoBot/clinical/cavicide-sds/">CaviCide HP Application</a>
-    <a href="/tangoBot/clinical/cold-exposure/">Cold Weather Exposure</a>
+    <a href="cardiac-arrest/">Cardiac Arrest - Adult</a>
+    <a href="cavicide-sds/">CaviCide HP Application</a>
+    <a href="cold-exposure/">Cold Weather Exposure</a>
 </div>
 
 ## **G**
