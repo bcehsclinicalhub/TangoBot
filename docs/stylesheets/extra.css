@@ -175,3 +175,37 @@ body, input {
     content: "Internal Use Only | © 2026 BC Emergency Health Services"; 
     font-size: 0.85rem; 
 }
+
+/* --- 9. SEARCH RESULTS STYLING --- */
+
+/* Decrease the main title in search results */
+.md-search-result__article h1 {
+    font-size: 1.1rem !important; /* Matches a standard link size */
+    font-weight: 700 !important;
+    margin-bottom: 0.2rem !important;
+    border-bottom: none !important; /* Remove the thick underline from results */
+    padding-bottom: 0 !important;
+    color: #004B8D !important;
+}
+
+/* Decrease the category letters (B, C, etc.) in search results */
+.md-search-result__article h2 {
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.1rem !important;
+    border-bottom: none !important;
+    color: #666 !important; /* Use a subtle grey for sub-headers in search */
+}
+
+/* Adjust spacing between search items */
+.md-search-result__item {
+    padding: 10px 0 !important;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+/* Shrink those tags/keywords in search results */
+.md-search-result__meta {
+    font-size: 0.75rem !important;
+    margin-top: 5px !important;
+}
