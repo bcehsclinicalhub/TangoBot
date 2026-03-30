@@ -10,24 +10,24 @@ owner: Metro Coast Ops
 category: Clinical
 
 tags:
-  - wreck beach
-  - VFRS
-  - VCH
-  - extrication
+  - sodium
+  - hypochlorite
+  - bleach
+  - disinfectant
+  - NaOCI
+  - NaCIO
+  - Everchlor
+  - Vo-redox 9110
 
 keywords:
-  - wreck beach
-  - VFRS
-  - VCH
-  - rescue
-  - trail 6
-  - trail 7
-  - foreshore
-  - tower 3
-  - UBC
-  - hovercraft
-  - Spanish Banks
-  - CliniCall
+  - sodium
+  - hypochlorite
+  - bleach
+  - disinfectant
+  - NaOCI
+  - NaCIO
+  - Everchlor
+  - Vo-redox 9110
 ---
 
 # Sodium Hypochlorite
