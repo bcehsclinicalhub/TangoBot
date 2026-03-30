@@ -6,7 +6,7 @@ status: Active
 effective_date: 2025-12-01
 last_reviewed: 2025-12-01
 next_review: 2026-07-01
-owner: Metro Coast Ops
+owner: 
 category: Chemical
 
 tags:
@@ -30,7 +30,7 @@ keywords:
   - Vo-redox 9110
 ---
 
-# Sodium Hydroxide
+# Sodium Hypochlorite
 
 ## Purpose
 
