@@ -7,7 +7,7 @@
 <div class="index-grid">
     <a href="wreck-beach-procedure/">B-Braun IV Pump</a>
     <a href="bp-monitoring/">Blood Pressure Monitoring</a>
-    <a href="cold-exposure/"></a>
+    <a href="cold-exposure/">Bomb Threat Distance</a>
 </div>
 
 ## N
