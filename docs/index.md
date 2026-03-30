@@ -1,7 +1,7 @@
 <div class="hero-text-container">
   <img src="assets/hublogo.png" class="hero-logo-small" />
-  <span class="hero-welcome">Welcome to TangoPulse</span>
-  <span class="hero-tagline">your Paramedic Specialist clinical and operational wiki page</span>
+  <span class="hero-welcome">Welcome to TangoIQ</span>
+  <span class="hero-tagline">the clinical and operational wiki site for Paramedic Specialists</span>
 </div>
 
 ---
@@ -26,9 +26,9 @@
     * **March 20, 2026 | Updated M09:** Revised Neonatal Resuscitation flowchart now live. [Visit the Handbook →](https://handbook.bcehs.ca/clinical-practice-guidelines/m-pediatric-and-neonatal-emergencies/m09-neonatal-resuscitation/){:target="_blank"}
 
 ## 📣 Wiki News
-!!! success "Introducing TangoPulse (April 2026)"
-    The **Clinical Hub TangoPulse** is replacing the old Tango shared drive. This wiki is designed for mobile-first use on crew iPads. We will continue to migrate legacy documents over the coming weeks.
+!!! success "Introducing TangoIQ (April 2026)"
+    The **Clinical Hub TangoIQ** is replacing the old Tango shared drive. This wiki is designed as a one-stop resource for clinical and operational resources that can't be found onthe Handbook or Intranet. We will continue to migrate legacy documents over the coming weeks.
 
 ## ❓ Need Help?
-!!! info "Support"
+!!! tip "Support"
     This site is **NOT** supported by the BCEHS Help Desk | contact Lee Roberts for feedback or support.

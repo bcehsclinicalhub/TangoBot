@@ -163,7 +163,7 @@ https://intranet.bcas.ca/areas/qsrma/ipac/pdf/exposure-control-plan-part2-ipac.p
 
 ## Documentation Requirements
 
-- Please report contact to EHSC Workplace Health Call Centre at 1-‐877-‐587-‐4080
+- Please report contact to EHSC Workplace Health Call Centre at 1-‐877-587-4080
 
 - Completed ePCR, unless patient contact is not made. 
 
