@@ -1,43 +1,38 @@
 ---
-title: Sodium Hypochlorite
+title: Sodium Hydroxide
 policy_id: 
 version: 1.0
 status: Active
 effective_date: 2025-12-01
 last_reviewed: 2025-12-01
 next_review: 2026-07-01
-owner: Metro Coast Ops
+owner: 
 category: Chemical
 
 tags:
   - sodium
-  - hypochlorite
-  - bleach
-  - disinfectant
-  - NaOCI
-  - NaCIO
-  - Everchlor
-  - Vo-redox 9110
+  - hydroxide
+  - caustic soda
+  - lye
+  - NaOH
+  - inorganic
 
 keywords:
   - sodium
-  - hypochlorite
-  - bleach
-  - disinfectant
-  - NaOCI
-  - NaCIO
-  - Everchlor
-  - Vo-redox 9110
+  - hydroxide
+  - caustic soda
+  - lye
+  - NaOH
+  - inorganic
 ---
 
 # Sodium Hydroxide
 
 ## Purpose
 
-This document sodium hypochlorite. This document sodium hypochlorite.This document sodium hypochlorite. This document sodium hypochlorite. This document sodium hypochlorite. This document sodium hypochlorite.
-This document sodium hypochlorite. This document sodium hypochlorite.This document sodium hypochlorite.This document sodium hypochlorite.This document sodium hypochlorite.
-This document sodium hypochlorite.This document sodium hypochlorite.This document sodium hypochlorite.
-
+This document sodium hypochlorite.This document sodium hypochlorite. This document sodium hypochlorite. This document sodium hypochlorite. 
+This document sodium hypochlorite. This document sodium hypochlorite. This document sodium hypochlorite. This document sodium hypochlorite. 
+ 
 ---
 
 ## Scope
