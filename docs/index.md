@@ -1,6 +1,6 @@
 <div class="hero-text-container">
   <img src="assets/hublogo.png" class="hero-logo-small" />
-  <span class="hero-welcome">Welcome to TangoIQ</span>
+  <span class="hero-welcome">Welcome to TangoDx</span>
   <span class="hero-tagline">the clinical and operational wiki site for Paramedic Specialists</span>
 </div>
 
@@ -27,7 +27,7 @@
 
 ## 📣 Wiki News
 !!! success "Introducing TangoIQ (April 2026)"
-    The **Clinical Hub TangoIQ** is replacing the old Tango shared drive. This wiki is designed as a one-stop resource for clinical and operational resources that can't be found onthe Handbook or Intranet. We will continue to migrate legacy documents over the coming weeks.
+    **Clinical Hub TangoDx** is replacing the old Tango shared drive. This wiki is designed as a one-stop resource for clinical and operational resources that can't be found onthe Handbook or Intranet. We will continue to migrate legacy documents over the coming weeks.
 
 ## ❓ Need Help?
 !!! tip "Support"

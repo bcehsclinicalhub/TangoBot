@@ -7,7 +7,7 @@
 <div class="index-grid">
     <a href="bed-bugs-procedure/">Bed Bugs</a>
     <a href="bp-monitoring/">Blood Pressure Monitoring</a>
-    <a href="cold-exposure/">Cold Weather Exposure</a>
+    <a href="cold-exposure/">Bariatric Patients</a>
 </div>
 
 ## C
