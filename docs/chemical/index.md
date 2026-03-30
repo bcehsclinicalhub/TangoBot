@@ -24,6 +24,13 @@
     <a href="burns/">Phthalic Anhydride</a>
 </div>
 
+## P
+<div class="index-grid">
+    <a href="sodium-hydroxide/">Sodium Hydroxide</a>
+    <a href="sodium-hypochlorite/">Sodium Hypochlorite</a>
+    <a href="burns/">Sulfuric Acid</a>
+</div>
+
 ## T
 <div class="index-grid">
     <a href="cardiac-arrest/">Technetium</a>
