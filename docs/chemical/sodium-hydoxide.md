@@ -30,8 +30,7 @@ keywords:
 
 ## Purpose
 
-This document sodium hypochlorite.This document sodium hypochlorite. This document sodium hypochlorite. This document sodium hypochlorite. 
-This document sodium hypochlorite. This document sodium hypochlorite. This document sodium hypochlorite. This document sodium hypochlorite. 
+This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide.
  
 ---
 
