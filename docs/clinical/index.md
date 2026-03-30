@@ -12,14 +12,14 @@
 
 ## C
 <div class="index-grid">
-    <a href="cardiac-arrest/">Geriatric Assessment</a>
-    <a href="cavicide-sds/">God Syndrome</a>
-    <a href="cold-exposure/">Ghonnorhea</a>
+    <a href="cardiac-arrest/">Cerebral aneurysm</a>
+    <a href="cavicide-sds/">Coccidioidomycosis</a>
+    <a href="cold-exposure/">Cushing syndrome</a>
 </div>
 
 ## G
 <div class="index-grid">
-    <a href="bed-bugs-procedure/">Bed Bugs</a>
+    <a href="bed-bugs-procedure/">Geriatric Assessment</a>
     <a href="bp-monitoring/">Group B Strep</a>
     <a href="burns/">Growing Pains</a>
 </div>
