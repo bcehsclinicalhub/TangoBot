@@ -24,7 +24,7 @@
     <a href="burns/">Phthalic Anhydride</a>
 </div>
 
-## P
+## S
 <div class="index-grid">
     <a href="sodium-hydroxide/">Sodium Hydroxide</a>
     <a href="sodium-hypochlorite/">Sodium Hypochlorite</a>
