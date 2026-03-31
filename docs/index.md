@@ -20,15 +20,15 @@
 
 
 ## ⚕️ Clinical Updates
-!!! info "Latest Practice and CPG Updates"
+!!! caution "Latest Practice and CPG Updates"
     * **March 27, 2026 | Epi Infusion:** Updated epinephrine medication infusions to include 15 drop set change. [Visit the Handbook →](https://handbook.bcehs.ca){:target="_blank"}
     * **March 25, 2026 | Parenteral Ondansetron:** Now considered first-line parenteral antiemetic for most causes of nausea/vomiting. ODTs remain available. [More Info on Intranet →](https://intranet.bcehs.ca){:target="_blank"}
     * **March 20, 2026 | Updated M09:** Revised Neonatal Resuscitation flowchart now live. [Visit the Handbook →](https://handbook.bcehs.ca/clinical-practice-guidelines/m-pediatric-and-neonatal-emergencies/m09-neonatal-resuscitation/){:target="_blank"}
 
 ## 📣 Wiki News
-!!! success "Introducing TangoIQ (April 2026)"
+!!! success "Introducing TangoDx (April 2026)"
     **Clinical Hub TangoDx** is replacing the old Tango shared drive. This wiki is designed as a one-stop resource for clinical and operational resources that can't be found onthe Handbook or Intranet. We will continue to migrate legacy documents over the coming weeks.
 
 ## ❓ Need Help?
-!!! tip "Support"
-    This site is **NOT** supported by the BCEHS Help Desk | contact Lee Roberts for feedback or support.
+!!! warning "Support"
+    This site is **NOT** supported by the BCEHS Help Desk | contact [Lee Roberts](mailto:lee.roberts@bcehs.ca) for feedback or support.
