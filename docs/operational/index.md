@@ -24,6 +24,13 @@
     <a href="cold-exposure/">Region 3 VPOP</a>
 </div>
 
+## V
+<div class="index-grid">
+    <a href="cold-exposure/">Vancouver Coastal Trauma</a>
+    <a href="viha-trauma-destinations">Vancouver Island Trauma Destinations</a>
+    <a href="cavicide-sds/">Vancouver Island PRUs</a>
+</div>
+
 ## W
 <div class="index-grid">
     <a href="wreck-beach-procedure/">Wrech Beach Procedures</a>
