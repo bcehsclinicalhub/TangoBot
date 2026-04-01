@@ -86,9 +86,9 @@ This includes:
 <div align="center">
 
 | Category | Required Item |
-|----------|---------------|
-| Head/ Eye | BCEHS Helmet (visor down)|
-| Visibility | High-Visibility vest|
+| :----------: | :---------------: |
+| Head/ Eye | BCEHS Helmet (visor down) |
+| Visibility | High-Visibility vest |
 | Safety | Hearing protection |
 
 </div>
@@ -118,7 +118,7 @@ vi) Once the aircraft has completed the hoist/long line/loading operation, BCEHS
 |--------|------|---------|--------|
 | 1.0 | 2024-12-01 | Initial version | Manager, Clinical Hub |
 
-### Review Schedule
+## Review Schedule
 
 | | | | |
 | :--- | :--- | :--- | :--- |
