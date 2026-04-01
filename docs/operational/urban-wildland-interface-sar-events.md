@@ -100,15 +100,18 @@ vi) Once the aircraft has completed the hoist/long line/loading operation, BCEHS
 
 **Related BCEHS Policy**
 
-    •BCEHS OHS 130 Paramedic Safety at the Scene(https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-11-85066.pdf){:target="_blank .external-link}.
-    •BCEHS OHS 180.1 Search and Rescue Situations(https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-12-85214.pdf){:target="_blank .external-link}.
+    •[BCEHS OHS 130 Paramedic Safety at the Scene](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-11-85066.pdf){:target="_blank .external-link}.
+    •[BCEHS OHS 180.1 Search and Rescue Situations](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-12-85214.pdf){:target="_blank .external-link}.
 
 **Guidelines/Procedures/Forms**
 
-    •[High Risk Hazard Field Support Guide](https://intranet.bcehs.ca/intranet/pages/347?lang=ENG){:target="_blank .external-link}
-    •[Working In and Around Moving Vehicles and Equipment](https://shop.healthcarebc.ca/phsa/BCEHS/Guidelines/C-04-07-85274.pdf){:target="_blank .external-link}
-    •[Paramedic Specialist Deployment and Dispatching Procedure](https://shop.healthcarebc.ca/phsa/BCEHS/Guidelines/C-04-07-85256.pdf){:target="_blank .external-link}
+    •[High Risk Hazard Field Support Guide](https://intranet.bcehs.ca/intranet/pages/347?lang=ENG){:target="_blank .external-link}.
+    •[Working In and Around Moving Vehicles and Equipment](https://shop.healthcarebc.ca/phsa/BCEHS/Guidelines/C-04-07-85274.pdf){:target="_blank .external-link}.
+    •[Paramedic Specialist Deployment and Dispatching Procedure](https://shop.healthcarebc.ca/phsa/BCEHS/Guidelines/C-04-07-85256.pdf){:target="_blank .external-link}.
 
+    •[BCEHS OHS 130 Paramedic Safety at the Scene](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-11-85066.pdf){:target="_blank .external-link}.
+    •[BCEHS OHS 180.1 Search and Rescue Situations](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-12-85214.pdf){:target="_blank .external-link}.
+    
 ## Revision History
 
 | Version | Date | Changes | Author |
