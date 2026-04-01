@@ -237,8 +237,9 @@ body, input {
 
 /* Indicate that images are clickable/zoomable */
 .md-typeset img {
-    cursor: zoom-in;
-    transition: opacity 0.2s;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px; /* Optional: softens the edges of SAR diagrams */
 }
 
 .md-typeset img:hover {
