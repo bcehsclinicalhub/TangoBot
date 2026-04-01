@@ -83,15 +83,11 @@ ii) The BCEHS IC will shift [one portable radio to PEPCORD 1](https://handbook.b
 iii) Direct all BCEHS personnel to don appropriate backcountry PPE (per [HRH 14](https://intranet.bcehs.ca/ce/pulse/user/teams/department/conversation_site_page/NDA1?page_id=405&project_id=48){:target="_blank .external-link} and [HRH 19](https://intranet.bcehs.ca/ce/pulse/user/teams/department/conversation_site_page/NDEx?page_id=411&project_id=48){:target="_blank .external-link}). 
 This includes:
 
-<div align="center">
-
 | Category | Required Item |
-| :----------: | :---------------: |
+| :---: | :---: |
 | Head/ Eye | BCEHS Helmet (visor down) |
 | Visibility | High-Visibility vest |
 | Safety | Hearing protection |
-
-</div>
 
 iv) The BCEHS IC will liaise with the SAR Manager (Event Command) and PS Safety Officer (if available) regarding planned aircraft movements and patient packaging needs.
 
@@ -103,14 +99,17 @@ vi) Once the aircraft has completed the hoist/long line/loading operation, BCEHS
 
 **Related BCEHS Policy**
 
-[BCEHS OHS 130 Paramedic Safety at the Scene](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-11-85066.pdf){:target="_blank .external-link}.
-[BCEHS OHS 180.1 Search and Rescue Situations](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-12-85214.pdf){:target="_blank .external-link}.
+[BCEHS OHS 130 Paramedic Safety at the Scene](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-11-85066.pdf){:target="_blank .external-link}
+
+[BCEHS OHS 180.1 Search and Rescue Situations](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-12-85214.pdf){:target="_blank .external-link}
 
 **Guidelines/Procedures/Forms**
 
-[High Risk Hazard Field Support Guide](https://intranet.bcehs.ca/intranet/pages/347?lang=ENG){:target="_blank .external-link}.
-[Working In and Around Moving Vehicles and Equipment](https://shop.healthcarebc.ca/phsa/BCEHS/Guidelines/C-04-07-85274.pdf){:target="_blank .external-link}.
-[Paramedic Specialist Deployment and Dispatching Procedure](https://shop.healthcarebc.ca/phsa/BCEHS/Guidelines/C-04-07-85256.pdf){:target="_blank .external-link}.
+[High Risk Hazard Field Support Guide](https://intranet.bcehs.ca/intranet/pages/347?lang=ENG){:target="_blank .external-link}
+
+[Working In and Around Moving Vehicles and Equipment](https://shop.healthcarebc.ca/phsa/BCEHS/Guidelines/C-04-07-85274.pdf){:target="_blank .external-link}
+
+[Paramedic Specialist Deployment and Dispatching Procedure](https://shop.healthcarebc.ca/phsa/BCEHS/Guidelines/C-04-07-85256.pdf){:target="_blank .external-link}
 
 ## Revision History
 

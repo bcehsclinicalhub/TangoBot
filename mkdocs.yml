@@ -51,3 +51,7 @@ copyright: "Internal Use Only | © 2026 BC Emergency Health Services"
 extra:
   search:
     placeholder: "Search TangoPulse..."
+
+plugins:
+  - search
+  - glightbox  # Add this line

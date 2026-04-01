@@ -221,3 +221,11 @@ body, input {
     content: " ↗"; /* Adds a small arrow so staff know it's external */
     font-size: 0.8rem;
 }
+
+/* Center all tables in the document */
+.md-typeset table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: table !important;
+    width: auto !important;
+}
