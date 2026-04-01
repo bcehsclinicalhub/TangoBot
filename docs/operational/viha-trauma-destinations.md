@@ -60,11 +60,15 @@ Patients who meet the major trauma criteria and are within 90 minutes ground tra
 
 | Area / Boundary | Primary Receiving Hospital |
 | :--- | :--- |
-| Port Renfrew / Lake Cowichan | Victoria General Hospital |
+| Port Renfrew | Victoria General Hospital |
+| Lake Cowichan | Victoria General Hospital |
 | South of Cedar Rd (Cassidy) | Victoria General Hospital |
 | North of Cedar Rd to Black Creek | Nanaimo Regional General |
 | Black Creek to Woss | North Island Hospital (CR) |
 | North of Woss | Port Hardy Hospital |
+| Port Alberni South of Brand Ave | Nanaimo Regional General Hospital |
+| Pacific Rim Hwy North of Brand Ave to Tofino / Ucluelet junction | West Coast General |
+| Tofino / Ucluelet | Tofino General Hospital |
 
 ## Special Considerations
 
