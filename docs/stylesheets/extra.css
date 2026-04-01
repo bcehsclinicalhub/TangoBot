@@ -209,3 +209,18 @@ body, input {
     font-size: 0.75rem !important;
     margin-top: 5px !important;
 }
+
+.external-link-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #004B8D; /* BCEHS Blue */
+    color: white !important;
+    border-radius: 4px;
+    text-decoration: none !important;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.external-link-button:hover {
+    background-color: #D32F2F; /* BCEHS Red on hover */
+}
