@@ -210,17 +210,14 @@ body, input {
     margin-top: 5px !important;
 }
 
-.external-link-button {
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: #004B8D; /* BCEHS Blue */
-    color: white !important;
-    border-radius: 4px;
-    text-decoration: none !important;
-    font-weight: 700;
-    margin: 5px 0;
+/* Subtle External Link Style */
+.external-link {
+    color: #004B8D !important;
+    text-decoration: underline !important;
+    font-weight: 600;
 }
 
-.external-link-button:hover {
-    background-color: #D32F2F; /* BCEHS Red on hover */
+.external-link::after {
+    content: " ↗"; /* Adds a small arrow so staff know it's external */
+    font-size: 0.8rem;
 }
