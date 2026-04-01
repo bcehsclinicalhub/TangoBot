@@ -24,7 +24,8 @@ keywords:
   - Fire
 ---
 
-# Urban-Wildland Interface SAR Events DST
+# Urban-Wildland Interface SAR Events
+**Decision Support Tool**
 
 ## Purpose
 
@@ -79,10 +80,10 @@ This collaborative decision will weigh the expected response time and risk invol
 
 i) Establish a BCEHS Incident Command (IC) to liaise with the SAR Manager (Event Command) and PS Safety Officer (if available) supporting patient extraction.
 
-ii) The BCEHS IC will shift [one portable radio to PEPCORD 1](https://handbook.bcehs.ca/operations/air-operations/PEPCORD){:target="_blank .external-link}. to maintain situational awareness of air-to-ground operations per existing BCEHS guidelines.
+ii) The BCEHS IC will shift [one portable radio to PEPCORD 1](https://handbook.bcehs.ca/operations/air-operations/){:target="_blank .external-link}. to maintain situational awareness of air-to-ground operations per existing BCEHS guidelines.
 
-iii) Direct all BCEHS personnel to don appropriate backcountry PPE (per [HRH 14](https://intranet.bcehs.ca/ce/pulse/user/teams/department/conversation_site_page/NDA1?page_id=405&project_id=48){:target="_blank .external-link} and [HRH 19](https://intranet.bcehs.ca/ce/pulse/user/teams/department/conversation_site_page/NDEx?page_id=411&project_id=48){:target="_blank .external-link}). 
-This includes:
+iii) Direct all BCEHS personnel to don appropriate backcountry PPE
+(per [HRH 14](https://intranet.bcehs.ca/ce/pulse/user/teams/department/conversation_site_page/NDA1?page_id=405&project_id=48){:target="_blank .external-link} and [HRH 19](https://intranet.bcehs.ca/ce/pulse/user/teams/department/conversation_site_page/NDEx?page_id=411&project_id=48){:target="_blank .external-link}). This includes:
 
 | Category | Required Item |
 | :---: | :---: |
