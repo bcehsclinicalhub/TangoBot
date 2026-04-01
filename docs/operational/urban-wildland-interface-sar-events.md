@@ -66,11 +66,6 @@ ii) When confirmed, add a critical event remark with key safety information:
     * If any safety concerns, contact Paramedic Specialist at **(604-829-4099)**
     * Review handbook for more information
 
-    - If any safety concerns, contact Paramedic Specialist at **(604-829-4099)**
-    - Review handbook for more information
-
-If any safety concerns, contact Paramedic Specialist at (604-829-4099). Review handbook for more information.
-
 iii) Request that the responsible channel operator contact responding / on-scene crews over the air to confirm safety direction with CliniCall.
 
 iv) Contact the OCUC assigned to the call to discuss scene safety responsibilities if no TNG resource is responding or if the OCUC will arrive before the TNG resource.
@@ -105,8 +100,8 @@ vi) Once the aircraft has completed the hoist/long line/loading operation, BCEHS
 
 **Related BCEHS Policy**
 
-    •[BCEHS OHS 130 Paramedic Safety at the Scene](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-11-85066.pdf){:target="_blank .external-link}
-    •[BCEHS OHS 180.1 Search and Rescue Situations](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-12-85214.pdf){:target="_blank .external-link}
+    •BCEHS OHS 130 Paramedic Safety at the Scene(https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-11-85066.pdf){:target="_blank .external-link}.
+    •BCEHS OHS 180.1 Search and Rescue Situations(https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-12-85214.pdf){:target="_blank .external-link}.
 
 **Guidelines/Procedures/Forms**
 
