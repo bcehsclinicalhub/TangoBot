@@ -26,6 +26,10 @@ keywords:
 - Pacific Rim Hwy
 - Tofino
 - Ucluelet
+- Victoria
+- Nanaimo
+- VGH
+- NRGH
 ---
 
 # Vancouver Island Trauma Destinations
@@ -35,8 +39,9 @@ keywords:
 
 Currently on Vancouver Island, the catchment area for transporting a major trauma patient to a lead trauma hospital (LTH) is 40 minutes. As part of the phased rollout of the Provincial Trauma Bypass guidelines, this transport time will be extended to 90 minutes effective July 1stst 2020 to align with current evidence and best practices. This will apply to patients who meet the physiological, anatomical or mechanism criteria for major trauma when an air resource is not available, when it cannot respond due to weather or is delayed longer than the ground transport time to a lead trauma hospital.
 The lead trauma hospitals on Vancouver Island are:
-• Victoria General Hospital (VGH) Level 2 trauma centre
-• Nanaimo Regional General Hospital (NRGH) Level 3 trauma centre
+
+* **Victoria General Hospital (VGH)** Level 2 trauma centre
+* **Nanaimo Regional General Hospital (NRGH)** Level 3 trauma centre
 ---
 
 ## Scope
@@ -53,17 +58,13 @@ Patients who meet the major trauma criteria and are within 90 minutes ground tra
 
 ## Procedure
 
-The geographical guidelines for Vancouver Island are:
-
-• Port Renfrew – Victoria General Hospital
-• Lake Cowichan - Victoria General Hospital
-• South of Cedar Rd (near Cassidy Airport). – Victoria General Hospital
-• North of Cedar Rd to Black Creek (Hamm Rd) – Nanaimo Regional General Hospital
-• Black Creek to Woss (Englewood Dr) - North Island Hospital, Campbell River
-• North of Woss - Port Hardy Hospital
-• Port Alberni South of Brand Ave (Sproat Lake Bridge) – Nanaimo Regional General Hospital
-• Pacific Rim Hwy North of Brand Ave to Tofino / Ucluelet junction - West Coast General
-• Tofino / Ucluelet - Tofino General Hospital
+| Area / Boundary | Primary Receiving Hospital |
+| :--- | :--- |
+| Port Renfrew / Lake Cowichan | Victoria General Hospital |
+| South of Cedar Rd (Cassidy) | Victoria General Hospital |
+| North of Cedar Rd to Black Creek | Nanaimo Regional General |
+| Black Creek to Woss | North Island Hospital (CR) |
+| North of Woss | Port Hardy Hospital |
 
 ## Special Considerations
 
@@ -80,4 +81,4 @@ Complete ePCR unless no patient contact is made.
 
 | Version | Date | Changes | Author |
 |--------|------|---------|--------|
-| 1.0 | 2025-12-01 | Initial version | Metro Ops |
+| 1.0 | 2020-05-22 | Initial version | Island South Ops |
