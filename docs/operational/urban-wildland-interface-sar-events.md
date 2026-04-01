@@ -111,7 +111,13 @@ vi) Once the aircraft has completed the hoist/long line/loading operation, BCEHS
 
     •[BCEHS OHS 130 Paramedic Safety at the Scene](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-11-85066.pdf){:target="_blank .external-link}.
     •[BCEHS OHS 180.1 Search and Rescue Situations](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-12-85214.pdf){:target="_blank .external-link}.
-    
+
+** NEW Guidelines/Procedures/Forms**
+
+[ProMapp prcoess](https://ca.promapp.com/bcehs/Process/Minimode/Permalink/IBOT9mqJnCRwh24gDQ1Nb){:target="_blank .external-link}
+
+[High Risk Hazard Field Support Guide](https://intranet.bcehs.ca/intranet/pages/347?lang=ENG){:target="_blank .external-link}
+
 ## Revision History
 
 | Version | Date | Changes | Author |
