@@ -111,14 +111,8 @@ vi) Once the aircraft has completed the hoist/long line/loading operation, BCEHS
 
 [Paramedic Specialist Deployment and Dispatching Procedure](https://shop.healthcarebc.ca/phsa/BCEHS/Guidelines/C-04-07-85256.pdf){:target="_blank .external-link}
 
-## Revision History
-
-| Version | Date | Changes | Author |
-|--------|------|---------|--------|
-| 1.0 | 2024-12-01 | Initial version | Manager, Clinical Hub |
-
 ## Review Schedule
 
-| Adopted | December 2024 | Owner: | Manager, Clinical Hub | 
+| Adopted | Next Review Scheduled | Owner | Reviewer| 
 | :--- | :--- | :--- | :--- | 
-| Next Review Scheduled | March 2025 | Reviewer: | BCEHS Occupational Health and Safety Team |
+| December 2024 | March 2025 | Ops Manager, Clinical Hub | BCEHS Occupational Health and Safety Team |
