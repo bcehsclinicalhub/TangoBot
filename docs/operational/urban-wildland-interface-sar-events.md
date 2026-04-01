@@ -58,7 +58,7 @@ i) Once an Urban-Wildland SAR event notification is received, the PS will review
 
 ii) When confirmed, add a critical event remark with key safety information:
 
-## ⚠️ SAFETY ALERT
+<h2 style="font-size: 0.9rem; margin-bottom: 5px;">⚠️ SAFETY ALERT</h2>
 !!! warning "Urban Interface SAR"
     - Stage >50m (160ft) from hoist / landing zone as directed
     - Conduct scene safety assessment
