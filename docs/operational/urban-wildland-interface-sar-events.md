@@ -64,7 +64,8 @@ ii) When confirmed, add a critical event remark with key safety information:
     * Don PPE (helmet, eye protection and high-vis vest)
     * Switch ONE portable radio to **PEPCORD 1**
 
-[cite_start]If any safety concerns, contact Paramedic Specialist at **(604-829-4099)**[cite: 50]. [cite_start]Review handbook for more information[cite: 51].
+    - If any safety concerns, contact Paramedic Specialist at **(604-829-4099)**
+    - Review handbook for more information
 
 If any safety concerns, contact Paramedic Specialist at (604-829-4099). Review handbook for more information.
 
