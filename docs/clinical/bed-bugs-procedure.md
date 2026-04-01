@@ -30,26 +30,18 @@ keywords:
 
 To limit the exposures to both paramedics and patients to bed bugs. To ensure all equipment and clothing is clean and infestation free after a high-risk bed bug call.
 
----
-
 ## Scope
 
 To all responding paramedic, supervisors and agencies that may be exposed to, or contaminated with bed bugs.
-
----
 
 ## Definitions
 
 - SDS: Safety Data Sheet
 - SDS Products: Specifically mention ACCEL / Accelerated Hydrogen Peroxide as the primary disinfectant.
 
----
-
 ## Policy
 
 BC Emergency Health Services (BCEHS) is committed to protecting the health and safety of both patients and staff by minimizing the risk of bed bug (Cimex lectularius) transmission and infestation. All responding paramedics and supervisors must perform a continuous on-scene risk assessment to identify potential bed bug presence. When an infestation is suspected or confirmed, staff are mandated to utilize specific Personal Protective Equipment (PPE) and follow standardized containment and decontamination procedures for vehicles, equipment, and uniforms. Contaminated uniforms must not be laundered at home; they must be processed using high-heat cycles as outlined in the Exposure Control Plan to ensure complete eradication of insects and larvae.
-
----
 
 ## Quick Action
 
@@ -104,7 +96,6 @@ Uniforms should be laundered properly with hot water and detergent or dry cleane
 (**Please not at home**)
 If you do find a bite, wash the area with warm water and soap. Do not scratch.
 An ice pack can provide relief from itching or pain if necessary. An Antihistamine if required for itching.
----
 
 ## Special Considerations
 
@@ -167,18 +158,13 @@ https://intranet.bcas.ca/areas/qsrma/ipac/pdf/exposure-control-plan-part2-ipac.p
 
 - Completed ePCR, unless patient contact is not made. 
 
----
-
 ## References
 
 ![Alt text for screen readers](images/bed-bugs.png)
 
 Websites http://www.vch.ca/environmental/docs/2005_08_guide_bed_bug_control_pamphlet.pdf http://pestcontrolcanada.com/INSECTS/get_rid_of_bed_bugs.htm
 
-Bite treatment http://www.healthlinkbc.ca/kbase/topic/symptom/insbt/hometrt.htm http://www.healthlinkbc.ca/kbase/frame/not40/not40440/frame.htm
-
-
----
+Bite treatment http://www.healthlinkbc.ca/kbase/topic/symptom/insbt/hometrt.htm http://www.healthlinkbc.ca/kbase/frame/not40/not40440/frame.html
 
 ## Revision History
 

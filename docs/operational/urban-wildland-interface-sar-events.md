@@ -48,6 +48,8 @@ This Decision Support Tool provides safety guidance for SAR helicopter operation
 
 Though rare in occurrence, Urban-Wildland Interface SAR events present a unique set of safety risks for responding paramedics. While the BCEHS Occupational Health and Safety team develops a formal update to policy and procedure, the Paramedic Specialist team will provide safety support for BCEHS crews in alignment with the team’s mandate of protecting BCEHS’ people, patients, and infrastructure.
 
+![ProMapp Process](images/urban-interface-sar-promapp.png)
+
 As defined in the [ProMapp prcoess](https://ca.promapp.com/bcehs/Process/Minimode/Permalink/IBOT9mqJnCRwh24gDQ1Nb){:target="_blank .external-link}, the PS will receive a dispatch SIG and CliniCall consult for all Urban-Wildland events where helicopters are being utilized, and BCEHS personnel are on scene (i.e., not staged at separate LZ) for further safety direction.
 
 **Initial Notification**
@@ -56,13 +58,13 @@ i) Once an Urban-Wildland SAR event notification is received, the PS will review
 
 ii) When confirmed, add a critical event remark with key safety information:
 
-!!! warning "⚠️ **SAFETY ALERT**"
-    * [cite_start]Stage **>50m (160ft)** from hoist / landing zone as directed[cite: 49].
-    * [cite_start]Conduct scene safety assessment[cite: 49].
-    * [cite_start]Don PPE (helmet, eye protection and high-vis vest)[cite: 50].
-    * [cite_start]Switch ONE portable radio to **PEPCORD 1**[cite: 50].
-    * [cite_start]If any safety concerns, contact Paramedic Specialist at **(604-829-4099)**[cite: 50].
-    * [cite_start]Review handbook for more information[cite: 51].
+!!! warning "**SAFETY ALERT**"
+    * Stage **>50m (160ft)** from hoist / landing zone as directed
+    * Conduct scene safety assessment
+    * Don PPE (helmet, eye protection and high-vis vest)
+    * Switch ONE portable radio to **PEPCORD 1**
+    * If any safety concerns, contact Paramedic Specialist at **(604-829-4099)**
+    * Review handbook for more information
 
     - If any safety concerns, contact Paramedic Specialist at **(604-829-4099)**
     - Review handbook for more information
@@ -81,9 +83,9 @@ This collaborative decision will weigh the expected response time and risk invol
 
 i) Establish a BCEHS Incident Command (IC) to liaise with the SAR Manager (Event Command) and PS Safety Officer (if available) supporting patient extraction.
 
-ii) The BCEHS IC will shift one portable radio to PEPCORD 1 to maintain situational awareness of air-to-ground operations per existing BCEHS guidelines.
+ii) The BCEHS IC will shift [one portable radio to PEPCORD 1](https://handbook.bcehs.ca/operations/air-operations/PEPCORD){:target="_blank .external-link}. to maintain situational awareness of air-to-ground operations per existing BCEHS guidelines.
 
-iii) Direct all BCEHS personnel to don appropriate backcountry PPE (per HRH 14 and HRH-19). 
+iii) Direct all BCEHS personnel to don appropriate backcountry PPE (per [HRH 14](https://intranet.bcehs.ca/ce/pulse/user/teams/department/conversation_site_page/NDA1?page_id=405&project_id=48){:target="_blank .external-link} and [HRH 19](https://intranet.bcehs.ca/ce/pulse/user/teams/department/conversation_site_page/NDEx?page_id=411&project_id=48){:target="_blank .external-link}). 
 This includes:
 
 | Category | Required Item |
@@ -103,14 +105,14 @@ vi) Once the aircraft has completed the hoist/long line/loading operation, BCEHS
 
 **Related BCEHS Policy**
 
-    •BCEHS OHS 130 Paramedic Safety at the Scene
-    •BCEHS OHS 180.1 Search and Rescue Situations
+    •[BCEHS OHS 130 Paramedic Safety at the Scene](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-11-85066.pdf){:target="_blank .external-link}
+    •[BCEHS OHS 180.1 Search and Rescue Situations](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-12-85214.pdf){:target="_blank .external-link}
 
 **Guidelines/Procedures/Forms**
 
-    •High Risk Hazard Field Support Guide
-    •Working In and Around Moving Vehicles and Equipment
-    •Paramedic Specialist Deployment and Dispatching Procedure
+    •[High Risk Hazard Field Support Guide](https://intranet.bcehs.ca/intranet/pages/347?lang=ENG){:target="_blank .external-link}
+    •[Working In and Around Moving Vehicles and Equipment](https://shop.healthcarebc.ca/phsa/BCEHS/Guidelines/C-04-07-85274.pdf){:target="_blank .external-link}
+    •[Paramedic Specialist Deployment and Dispatching Procedure](https://shop.healthcarebc.ca/phsa/BCEHS/Guidelines/C-04-07-85256.pdf){:target="_blank .external-link}
 
 ## Revision History
 
