@@ -91,7 +91,7 @@ This includes:
 
 iv) The BCEHS IC will liaise with the SAR Manager (Event Command) and PS Safety Officer (if available) regarding planned aircraft movements and patient packaging needs.
 
-v) Once the patient has been packaged with support of ground teams, all BCEHS personnel will stage >50m (160ft) from the planned hoist / long line extraction area.
+v) Once the patient has been packaged with support of ground teams, all BCEHS personnel will stage **>50m (160ft)** from the planned hoist / long line extraction area.
 
 vi) Once the aircraft has completed the hoist/long line/loading operation, BCEHS personnel will return to the vehicle staging area for patient handover.
 
