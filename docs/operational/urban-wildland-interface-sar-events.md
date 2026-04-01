@@ -49,6 +49,7 @@ This Decision Support Tool provides safety guidance for SAR helicopter operation
 Though rare in occurrence, Urban-Wildland Interface SAR events present a unique set of safety risks for responding paramedics. While the BCEHS Occupational Health and Safety team develops a formal update to policy and procedure, the Paramedic Specialist team will provide safety support for BCEHS crews in alignment with the team’s mandate of protecting BCEHS’ people, patients, and infrastructure.
 
 ![ProMapp Process](images/urban-interface-sar-promapp.png)
+(click to enlarge)
 
 As defined in the [ProMapp prcoess](https://ca.promapp.com/bcehs/Process/Minimode/Permalink/IBOT9mqJnCRwh24gDQ1Nb){:target="_blank .external-link}, the PS will receive a dispatch SIG and CliniCall consult for all Urban-Wildland events where helicopters are being utilized, and BCEHS personnel are on scene (i.e., not staged at separate LZ) for further safety direction.
 
@@ -115,4 +116,4 @@ vi) Once the aircraft has completed the hoist/long line/loading operation, BCEHS
 
 | Adopted | Next Review Scheduled | Owner | Reviewer| 
 | :--- | :--- | :--- | :--- | 
-| December 2024 | March 2025 | Ops Manager, Clinical Hub | BCEHS Occupational Health and Safety Team |
+| Dec 2024 | Mar 2025 | Clinical Hub Mnager | BCEHS OHS Team |

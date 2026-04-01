@@ -222,12 +222,17 @@ body, input {
     font-size: 0.8rem;
 }
 
-/* Center all tables in the document */
+/* Center-align tables and prevent them from stretching full-width */
 .md-typeset table {
     margin-left: auto !important;
     margin-right: auto !important;
     display: table !important;
     width: auto !important;
+}
+
+/* Ensure table headers are also centered if using :---: in Markdown */
+.md-typeset th {
+    text-align: center !important;
 }
 
 /* Indicate that images are clickable/zoomable */
