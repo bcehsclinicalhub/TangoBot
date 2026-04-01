@@ -26,8 +26,6 @@ keywords:
 
 # Urban-Wildland Interface SAR Events DST
 
----
-
 ## Purpose
 
 This Decision Support Tool (DST) provides interim direction for the Paramedic Specialist (PS) team members in supporting paramedic safety during Back Country and Urban-Wildland Interface Search and Rescue (SAR) events. As the result of an ongoing Occupational Health and Safety Investigation, interim control measures are being implemented while BCEHS updates existing policies and procedures such as the [High-Risk Hazards Field Support Guide](https://intranet.bcehs.ca/ce/pulse/user/teams/department/conversation_site_page?project_id=48&page_id=347&lang=ENG){:target="_blank .external-link} and [BCEHS OHS 180.1 Search and Rescue Situations](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-12-85214.pdf){:target="_blank .external-link}.  
@@ -36,8 +34,10 @@ This Decision Support Tool (DST) provides interim direction for the Paramedic Sp
 
 ## Definitions
 
-a) **Urban-Wildland Interface SAR Events**: Locations where BCEHS personnel operating in alignment with organizational policy (e.g., municipal trails) may be patient-side whilst requiring the support of Search and Rescue crews for extraction. Rotary-wing aircraft (helicopters) conducting long line and hoist operations, along with the deployment of other specialized rescue equipment, may occur in this Urban-Wildland interface and could introduce new risks for workers on scene.
-b) **Safety Risk**: In general terms, a safety risk is exposure to any unsafe situation that paramedics are not trained or equipped to deal with. Some examples of unsafe exposure could involve unstable trees, swirling ground debris, rocks and other projectiles being released as a result of helicopter rotor wash.
+a) **Urban-Wildland Interface SAR Events**
+[cite_start]Locations where BCEHS personnel operating in alignment with organizational policy (e.g., municipal trails) may be patient-side whilst requiring the support of Search and Rescue crews for extraction. Rotary-wing aircraft (helicopters) conducting long line and hoist operations, along with the deployment of other specialized rescue equipment, may occur in this Urban-Wildland interface and could introduce new risks for workers on scene.
+b) **Safety Risk**
+[cite_start]In general terms, a safety risk is exposure to any unsafe situation that paramedics are not trained or equipped to deal with. Some examples of unsafe exposure could involve unstable trees, swirling ground debris, rocks and other projectiles being released as a result of helicopter rotor wash.
 
 ## Scope
 
@@ -98,3 +98,14 @@ b)**Guidelines/Procedures/Forms**
 | Version | Date | Changes | Author |
 |--------|------|---------|--------|
 | 1.0 | 2024-12-01 | Initial version | Manager, Clinical Hub |
+
+
+## Definitions
+
+a) **Urban-Wildland Interface SAR Events**
+Locations where BCEHS personnel may be patient-side while requiring SAR support for extraction.
+**Note:** Rotary-wing aircraft (helicopters) conducting long-line and hoist operations introduce new risks to workers on scene.
+
+b) **Safety Risk**
+Exposure to any unsafe situation that paramedics are not trained or equipped to deal with.
+**Examples:** Unstable trees, swirling ground debris, or projectiles released by helicopter rotor wash.
