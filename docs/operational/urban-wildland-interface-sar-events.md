@@ -58,7 +58,7 @@ i) Once an Urban-Wildland SAR event notification is received, the PS will review
 
 ii) When confirmed, add a critical event remark with key safety information:
 
-<h2 style="font-size: 0.9rem; margin-bottom: 5px;">⚠️ SAFETY ALERT</h2>
+<p style="color: #004B8D; font-size: 0.75rem; font-weight: 800; margin-bottom: 2px; text-transform: uppercase;">⚠️ SAFETY ALERT</p>
 !!! warning "Urban Interface SAR"
     - Stage >50m (160ft) from hoist / landing zone as directed
     - Conduct scene safety assessment
@@ -76,11 +76,13 @@ v) If the interface event takes place in the Lower Mainland, T1/T2 will engage t
 This collaborative decision will weigh the expected response time and risk involved in reaching the scene (long code-3 response) with the safety benefits of BCEHS personnel and partner agencies having PS Safety Officer support.
 
 **Direction for Crews**
+
 i) Establish a BCEHS Incident Command (IC) to liaise with the SAR Manager (Event Command) and PS Safety Officer (if available) supporting patient extraction.
 
 ii) The BCEHS IC will shift one portable radio to PEPCORD 1 to maintain situational awareness of air-to-ground operations per existing BCEHS guidelines.
 
-iii) Direct all BCEHS personnel to don appropriate backcountry PPE (per HRH 14 and HRH-19). This includes:
+iii) Direct all BCEHS personnel to don appropriate backcountry PPE (per HRH 14 and HRH-19). 
+This includes:
 
 | Category | Required Item |
 |----------|---------------|
@@ -89,24 +91,25 @@ iii) Direct all BCEHS personnel to don appropriate backcountry PPE (per HRH 14 a
 | Safety | Hearing protection |
 
 
-iv)The BCEHS IC will liaise with the SAR Manager (Event Command) and PS Safety Officer (if available) regarding planned aircraft movements and patient packaging needs.
+iv) The BCEHS IC will liaise with the SAR Manager (Event Command) and PS Safety Officer (if available) regarding planned aircraft movements and patient packaging needs.
 
-v)Once the patient has been packaged with support of ground teams, all BCEHS personnel will stage >50m (160ft) from the planned hoist / long line extraction area.
+v) Once the patient has been packaged with support of ground teams, all BCEHS personnel will stage >50m (160ft) from the planned hoist / long line extraction area.
 
-vi)Once the aircraft has completed the hoist/long line/loading operation, BCEHS personnel will return to the vehicle staging area for patient handover.
+vi) Once the aircraft has completed the hoist/long line/loading operation, BCEHS personnel will return to the vehicle staging area for patient handover.
 
 ---
 
 ## References
 
-a)**Related BCEHS Policy**
-•BCEHS OHS 130 Paramedic Safety at the Scene
-•BCEHS OHS 180.1 Search and Rescue Situations
-b)**Guidelines/Procedures/Forms**
-•High Risk Hazard Field Support Guide
-•Working In and Around Moving Vehicles and Equipment
-•Paramedic Specialist Deployment and Dispatching Procedure
+**Related BCEHS Policy**
 
+    •BCEHS OHS 130 Paramedic Safety at the Scene
+    •BCEHS OHS 180.1 Search and Rescue Situations
+
+**Guidelines/Procedures/Forms**
+    •High Risk Hazard Field Support Guide
+    •Working In and Around Moving Vehicles and Equipment
+    •Paramedic Specialist Deployment and Dispatching Procedure
 ---
 
 ## Revision History
