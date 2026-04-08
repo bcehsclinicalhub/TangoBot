@@ -1,5 +1,5 @@
 site_name: Clinical Hub TangoDx
-site_url: https://tango.bcehsclinicalhub.ca
+site_url: https://tango.bcehsclinicalhub.ca/
 use_directory_urls: true
 
 theme:
