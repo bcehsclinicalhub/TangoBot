@@ -31,4 +31,10 @@
     <a href="cold-exposure/">Head Injury</a>
 </div>
 
+## T
+<div class="index-grid">
+    <a href="tor-dst">Termination of Resuscitation</a>
+
+</div>
+
 <a href="#" class="back-to-top">↑ TOP</a>
