@@ -41,7 +41,7 @@ Recognizing that the Paramedic Specialist team continues to experience times whe
 ToR decision support requests from crews for **rapid discontinuation** or **unwitnessed cardiac arrest** will be supported by the Paramedic Specialist, with escalation to EPOS in specific cases where unusual circumstances warrant further clinical and/or legal discussion. For all other ToR decision making including patients that meet the 30-minute and 40-minute criteria, EPOS consultation is still required.
 
 
-## ➤ Rapid Discontinuation Criteria
+## Rapid Discontinuation Criteria
 
 1. <u>Prolonged no-flow duration:</u>
 
@@ -75,33 +75,33 @@ ToR decision support requests from crews for **rapid discontinuation** or **unwi
 
     **Note: For legal decision making, escalate to EPOS**
 
-## ➤ Unwitnessed Cardiac Arrest Discontinuation
+## Unwitnessed Arrest Discontinuation
 
 A. [Under R02: Discontinuation of resuscitation](https://handbook.bcehs.ca/clinical-practice-guidelines/r-resuscitation-decision-making/r02-resuscitation-decision-making/){:target="_blank .external-link}, the Paramedic Specialist may advise ROLE on or after 20 minutes of CPR by emergency health care providers if the following 3 conditions are met. EPOS does not need to be consulted.
 
-  1. **The arrest was unwitnessed by paramedics or EMRs/FRs**
+  **1. The arrest was unwitnessed by paramedics or EMRs/FRs**
 
-  2. **No Shocks were delivered, and**
+  **2. No Shocks were delivered, and**
 
-  3. **There was no return of spontaneous circulation regardless of duration**
+  **3. There was no return of spontaneous circulation regardless of duration**
 
 **AND**, specific to PS ToR Decision Support:
 
-  i. The patient is 17 years of age (pediatric excluded) 
+    i. The patient is 17 years of age (pediatric excluded) 
 
-  ii. Hypothermia is not a consideration
+    ii. Hypothermia is not a consideration
 
-  iii. There is no evidence of drowning
+    iii. There is no evidence of drowning
 
-  iv. The arrest was unwitnessed
+    iv. The arrest was unwitnessed
 
-  v. No organized rhythm on monitor when this can be determined
+    v. No organized rhythm on monitor when this can be determined
 
-  vi. No agonal respirations
+    vi. No agonal respirations
 
 Special consideration and escalation to EPOS for any call that raises concern, including any indication of patient viability, or unusual circumstances such as pregnancy, CBRNE, unusual toxicological OD.
 
-If these conditions are not met and/or there is an indication to continue resuscitation to the 30-minute mark, EPOS decision support is still required
+If these conditions are not met and/or there is an indication to continue resuscitation to the 30-minute mark, EPOS decision support is still required.
 
 * When advising a crew to stop CPR and perform ROLE there is no requirement to contact the EPOS physician after the event, however if there is any uncertainty, EPOS escalation should be initiated.
 
