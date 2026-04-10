@@ -1,6 +1,6 @@
 <div align="center">
   <img src="../assets/hublogo.png" class="hero-logo-small" />
-  <h1 style="margin-top: 10px;">☣️ Chemical Data Sheets</h1>
+  <h1 style="margin-top: 10px;">☣️ Safety Data Sheets</h1>
 </div>
 
 
