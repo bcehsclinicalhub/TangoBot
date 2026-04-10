@@ -41,7 +41,7 @@ Recognizing that the Paramedic Specialist team continues to experience times whe
 ToR decision support requests from crews for **rapid discontinuation** or **unwitnessed cardiac arrest** will be supported by the Paramedic Specialist, with escalation to EPOS in specific cases where unusual circumstances warrant further clinical and/or legal discussion. For all other ToR decision making including patients that meet the 30-minute and 40-minute criteria, EPOS consultation is still required.
 
 
-➤ **Rapid Discontinuation Criteria**
+## ➤ Rapid Discontinuation Criteria
 
 1. <u>Prolonged no-flow duration:</u>
 
@@ -53,19 +53,19 @@ ToR decision support requests from crews for **rapid discontinuation** or **unwi
 
     iv. The patient’s cardiac rhythm is asystole, or pulseless electrical activity of less than 30 beats per minute, or an AED does not detect a shockable rhythm. 
 
-**Note: if PEA escalate to EPOS if available**
+    **Note: if PEA escalate to EPOS if available**
 
 2. <u>Terminal illness:</u>
 
     i. A patient in the final stages of a terminal illness where death is imminent and unavoidable and where CPR would not be successful, but for whom no formal “No CPR” decision has been made. 
     
-**Note: Escalate to EPOS if no DNR available**
+    **Note: Escalate to EPOS if no DNR available**
 
 3. <u>Lawful direction:</u>
 
     i. When resuscitation is ongoing and a lawful direction to withhold CPR becomes available including an advance directive, a medical order for scope of treatment (MOST) a “No CPR” form or the discovery of a “No CPR” MediAlert bracelet or necklace. 
 
-**Note: Escalate to EPOS if unclear**
+    **Note: Escalate to EPOS if unclear**
 
 4. <u>Valid direction from a representative:</u>
 
@@ -73,31 +73,31 @@ ToR decision support requests from crews for **rapid discontinuation** or **unwi
 
       ii. A Power of Attorney does not have authority direct discontinuation of care. 
 
-**Note: For legal decision making, escalate to EPOS**
+    **Note: For legal decision making, escalate to EPOS**
 
-➤ **Unwitnessed Cardiac Arrest Discontinuation**
+## ➤ Unwitnessed Cardiac Arrest Discontinuation
 
-A. Under R02 (modified): Discontinuation of Resuscitation, the Paramedic Specialist may advise ROLE on or after 20 minutes of CPR by emergency health care providers if the following 3 conditions are met. EPOS does not need to be consulted.
+A. [Under R02: Discontinuation of resuscitation](https://handbook.bcehs.ca/clinical-practice-guidelines/r-resuscitation-decision-making/r02-resuscitation-decision-making/){:target="_blank .external-link}, the Paramedic Specialist may advise ROLE on or after 20 minutes of CPR by emergency health care providers if the following 3 conditions are met. EPOS does not need to be consulted.
 
-    1. **The arrest was unwitnessed by paramedics or EMRs/FRs**
+  1. **The arrest was unwitnessed by paramedics or EMRs/FRs**
 
-    2. **No Shocks were delivered, and**
+  2. **No Shocks were delivered, and**
 
-    3. **There was no return of spontaneous circulation regardless of duration**
+  3. **There was no return of spontaneous circulation regardless of duration**
 
 **AND**, specific to PS ToR Decision Support:
 
-    i. The patient is 17 years of age (pediatric excluded) 
-    
-    ii. Hypothermia is not a consideration
+  i. The patient is 17 years of age (pediatric excluded) 
 
-    iii. There is no evidence of drowning
+  ii. Hypothermia is not a consideration
 
-    iv. The arrest was unwitnessed
+  iii. There is no evidence of drowning
 
-    v. No organized rhythm on monitor when this can be determined
+  iv. The arrest was unwitnessed
 
-    vi. No agonal respirations
+  v. No organized rhythm on monitor when this can be determined
+
+  vi. No agonal respirations
 
 Special consideration and escalation to EPOS for any call that raises concern, including any indication of patient viability, or unusual circumstances such as pregnancy, CBRNE, unusual toxicological OD.
 
