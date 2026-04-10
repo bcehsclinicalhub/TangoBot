@@ -28,7 +28,8 @@ keywords:
 ---
 
 # Termination of Resuscitation (ToR)
-## Decision Support Tool
+**_Decision Support Tool_**
+---
 
 ## Purpose
 
@@ -87,17 +88,17 @@ A. [Under R02: Discontinuation of resuscitation](https://handbook.bcehs.ca/clini
 
 **AND**, specific to PS ToR Decision Support:
 
-    i. The patient is 17 years of age (pediatric excluded) 
+  i. The patient is 17 years of age (pediatric excluded) 
 
-    ii. Hypothermia is not a consideration
+  ii. Hypothermia is not a consideration
 
-    iii. There is no evidence of drowning
+  iii. There is no evidence of drowning
 
-    iv. The arrest was unwitnessed
+  iv. The arrest was unwitnessed
 
-    v. No organized rhythm on monitor when this can be determined
+  v. No organized rhythm on monitor when this can be determined
 
-    vi. No agonal respirations
+  vi. No agonal respirations
 
 Special consideration and escalation to EPOS for any call that raises concern, including any indication of patient viability, or unusual circumstances such as pregnancy, CBRNE, unusual toxicological OD.
 
