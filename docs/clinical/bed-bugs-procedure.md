@@ -74,9 +74,9 @@ Equipment is specific to bed bug risk; additional equipment will be necessary de
 
 • All equipment necessary to thoroughly clean the vehicle and equipment at completion of the call, including:
 
-    o Disinfectant
+  - Disinfectant
 
-    o Personal Protective Equipment (PPE)
+  - Personal Protective Equipment (PPE)
 
 ### **Quick Facts**
 
@@ -139,7 +139,7 @@ Pre-warning on a response to a known bed bug premise, crews should;
 12. Transport the patient only; do not transport friends, family or bystanders from the scene.
 13. Notify the receiving hospital of the possibility of bed bugs.
 
-If bedbug is suspected from an individual:
+**If bedbug is suspected from an individual:**
 
 • Wrap patient in paper sheets and attempt to change clothing.
 
