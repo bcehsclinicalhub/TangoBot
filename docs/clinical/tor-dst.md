@@ -78,16 +78,25 @@ ToR decision support requests from crews for **rapid discontinuation** or **unwi
 ➤ **Unwitnessed Cardiac Arrest Discontinuation**
 
 A. Under R02 (modified): Discontinuation of Resuscitation, the Paramedic Specialist may advise ROLE on or after 20 minutes of CPR by emergency health care providers if the following 3 conditions are met. EPOS does not need to be consulted.
+
     1. **The arrest was unwitnessed by paramedics or EMRs/FRs**
+
     2. **No Shocks were delivered, and**
+
     3. **There was no return of spontaneous circulation regardless of duration**
 
 **AND**, specific to PS ToR Decision Support:
-    i. The patient is $\ge$ 17 years of age (pediatric excluded)
+
+    i. The patient is 17 years of age (pediatric excluded) 
+    
     ii. Hypothermia is not a consideration
+
     iii. There is no evidence of drowning
+
     iv. The arrest was unwitnessed
+
     v. No organized rhythm on monitor when this can be determined
+
     vi. No agonal respirations
 
 Special consideration and escalation to EPOS for any call that raises concern, including any indication of patient viability, or unusual circumstances such as pregnancy, CBRNE, unusual toxicological OD.
