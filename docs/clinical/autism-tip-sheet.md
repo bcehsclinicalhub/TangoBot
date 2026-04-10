@@ -103,7 +103,7 @@ Applicable to all BCEHS staff during any phase of patient contact or scene manag
 
 ## Reference
 
-![Alt text for screen readers](images/autism-tip-paramedic.png)
+![Original CAN poster](images/autism-tips-paramedic.png)
 
 [Canucks Autism Network](https://www.canucksautism.ca/awareness-training/){:target="_blank" .external-link}
 
