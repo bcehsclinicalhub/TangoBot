@@ -24,8 +24,8 @@ keywords:
   - Fire
 ---
 
-# Urban-Wildland Interface SAR Events
-**Decision Support Tool**
+# Urban-Wildland Interface SAR Events <br> <span style="font-size: 0.8em; font-style: italic;">Decision Support Tool</span>
+
 
 ## Purpose
 

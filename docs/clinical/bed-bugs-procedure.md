@@ -41,7 +41,7 @@ To all responding paramedic, supervisors and agencies that may be exposed to, or
 
 ## Policy
 
-BC Emergency Health Services (BCEHS) is committed to protecting the health and safety of both patients and staff by minimizing the risk of bed bug (Cimex lectularius) transmission and infestation. All responding paramedics and supervisors must perform a continuous on-scene risk assessment to identify potential bed bug presence. When an infestation is suspected or confirmed, staff are mandated to utilize specific Personal Protective Equipment (PPE) and follow standardized containment and decontamination procedures for vehicles, equipment, and uniforms. Contaminated uniforms must not be laundered at home; they must be processed using high-heat cycles as outlined in the Exposure Control Plan to ensure complete eradication of insects and larvae.
+BC Emergency Health Services (BCEHS) is committed to protecting the health and safety of both patients and staff by minimizing the risk of bed bug (Cimex lectularius) transmission and infestation. **All responding paramedics and supervisors must perform a continuous on-scene risk assessment to identify potential bed bug presence.**When an infestation is suspected or confirmed, staff are mandated to utilize specific Personal Protective Equipment (PPE) and follow standardized containment and decontamination procedures for vehicles, equipment, and uniforms. Contaminated uniforms must not be laundered at home; they must be processed using high-heat cycles as outlined in the Exposure Control Plan to ensure complete eradication of insects and larvae.
 
 ## Quick Action
 
@@ -60,28 +60,43 @@ BC Emergency Health Services (BCEHS) is committed to protecting the health and s
 All staff using these materials must read the SDS before using these materials.
 On all calls, an on-scene risk assessment should be performed to include the presence of bed bugs. If evidence of bed bugs is found the following procedures should be used.
 
-### Materials Needed
+### **Materials Needed**
 
 Equipment is specific to bed bug risk; additional equipment will be necessary dependent on the call.
+
 • Gloves
+
 • Gown
+
 • Boot protection/cover
+
 • White plastic bag and/or white disposable stretcher sheet
+
 • All equipment necessary to thoroughly clean the vehicle and equipment at completion of the call, including:
+
   o Disinfectant
   o Personal Protective Equipment (PPE)
 
-### Quick Facts
+### **Quick Facts**
 
 Bedbug (Cimex Lectularius)
+
 • Wingless, Red / Brown, Blood Sucking Insect
+
 • Lifespan 4 months to over a year
+
 • Can grow to 7mm in length (…...)
+
 • Hide during day in cracks, crevices, furniture
+
 • Emerge at night
+
 • Preferred host’s – Humans
+
 • Infestations found in shelters, but also in some hotels in Vancouver in particular
+
 • Bed bug bites different from scabies, or body lice
+
 • While bedbugs are present in many environments paramedics may enter, it is unlikely you will be bitten. In one study at a shelter that was infested with bedbugs only 4% of residents who slept at the shelter had bites. The risk is very low for short term entry into areas with bedbugs and essentially nonexistent during the day. That all being said we have had staff bitten by the bugs on calls.
 Bedbugs are well established in Metro Vancouver Area.
 
@@ -97,7 +112,7 @@ Uniforms should be laundered properly with hot water and detergent or dry cleane
 If you do find a bite, wash the area with warm water and soap. Do not scratch.
 An ice pack can provide relief from itching or pain if necessary. An Antihistamine if required for itching.
 
-## Special Considerations
+## **Special Considerations**
 
 Pre-warning on a response to a known bed bug premise, crews should;
 • Donn paper bootie covers, tuck in pant cuffs. Always wear appropriate PPE.
@@ -107,7 +122,7 @@ Pre-warning on a response to a known bed bug premise, crews should;
 • Stay clear of clothing, bedding, and attempt to move patient removing current clothing and bedding replacing with laundered clothing, hospital gowns or Tyvek.
 • Always maintain patient modesty.
 
-## During the Call
+## **During the Call**
 
 1. On scene risk assessment performed, identifying presence or high suspicion of bed bug infestation (or previous history of bed bugs on the CAD).
 2. Don gloves, gown and boot protection (additional PPE may be required according to the patient’s condition i.e. symptoms of influenza like illness).
@@ -124,13 +139,19 @@ Pre-warning on a response to a known bed bug premise, crews should;
 13. Notify the receiving hospital of the possibility of bed bugs.
 
 If bedbug is suspected from an individual:
+
 • Wrap patient in paper sheets and attempt to change clothing.
+
 • All clothing bagged, tagged (name etc.) and sealed with a knot.
 
 If bedbug suspected in vehicle:
-• Donn paper bootie covers, tuck in pant cuffs. Always wear appropriate PPE.
+
+• Donn paper bootie covers, tuck in pant cuffs. Always wear appropriate PPE
+
 • Leave stretcher outside of vehicle for separate cleansing Remove all linen from vehicle, bag & seal for laundry
+
 • Open all doors and allow as much light and UV lighting in to vehicle
+
 • Clean (patient & crew compartments) as per usual looking at corners, dark areas and air out
 
 
