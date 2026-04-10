@@ -42,19 +42,14 @@ The lead trauma hospitals on Vancouver Island are:
 
 * **Victoria General Hospital (VGH)** Level 2 trauma centre
 * **Nanaimo Regional General Hospital (NRGH)** Level 3 trauma centre
----
 
 ## Scope
 
 BCEHS paramedics, unit chiefs and managers (Island Districts), paramedic specialists, EPOS, paramedic practice educators, Victoria dispatch operations centre staff.
 
----
-
 ## Policy
 
 Patients who meet the major trauma criteria and are within 90 minutes ground transport time will be transported to a lead trauma hospital. Crews must factor weather, road conditions and traffic into their decision.
-
----
 
 ## Procedure
 
@@ -79,7 +74,6 @@ We recognize that this represents a significant change to current practice. Plea
 
 Complete ePCR unless no patient contact is made.
 
----
 
 ## Revision History
 

@@ -86,7 +86,7 @@ Equipment is specific to bed bug risk; additional equipment will be necessary de
 
 • Lifespan 4 months to over a year
 
-• Can grow to 7mm in length (…...)
+• Can grow to 7mm in length
 
 • Hide during day in cracks, crevices, furniture
 
@@ -115,13 +115,19 @@ An ice pack can provide relief from itching or pain if necessary. An Antihistami
 
 ## Special Considerations
 
-Pre-warning on a response to a known bed bug premise, crews should;
-• Donn paper bootie covers, tuck in pant cuffs. Always wear appropriate PPE.
+**Pre-warning on a response to a known bed bug premise, crews should:**
+
+• Donn paper bootie covers, tuck in pant cuffs. Always wear appropriate PPE
+
 • Leave stretcher outside of residence or entranceway
-• Leave jump kit outside or place on a higher-level counter, table etc. Never place kits on bedding, couches, or cloth surfaces.
-• Turn on all lights, open curtains.
-• Stay clear of clothing, bedding, and attempt to move patient removing current clothing and bedding replacing with laundered clothing, hospital gowns or Tyvek.
-• Always maintain patient modesty.
+
+• Leave jump kit outside or place on a higher-level counter, table etc. Never place kits on bedding, couches, or cloth surfaces
+
+• Turn on all lights, open curtains
+
+• Stay clear of clothing, bedding, and attempt to move patient removing current clothing and bedding replacing with laundered clothing, hospital gowns or Tyvek
+
+• Always maintain patient modesty
 
 ## During the Call
 
@@ -167,8 +173,8 @@ Pre-warning on a response to a known bed bug premise, crews should;
 7. Clean and disinfect the vehicle and all equipment using accelerated hydrogen peroxide.
 8. Remove all uniform clothing and place in plastic linen bag. Do not wear exposed uniform home.
 9. Shower as required and change into spare uniform.
-10. Uniform can be laundered and dried at high temperature. Once laundered and dried in hot air drier they are safe to use again. Please refer to Cleaning Contaminated Uniform process found in the Exposure Control Plan Part 2 - Infection Prevention and Control.
-https://intranet.bcas.ca/areas/qsrma/ipac/pdf/exposure-control-plan-part2-ipac.pdf
+10. Uniform can be laundered and dried at high temperature. Once laundered and dried in hot air drier they are safe to use again. Please refer to Cleaning Contaminated Uniform process found in the
+[ Exposure Control Plan Part 2 - Infection Prevention and Control](https://intranet.bcas.ca/areas/qsrma/ipac/pdf/exposure-control-plan-part2-ipac.pdf){:target="_blank .external-link}
 11. Once ambulance has been cleaned and restocked, book back into service.
 12. Inform Supervisor of any evidence of ambulance or station infestation. Evidence of infestation is if any evidence of bed bug infestation is seen after these procedures have been completed.
 13. Notify Workplace Health Call Centre if evidence of bites and if you have questions regarding a reaction to a bite, contact our Occupational Health Nurse (OSH). Follow up as directed which may include visiting your General Physician. If you have a time loss and/or a medical visit a WorkSafe BC claim must be filed.
