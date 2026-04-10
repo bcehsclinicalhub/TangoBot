@@ -51,15 +51,21 @@ ToR decision support requests from crews for **rapid discontinuation** or **unwi
 
     iii. The patient is not exhibiting any signs of life (see signs of life extinct); **and**
 
-    iv. The patient’s cardiac rhythm is asystole, or pulseless electrical activity of less than 30 beats per minute, or an AED does not detect a shockable rhythm. Note: if PEA escalate to EPOS if available
+    iv. The patient’s cardiac rhythm is asystole, or pulseless electrical activity of less than 30 beats per minute, or an AED does not detect a shockable rhythm. 
+
+**Note: if PEA escalate to EPOS if available**
 
 2. <u>Terminal illness:</u>
 
-    i. A patient in the final stages of a terminal illness where death is imminent and unavoidable and where CPR would not be successful, but for whom no formal “No CPR” decision has been made. Note: Escalate to EPOS if no DNR available
+    i. A patient in the final stages of a terminal illness where death is imminent and unavoidable and where CPR would not be successful, but for whom no formal “No CPR” decision has been made. 
+    
+**Note: Escalate to EPOS if no DNR available**
 
 3. <u>Lawful direction:</u>
 
-    i. When resuscitation is ongoing and a lawful direction to withhold CPR becomes available including an advance directive, a medical order for scope of treatment (MOST) a “No CPR” form or the discovery of a “No CPR” MediAlert bracelet or necklace. Note: Escalate to EPOS if unclear
+    i. When resuscitation is ongoing and a lawful direction to withhold CPR becomes available including an advance directive, a medical order for scope of treatment (MOST) a “No CPR” form or the discovery of a “No CPR” MediAlert bracelet or necklace. 
+
+**Note: Escalate to EPOS if unclear**
 
 4. <u>Valid direction from a representative:</u>
 
@@ -73,11 +79,11 @@ ToR decision support requests from crews for **rapid discontinuation** or **unwi
 
 A. Under R02 (modified): Discontinuation of Resuscitation, the Paramedic Specialist may advise ROLE on or after 20 minutes of CPR by emergency health care providers if the following 3 conditions are met. EPOS does not need to be consulted.
 
-    1. The arrest was unwitnessed by paramedics or EMRs/FRs
+    **1. The arrest was unwitnessed by paramedics or EMRs/FRs**
 
-    2. No Shocks were delivered, and
+    **2. No Shocks were delivered, and**
 
-    3. There was no return of spontaneous circulation regardless of duration
+    **3. There was no return of spontaneous circulation regardless of duration**
 
 **AND**, specific to PS ToR Decision Support:
 
@@ -101,7 +107,7 @@ If these conditions are not met and/or there is an indication to continue resusc
 
 [Promapp – PS Termination of Resuscitation](https://ca.promapp.com/bcehs/Process/Minimode/Permalink/Gtltcuj7GGR7J3uxo7Piv6){:target="_blank .external-link}
 
-## EPOS Unaailable Workflow
+## EPOS Unavailable Workflow
 
 When a Paramedic Specialist is unable to contact EPOS on time sensitive calls, the Paramedic Specialist will make a reasonable attempt using the following options:
 
@@ -124,11 +130,10 @@ Ensure “Yes - Unavailable” is selected in SIREN.
 
 ![EPOS Siren](images/epos-siren.png)
 
-(click to enlarge)
 
 ![ProMapp](images/epos-unavailable.png)
 
-(click to enlarge)
+
 
  * When advising a crew to stop CPR and perform ROLE there is no requirement to contact the EPOS physician after the event, however you can contact EPOS at any time to debrief any decisions that were made when EPOS was unavailable.
 
@@ -140,7 +145,6 @@ As part of the QA process all calls that meet ToR and not requiring EPOS consult
 
 ![Siren](images/epos-siren-tor.png)
 
-(click to enlarge)
 
 ## Frequently Asked Questions
 
