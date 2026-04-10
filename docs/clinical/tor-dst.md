@@ -27,9 +27,7 @@ keywords:
   - EPOS
 ---
 
-# Termination of Resuscitation (ToR)
-**_Decision Support Tool_**
----
+# Termination of Resuscitation (ToR) <br> <span style="font-size: 0.8em; font-style: italic;">Decision Support Tool</span>
 
 ## Purpose
 
