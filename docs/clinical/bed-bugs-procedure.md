@@ -74,12 +74,13 @@ Equipment is specific to bed bug risk; additional equipment will be necessary de
 
 • All equipment necessary to thoroughly clean the vehicle and equipment at completion of the call, including:
 
-  o Disinfectant
-  o Personal Protective Equipment (PPE)
+    o Disinfectant
+
+    o Personal Protective Equipment (PPE)
 
 ### **Quick Facts**
 
-Bedbug (Cimex Lectularius)
+• Bedbug (Cimex Lectularius)
 
 • Wingless, Red / Brown, Blood Sucking Insect
 
@@ -100,19 +101,19 @@ Bedbug (Cimex Lectularius)
 • While bedbugs are present in many environments paramedics may enter, it is unlikely you will be bitten. In one study at a shelter that was infested with bedbugs only 4% of residents who slept at the shelter had bites. The risk is very low for short term entry into areas with bedbugs and essentially nonexistent during the day. That all being said we have had staff bitten by the bugs on calls.
 Bedbugs are well established in Metro Vancouver Area.
 
-The West End and Downtown Eastside have multiple reported infestations. You will encounter Bedbugs on calls but they will pose very little risk to you and there are some simple things to do to prevent them from getting into equipment.
+• The West End and Downtown Eastside have multiple reported infestations. You will encounter Bedbugs on calls but they will pose very little risk to you and there are some simple things to do to prevent them from getting into equipment.
 
-Bedbugs spend the daylight hours hidden away and are not an issue; they are night feeders and seek out humans in upholstered couches and in their beds. It would be very unlikely that you will be bitten
+• Bedbugs spend the daylight hours hidden away and are not an issue; they are night feeders and seek out humans in upholstered couches and in their beds. It would be very unlikely that you will be bitten
 unless you spend significant time on an infected couch or in an infested bed. They do not fly or jump so putting equipment on a shelf or table is a good protective measure.
 
-Equipment should be cleaned as per normal using provided ACCEL disinfectants and cleaning supplies. If bedbugs are found in/on equipment wipe them off and clean as per normal practice. It is the larvae found on linens, bedding, curtains, shag carpets that you really want to prevent contacting. Personal Protective Ensemble (PPE) using boot covers, gowns, gloves should be utilized.
+• Equipment should be cleaned as per normal using provided ACCEL disinfectants and cleaning supplies. If bedbugs are found in/on equipment wipe them off and clean as per normal practice. It is the larvae found on linens, bedding, curtains, shag carpets that you really want to prevent contacting. Personal Protective Ensemble (PPE) using boot covers, gowns, gloves should be utilized.
 
 Uniforms should be laundered properly with hot water and detergent or dry cleaned.
 (**Please not at home**)
 If you do find a bite, wash the area with warm water and soap. Do not scratch.
 An ice pack can provide relief from itching or pain if necessary. An Antihistamine if required for itching.
 
-## **Special Considerations**
+## Special Considerations
 
 Pre-warning on a response to a known bed bug premise, crews should;
 • Donn paper bootie covers, tuck in pant cuffs. Always wear appropriate PPE.
@@ -122,7 +123,7 @@ Pre-warning on a response to a known bed bug premise, crews should;
 • Stay clear of clothing, bedding, and attempt to move patient removing current clothing and bedding replacing with laundered clothing, hospital gowns or Tyvek.
 • Always maintain patient modesty.
 
-## **During the Call**
+## During the Call
 
 1. On scene risk assessment performed, identifying presence or high suspicion of bed bug infestation (or previous history of bed bugs on the CAD).
 2. Don gloves, gown and boot protection (additional PPE may be required according to the patient’s condition i.e. symptoms of influenza like illness).
@@ -144,7 +145,7 @@ If bedbug is suspected from an individual:
 
 • All clothing bagged, tagged (name etc.) and sealed with a knot.
 
-If bedbug suspected in vehicle:
+**If bedbug suspected in vehicle:**
 
 • Donn paper bootie covers, tuck in pant cuffs. Always wear appropriate PPE
 
