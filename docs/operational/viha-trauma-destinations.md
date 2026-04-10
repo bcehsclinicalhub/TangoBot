@@ -33,7 +33,7 @@ keywords:
 ---
 
 # Vancouver Island Trauma Destinations
-<span class="hero-tagline">Policy: 51500-01 | Version: 1.0 | Effective: 2020-05-22</span>
+
 
 ## Purpose
 

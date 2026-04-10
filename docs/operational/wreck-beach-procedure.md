@@ -31,7 +31,6 @@ keywords:
 ---
 
 # Wreck Beach Standard Operating Guideline
-<span class="hero-tagline">Policy: POL-XXX | Version: 1.0 | Effective: 2025-12-01</span>
 
 ## Purpose
 
@@ -39,20 +38,16 @@ This document serves to act as a guide for BCEHS Paramedics responding to emerge
 Wreck Beach, nestled within Metro Vancouver’s Pacific Spirit Regional Park, is celebrated for its beauty and social allure. Extending 7 kilometers along ancestral unceded Musqueam land, and wrapping around Vancouver’s Point Grey peninsula, it ranks among the world’s largest clothing-optional beaches. However, its popularity and remote location pose safety challenges. Despite its charm, the beach's isolation and increasing visitation create challenges, particularly in handling medical emergencies. Effective coordination among emergency responders, including the RCMP (UBC Detachment), Vancouver Fire Rescue Services (VFRS), BC Emergency Health Services (BCEHS), and the Canadian Coast Guard, is crucial in addressing these challenges.
 Time sensitive decision making is based on multiple factors and is often a nuanced decision balancing risks and benefits. Decisions on the urgency of extrication may include but are not limited to, patient factors, responder factors (ex. crew fatigue), mechanism of injury, medical condition, and environmental state. This does not lend itself well to a specific scoring system and is best discussed in consultation with the Paramedic Specialist desk and/or EPOS. 
 
----
 
 ## Scope
 
 All paramedic and supervisor units responding to events at Wreck Beach. 
 
----
-
 ## Definitions
 
 JRCC = Joint Rescue Coordination Centre
-EPOS = Emergency Physician Online Support
 
----
+EPOS = Emergency Physician Online Support
 
 ## Policy
 
@@ -66,19 +61,18 @@ BC Emergency Health Services (BCEHS) is committed to providing safe and effectiv
 
 - Cultural and Geographic Awareness: Responders must acknowledge that operations take place on the ancestral unceded lands of the Musqueam people and within a unique social environment (clothing-optional) that requires professional conduct and situational awareness.
 
----
 
 ## Procedure
 
-Operational Specifics
+**Operational Specifics**
 
-1.	BCEHS – PICK UP WRECK BEACH KIT inside station 262 next to the vehicle bay entrance in locker 231 – (please call dispatch for padlock code).
-2.	SWITCH TO CE-VAN 1 (Combined Event) on one of your portables to connect with Vancouver Fire (VFRS) to confirm ETA.
-3.	Once connected, MUTUALLY DECIDE IF YOU ARE GOING TO WAIT for each other before heading down based on incident information, time of day and weather. If either agency is delayed, then head down to the beach instead of waiting.
-4.	When 10-7 at scene, LEAVE VEHICLE KEYS on the floor inside the ambulance to allow VFRS to drive it over to Spanish Banks.
-5.	VFRS, please remember to take the BASKET STRETCHER with you.
-6.	BCEHS, please take the clam shell along with your Wreck Beach Kit and O2.
-7.	PARK RANGERS activation, call 604-451-6610 (24hr Emergency). They know a lot about what goes on down at the beach and can provide excellent help should you need it (direction, crowd control, etc.).
+1.	**PICK UP WRECK BEACH KIT inside station 262** next to the vehicle bay entrance in locker 231 – (please call dispatch for padlock code).
+2.	**SWITCH TO CE-VAN 1 (Combined Event)** on one of your portables to connect with Vancouver Fire (VFRS) to confirm ETA.
+3.	Once connected, **MUTUALLY DECIDE IF YOU ARE GOING TO WAIT** for each other before heading down based on incident information, time of day and weather. If either agency is delayed, then head down to the beach instead of waiting.
+4.	When 10-7 at scene, **LEAVE VEHICLE KEYS** on the floor inside the ambulance to allow VFRS to drive it over to Spanish Banks.
+5.	**VFRS, please remember to take the BASKET STRETCHER with you.**
+6.	**BCEHS, please take the clam shell** along with your Wreck Beach Kit and O2.
+7.	**PARK RANGERS activation**, call 604-451-6610 (24hr Emergency). They know a lot about what goes on down at the beach and can provide excellent help should you need it (direction, crowd control, etc.).
 8.	Should you need assistance from JRCC (Coast Guard – Hovercraft) for transport, you MUST call CliniCall (PS/EPOS) arrange for response. Do not assume that someone else will call on your behalf (e.g. park rangers, police, fire, UBC security, etc.).
 9.	The Hovercraft will then take you to the “CONCESSION STAND” (or sometimes referred to as the Bath House) at Spanish Banks where your ambulance should be awaiting your arrival.
 
@@ -91,8 +85,6 @@ All recommendations and assessments on scene by BCEHS paramedics must be relayed
 ## Documentation Requirements
 
 Complete ePCR unless no patient contact is made.
-
----
 
 ## References
 

@@ -139,13 +139,13 @@ Pre-warning on a response to a known bed bug premise, crews should;
 12. Transport the patient only; do not transport friends, family or bystanders from the scene.
 13. Notify the receiving hospital of the possibility of bed bugs.
 
-**If bedbug is suspected from an individual:**
+**If bedbugs are suspected from an individual:**
 
 • Wrap patient in paper sheets and attempt to change clothing.
 
 • All clothing bagged, tagged (name etc.) and sealed with a knot.
 
-**If bedbug suspected in vehicle:**
+**If bedbugs are suspected in vehicle:**
 
 • Donn paper bootie covers, tuck in pant cuffs. Always wear appropriate PPE
 
@@ -184,9 +184,12 @@ https://intranet.bcas.ca/areas/qsrma/ipac/pdf/exposure-control-plan-part2-ipac.p
 
 ![Alt text for screen readers](images/bed-bugs.png)
 
-Websites http://www.vch.ca/environmental/docs/2005_08_guide_bed_bug_control_pamphlet.pdf http://pestcontrolcanada.com/INSECTS/get_rid_of_bed_bugs.htm
+### **Websites**
 
-Bite treatment http://www.healthlinkbc.ca/kbase/topic/symptom/insbt/hometrt.htm http://www.healthlinkbc.ca/kbase/frame/not40/not40440/frame.html
+[VCH: Bed Bugs](https://www.vch.ca/en/bed-bugs){:target="_blank .external-link}
+
+[HealthLink: Bed Bugs](https://www.healthlinkbc.ca/healthlinkbc-files/bed-bugs){:target="_blank .external-link}
+
 
 ## Revision History
 
