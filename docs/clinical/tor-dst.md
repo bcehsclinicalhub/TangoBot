@@ -45,53 +45,53 @@ ToR decision support requests from crews for **rapid discontinuation** or **unwi
 
 1. <u>Prolonged no-flow duration:</u>
 
-  i. Patient observed to be unresponsive and presumed pulseless for at least 20 minutes prior to the arrival of emergency services; **and**
+    i. Patient observed to be unresponsive and presumed pulseless for at least 20 minutes prior to the arrival of emergency services; **and**
 
-  ii. No CPR was provided during this period; **and**
+    ii. No CPR was provided during this period; **and**
 
-  iii. The patient is not exhibiting any signs of life (see signs of life extinct); **and**
+    iii. The patient is not exhibiting any signs of life (see signs of life extinct); **and**
 
-  iv. The patient’s cardiac rhythm is asystole, or pulseless electrical activity of less than 30 beats per minute, or an AED does not detect a shockable rhythm. Note: if PEA escalate to EPOS if available
+    iv. The patient’s cardiac rhythm is asystole, or pulseless electrical activity of less than 30 beats per minute, or an AED does not detect a shockable rhythm. Note: if PEA escalate to EPOS if available
 
 2. <u>Terminal illness:</u>
 
-  i. A patient in the final stages of a terminal illness where death is imminent and unavoidable and where CPR would not be successful, but for whom no formal “No CPR” decision has been made. Note: Escalate to EPOS if no DNR available
+    i. A patient in the final stages of a terminal illness where death is imminent and unavoidable and where CPR would not be successful, but for whom no formal “No CPR” decision has been made. Note: Escalate to EPOS if no DNR available
 
 3. <u>Lawful direction:</u>
 
-  i. When resuscitation is ongoing and a lawful direction to withhold CPR becomes available including an advance directive, a medical order for scope of treatment (MOST) a “No CPR” form or the discovery of a “No CPR” MediAlert bracelet or necklace. Note: Escalate to EPOS if unclear
+    i. When resuscitation is ongoing and a lawful direction to withhold CPR becomes available including an advance directive, a medical order for scope of treatment (MOST) a “No CPR” form or the discovery of a “No CPR” MediAlert bracelet or necklace. Note: Escalate to EPOS if unclear
 
 4. <u>Valid direction from a representative:</u>
 
-  i. A representative who is explicitly named in a Representation Agreement or an advance care plan may direct discontinuation of care.
+      i. A representative who is explicitly named in a Representation Agreement or an advance care plan may direct discontinuation of care.
 
-  ii. A Power of Attorney does not have authority direct discontinuation of care. 
+      ii. A Power of Attorney does not have authority direct discontinuation of care. 
 
-      **Note: For legal decision making, escalate to EPOS**
+**Note: For legal decision making, escalate to EPOS**
 
 ➤ **Unwitnessed Cardiac Arrest Discontinuation**
 
 A. Under R02 (modified): Discontinuation of Resuscitation, the Paramedic Specialist may advise ROLE on or after 20 minutes of CPR by emergency health care providers if the following 3 conditions are met. EPOS does not need to be consulted.
 
-  1. The arrest was unwitnessed by paramedics or EMRs/FRs
+    1. The arrest was unwitnessed by paramedics or EMRs/FRs
 
-  2. No Shocks were delivered, and
+    2. No Shocks were delivered, and
 
-  3. There was no return of spontaneous circulation regardless of duration
+    3. There was no return of spontaneous circulation regardless of duration
 
 **AND**, specific to PS ToR Decision Support:
 
-  i. The patient is ≥ 17 years of age (pediatric excluded)
+    i. The patient is ≥ 17 years of age (pediatric excluded)
 
-  ii. Hypothermia is not a consideration
+    ii. Hypothermia is not a consideration
 
-  iii. There is no evidence of drowning
+    iii. There is no evidence of drowning
 
-  iv. The arrest was unwitnessed
+    iv. The arrest was unwitnessed
 
-  v. No organized rhythm on monitor when this can be determined
+    v. No organized rhythm on monitor when this can be determined
 
-  vi. No agonal respirations
+    vi. No agonal respirations
 
 Special consideration and escalation to EPOS for any call that raises concern, including any indication of patient viability, or unusual circumstances such as pregnancy, CBRNE, unusual toxicological OD.
 
@@ -122,7 +122,7 @@ Document the interaction thoroughly in SIREN including what attempts were made t
 
 Ensure “Yes - Unavailable” is selected in SIREN.
 
-![EPOS Siren](images/epos-siren.pngepos-siren.png)
+![EPOS Siren](images/epos-siren.png)
 
 (click to enlarge)
 
