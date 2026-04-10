@@ -28,7 +28,7 @@ keywords:
 ---
 
 # Termination of Resuscitation (ToR)
-**Decision Support Tool**
+## Decision Support Tool
 
 ## Purpose
 
