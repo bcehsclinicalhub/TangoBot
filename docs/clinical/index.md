@@ -5,7 +5,7 @@
 
 ## A
 <div class="index-grid">
-    <a href="autism-tip-sheet-paramedic/">Autism Tip Sheet</a>
+    <a href="autism-tip-sheet/">Autism Tip Sheet</a>
 </div>
 
 ## B
