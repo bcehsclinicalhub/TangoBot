@@ -105,8 +105,6 @@ Applicable to all BCEHS staff during any phase of patient contact or scene manag
 
 ![Original CAN poster](images/autism_tips_paramedic.png)
 
-[Canucks Autism Network](https://www.canucksautism.ca/awareness-training/){:target="_blank" .external-link}
-
 
 ## Review Schedule
 

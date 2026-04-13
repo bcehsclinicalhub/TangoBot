@@ -3,6 +3,10 @@
   <h1 style="margin-top: 10px;">🚑 Operational Guidelines</h1>
 </div>
 
+## B
+<div class="index-grid">
+    <a href="bchydro-safety/">BC Hydro Safety</a>
+</div>
 
 ## U
 <div class="index-grid">

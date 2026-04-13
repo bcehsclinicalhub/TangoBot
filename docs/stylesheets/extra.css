@@ -245,3 +245,10 @@ body, input {
 .md-typeset img:hover {
     opacity: 0.9;
 }
+
+.md-search__input {
+    color: rgba(0, 0, 0, 0.87) !important; /* Force black text */
+}
+[data-md-color-scheme="slate"] .md-search__input {
+    color: white !important; /* Keep it white for dark mode users */
+}
