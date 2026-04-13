@@ -49,6 +49,10 @@ Always maintain a safe distance from electrical lines and equipment until a BC H
 
 ## References
 
+![BC Hydro image 1](images/hydro-1.png)
+
+![BC Hydro image 2](images/hydro-2.png)
+
 We encourage all first responders to take advantage of BC Hydro Electrical Safety Awareness training. It is free and available online or in person at bchydro.com/safetytraining. And if you have questions or comments on electrical safety and BC Hydro, please contact Marc Spencer in BC Hydro Public Safety at (604) 528-1952.
 
 [BC Hydro Safety Training](https://bchydro.com/safetytraining.){:target="_blank .external-link}

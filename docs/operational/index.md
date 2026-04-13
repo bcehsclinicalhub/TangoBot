@@ -10,7 +10,7 @@
 
 ## U
 <div class="index-grid">
-    <a href="skytrain-response-safety/">Skytrain response Safety</a>
+    <a href="skytrain-response-safety/">Skytrain Response Safety</a>
 </div>
 
 ## U

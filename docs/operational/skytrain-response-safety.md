@@ -1,5 +1,5 @@
 ---
-title: Skytrain response Safety
+title: Skytrain Response Safety
 policy_id: 
 version: 1.0
 status: Active
@@ -47,9 +47,9 @@ Provide high level view of rail tracks.
 
 ## References
 
-![Wreck Beach Map](images/skytrain-1.png)
+![Skytrain image 1](images/skytrain-1.png)
 
-![Wreck Beach Map](images/skytrain-2.png)
+![Skytrain image 2](images/skytrain-2.png)
 
 
 ## Review Schedule
