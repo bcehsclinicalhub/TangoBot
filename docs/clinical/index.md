@@ -13,6 +13,11 @@
     <a href="bed-bugs-procedure/">Bed Bugs</a>
 </div>
 
+## H
+<div class="index-grid">
+    <a href="hfnc-airvo2/">HFNC AIRVO2</a>
+</div>
+
 ## T
 <div class="index-grid">
     <a href="tor-dst">Termination of Resuscitation</a>
