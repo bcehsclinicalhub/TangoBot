@@ -309,31 +309,28 @@ body, input {
     display: none;
 }
 
-/* Force cards to be identical height even with different text */
-.grid.cards > ul > li {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 200px;
-}
-
-/* Force cards to be identical twins */
+/* Force the grid items to be identical twins */
 .grid.cards > ul {
-    display: flex;
-    gap: 1rem;
+    display: flex !important;
+    align-items: stretch !important; /* Forces same height */
+    gap: 20px;
 }
 
 .grid.cards > ul > li {
-    flex: 1; /* Makes both boxes the exact same width */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Pushes the button to the bottom */
-    padding: 1.5rem !important;
+    flex: 1; /* Forces same width */
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important; /* Pushes button to bottom */
+    padding: 30px !important;
     text-align: center;
 }
 
-/* Fix the Button Alignment */
+/* Ensure buttons are identical in size */
 .grid.cards .md-button {
-    margin: 1rem auto 0 auto;
-    width: 80%; /* Consistent button width */
+    margin: 20px auto 0 auto !important;
+    width: 220px !important; /* Fixed width for symmetry */
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
