@@ -35,13 +35,13 @@ nav:
   - Home: index.md
   - Paramedic Specialists:
       - ps/index.md
-      - Clinical References: ps/clinical.md
-      - Operational Guidelines: ps/operational.md
-      - Safety Data Sheets: ps/chemical.md
+      - Clinical References: docs/ps/clinical.md
+      - Operational Guidelines: docs/ps/operational.md
+      - Safety Data Sheets: docs/ps/chemical.md
   - Secondary Triage:
       - stc/index.md
-      - Triage Algorithms: stc/algorithms.md
-      - Triage Protocols: stc/protocols.md
+      - Triage Algorithms: docs/stc/algorithms.md
+      - Triage Protocols: docsstc/protocols.md
 
 markdown_extensions:
   - admonition
