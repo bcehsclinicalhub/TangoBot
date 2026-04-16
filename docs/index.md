@@ -6,15 +6,15 @@
 
 <div class="grid cards" markdown>
 
-* <center>
-    :ambulance: **Paramedic Specialists**
-    <br><br>
+
+*    :ambulance: **Paramedic Specialists**
+    
     [Enter PS Page →](ps/index.md){ .md-button }
     </center>
 
-* <center>
+* 
     <span style="color: #d32f2f; font-size: 1.5rem; font-weight: bold;">☎</span> **Secondary Triage**
-    <br><br>
+    
     [Enter STC Page →](stc/index.md){ .md-button }
     </center>
 

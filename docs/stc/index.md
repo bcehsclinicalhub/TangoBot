@@ -1,6 +1,6 @@
 <div class="hero-text-container">
   <img src="assets/hublogo.png" class="hero-logo-small" />
-    <span class="hero-welcome">Hub Wiki :: Secondary Triage</span>
+    <span class="hero-welcome">Hub Wiki | Secondary Triage</span>
 </div>
 
 ---
@@ -9,7 +9,7 @@
 
 | Section | Description | Link |
 | :--- | :--- | :--- |
-| **Clinical References** | Clinical guidelines and other clinical references | [Clinical References →](clinical/index.md) |
+| **Directory of Services** | Clinical guidelines and other clinical references | [Directory of Service →](clinical/index.md) |
 | **Operational Guidelines** | Practice Updates and operational resources | [Operational Guidelines →](operational/index.md) |
 | **Safety Data Sheets** | Safety data sheets and other exposure resources | [Safety Data Sheets →](chemical/index.md) |
 

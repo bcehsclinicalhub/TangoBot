@@ -286,3 +286,20 @@ body, input {
     margin-right: auto;
     width: 200px; /* Fixed width for the buttons to match */
 }
+
+/* Ensure both cards are the same width */
+.grid.cards > ul > li {
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Fix the button text stacking and alignment */
+.grid.cards .md-button {
+    min-width: 220px; /* Forces buttons to be identical width */
+    white-space: nowrap; /* Prevents text from wrapping to a second line */
+    text-align: center;
+    margin-top: 15px;
+}

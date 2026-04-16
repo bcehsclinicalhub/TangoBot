@@ -1,6 +1,6 @@
 <div class="hero-text-container">
   <img src="assets/hublogo.png" class="hero-logo-small" />
-  <span class="hero-welcome">Hub Wiki :: Paramedic Specialist</span>
+  <span class="hero-welcome">Hub Wiki | Paramedic Specialist</span>
 </div>
 
 ---
