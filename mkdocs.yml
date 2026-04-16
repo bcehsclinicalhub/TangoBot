@@ -31,9 +31,8 @@ theme:
 
 nav:
   - Home: index.md
-  - Clinical References: clinical/index.md
-  - Operational Guidelines: operational/index.md
-  - Safety Data Sheets: chemical/index.md
+  - Paramedic Specialists: PS/index.md
+  - Secondary Triage: STC/index.md
 
 markdown_extensions:
   - admonition
