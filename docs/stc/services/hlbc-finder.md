@@ -17,7 +17,7 @@ keywords:
   - Wildfire
   - SAR
   - Safety
-  - DST
+  - DST                                                                            
   - Interface
   - Fire
 ---
@@ -39,10 +39,10 @@ Crisis hotlines
 Environmental Health 
 
 Home Care Intake 
-
+                                                                                                                                                                                                                                                                                                     
 Hospitals 
 
-Mental Health Intake 
+Mental Health  Intake                                                                                                                                                                                                                                                                  
 
 Pharmacy Services 
 
