@@ -271,3 +271,18 @@ body, input {
   margin-top: 10px;
   width: fit-content;
 }
+
+/* Force Grid Cards to be identical width and centered */
+.grid.cards > ul > li {
+    min-width: 320px; /* Adjust this number if you want them wider/narrower */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Ensure the button stays centered within that fixed width */
+.grid.cards .md-button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px; /* Fixed width for the buttons to match */
+}
