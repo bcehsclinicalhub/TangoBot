@@ -3,9 +3,9 @@
   <h1 style="margin-top: 10px;">☎️ Directory of Services</h1>
 </div>
 
-## Number
+## '#'
 <div class="index-grid">
-    <a href="211-finder/">BC Hydro Safety</a>
+    <a href="211-finder/">2-1-1 Services Finder</a>
 </div>
 
 ## U
