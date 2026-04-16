@@ -4,6 +4,7 @@ body, input {
     font-weight: 300; 
 }
 
+/* Make bold text pop */
 .md-typeset strong, .md-typeset b { 
     font-weight: 800 !important; 
     color: #000 !important; 
@@ -15,8 +16,25 @@ body, input {
     border: none !important; 
 }
 
-/* Hide breadcrumbs and standard header titles to clean up the UI */
-.md-header__title, .md-breadcrumb, .md-content__nav, .md-breadcrumbs { 
+/* SMART H1 LOGIC */
+.hero-text-container + h1, 
+.md-content__inner > h1:first-child:has(+ .hero-text-container) {
+    display: none !important;
+}
+
+/* Style the restored H1 for SOG and Procedure pages */
+.md-typeset h1 {
+    display: block !important;
+    font-size: 1.6rem !important; /* Reduced from 2.2rem */
+    line-height: 1.3 !important;  /* Better spacing for multi-line titles */
+    font-weight: 800 !important;
+    color: #004B8D !important;
+    margin-bottom: 0.8rem !important;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 8px;
+}
+
+.md-header__title, .md-breadcrumb { 
     display: none !important; 
 }
 
@@ -26,16 +44,27 @@ body, input {
     padding: 0 20px !important; 
 }
 
+/* LOGO IN TOP NAV */
+.md-header__button.md-logo { 
+    margin-right: auto !important; 
+}
+
 .md-header__button.md-logo img { 
     filter: brightness(0) invert(1); 
     height: 2.8rem !important; 
 }
 
-/* --- 3. SEARCHBAR STYLING --- */
+/* --- 3. SEARCH & DARK MODE (ALIGNED RIGHT) --- */
 .md-header__search { 
     width: 340px !important; 
     margin-right: 15px !important; 
     order: 2 !important; 
+}
+
+.md-header__option { 
+    order: 3 !important; 
+    display: flex !important; 
+    align-items: center !important; 
 }
 
 .md-search__form { 
@@ -43,17 +72,13 @@ body, input {
     border-radius: 24px !important; 
 }
 
-.md-search__input {
-    color: rgba(0, 0, 0, 0.87) !important; 
+.md-search__input { 
+    color: white !important; 
     height: 2.2rem !important; 
     padding-left: 2.8rem !important; 
 }
 
-[data-md-color-scheme="slate"] .md-search__input {
-    color: white !important; 
-}
-
-/* ECG Search Icon */
+/* ECG SEARCH ICON */
 .md-search__icon svg { display: none !important; }
 .md-search__icon[for="__search"]::before {
     background-color: #FF0000;
@@ -62,10 +87,11 @@ body, input {
     content: ""; display: block; width: 1.3rem; height: 1.3rem; position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
 }
 
-/* --- 4. LANDING PAGE HERO --- */
+/* --- 4. HERO & LOGO --- */
 .hero-text-container {
     text-align: center;
-    margin: 20px 0 30px 0;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 .hero-logo-small {
@@ -79,39 +105,27 @@ body, input {
     font-weight: 800;
     color: #004B8D;
     display: block;
+    margin-bottom: 5px;
 }
 
-/* --- 5. GRID CARDS (The "Identical Twins" Logic) --- */
-.grid.cards > ul {
-    display: flex !important;
-    align-items: stretch !important; 
-    gap: 20px;
+.hero-tagline {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #666;
+    display: block;
 }
 
-.grid.cards > ul > li {
-    flex: 1; 
-    min-width: 300px;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: space-between !important; 
-    padding: 30px !important;
-    text-align: center;
-    border: 1px solid #eee;
-    border-radius: 8px;
-    background: #fff;
+/* --- 5. SECTION HEADERS (HOME & PROCEDURES) --- */
+.md-typeset h2 {
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+    color: #004B8D !important;
+    margin-top: 2rem !important;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
 }
 
-.grid.cards .md-button {
-    margin: 20px auto 0 auto !important;
-    min-width: 220px !important; 
-    min-height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    white-space: nowrap;
-}
-
-/* --- 6. INDEX GRID & CATEGORY LETTERS --- */
+/* --- 6. CATEGORY LETTERS (SUB-PAGE INDEXES ONLY) --- */
 .category-letter {
     display: block !important;
     font-size: 2rem !important;
@@ -119,9 +133,11 @@ body, input {
     color: #004B8D !important;
     border-bottom: 3px solid #004B8D;
     margin-top: 40px !important;
+    margin-bottom: 15px !important;
     padding-bottom: 5px;
 }
 
+/* --- 7. INDEX GRID --- */
 .index-grid {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
@@ -129,31 +145,219 @@ body, input {
     margin-bottom: 30px !important;
 }
 
-/* --- 7. MOBILE RESPONSIVENESS --- */
+.index-grid a { 
+    font-size: 1rem; 
+    font-weight: 500; 
+    color: #004B8D !important; 
+    text-decoration: none !important; 
+}
+
+/* --- 8. FOOTER & TOP BUTTON --- */
+.back-to-top {
+    display: block !important;
+    margin: 40px 0 !important;
+    color: #004B8D !important;
+    font-weight: 700 !important;
+    text-decoration: none !important;
+    text-align: left !important;
+}
+
+.md-footer, .md-footer-meta { background-color: #004B8D !important; }
+.md-copyright { display: none !important; }
+.md-footer-meta__inner { 
+    display: flex !important; 
+    justify-content: center !important; 
+    color: white !important; 
+    padding: 20px 0 !important; 
+}
+
+.md-footer-meta__inner::after { 
+    content: "Internal Use Only | © 2026 BC Emergency Health Services"; 
+    font-size: 0.85rem; 
+}
+
+/* --- 9. SEARCH RESULTS STYLING --- */
+
+/* Decrease the main title in search results */
+.md-search-result__article h1 {
+    font-size: 1.1rem !important; /* Matches a standard link size */
+    font-weight: 700 !important;
+    margin-bottom: 0.2rem !important;
+    border-bottom: none !important; /* Remove the thick underline from results */
+    padding-bottom: 0 !important;
+    color: #004B8D !important;
+}
+
+/* Decrease the category letters (B, C, etc.) in search results */
+.md-search-result__article h2 {
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.1rem !important;
+    border-bottom: none !important;
+    color: #666 !important; /* Use a subtle grey for sub-headers in search */
+}
+
+/* Adjust spacing between search items */
+.md-search-result__item {
+    padding: 10px 0 !important;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+/* Shrink those tags/keywords in search results */
+.md-search-result__meta {
+    font-size: 0.75rem !important;
+    margin-top: 5px !important;
+}
+
+/* Subtle External Link Style */
+.external-link {
+    color: #004B8D !important;
+    text-decoration: underline !important;
+    font-weight: 600;
+}
+
+.external-link::after {
+    content: " ↗"; /* Adds a small arrow so staff know it's external */
+    font-size: 0.8rem;
+}
+
+/* Center-align tables and prevent them from stretching full-width */
+.md-typeset table {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: table !important;
+    width: auto !important;
+}
+
+/* Ensure table headers are also centered if using :---: in Markdown */
+.md-typeset th {
+    text-align: center !important;
+}
+
+/* Indicate that images are clickable/zoomable */
+.md-typeset img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px; /* Optional: softens the edges of SAR diagrams */
+}
+
+.md-typeset img:hover {
+    opacity: 0.9;
+}
+
+.md-search__input {
+    color: rgba(0, 0, 0, 0.87) !important; /* Force black text */
+}
+[data-md-color-scheme="slate"] .md-search__input {
+    color: white !important; /* Keep it white for dark mode users */
+}
+
+/* This makes the phone icon red */
+.red-icon {
+  color: #d32f2f; /* BCEHS Red */
+  vertical-align: middle;
+}
+
+/* Center alignment for Grid Cards */
+.text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.text-center .md-button {
+  margin-top: 10px;
+  width: fit-content;
+}
+
+/* Force Grid Cards to be identical width and centered */
+.grid.cards > ul > li {
+    min-width: 320px; /* Adjust this number if you want them wider/narrower */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Ensure the button stays centered within that fixed width */
+.grid.cards .md-button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px; /* Fixed width for the buttons to match */
+}
+
+/* Ensure both cards are the same width */
+.grid.cards > ul > li {
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Fix the button text stacking and alignment */
+.grid.cards .md-button {
+    min-width: 220px; /* Forces buttons to be identical width */
+    white-space: nowrap; /* Prevents text from wrapping to a second line */
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+/* Force the grid items to be identical twins */
+.grid.cards > ul {
+    display: flex !important;
+    align-items: stretch !important; /* Forces same height */
+    gap: 20px;
+}
+
+.grid.cards > ul > li {
+    flex: 1; /* Forces same width */
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important; /* Pushes button to bottom */
+    padding: 30px !important;
+    text-align: center;
+}
+
+/* Ensure buttons are identical in size */
+.grid.cards .md-button {
+    margin: 20px auto 0 auto !important;
+    width: 220px !important; /* Fixed width for symmetry */
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Make the sidebar look like a clean category menu */
+.md-nav__link--active {
+    font-weight: bold;
+    color: #003366 !important; /* BCEHS Blue */
+}
+
+/* Hide the 'Paramedic Specialists' title in the sidebar if it feels redundant */
+.md-sidebar--primary .md-nav__title {
+    display: none;
+}
+
+/* Responsive fix for mobile screens (phones) */
 @media screen and (max-width: 76.25em) {
     .grid.cards > ul {
-        flex-direction: column !important; 
+        display: flex !important;
+        flex-direction: column !important; /* Stack them vertically */
         align-items: center !important;
     }
 
     .grid.cards > ul > li {
-        width: 100% !important; 
-        min-width: unset !important; 
+        width: 100% !important; /* Use the full width of the phone */
+        min-width: unset !important; /* Remove the desktop width restriction */
         margin-bottom: 20px;
     }
 
-    .index-grid {
-        grid-template-columns: 1fr !important; /* Stack directory links on mobile */
+    .grid.cards .md-button {
+        width: 100% !important; /* Make the button easy to tap with a thumb */
+        max-width: 300px;
     }
-}
-
-/* --- 8. MISC UTILITIES --- */
-.red-icon { color: #d32f2f; vertical-align: middle; }
-
-.md-typeset h1 {
-    font-size: 1.6rem !important;
-    font-weight: 800 !important;
-    color: #004B8D !important;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 8px;
 }
