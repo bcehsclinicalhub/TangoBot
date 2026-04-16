@@ -1,18 +1,32 @@
 <div class="hero-text-container">
   <img src="assets/hublogo.png" class="hero-logo-small" />
-  <span class="hero-welcome">Welcome to TangoDx</span>
-  <span class="hero-tagline">the clinical and operational wiki site for Paramedic Specialists</span>
+  <span class="hero-welcome">Welcome to Hub Wiki</span>
+  <span class="hero-tagline">your clinical and operational wiki site for the Clinical Hub</span>
 </div>
 
 ---
 
-## 🚑 Key Sections
+### ✅ Select Your Team
 
-| Section | Description | Link |
-| :--- | :--- | :--- |
-| **Clinical References** | Clinical guidelines and other clinical references | [Clinical References →](clinical/index.md) |
-| **Operational Guidelines** | Practice Updates and operational resources | [Operational Guidelines →](operational/index.md) |
-| **Safety Data Sheets** | Safety data sheets and other exposure resources | [Safety Data Sheets →](chemical/index.md) |
+<div class="grid cards" border="true" markdown>
+
+-   :ambulance: __Paramedic Specialists__
+
+    ---
+
+    Termination of Resuscitation (ToR), STEMI activation, Clinical Pearls, and Specialist-led education.
+
+    [:octicons-arrow-right-24: Enter Specialist Hub](ps/index.md)
+
+-   :telephone_receiver: __Secondary Triage__
+
+    ---
+
+    Clinical Hub triage algorithms, dispatch protocols, and STC-specific operational memos.
+
+    [:octicons-arrow-right-24: Enter Triage Hub](stc/index.md)
+
+</div>
 
 ## ⚠️ Critical Alerts
 !!! danger "Update to IFT CRM model."
