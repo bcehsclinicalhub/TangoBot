@@ -6,23 +6,23 @@
 
 <div class="grid cards" markdown>
 
-* { .text-center }
-    
+* <center>
     :ambulance:
     ### Paramedic Specialists
     ---
     The Tango Drive, version 2.0
 
     [Enter PS Page →](ps/index.md){ .md-button }
+    </center>
 
-* { .text-center }
-    
+* <center>
     :telephone_receiver:
     ### Secondary Triage
     ---
     MTS page, version 2.0
 
     [Enter STC Page →](stc/index.md){ .md-button }
+    </center>
 
 </div>
 
