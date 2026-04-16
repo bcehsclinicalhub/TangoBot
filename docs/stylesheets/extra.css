@@ -334,3 +334,14 @@ body, input {
     align-items: center;
     justify-content: center;
 }
+
+/* Make the sidebar look like a clean category menu */
+.md-nav__link--active {
+    font-weight: bold;
+    color: #003366 !important; /* BCEHS Blue */
+}
+
+/* Hide the 'Paramedic Specialists' title in the sidebar if it feels redundant */
+.md-sidebar--primary .md-nav__title {
+    display: none;
+}

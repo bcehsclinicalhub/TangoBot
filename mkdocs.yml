@@ -29,18 +29,20 @@ theme:
     - navigation.instant
     - navigation.top  # This enables the official 'Back to Top' button
     - navigation.sections
+    - navigation.expand # This forces nested items to stay "open"
+    - navigation.path
 
 nav:
   - Home: index.md
   - Paramedic Specialists:
-    - PS Home: ps/index.md
-    - Clinical References: ps/clinical.md
-    - Operational Guidelines: ps/operational.md
-    - Safety Data Sheets: ps/chemical.md
+      - ps/index.md
+      - Clinical References: ps/clinical.md
+      - Operational Guidelines: ps/operational.md
+      - Safety Data Sheets: ps/chemical.md
   - Secondary Triage:
-    - STC Home: stc/index.md
-    - Triage Algorithms: stc/algorithms.md
-    - Triage Protocols: stc/protocols.md
+      - stc/index.md
+      - Triage Algorithms: stc/algorithms.md
+      - Triage Protocols: stc/protocols.md
 
 markdown_extensions:
   - admonition
