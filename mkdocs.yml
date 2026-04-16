@@ -31,8 +31,8 @@ theme:
 
 nav:
   - Home: index.md
-  - Paramedic Specialists: PS/index.md
-  - Secondary Triage: STC/index.md
+  - Paramedic Specialists: ps/index.md
+  - Secondary Triage: stc/index.md
 
 markdown_extensions:
   - admonition
