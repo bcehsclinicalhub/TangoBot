@@ -57,5 +57,8 @@ extra:
     placeholder: "Search TangoPulse..."
 
 plugins:
-  - search
+  - search:
+      indexing: 'full'
+      # This is the secret: only index the main page title (level 1)
+      heading_level: 1 
   - glightbox
