@@ -7,12 +7,10 @@
 <div class="grid cards" markdown>
 
 * :ambulance: **Paramedic Specialists**
-
     <br>The Tango Drive, version 2.0
     <br>[:octicons-arrow-right-24: Enter PS Page](ps/index.md){ .md-button }
 
 * :telephone_receiver: **Secondary Triage**
-
     <br>MTS page, version 2.0
     <br>[:octicons-arrow-right-24: Enter STC Page](stc/index.md){ .md-button }
 
