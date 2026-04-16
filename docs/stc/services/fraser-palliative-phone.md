@@ -14,8 +14,8 @@ tags:
   - palliative
 
 keywords:
-  - HLBC
-  - services
+  - fraser
+  - palliative
   - finder
   - resources
   - support
@@ -26,9 +26,6 @@ keywords:
 ## Reference
 
 If a patient or paramedic does not have access to a patient's regular palliative care team's phone number, these are the public numbers which may assist in connecting for care planning. 
-
-## Location Phone Numbers
- 
 
 | Location | Phone Number |
 | :--- | :--- | 
