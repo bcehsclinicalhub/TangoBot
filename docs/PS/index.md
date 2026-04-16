@@ -1,7 +1,6 @@
 <div class="hero-text-container">
   <img src="assets/hublogo.png" class="hero-logo-small" />
-  <span class="hero-welcome">Welcome to Hub Wiki</span>
-  <span class="hero-tagline">your clinical and operational wiki site for Paramedic Specialists</span>
+  <span class="hero-welcome">Hub Wiki :: Paramedic Specialist</span>
 </div>
 
 ---

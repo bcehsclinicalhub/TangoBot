@@ -13,7 +13,7 @@
     </center>
 
 * <center>
-    :telephone_receiver: **Secondary Triage**
+    <span style="color: #d32f2f;">:material-phone-in-talk:</span> **Secondary Triage**
     <br><br>
     [Enter STC Page →](stc/index.md){ .md-button }
     </center>
@@ -22,8 +22,8 @@
 
 
 ## 📣 Wiki News
-!!! success "Introducing TangoDx (April 2026)"
-    **Clinical Hub TangoDx** is replacing the old Tango shared drive. This wiki is designed as a one-stop resource for clinical and operational resources that can't be found onthe Handbook or Intranet. We will continue to migrate legacy documents over the coming weeks.
+!!! success "Introducing Hub Wiki (May 2026)"
+    **Clinical Hub Hub Wiki** is the new home for information resources for both Paramedic Specialists and Secondary Triage Clinicians. Future state will have this site replace the Tango Drive and Resources from the MTS pages. This wiki is designed as a one-stop resource for clinical and operational resources that can't be found onthe Handbook or Intranet.
 
 ## ❓ Need Help?
 !!! caution "Support"

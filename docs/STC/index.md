@@ -1,7 +1,6 @@
 <div class="hero-text-container">
   <img src="assets/hublogo.png" class="hero-logo-small" />
-  <span class="hero-welcome">Welcome to Hub Wiki</span>
-  <span class="hero-tagline">Secondary Triage</span>
+    <span class="hero-welcome">Hub Wiki :: Secondary Triage</span>
 </div>
 
 ---
