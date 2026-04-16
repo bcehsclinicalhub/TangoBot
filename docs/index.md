@@ -4,8 +4,6 @@
   <span class="hero-tagline">your clinical and operational wiki site for the Clinical Hub</span>
 </div>
 
----
-
 <div class="grid cards" markdown>
 
 * :ambulance: **Paramedic Specialists**
