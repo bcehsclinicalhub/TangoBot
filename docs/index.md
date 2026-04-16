@@ -6,19 +6,21 @@
 
 <div class="grid cards" markdown>
 
-* :ambulance: **Paramedic Specialists**
+* { .text-center } :ambulance: **Paramedic Specialists**
 
     ---
 
     The Tango Drive, version 2.0
 
-    [:octicons-arrow-right-24: Enter Specialist Hub](ps/index.md)
+    [Enter PS Page →](ps/index.md){ .md-button }
 
-* <span style="color: #d32f2f;">☎️</span> **Secondary Triage**
+* { .text-center } :telephone_receiver: **Secondary Triage**
+    
     ---
+    
     MTS page, version 2.0
     
-    [Enter Triage Hub →](stc/index.md){ .md-button }
+    [Enter STC Page →](stc/index.md){ .md-button }
 
 </div>
 
