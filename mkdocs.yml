@@ -24,24 +24,15 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.instant
-    - navigation.top  # This enables the official 'Back to Top' button
-    - navigation.sections
-    - navigation.expand # This forces nested items to stay "open"
-    - navigation.path
-    - navigation.indexes
+    - navigation.tabs          # Moves top-level items to the blue header
+    - navigation.tabs.sticky   # Keeps the header visible
+    - navigation.sections      # Groups items
+    - navigation.expand        # Prevents sidebar nesting
 
 nav:
   - Home: index.md
-  - Paramedic Specialists:
-      - ps/index.md
-      - Clinical References: docs/ps/clinical.md
-      - Operational Guidelines: docs/ps/operational.md
-      - Safety Data Sheets: docs/ps/chemical.md
-  - Secondary Triage:
-      - stc/index.md
-      - Triage Algorithms: docs/stc/algorithms.md
-      - Triage Protocols: docsstc/protocols.md
+  - Paramedic Specialists: ps/index.md
+  - Secondary Triage: stc/index.md
 
 markdown_extensions:
   - admonition
