@@ -32,11 +32,15 @@ theme:
 
 nav:
   - Home: index.md
-  - Specialist Home: ps/index.md
-  - Clinical Pearls: ps/clinical.md
-  - Operational Memos: ps/operational.md
-  - Triage Home: stc/index.md
-  - Triage Algorithms: stc/algorithms.md
+  - Paramedic Specialists:
+    - PS Home: ps/index.md
+    - Clinical References: ps/clinical.md
+    - Operational Guidelines: ps/operational.md
+    - Safety Data Sheets: ps/chemical.md
+  - Secondary Triage:
+    - STC Home: stc/index.md
+    - Triage Algorithms: stc/algorithms.md
+    - Triage Protocols: stc/protocols.md
 
 markdown_extensions:
   - admonition

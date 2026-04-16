@@ -316,3 +316,24 @@ body, input {
     justify-content: space-between;
     min-height: 200px;
 }
+
+/* Force cards to be identical twins */
+.grid.cards > ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.grid.cards > ul > li {
+    flex: 1; /* Makes both boxes the exact same width */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes the button to the bottom */
+    padding: 1.5rem !important;
+    text-align: center;
+}
+
+/* Fix the Button Alignment */
+.grid.cards .md-button {
+    margin: 1rem auto 0 auto;
+    width: 80%; /* Consistent button width */
+}
