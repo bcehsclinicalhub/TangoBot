@@ -6,23 +6,13 @@
 
 <div class="grid cards" markdown>
 
-- <div style="text-align: center;" markdown>
-  <p style="font-size: 2rem; margin-bottom: 0;">🚑</p>
-  ### Paramedic Specialists
-  ---
-  The Tango Drive, version 2.0
+* :ambulance: **Paramedic Specialists**
+    <br>The Tango Drive, version 2.0
+    <br>[:octicons-arrow-right-24: Enter PS Page](ps/index.md){ .md-button }
 
-  [Enter PS Page →](ps/index.md){ .md-button }
-  </div>
-
-- <div style="text-align: center;" markdown>
-  <p style="font-size: 2rem; margin-bottom: 0; color: #d32f2f;">☎️</p>
-  ### Secondary Triage
-  ---
-  MTS page, version 2.0
-
-  [Enter STC Page →](stc/index.md){ .md-button }
-  </div>
+* :telephone_receiver: **Secondary Triage**
+    <br>MTS page, version 2.0
+    <br>[:octicons-arrow-right-24: Enter STC Page](stc/index.md){ .md-button }
 
 </div>
 
