@@ -252,3 +252,9 @@ body, input {
 [data-md-color-scheme="slate"] .md-search__input {
     color: white !important; /* Keep it white for dark mode users */
 }
+
+/* This makes the phone icon red */
+.red-icon {
+  color: #d32f2f; /* BCEHS Red */
+  vertical-align: middle;
+}

@@ -14,7 +14,7 @@
 
     [:octicons-arrow-right-24: Enter Specialist Hub](ps/index.md)
 
-* :telephone_receiver: **Secondary Triage**
+* { .red-icon } :material-phone-in-talk: **Secondary Triage**
 
     ---
 
