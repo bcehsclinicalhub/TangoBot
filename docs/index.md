@@ -14,13 +14,11 @@
 
     [:octicons-arrow-right-24: Enter Specialist Hub](ps/index.md)
 
-* { .red-icon } :material-phone-in-talk: **Secondary Triage**
-
+* <span style="color: #d32f2f;">☎️</span> **Secondary Triage**
     ---
-
     MTS page, version 2.0
-
-    [:octicons-arrow-right-24: Enter Triage Hub](stc/index.md)
+    
+    [Enter Triage Hub →](stc/index.md){ .md-button }
 
 </div>
 
