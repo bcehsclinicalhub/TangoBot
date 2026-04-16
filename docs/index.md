@@ -10,7 +10,7 @@
 
     ---
 
-    Termination of Resuscitation (ToR), STEMI activation, Clinical Pearls, and Specialist-led education.
+    The Tango Drive, version 2.0
 
     [:octicons-arrow-right-24: Enter Specialist Hub](ps/index.md)
 
@@ -18,7 +18,7 @@
 
     ---
 
-    Clinical Hub triage algorithms, dispatch protocols, and STC-specific operational memos.
+    MTS page, version 2.0
 
     [:octicons-arrow-right-24: Enter Triage Hub](stc/index.md)
 
