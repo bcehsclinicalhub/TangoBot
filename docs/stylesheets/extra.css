@@ -341,3 +341,18 @@ body, input {
 .md-sidebar--primary .md-nav__title {
     display: none;
 }
+
+/* Force hide the primary left sidebar on all pages */
+.md-sidebar--primary {
+    display: none !important;
+}
+
+/* Adjust the main content area to use the full width */
+.md-content {
+    margin-left: 0 !important;
+}
+
+/* Make sure the dropdown menu in the header is visible and clean */
+.md-tabs__item:hover .md-tabs__link {
+    opacity: 1;
+}

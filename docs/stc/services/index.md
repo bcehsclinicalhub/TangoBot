@@ -10,7 +10,7 @@
 
 ## H
 <div class="index-grid">
-    <a href="hlbc-finder/">Skytrain Response Safety</a>
+    <a href="hlbc-finder/">HLBC Services Finder</a>
 </div>
 
 
