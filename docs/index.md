@@ -9,19 +9,13 @@
 <div class="grid cards" markdown>
 
 * :ambulance: **Paramedic Specialists**
-    
     ---
-    
     Termination of Resuscitation (ToR), STEMI activation, Clinical Pearls, and Specialist-led education.
-    
     [:octicons-arrow-right-24: Enter Specialist Hub](ps/index.md)
 
 * :telephone_receiver: **Secondary Triage**
-    
     ---
-    
     Clinical Hub triage algorithms, dispatch protocols, and STC-specific operational memos.
-    
     [:octicons-arrow-right-24: Enter Triage Hub](stc/index.md)
 
 </div>
