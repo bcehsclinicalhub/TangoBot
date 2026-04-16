@@ -10,10 +10,8 @@ owner: Clinical Hub
 category: Operational
 
 tags:
-  - Wildfire
-  - SAR
-  - Safety
-  - DST
+  - 211
+  - services
 
 keywords:
   - Wildfire
@@ -24,13 +22,13 @@ keywords:
   - Fire
 ---
 
-## 2-1-1 Service Finder
+# 2-1-1 Service Finder
 
 ## Reference
 
 [211 Website](https://bc.211.ca/ ){:target="_blank .external-link}
 
-## Purpose
+## Services Included
 
 Can be used to identify a number of community services across BC which may support paramedic decision-making. 
 
