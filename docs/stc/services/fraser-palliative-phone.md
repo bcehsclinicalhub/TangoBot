@@ -53,5 +53,5 @@ White Rock: (778) 545-6200
 
 | Location | Phone Number |
 | :--- | :--- | 
-| Abbotsford | (604) 870-7522 |
+| Abbotsford | (tel:6048707522){ .md-button } |
 | Burnaby | (604) 918-7480 |
