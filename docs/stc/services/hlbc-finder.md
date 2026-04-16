@@ -10,16 +10,16 @@ owner: Clinical Hub
 category: Operational
 
 tags:
-  - 211
+  - HLBC
   - services
+  - finder
 
 keywords:
-  - Wildfire
-  - SAR
-  - Safety
-  - DST                                                                            
-  - Interface
-  - Fire
+  - HLBC
+  - services
+  - finder
+  - resources
+  - support
 ---
 
 # Health Services BC Services Finder
@@ -49,9 +49,3 @@ Pharmacy Services
 Public Health Units 
 
 Walk-In Clinics 
-
-## Review Schedule
-
-| Adopted | Next Review Scheduled | Owner | Reviewer| 
-| :--- | :--- | :--- | :--- | 
-| Dec 2024 | Mar 2025 | Clinical Hub Mnager | BCEHS OHS Team |

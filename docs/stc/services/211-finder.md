@@ -14,12 +14,11 @@ tags:
   - services
 
 keywords:
-  - Wildfire
-  - SAR
-  - Safety
-  - DST
-  - Interface
-  - Fire
+  - 211
+  - services
+  - finder
+  - resources
+  - support
 ---
 
 # 2-1-1 Service Finder
@@ -62,10 +61,3 @@ Children & Family Services
 Disability Services 
 
 Older Adult Services 
-
-
-## Review Schedule
-
-| Adopted | Next Review Scheduled | Owner | Reviewer| 
-| :--- | :--- | :--- | :--- | 
-| Dec 2024 | Mar 2025 | Clinical Hub Mnager | BCEHS OHS Team |
