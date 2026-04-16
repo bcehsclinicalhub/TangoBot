@@ -1,9 +1,9 @@
 <div align="center">
   <img src="../assets/hublogo.png" class="hero-logo-small" />
-  <h1 style="margin-top: 10px;">🚑 Operational Guidelines</h1>
+  <h1 style="margin-top: 10px;">☎️ Directory of Services</h1>
 </div>
 
-## #
+## Number
 <div class="index-grid">
     <a href="211-finder/">BC Hydro Safety</a>
 </div>
