@@ -1,5 +1,5 @@
 ---
-title: 2-1-1 Services Finder
+title: Health Services BC Services Finder
 policy_id: 
 version: 1.0
 status: Active
@@ -22,11 +22,11 @@ keywords:
   - Fire
 ---
 
-# 2-1-1 Service Finder
+# Health Services BC Services Finder
 
 ## Reference
 
-[211 Website](https://www.healthlinkbc.ca/services-and-resources/find-services){:target="_blank .external-link}
+[Health Services BC Services Finder](https://www.healthlinkbc.ca/services-and-resources/find-services){:target="_blank .external-link}
 
 ## Services Included
 
