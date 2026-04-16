@@ -258,3 +258,16 @@ body, input {
   color: #d32f2f; /* BCEHS Red */
   vertical-align: middle;
 }
+
+/* Center alignment for Grid Cards */
+.text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.text-center .md-button {
+  margin-top: 10px;
+  width: fit-content;
+}

@@ -6,10 +6,14 @@
 
 <div class="grid cards" markdown>
 
-* :ambulance: **Paramedic Specialists**
+* { .text-center }
+    :ambulance: **Paramedic Specialists**
+
     [Enter PS Page →](ps/index.md){ .md-button }
 
-* :telephone_receiver: **Secondary Triage**
+* { .text-center }
+    :telephone_receiver: **Secondary Triage**
+
     [Enter STC Page →](stc/index.md){ .md-button }
 
 </div>
