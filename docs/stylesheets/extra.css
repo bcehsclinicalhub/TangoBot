@@ -303,3 +303,8 @@ body, input {
     text-align: center;
     margin-top: 15px;
 }
+
+/* Hide the breadcrumb navigation above the main title */
+.md-header-nav__parent {
+    display: none;
+}

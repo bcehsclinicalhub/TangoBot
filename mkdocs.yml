@@ -31,8 +31,15 @@ theme:
 
 nav:
   - Home: index.md
-  - Paramedic Specialists: ps/index.md
-  - Secondary Triage: stc/index.md
+  - Paramedic Specialists:
+    - Specialist Home: ps/index.md
+    - Clinical Pearls: ps/clinical.md
+    - Operational Memos: ps/operational.md
+    - Training: ps/training.md
+  - Secondary Triage:
+    - Triage Home: stc/index.md
+    - Algorithms: stc/algorithms.md
+    - Dispatch Protocols: stc/dispatch.md
 
 markdown_extensions:
   - admonition
