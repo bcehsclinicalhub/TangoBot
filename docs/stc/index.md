@@ -9,9 +9,8 @@
 
 | Section | Description | Link |
 | :--- | :--- | :--- |
-| **Directory of Services** | Clinical guidelines and other clinical references | [Directory of Service →](clinical/index.md) |
-| **Operational Guidelines** | Practice Updates and operational resources | [Operational Guidelines →](operational/index.md) |
-| **Safety Data Sheets** | Safety data sheets and other exposure resources | [Safety Data Sheets →](chemical/index.md) |
+| **Directory of Services** | UPCC, Clinics and Pharmacies | [Directory of Services →](clinical/index.md) |
+| **Reference Cards** | Various clinical tools and references | [Operational Guidelines →](operational/index.md) |
 
 ## ⚠️ Critical Alerts
 !!! danger "Update to IFT CRM model."
