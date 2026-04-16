@@ -7,10 +7,10 @@
 <div class="grid cards" markdown>
 
 * :ambulance: **Paramedic Specialists**
-    [:octicons-arrow-right-24: Enter PS Page](ps/index.md){ .md-button }
+    [Enter PS Page →](ps/index.md){ .md-button }
 
 * :telephone_receiver: **Secondary Triage**
-    [:octicons-arrow-right-24: Enter STC Page](stc/index.md){ .md-button }
+    [Enter STC Page →](stc/index.md){ .md-button }
 
 </div>
 
