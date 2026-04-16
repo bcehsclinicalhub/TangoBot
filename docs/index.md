@@ -13,7 +13,7 @@
     </center>
 
 * <center>
-    <span style="color: #d32f2f; font-size: 1.5rem; font-weight: bold;">☎</span> **Secondary Triage**
+    <span style="color: #d32f2f; font-size: 1.0rem; font-weight: bold;">☎</span> **Secondary Triage**
     <br><br>
     [Enter STC Page →](stc/index.md){ .md-button }
     </center>
