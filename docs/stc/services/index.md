@@ -3,7 +3,7 @@
   <h1 style="margin-top: 10px;">☎️ Directory of Services</h1>
 </div>
 
-## #
+## &#35;
 <div class="index-grid">
     <a href="211-finder/">2-1-1 Services Finder</a>
 </div>
