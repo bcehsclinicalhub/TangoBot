@@ -26,43 +26,29 @@ keywords:
 
 ## Reference
 
-[211 Website](https://bc.211.ca/){:target="_blank .external-link}
+[211 Website](https://www.healthlinkbc.ca/services-and-resources/find-services){:target="_blank .external-link}
 
 ## Services Included
 
-Can be used to identify a number of community services across BC which may support paramedic decision-making. 
-
+Can be used to find a number of healthcare resources to support patient and paramedic decision-making.
 
 Includes: 
 
-Addiction 
+Crisis hotlines 
 
-Counselling 
+Environmental Health 
 
-Mental Health 
+Home Care Intake 
 
-Victim Services 
+Hospitals 
 
-Financial Assistance 
+Mental Health Intake 
 
-Food & Basic Goods 
+Pharmacy Services 
 
-Homelessness 
+Public Health Units 
 
-Housing 
-
-Legal & Advocacy 
-
-Transportation 
-
-Indigenous Services 
-
-Children & Family Services 
-
-Disability Services 
-
-Older Adult Services 
-
+Walk-In Clinics 
 
 ## Review Schedule
 
