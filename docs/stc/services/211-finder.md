@@ -24,8 +24,11 @@ keywords:
   - Fire
 ---
 
-## 2-1-1 Service Finder<
+## 2-1-1 Service Finder
 
+## Reference
+
+[211 Website](https://bc.211.ca/ ){:target="_blank .external-link}
 
 ## Purpose
 
@@ -62,8 +65,6 @@ Disability Services
 
 Older Adult Services 
 
-
-[211 Website](https://bc.211.ca/ ){:target="_blank .external-link}
 
 ## Review Schedule
 

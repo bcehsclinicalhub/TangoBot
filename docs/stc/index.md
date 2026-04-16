@@ -5,7 +5,7 @@
 
 ---
 
-## 🚑 Categories
+## <span style="color: #d32f2f;">☎</span> Categories
 
 | Section | Description | Link |
 | :--- | :--- | :--- |
