@@ -304,10 +304,6 @@ body, input {
     margin-top: 15px;
 }
 
-/* Hide the breadcrumb navigation above the main title */
-.md-header-nav__parent {
-    display: none;
-}
 
 /* Force the grid items to be identical twins */
 .grid.cards > ul {

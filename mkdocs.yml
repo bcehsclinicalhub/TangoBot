@@ -24,13 +24,12 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.instant
     - navigation.top  # This enables the official 'Back to Top' button
     - navigation.sections
     - navigation.expand # This forces nested items to stay "open"
     - navigation.path
+    - navigation.indexes
 
 nav:
   - Home: index.md
