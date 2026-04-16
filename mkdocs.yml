@@ -28,18 +28,15 @@ theme:
     - navigation.tabs.sticky
     - navigation.instant
     - navigation.top  # This enables the official 'Back to Top' button
+    - navigation.sections
 
 nav:
   - Home: index.md
-  - Paramedic Specialists:
-    - Specialist Home: ps/index.md
-    - Clinical Pearls: ps/clinical.md
-    - Operational Memos: ps/operational.md
-    - Training: ps/training.md
-  - Secondary Triage:
-    - Triage Home: stc/index.md
-    - Algorithms: stc/algorithms.md
-    - Dispatch Protocols: stc/dispatch.md
+  - Specialist Home: ps/index.md
+  - Clinical Pearls: ps/clinical.md
+  - Operational Memos: ps/operational.md
+  - Triage Home: stc/index.md
+  - Triage Algorithms: stc/algorithms.md
 
 markdown_extensions:
   - admonition

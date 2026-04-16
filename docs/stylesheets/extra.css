@@ -308,3 +308,11 @@ body, input {
 .md-header-nav__parent {
     display: none;
 }
+
+/* Force cards to be identical height even with different text */
+.grid.cards > ul > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 200px;
+}
