@@ -6,8 +6,6 @@
 
 <div class="grid cards" markdown>
 
-<div class="grid cards" markdown>
-
 * { .text-center }
     
     :ambulance:
