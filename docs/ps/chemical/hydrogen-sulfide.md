@@ -25,7 +25,6 @@ keywords:
   - H2S
 
 ---
-<a href="javascript:history.back()" class="back-link">← Back</a>
 
 # Hydrogen Sulfide (H2S)
 
