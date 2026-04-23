@@ -192,3 +192,19 @@ details.details[open] {
         margin-bottom: 20px;
     }
 }
+
+/* Make breadcrumbs clearer and aligned with BCEHS branding */
+.md-breadcrumbs {
+    margin-bottom: 0;
+    padding: 10px 0;
+    font-size: 0.85rem;
+}
+
+.md-breadcrumbs__link {
+    color: #004B8D !important; /* Use BCEHS Blue for links */
+    font-weight: 500;
+}
+
+.md-breadcrumbs__item:last-child {
+    color: #666; /* The current page is greyed out */
+}
