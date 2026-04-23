@@ -29,7 +29,7 @@ keywords:
 
 !!! warning "Quick Reference"
     ### **What is NaOH?**
-   Can be either crystalline or an aqueous solution; it is basic and highly caustic. Used in industries such as pulp production. Also found in household products such as drain cleaner. Transported in large quantities. Non-combustible, but releases toxic fumes if heated. Toxic vapors from concentrations over 4%.
+    Can be either crystalline or an aqueous solution; it is basic and highly caustic. Used in industries such as pulp production. Also found in household products such as drain cleaner. Transported in large quantities. Non-combustible, but releases toxic fumes if heated. Toxic vapors from concentrations over 4%.
 
     ### **Crew Safety**
     1. **Staging/Perimeter**
