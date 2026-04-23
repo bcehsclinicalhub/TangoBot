@@ -73,7 +73,7 @@ keywords:
     [BC DPIC](https://www.dpic.org/pmm/hydrogen-sulfide){:target="_blank .external-link}
 
     
-??? pdf "Paramedic Specialist Monograph"
+??? note "Paramedic Specialist Monograph"
     [View Full Monograph (PDF)](files/monograph-hydrogensulfide.pdf)
 
 ??? danger "Emergency Response Guidebook"

@@ -37,8 +37,8 @@ keywords:
 
     ### **Crew Safety**
     1. **Staging/Perimeter**
-        ** *Industrial**: Spill: 50m until spill has been isolated. Fire: 800 m
-        ** *Residential**: Limited exposure to small volumes (i.e. drain cleaner): no staging. Large amounts may be found in settings such as clandestine labs. Stage if concerned. 
+        * **Industrial**: Spill: 50m until spill has been isolated. Fire: 800 m
+        * **Residential**: Limited exposure to small volumes (i.e. drain cleaner): no staging. Large amounts may be found in settings such as clandestine labs. Stage if concerned. 
     2. **Additional Resources**
         * Large spill: Rescue team with chemical protective clothing and SCBA’s in case of toxic vapor.
         * Small, non-industrial exposure (ie. Drain cleaner): no additional resources needed.
@@ -73,7 +73,7 @@ keywords:
     [BC DPIC direct link](https://www.dpic.org/pmm/alkali){:target="_blank .external-link}
 
     
-??? pdf "Paramedic Specialist Monograph"
+??? note "Paramedic Specialist Monograph"
     [View Full Monograph (PDF)](files/monograph-hydrogensulfide.pdf)
 
 ??? danger "Emergency Response Guidebook"
