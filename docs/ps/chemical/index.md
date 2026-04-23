@@ -6,7 +6,7 @@
 
 ## S
 <div class="index-grid">
-    <a href="sodium-hydroxide/">Sodium Hydroxide</a>
+    <a href="_accordiontemplate/">TEST</a>
     <a href="sodium-hypochlorite/">Sodium Hypochlorite</a>
 </div>
 
