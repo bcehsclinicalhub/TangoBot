@@ -151,3 +151,14 @@ details.details {
 .back-link:hover {
     text-decoration: underline;
 }
+
+/* Force search text color at root level */
+.md-search__form input {
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+}
+
+/* Also override the search container */
+.md-search__form {
+    color: white !important;
+}

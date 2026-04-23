@@ -8,7 +8,7 @@ last_reviewed: 2026-05-01
 next_review: 2028-05-01
 owner: 
 category: Chemical
-<a href="javascript:history.back()" class="back-link">← Back</a>
+
 
 tags:
   - safety
@@ -27,6 +27,7 @@ keywords:
 ---
 
 # Sodium Hydroxide (NaOH)
+<a href="javascript:history.back()" class="back-link">← Back</a>
 
 !!! warning "Quick Reference"
     ### **What is NaOH?**

@@ -30,7 +30,9 @@ theme:
   - navigation.expand
   - navigation.path
   - navigation.top
-  - toc.integrate
+
+toc:
+  depth: 3
 
 nav:
   - Home: index.md
