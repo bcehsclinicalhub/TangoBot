@@ -4,7 +4,7 @@ body, input {
     font-weight: 300; 
 }
 
-/* FIX: This ensures the blue header stays pinned above all other content */
+/* FIX: Pins the blue header and navigation tabs to the top */
 .md-header {
     position: sticky !important;
     top: 0;
@@ -13,7 +13,7 @@ body, input {
 
 .md-tabs {
     position: sticky !important;
-    top: 2.4rem; /* Adjust based on your header height */
+    top: 2.4rem; 
     z-index: 90 !important;
 }
 
@@ -29,11 +29,7 @@ body, input {
     border: none !important; 
 }
 
-/* Clean up header elements */
-.md-header__title, .md-breadcrumb, .md-breadcrumb__link { 
-    display: none !important; 
-}
-
+/* Fix: Ensures titles/tabs/links in the header flex correctly */
 .md-header__inner { 
     display: flex !important; 
     align-items: center !important; 
@@ -45,7 +41,27 @@ body, input {
     height: 2.8rem !important; 
 }
 
-/* --- 3. SEARCHBAR (ALIGNED RIGHT) --- */
+/* --- 3. BREADCRUMBS (THE NAVIGATION PATH) --- */
+/* FIX: Removed 'display: none' that was killing the path */
+.md-breadcrumbs {
+    display: flex !important; 
+    margin-bottom: 0;
+    padding: 12px 20px;
+    font-size: 0.85rem;
+    background-color: #f8f9fa; /* Light bar below blue header */
+    border-bottom: 1px solid #eee;
+}
+
+.md-breadcrumbs__link {
+    color: #004B8D !important; 
+    font-weight: 500;
+}
+
+.md-breadcrumbs__item:last-child {
+    color: #666;
+}
+
+/* --- 4. SEARCHBAR (ALIGNED RIGHT) --- */
 .md-header__search { 
     width: 340px !important; 
     margin-right: 15px !important; 
@@ -63,33 +79,16 @@ body, input {
     padding-left: 2.8rem !important; 
 }
 
-[data-md-color-scheme="slate"] .md-search__input {
-    color: white !important; 
-}
-
 /* ECG SEARCH ICON */
-.md-search__icon svg { display: none !important; }
 .md-search__icon[for="__search"]::before {
     background-color: #FF0000;
     -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
     mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
     content: ""; display: block; width: 1.3rem; height: 1.3rem; position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
 }
+.md-search__icon svg { display: none !important; }
 
-/* --- 4. HERO & LANDING PAGE LOGO --- */
-.hero-text-container {
-    text-align: center;
-    margin: 20px 0 30px 0;
-}
-
-.hero-logo-small {
-    width: 250px !important; 
-    display: block;
-    margin: 0 auto 15px auto;
-}
-
-/* --- 5. GRID CARDS (IDENTICAL TWINS) --- */
-/* Consolidated all redundant Grid Card rules into one clean block */
+/* --- 5. GRID CARDS (HOME PAGE) --- */
 .grid.cards > ul {
     display: flex !important;
     align-items: stretch !important;
@@ -106,6 +105,7 @@ body, input {
     text-align: center;
     border: 1px solid #eee;
     border-radius: 8px;
+    background: #fff;
 }
 
 .grid.cards .md-button {
@@ -115,96 +115,50 @@ body, input {
     display: flex;
     align-items: center;
     justify-content: center;
-    white-space: nowrap;
 }
 
-/* --- 6. INDEX GRID (DIRECTORY PAGES) --- */
+/* --- 6. INDEX GRID (DIRECTORY LISTS) --- */
 .index-grid {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 10px 40px !important;
-    margin-bottom: 30px !important;
 }
 
 .category-letter {
-    display: block !important;
     font-size: 2rem !important;
     font-weight: 900 !important;
     color: #004B8D !important;
     border-bottom: 3px solid #004B8D;
     margin-top: 40px !important;
-    padding-bottom: 5px;
 }
 
-/* --- 7. CLINICAL ACCORDION (COLLAPSIBLE SECTIONS) --- */
+/* --- 7. CLINICAL ACCORDIONS & PDF ICON --- */
 details.details {
     border-bottom: 1px solid #eee !important;
     border-left: none !important;
     border-right: none !important;
     border-top: none !important;
-    margin-bottom: 0 !important;
-    border-radius: 0 !important;
     box-shadow: none !important;
 }
 
 details.details summary {
-    background-color: transparent !important;
     color: #004B8D !important;
     font-size: 1.1rem;
     font-weight: 500;
     padding: 15px 0 !important;
 }
 
-details.details[open] {
-    background-color: #fafafa;
-    padding-bottom: 20px;
-}
-
-/* --- 8. PDF CUSTOM ICON --- */
 .md-typeset .pdf > .admonition-title::before,
 .md-typeset .pdf > summary::before {
-  background-color: #2e7d32;
-  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6m4 18H6V4h7v5h5v11m-10-9h8v2H8v-2m0 4h8v2H8v-2m0 4h5v2H8v-2Z"/></svg>');
-  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6m4 18H6V4h7v5h5v11m-10-9h8v2H8v-2m0 4h8v2H8v-2m0 4h5v2H8v-2Z"/></svg>');
-  content: "";
+    background-color: #2e7d32;
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6m4 18H6V4h7v5h5v11m-10-9h8v2H8v-2m0 4h8v2H8v-2m0 4h5v2H8v-2Z"/></svg>');
+    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6m4 18H6V4h7v5h5v11m-10-9h8v2H8v-2m0 4h8v2H8v-2m0 4h5v2H8v-2Z"/></svg>');
+    content: "";
 }
 
-.md-typeset .admonition.pdf,
-.md-typeset details.pdf {
-  border-color: #2e7d32;
-}
-
-.md-typeset .pdf > .admonition-title,
-.md-typeset .pdf > summary {
-  background-color: rgba(46, 125, 50, 0.1);
-}
-
-/* --- 9. MOBILE RESPONSIVENESS --- */
+/* --- 8. MOBILE RESPONSIVENESS --- */
 @media screen and (max-width: 76.25em) {
-    .grid.cards > ul {
-        flex-direction: column !important;
-        align-items: center !important;
-    }
-
-    .grid.cards > ul > li {
-        width: 100% !important;
-        min-width: unset !important;
-        margin-bottom: 20px;
-    }
-}
-
-/* Make breadcrumbs clearer and aligned with BCEHS branding */
-.md-breadcrumbs {
-    margin-bottom: 0;
-    padding: 10px 0;
-    font-size: 0.85rem;
-}
-
-.md-breadcrumbs__link {
-    color: #004B8D !important; /* Use BCEHS Blue for links */
-    font-weight: 500;
-}
-
-.md-breadcrumbs__item:last-child {
-    color: #666; /* The current page is greyed out */
+    .grid.cards > ul { flex-direction: column !important; }
+    .grid.cards > ul > li { width: 100% !important; min-width: unset !important; }
+    .index-grid { grid-template-columns: 1fr !important; }
 }
