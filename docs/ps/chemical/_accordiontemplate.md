@@ -76,7 +76,7 @@ keywords:
     [View Full Monograph (PDF)](files/monograph-hydrogensulfide.pdf)
 
 ??? danger "Emergency Response Guidebook"
-    [ERG direct link for --8<-- "includes/chemical-names.md:h2s"](https://wwwapps.tc.gc.ca/Saf-Sec-Sur/3/erg-gmu-web/OrangePages?guideNum=117&dangerousGoodId=114){:target="_blank .external-link}
+    [ERG direct link for --8<-- "includes/chemical-names.md:h2s"](https://wwwapps.tc.gc.ca/Saf-Sec-Sur/3/erg-gmu-web/OrangePages?guideNum=117&dangerousGoodId=114){:target="_blank" .external-link}
 
 ---
 
@@ -84,4 +84,4 @@ keywords:
 
 | Version | Date | Changes | Author |
 |--------|------|---------|--------|
-| 1.0 | 2025-12-01 | Initial version | Metro Ops |
+| 1.0 | 2026-05-01 | Initial version | Clinical Hub |
