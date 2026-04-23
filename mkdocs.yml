@@ -29,6 +29,8 @@ theme:
     - navigation.sections      # Groups items
     - navigation.expand        # Prevents sidebar nesting
     - navigation.breadcrumbs
+    - navigation.top
+    - navigation.path
 
 nav:
   - Home: index.md
@@ -65,3 +67,6 @@ plugins:
       # This is the secret: only index the main page title (level 1)
       heading_level: 1 
   - glightbox
+
+extra_javascript:
+  - javascripts/back-to-top.js
