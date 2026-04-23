@@ -24,13 +24,13 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-    - navigation.tabs          # Moves top-level items to the blue header
-    - navigation.tabs.sticky   # Keeps the header visible
-    - navigation.sections      # Groups items
-    - navigation.expand        # Prevents sidebar nesting
-    - navigation.breadcrumbs
-    - navigation.top
-    - navigation.path
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.sections
+  - navigation.expand
+  - navigation.path
+  - navigation.top
+  - toc.integrate
 
 nav:
   - Home: index.md

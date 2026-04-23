@@ -49,11 +49,6 @@ body, input {
     font-weight: 500;
 }
 
-/* This ensures the 'Top Links' (Tabs) are visible in the blue bar */
-.md-tabs__list {
-    display: flex !important;
-    visibility: visible !important;
-}
 
 .md-tabs__link {
     color: white !important;
@@ -124,19 +119,23 @@ details.details {
     background: #003366;
 }
 
-/* Search input text */
-.md-search__input {
+/* --- SEARCH TEXT FIX (FORCE WHITE TEXT) --- */
+
+/* Input text */
+.md-search__form input,
+.md-search__input,
+.md-search__input:focus {
     color: white !important;
+    -webkit-text-fill-color: white !important; /* fixes Chrome autofill weirdness */
 }
 
-/* Placeholder text */
-.md-search__input::placeholder {
+/* Placeholder */
+.md-search__input::placeholder,
+.md-search__input::-webkit-input-placeholder {
     color: rgba(255,255,255,0.7) !important;
 }
 
-/* Search results text */
-.md-search-result__meta,
-.md-search-result__title,
-.md-search-result__teaser {
-    color: #333 !important;
+/* Cursor */
+.md-search__input {
+    caret-color: white !important;
 }
