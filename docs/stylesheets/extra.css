@@ -1,26 +1,22 @@
-/* --- 1. GLOBAL FONTS & STICKY HEADER FIX --- */
+/* --- 1. GLOBAL FONTS & STICKY FIX --- */
 body, input { 
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
     font-weight: 300; 
 }
 
-/* FIX: Pins the blue header and navigation tabs to the top */
+/* Pins the blue header and navigation tabs to the top */
 .md-header {
     position: sticky !important;
     top: 0;
     z-index: 100 !important;
+    display: block !important; /* Force header visibility */
 }
 
 .md-tabs {
     position: sticky !important;
     top: 2.4rem; 
     z-index: 90 !important;
-}
-
-/* Make bold text pop */
-.md-typeset strong, .md-typeset b { 
-    font-weight: 800 !important; 
-    color: #000 !important; 
+    display: block !important; /* Force tabs visibility */
 }
 
 /* --- 2. HEADER & NAVIGATION BRANDING --- */
@@ -29,26 +25,22 @@ body, input {
     border: none !important; 
 }
 
-/* Fix: Ensures titles/tabs/links in the header flex correctly */
+/* Ensures the container inside the header allows elements to show */
 .md-header__inner { 
     display: flex !important; 
     align-items: center !important; 
     padding: 0 20px !important; 
 }
 
-.md-header__button.md-logo img { 
-    filter: brightness(0) invert(1); 
-    height: 2.8rem !important; 
-}
-
-/* --- 3. BREADCRUMBS (THE NAVIGATION PATH) --- */
-/* FIX: Removed 'display: none' that was killing the path */
+/* --- 3. THE MISSING BREADCRUMBS & TABS --- */
+/* This block forces the breadcrumbs to appear as a light grey bar below the blue header */
 .md-breadcrumbs {
-    display: flex !important; 
+    display: flex !important; /* Forces the path to show */
+    visibility: visible !important;
     margin-bottom: 0;
     padding: 12px 20px;
     font-size: 0.85rem;
-    background-color: #f8f9fa; /* Light bar below blue header */
+    background-color: #f8f9fa !important; 
     border-bottom: 1px solid #eee;
 }
 
@@ -57,11 +49,18 @@ body, input {
     font-weight: 500;
 }
 
-.md-breadcrumbs__item:last-child {
-    color: #666;
+/* This ensures the 'Top Links' (Tabs) are visible in the blue bar */
+.md-tabs__list {
+    display: flex !important;
+    visibility: visible !important;
 }
 
-/* --- 4. SEARCHBAR (ALIGNED RIGHT) --- */
+.md-tabs__link {
+    color: white !important;
+    opacity: 1 !important;
+}
+
+/* --- 4. SEARCHBAR STYLING --- */
 .md-header__search { 
     width: 340px !important; 
     margin-right: 15px !important; 
@@ -73,92 +72,35 @@ body, input {
     border-radius: 24px !important; 
 }
 
-.md-search__input { 
-    color: rgba(0, 0, 0, 0.87) !important; 
-    height: 2.2rem !important; 
-    padding-left: 2.8rem !important; 
-}
-
-/* ECG SEARCH ICON */
-.md-search__icon[for="__search"]::before {
-    background-color: #FF0000;
-    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
-    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
-    content: ""; display: block; width: 1.3rem; height: 1.3rem; position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
-}
-.md-search__icon svg { display: none !important; }
-
-/* --- 5. GRID CARDS (HOME PAGE) --- */
+/* --- 5. GRID CARDS & DIRECTORY (HOME/SECTION PAGES) --- */
 .grid.cards > ul {
     display: flex !important;
-    align-items: stretch !important;
     gap: 20px;
 }
 
 .grid.cards > ul > li {
     flex: 1;
     min-width: 320px;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: space-between !important;
     padding: 30px !important;
-    text-align: center;
     border: 1px solid #eee;
     border-radius: 8px;
     background: #fff;
 }
 
-.grid.cards .md-button {
-    margin: 20px auto 0 auto !important;
-    width: 220px !important;
-    min-height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* --- 6. INDEX GRID (DIRECTORY LISTS) --- */
 .index-grid {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
     gap: 10px 40px !important;
 }
 
-.category-letter {
-    font-size: 2rem !important;
-    font-weight: 900 !important;
-    color: #004B8D !important;
-    border-bottom: 3px solid #004B8D;
-    margin-top: 40px !important;
-}
-
-/* --- 7. CLINICAL ACCORDIONS & PDF ICON --- */
+/* --- 6. CLINICAL ACCORDIONS & PDF ICON --- */
 details.details {
     border-bottom: 1px solid #eee !important;
-    border-left: none !important;
-    border-right: none !important;
-    border-top: none !important;
-    box-shadow: none !important;
 }
 
-details.details summary {
-    color: #004B8D !important;
-    font-size: 1.1rem;
-    font-weight: 500;
-    padding: 15px 0 !important;
-}
-
-.md-typeset .pdf > .admonition-title::before,
 .md-typeset .pdf > summary::before {
     background-color: #2e7d32;
     -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6m4 18H6V4h7v5h5v11m-10-9h8v2H8v-2m0 4h8v2H8v-2m0 4h5v2H8v-2Z"/></svg>');
     mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6m4 18H6V4h7v5h5v11m-10-9h8v2H8v-2m0 4h8v2H8v-2m0 4h5v2H8v-2Z"/></svg>');
     content: "";
-}
-
-/* --- 8. MOBILE RESPONSIVENESS --- */
-@media screen and (max-width: 76.25em) {
-    .grid.cards > ul { flex-direction: column !important; }
-    .grid.cards > ul > li { width: 100% !important; min-width: unset !important; }
-    .index-grid { grid-template-columns: 1fr !important; }
 }
