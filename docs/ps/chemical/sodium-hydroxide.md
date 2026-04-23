@@ -51,14 +51,14 @@ keywords:
     Eyes take priority. If eye exposure occurred, continuous flushing until testing with a pH strip confirms pH = 7. Remove clothing without pulling over the head. Leave clothes on scene. Flush exposed skin for a minimum of 30 minutes with water. To avoid paramedic exposure, initial decontamination to be performed by rescue team or the patient. After initial flushing residual NaOH will be sufficiently dilute to provide care.
 
     ### **Patient Treatment**
-        * Flushing eyes and skin as indicated.
-        * Analgesia and supportive care as required.
-        * If ingested do not induce vomiting. Patient may rinse mouth with N/S or water if able.
+    * Flushing eyes and skin as indicated.
+    * Analgesia and supportive care as required.
+    * If ingested do not induce vomiting. Patient may rinse mouth with N/S or water if able.
 
 
     ### **Safe Transfer of Care**
-        * If eye’s exposed, relay to receiving provider that flushing must continue until pH=7 is confirmed.
-        * •	Provided sufficient external decontamination occurred, no risk to hospital staff.
+    * If eye’s exposed, relay to receiving provider that flushing must continue until pH=7 is confirmed.
+    * Provided sufficient external decontamination occurred, no risk to hospital staff.
 
 
     ### **Paramedic and Equipment Decontamination**

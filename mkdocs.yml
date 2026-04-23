@@ -28,6 +28,7 @@ theme:
     - navigation.tabs.sticky   # Keeps the header visible
     - navigation.sections      # Groups items
     - navigation.expand        # Prevents sidebar nesting
+    - navigation.breadcrumbs
 
 nav:
   - Home: index.md
