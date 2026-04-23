@@ -391,3 +391,23 @@ details.details[open] {
     background-color: #fafafa;
     padding-bottom: 20px;
 }
+
+/* --- Custom PDF Admonition Icon --- */
+.md-typeset .pdf > .admonition-title::before,
+.md-typeset .pdf > summary::before {
+  background-color: #2e7d32; /* Matches the green theme in your photo */
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6m4 18H6V4h7v5h5v11m-10-9h8v2H8v-2m0 4h8v2H8v-2m0 4h5v2H8v-2Z"/></svg>');
+  mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6m4 18H6V4h7v5h5v11m-10-9h8v2H8v-2m0 4h8v2H8v-2m0 4h5v2H8v-2Z"/></svg>');
+  content: "";
+}
+
+/* Optional: Keep the border green to match your screenshot */
+.md-typeset .admonition.pdf,
+.md-typeset details.pdf {
+  border-color: #2e7d32;
+}
+
+.md-typeset .pdf > .admonition-title,
+.md-typeset .pdf > summary {
+  background-color: rgba(46, 125, 50, 0.1);
+}
