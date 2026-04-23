@@ -4,32 +4,15 @@ use_directory_urls: true
 
 theme:
   name: material
-  font:
-    text: Roboto
-    code: Roboto Mono
   logo: assets/logo.png
   favicon: assets/favicon.ico
-  language: en
-  palette: 
-    - scheme: default
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/brightness-7 
-        name: Switch to dark mode
-    - scheme: slate
-      primary: custom
-      accent: custom
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
   features:
-    - navigation.tabs          # Main category menu in blue header
-    - navigation.tabs.sticky   # Keeps menu pinned
-    - navigation.sections
+    - navigation.tabs          # Main menu (Home, PS, STC) in the blue bar
+    - navigation.tabs.sticky   # Keeps that bar at the top
+    - navigation.sections      # Groups your categories correctly
     - navigation.expand
-    - navigation.breadcrumbs  # Replaces 'navigation.path' for cleaner breadcrumbs
-    - navigation.top           # Back to top button
+    - navigation.top           # The "Back to Top" arrow
+    - navigation.breadcrumbs  # The path (Home > PS > Clinical) below the bar
 
 nav:
   - Home: index.md
@@ -40,33 +23,13 @@ markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
-  
   - toc:
       permalink: false
   - pymdownx.details
   - pymdownx.superfences
-  - pymdownx.emoji:
-      emoji_index: !!python/name:pymdownx.emoji.twemoji
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.snippets:
       check_paths: true
       base_path: docs
 
 extra_css:
   - stylesheets/extra.css
-
-copyright: "Internal Use Only | © 2026 BC Emergency Health Services"
-
-extra:
-  search:
-    placeholder: "Search TangoPulse..."
-
-plugins:
-  - search:
-      indexing: 'full'
-      # This is the secret: only index the main page title (level 1)
-      heading_level: 1 
-  - glightbox
-
-extra_javascript:
-  - javascripts/back-to-top.js

@@ -1,43 +1,44 @@
-/* --- 1. GLOBAL & STICKY HEADER --- */
-body, input { 
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-}
-
+/* --- 1. HEADER & STICKY NAVIGATION --- */
 .md-header {
     position: sticky !important;
     top: 0;
     z-index: 100 !important;
 }
 
-.md-tabs {
-    position: sticky !important;
-    top: 2.4rem; 
-    z-index: 90 !important;
-    background-color: #004B8D !important;
-}
-
-/* --- 2. LOGO & BRANDING FIXES --- */
-
-/* Fix the giant ClinicalHub logo on pages */
-article img[src*="ClinicalHub"] {
-    max-width: 400px !important; /* Limits the size of the large blue/red banner */
-    height: auto !important;
-    display: block;
-    margin: 0 auto 20px auto;
-}
-
-/* Restore the BCEHS Logo in the top left header */
-.md-header__button.md-logo img {
-    height: 2.2rem !important;
-    width: auto !important;
-    filter: brightness(0) invert(1); /* Forces logo to be white */
+/* REMOVE TEXT TITLE FROM HEADER */
+.md-header__title {
+    display: none !important;
 }
 
 .md-header, .md-tabs { 
     background-color: #004B8D !important; 
 }
 
-/* --- 3. BREADCRUMBS & TOP NAV --- */
+/* Fix BCEHS Logo in top left */
+.md-header__button.md-logo img {
+    height: 2.2rem !important;
+    width: auto !important;
+    filter: brightness(0) invert(1);
+}
+
+/* --- 2. PAGE CONTENT & LOGO FIX --- */
+
+/* Constrain the large center ClinicalHub logo */
+article img[src*="ClinicalHub"] {
+    max-width: 380px !important; 
+    height: auto !important;
+    display: block;
+    margin: 10px auto 20px auto !important;
+}
+
+/* Center and style page titles */
+h1 {
+    text-align: center !important;
+    color: #004B8D !important;
+    font-weight: 800 !important;
+}
+
+/* --- 3. BREADCRUMBS (THE PATH) --- */
 .md-breadcrumbs {
     display: flex !important;
     padding: 10px 20px;
@@ -45,21 +46,11 @@ article img[src*="ClinicalHub"] {
     border-bottom: 1px solid #eee;
 }
 
-.md-breadcrumbs__link {
-    color: #004B8D !important;
-    font-weight: 500;
-}
+/* --- 4. SEARCHBAR --- */
+.md-search__input { color: white !important; }
+.md-search__form { background-color: rgba(255,255,255,0.15) !important; }
 
-/* --- 4. SEARCHBAR (WHITE TEXT) --- */
-.md-search__input {
-    color: white !important;
-}
-
-.md-search__form {
-    background-color: rgba(255,255,255,0.15) !important;
-}
-
-/* --- 5. GRID CARDS (IDENTICAL TWINS) --- */
+/* --- 5. GRID CARDS & ACCORDIONS --- */
 .grid.cards > ul {
     display: flex !important;
     gap: 20px;
@@ -73,17 +64,6 @@ article img[src*="ClinicalHub"] {
     padding: 25px !important;
     border: 1px solid #eee;
     border-radius: 8px;
-    text-align: center;
 }
 
-/* --- 6. CLINICAL ACCORDIONS --- */
-details.details {
-    border-bottom: 1px solid #eee !important;
-    margin-bottom: 0 !important;
-}
-
-details.details summary {
-    color: #004B8D !important;
-    font-weight: 500;
-    padding: 15px 0 !important;
-}
+details.details { border-bottom: 1px solid #eee !important; }
