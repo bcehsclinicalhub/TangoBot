@@ -26,10 +26,10 @@ keywords:
   - inorganic
 ---
 
-# Hydrogen Sulfide ($H_2S$)
+# Hydrogen Sulfide (H2S)
 
-??? info "Quick Reference"
-    ### **What is $H_2S$?**
+!!! warning "Quick Reference"
+    ### **What is H2S?**
     $H_2S$ is a gas that is heavier than air. It has the odor of rotten eggs, is flammable, and highly toxic. 
 
     ### **Crew Safety**
@@ -39,10 +39,10 @@ keywords:
     2. **Additional Resources**
         * Fire or on-scene rescue personnel equipped with SCBAs
 
-??? abstract "DPIC Monograph"
+??? info "DPIC Monograph"
     Content for DPIC Monograph goes here...
 
-??? medical "Paramedic Specialist Monograph"
+??? success "Paramedic Specialist Monograph"
     Content for Specialist Monograph goes here...
 
 ??? danger "Emergency Response Guidebook"
