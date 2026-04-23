@@ -1,29 +1,29 @@
 ---
-title: Sodium Hydroxide
+title: Hydrogen Sulfide
 policy_id: 
 version: 1.0
 status: Active
-effective_date: 2025-12-01
-last_reviewed: 2025-12-01
-next_review: 2026-07-01
+effective_date: 2026-05-01
+last_reviewed: 2026-05-01
+next_review: 2028-05-01
 owner: 
 category: Chemical
 
 tags:
-  - sodium
-  - hydroxide
-  - caustic soda
-  - lye
-  - NaOH
-  - inorganic
+  - safety
+  - chemical
+  - contamination
 
 keywords:
   - sodium
   - hydroxide
-  - caustic soda
-  - lye
-  - NaOH
-  - inorganic
+  - sewer gas
+  - sour gas
+  - hydrosulfuric acid
+  - rotten eggs
+  - sulfane
+  - H2S
+
 ---
 
 # Hydrogen Sulfide (H2S)

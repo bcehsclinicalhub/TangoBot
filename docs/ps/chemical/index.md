@@ -3,11 +3,14 @@
   <h1 style="margin-top: 10px;">☣️ Safety Data Sheets</h1>
 </div>
 
+## H
+<div class="index-grid">
+    <a href="hydrogen-sulfide/">Hydrogen Sulfide</a>
+</div>
 
 ## S
 <div class="index-grid">
-    <a href="_accordiontemplate/">TEST</a>
-    <a href="sodium-hypochlorite/">Sodium Hypochlorite</a>
+    <a href="sodium-hydroxide/">Sodium Hydroxide</a>
 </div>
 
 

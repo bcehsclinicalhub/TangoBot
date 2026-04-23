@@ -3,19 +3,16 @@ title: Sodium Hydroxide
 policy_id: 
 version: 1.0
 status: Active
-effective_date: 2025-12-01
-last_reviewed: 2025-12-01
-next_review: 2026-07-01
+effective_date: 2026-05-01
+last_reviewed: 2026-05-01
+next_review: 2028-05-01
 owner: 
 category: Chemical
 
 tags:
-  - sodium
-  - hydroxide
-  - caustic soda
-  - lye
-  - NaOH
-  - inorganic
+  - safety
+  - chemical
+  - contamination
 
 keywords:
   - sodium
@@ -24,74 +21,59 @@ keywords:
   - lye
   - NaOH
   - inorganic
+  - sodium hydrate
+  - ascarite
 ---
 
-# Sodium Hydroxide
+# Sodium Hydroxide (NaOH)
 
-## Purpose
+!!! warning "Quick Reference"
+    ### **What is NaOH?**
+   Can be either crystalline or an aqueous solution; it is basic and highly caustic. Used in industries such as pulp production. Also found in household products such as drain cleaner. Transported in large quantities. Non-combustible, but releases toxic fumes if heated. Toxic vapors from concentrations over 4%.
 
-This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide. This document sodium hydroxide.
- 
----
+    ### **Crew Safety**
+    1. **Staging/Perimeter**
+        ** *Industrial**: Spill: 50m until spill has been isolated. Fire: 800 m
+        ** *Residential**: Limited exposure to small volumes (i.e. drain cleaner): no staging. Large amounts may be found in settings such as clandestine labs. Stage if concerned. 
+    2. **Additional Resources**
+        * Large spill: Rescue team with chemical protective clothing and SCBA’s in case of toxic vapor.
+        * Small, non-industrial exposure (ie. Drain cleaner): no additional resources needed.
+    3. **PPE requirements**
+        * Our nitrile gloves are too thin to handle directly. OK for incidental exposure to dilute run-off.
+        * Eye protection is a must-have. It is non-optional.
+    4. **Safely initiating patient contact**
+        * Rescue team or patient to initiate decontamination to avoid incidental exposure to concentrated NaOH. Consider callback to initiate decontamination prior to arrival.
 
-## Scope
+    ### **Effect on the Patient**
+    Saponification leading to significant tissue damage. Eye exposure has high risk of blindness. If present, vapors will act as an airway irritant. Ingestion causes saponification of upper airway and GI tract.
 
-All paramedic and supervisor units responding to events at Wreck Beach. 
+    ### **Patient Decontamination**
+    Eyes take priority. If eye exposure occurred, continuous flushing until testing with a pH strip confirms pH = 7. Remove clothing without pulling over the head. Leave clothes on scene. Flush exposed skin for a minimum of 30 minutes with water. To avoid paramedic exposure, initial decontamination to be performed by rescue team or the patient. After initial flushing residual NaOH will be sufficiently dilute to provide care.
 
----
-
-## Definitions
-
-JRCC = Joint Rescue Coordination Centre
-EPOS = Emergency Physician Online Support
-
----
-
-## Policy
-
-BC Emergency Health Services (BCEHS) is committed to providing safe and effective medical care and extrication for emergencies occurring within the unique geographical confines of Wreck Beach. Due to the area's isolation and the safety challenges posed by its remote location, the following policy mandates apply:
-
-- Inter-Agency Coordination: All responses must be conducted in close partnership and coordination with the Vancouver Fire Rescue Service (VFRS), the RCMP (UBC Detachment), and the Canadian Coast Guard to ensure a unified approach to patient care and scene safety.
-
-- Nuanced Decision-Making: Clinical decisions regarding the urgency and method of patient extrication must balance multiple risk factors, including patient medical condition, mechanism of injury, responder fatigue, and environmental states.
-
-- Mandatory Consultation: Because extrication decisions do not follow a fixed scoring system, paramedics are required to discuss the extrication plan and urgency in consultation with the Paramedic Specialist desk and/or Emergency Physician Online Support (EPOS).
-
-- Cultural and Geographic Awareness: Responders must acknowledge that operations take place on the ancestral unceded lands of the Musqueam people and within a unique social environment (clothing-optional) that requires professional conduct and situational awareness.
-
----
-
-## Procedure
-
-Operational Specifics
-
-1.	BCEHS – PICK UP WRECK BEACH KIT inside station 262 next to the vehicle bay entrance in locker 231 – (please call dispatch for padlock code).
-2.	SWITCH TO CE-VAN 1 (Combined Event) on one of your portables to connect with Vancouver Fire (VFRS) to confirm ETA.
-3.	Once connected, MUTUALLY DECIDE IF YOU ARE GOING TO WAIT for each other before heading down based on incident information, time of day and weather. If either agency is delayed, then head down to the beach instead of waiting.
-4.	When 10-7 at scene, LEAVE VEHICLE KEYS on the floor inside the ambulance to allow VFRS to drive it over to Spanish Banks.
-5.	VFRS, please remember to take the BASKET STRETCHER with you.
-6.	BCEHS, please take the clam shell along with your Wreck Beach Kit and O2.
-7.	PARK RANGERS activation, call 604-451-6610 (24hr Emergency). They know a lot about what goes on down at the beach and can provide excellent help should you need it (direction, crowd control, etc.).
-8.	Should you need assistance from JRCC (Coast Guard – Hovercraft) for transport, you MUST call CliniCall (PS/EPOS) arrange for response. Do not assume that someone else will call on your behalf (e.g. park rangers, police, fire, UBC security, etc.).
-9.	The Hovercraft will then take you to the “CONCESSION STAND” (or sometimes referred to as the Bath House) at Spanish Banks where your ambulance should be awaiting your arrival.
+    ### **Patient Treatment**
+        * Flushing eyes and skin as indicated.
+        * Analgesia and supportive care as required.
+        * If ingested do not induce vomiting. Patient may rinse mouth with N/S or water if able.
 
 
-## Special Considerations
+    ### **Safe Transfer of Care**
+        * If eye’s exposed, relay to receiving provider that flushing must continue until pH=7 is confirmed.
+        * •	Provided sufficient external decontamination occurred, no risk to hospital staff.
 
-All recommendations and assessments on scene by BCEHS paramedics must be relayed to CliniCall for consultation with the Paramedic Specialist and/or EPOS
+
+    ### **Paramedic and Equipment Decontamination**
+    No special decontamination steps are needed if no direct paramedic exposure. If contaminated clothing transported: double bag before disposal and air-out patient compartment.
 
 
-## Documentation Requirements
+??? info "DPIC Monograph"
+    [BC DPIC direct link](https://www.dpic.org/pmm/alkali){:target="_blank .external-link}
 
-Complete ePCR unless no patient contact is made.
+    
+??? pdf "Paramedic Specialist Monograph"
+    [View Full Monograph (PDF)](files/monograph-hydrogensulfide.pdf)
 
----
-
-## References
-
-| Wreck Beach Map | MCI Guideline |
-| :--- | :--- |
-| ![Wreck Beach Map](images/wreck-beach-map.png) | ![MCI Guideline](images/wreck-beach-mci-scale.png) |
+??? danger "Emergency Response Guidebook"
+    [ERG direct link](https://wwwapps.tc.gc.ca/Saf-Sec-Sur/3/erg-gmu-web/OrangePages?guideNum=154&dangerousGoodId=912){:target="_blank" .external-link}
 
 ---
 
@@ -99,4 +81,4 @@ Complete ePCR unless no patient contact is made.
 
 | Version | Date | Changes | Author |
 |--------|------|---------|--------|
-| 1.0 | 2025-12-01 | Initial version | Metro Ops |
+| 1.0 | 2026-05-01 | Initial version | Clinical Hub |
