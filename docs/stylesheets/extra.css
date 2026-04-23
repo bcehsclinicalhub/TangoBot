@@ -123,3 +123,20 @@ details.details {
 .back-to-top:hover {
     background: #003366;
 }
+
+/* Search input text */
+.md-search__input {
+    color: white !important;
+}
+
+/* Placeholder text */
+.md-search__input::placeholder {
+    color: rgba(255,255,255,0.7) !important;
+}
+
+/* Search results text */
+.md-search-result__meta,
+.md-search-result__title,
+.md-search-result__teaser {
+    color: #333 !important;
+}
