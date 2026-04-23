@@ -361,3 +361,33 @@ body, input {
         max-width: 300px;
     }
 }
+
+/* --- CLINICAL ACCORDION STYLING --- */
+details.details {
+    border-bottom: 1px solid #eee !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+details.details summary {
+    background-color: transparent !important;
+    color: #004B8D !important; /* BCEHS Blue */
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 15px 0 !important;
+}
+
+/* Change the arrow color and position */
+details.details summary::after {
+    color: #666 !important;
+}
+
+/* Remove background color from the expanded content */
+details.details[open] {
+    background-color: #fafafa;
+    padding-bottom: 20px;
+}
