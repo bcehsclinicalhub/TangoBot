@@ -26,8 +26,10 @@ keywords:
   - ascarite
 ---
 
-# Sodium Hydroxide (NaOH)
 <a href="javascript:history.back()" class="back-link">← Back</a>
+
+# Sodium Hydroxide (NaOH)
+
 
 !!! warning "Quick Reference"
     ### **What is NaOH?**
