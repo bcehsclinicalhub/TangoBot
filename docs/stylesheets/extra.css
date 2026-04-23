@@ -1,164 +1,89 @@
-/* --- 1. GLOBAL FONTS & STICKY FIX --- */
+/* --- 1. GLOBAL & STICKY HEADER --- */
 body, input { 
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-    font-weight: 300; 
 }
 
-/* Pins the blue header and navigation tabs to the top */
 .md-header {
     position: sticky !important;
     top: 0;
     z-index: 100 !important;
-    display: block !important; /* Force header visibility */
 }
 
 .md-tabs {
     position: sticky !important;
     top: 2.4rem; 
     z-index: 90 !important;
-    display: block !important; /* Force tabs visibility */
+    background-color: #004B8D !important;
 }
 
-/* --- 2. HEADER & NAVIGATION BRANDING --- */
+/* --- 2. LOGO & BRANDING FIXES --- */
+
+/* Fix the giant ClinicalHub logo on pages */
+article img[src*="ClinicalHub"] {
+    max-width: 400px !important; /* Limits the size of the large blue/red banner */
+    height: auto !important;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* Restore the BCEHS Logo in the top left header */
+.md-header__button.md-logo img {
+    height: 2.2rem !important;
+    width: auto !important;
+    filter: brightness(0) invert(1); /* Forces logo to be white */
+}
+
 .md-header, .md-tabs { 
     background-color: #004B8D !important; 
-    border: none !important; 
 }
 
-/* Ensures the container inside the header allows elements to show */
-.md-header__inner { 
-    display: flex !important; 
-    align-items: center !important; 
-    padding: 0 20px !important; 
-}
-
-/* --- 3. THE MISSING BREADCRUMBS & TABS --- */
-/* This block forces the breadcrumbs to appear as a light grey bar below the blue header */
+/* --- 3. BREADCRUMBS & TOP NAV --- */
 .md-breadcrumbs {
-    display: flex !important; /* Forces the path to show */
-    visibility: visible !important;
-    margin-bottom: 0;
-    padding: 12px 20px;
-    font-size: 0.85rem;
-    background-color: #f8f9fa !important; 
+    display: flex !important;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
     border-bottom: 1px solid #eee;
 }
 
 .md-breadcrumbs__link {
-    color: #004B8D !important; 
+    color: #004B8D !important;
     font-weight: 500;
 }
 
-
-.md-tabs__link {
+/* --- 4. SEARCHBAR (WHITE TEXT) --- */
+.md-search__input {
     color: white !important;
-    opacity: 1 !important;
 }
 
-/* --- 4. SEARCHBAR STYLING --- */
-.md-header__search { 
-    width: 340px !important; 
-    margin-right: 15px !important; 
-    order: 2 !important; 
+.md-search__form {
+    background-color: rgba(255,255,255,0.15) !important;
 }
 
-.md-search__form { 
-    background-color: rgba(255,255,255,0.15) !important; 
-    border-radius: 24px !important; 
-}
-
-/* --- 5. GRID CARDS & DIRECTORY (HOME/SECTION PAGES) --- */
+/* --- 5. GRID CARDS (IDENTICAL TWINS) --- */
 .grid.cards > ul {
     display: flex !important;
     gap: 20px;
+    padding: 0;
+    list-style: none;
 }
 
 .grid.cards > ul > li {
     flex: 1;
-    min-width: 320px;
-    padding: 30px !important;
+    min-width: 300px;
+    padding: 25px !important;
     border: 1px solid #eee;
     border-radius: 8px;
-    background: #fff;
+    text-align: center;
 }
 
-.index-grid {
-    display: grid !important;
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 10px 40px !important;
-}
-
-/* --- 6. CLINICAL ACCORDIONS & PDF ICON --- */
+/* --- 6. CLINICAL ACCORDIONS --- */
 details.details {
     border-bottom: 1px solid #eee !important;
+    margin-bottom: 0 !important;
 }
 
-.md-typeset .pdf > summary::before {
-    background-color: #2e7d32;
-    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6m4 18H6V4h7v5h5v11m-10-9h8v2H8v-2m0 4h8v2H8v-2m0 4h5v2H8v-2Z"/></svg>');
-    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6m4 18H6V4h7v5h5v11m-10-9h8v2H8v-2m0 4h8v2H8v-2m0 4h5v2H8v-2Z"/></svg>');
-    content: "";
-}
-
-/* Back to Top Button */
-.back-to-top {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    background: #004B8D;
-    color: white;
-    padding: 10px 14px;
-    border-radius: 50%;
-    font-size: 18px;
-    cursor: pointer;
-    display: none;
-    z-index: 999;
-}
-
-.back-to-top:hover {
-    background: #003366;
-}
-
-/* --- SEARCH TEXT FIX (FORCE WHITE TEXT) --- */
-
-/* Input text */
-.md-search__form input,
-.md-search__input,
-.md-search__input:focus {
-    color: white !important;
-    -webkit-text-fill-color: white !important; /* fixes Chrome autofill weirdness */
-}
-
-/* Placeholder */
-.md-search__input::placeholder,
-.md-search__input::-webkit-input-placeholder {
-    color: rgba(255,255,255,0.7) !important;
-}
-
-/* Cursor */
-.md-search__input {
-    caret-color: white !important;
-}
-
-.back-link {
-    display: inline-block;
-    margin-bottom: 20px;
+details.details summary {
+    color: #004B8D !important;
     font-weight: 500;
-    color: #004B8D;
-    text-decoration: none;
-}
-
-.back-link:hover {
-    text-decoration: underline;
-}
-
-/* Force search text color at root level */
-.md-search__form input {
-    color: white !important;
-    -webkit-text-fill-color: white !important;
-}
-
-/* Also override the search container */
-.md-search__form {
-    color: white !important;
+    padding: 15px 0 !important;
 }

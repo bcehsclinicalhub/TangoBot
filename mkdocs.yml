@@ -24,12 +24,12 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   features:
-  - navigation.tabs
-  - navigation.tabs.sticky
-  - navigation.sections
-  - navigation.expand
-  - navigation.path
-  - navigation.top
+    - navigation.tabs          # Main category menu in blue header
+    - navigation.tabs.sticky   # Keeps menu pinned
+    - navigation.sections
+    - navigation.expand
+    - navigation.breadcrumbs  # Replaces 'navigation.path' for cleaner breadcrumbs
+    - navigation.top           # Back to top button
 
 nav:
   - Home: index.md
