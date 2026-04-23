@@ -139,3 +139,15 @@ details.details {
 .md-search__input {
     caret-color: white !important;
 }
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #004B8D;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
