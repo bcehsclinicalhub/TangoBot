@@ -419,28 +419,16 @@ details.details[open] {
     /* Keeps the blinking typing cursor white */
     caret-color: white !important;
 }
-/* --- MOVE BACK-TO-TOP TO LEFT SIDEBAR --- */
+
+/* --- 8. OFFICIAL TOP BUTTON (LEFT ALIGNED) --- */
 .md-top {
-    /* Position the button on the left */
-    left: 2rem !important; 
-    right: auto !important;
-    
-    /* Colors and Visibility */
+    left: 20px !important;  /* Pushes it to the left side */
+    right: auto !important; /* Disables the default right-side position */
     background-color: #004B8D !important; /* BCEHS Blue */
     color: white !important;
-    opacity: 1 !important; /* Ensures it doesn't fade into grey */
 }
 
-/* Force the text and icon inside to stay white */
-.md-top span, 
+/* Ensures the arrow icon inside is white */
 .md-top svg {
-    color: white !important;
     fill: white !important;
-    -webkit-text-fill-color: white !important;
-}
-
-/* Removes any hover effects that might turn the text black */
-.md-top:hover {
-    background-color: #003366 !important; /* Darker blue on hover */
-    color: white !important;
 }
