@@ -1,44 +1,49 @@
-/* --- 1. HEADER & STICKY NAVIGATION --- */
+/* --- 1. HEADER & SEARCHBAR (FIXED POSITION) --- */
 .md-header {
     position: sticky !important;
     top: 0;
     z-index: 100 !important;
 }
 
-/* REMOVE TEXT TITLE FROM HEADER */
-.md-header__title {
-    display: none !important;
-}
+.md-header__title { display: none !important; }
 
 .md-header, .md-tabs { 
     background-color: #004B8D !important; 
 }
 
-/* Fix BCEHS Logo in top left */
-.md-header__button.md-logo img {
-    height: 2.2rem !important;
-    width: auto !important;
-    filter: brightness(0) invert(1);
+/* Force Search to the Right and add ECG Icon */
+.md-header__search { 
+    width: 300px !important; 
+    margin-left: auto !important; /* This shifts it back to the right */
+    margin-right: 20px !important;
 }
 
-/* --- 2. PAGE CONTENT & LOGO FIX --- */
+.md-search__form { 
+    background-color: rgba(255,255,255,0.15) !important; 
+    border-radius: 24px !important; 
+}
 
-/* Constrain the large center ClinicalHub logo */
+.md-search__input { color: white !important; }
+
+/* ECG Search Icon Restoration */
+.md-search__icon svg { display: none !important; }
+.md-search__icon[for="__search"]::before {
+    background-color: #FF0000;
+    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
+    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
+    content: ""; display: block; width: 1.1rem; height: 1.1rem; position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+}
+
+/* --- 2. LOGO SIZE CONSTRAINT --- */
+/* This strictly limits the size of the large blue/red banner */
 article img[src*="ClinicalHub"] {
-    max-width: 380px !important; 
+    max-width: 320px !important; /* Reduced further to prevent wonkiness */
     height: auto !important;
     display: block;
     margin: 10px auto 20px auto !important;
 }
 
-/* Center and style page titles */
-h1 {
-    text-align: center !important;
-    color: #004B8D !important;
-    font-weight: 800 !important;
-}
-
-/* --- 3. BREADCRUMBS (THE PATH) --- */
+/* --- 3. BREADCRUMBS & NAVIGATION --- */
 .md-breadcrumbs {
     display: flex !important;
     padding: 10px 20px;
@@ -46,11 +51,9 @@ h1 {
     border-bottom: 1px solid #eee;
 }
 
-/* --- 4. SEARCHBAR --- */
-.md-search__input { color: white !important; }
-.md-search__form { background-color: rgba(255,255,255,0.15) !important; }
+.md-breadcrumbs__link { color: #004B8D !important; }
 
-/* --- 5. GRID CARDS & ACCORDIONS --- */
+/* --- 4. GRID CARDS --- */
 .grid.cards > ul {
     display: flex !important;
     gap: 20px;
@@ -66,4 +69,5 @@ h1 {
     border-radius: 8px;
 }
 
+/* --- 5. CLINICAL ACCORDIONS --- */
 details.details { border-bottom: 1px solid #eee !important; }
