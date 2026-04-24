@@ -152,15 +152,6 @@ body, input {
     text-decoration: none !important; 
 }
 
-/* --- 8. FOOTER & TOP BUTTON --- */
-.back-to-top {
-    display: block !important;
-    margin: 40px 0 !important;
-    color: #004B8D !important;
-    font-weight: 700 !important;
-    text-decoration: none !important;
-    text-align: left !important;
-}
 
 .md-footer, .md-footer-meta { background-color: #004B8D !important; }
 .md-copyright { display: none !important; }
@@ -427,4 +418,17 @@ details.details[open] {
 .md-search__input {
     /* Keeps the blinking typing cursor white */
     caret-color: white !important;
+}
+/* --- MOVE BACK-TO-TOP BUTTON TO THE LEFT --- */
+
+/* Targets the official MkDocs Material top button */
+.md-top {
+    left: 20px !important;  /* Moves it to the left side */
+    right: auto !important; /* Removes the default right-side anchoring */
+    background-color: #004B8D !important; /* Matches BCEHS Blue */
+}
+
+/* Ensures the icon inside is white and visible */
+.md-top svg {
+    fill: white !important;
 }
