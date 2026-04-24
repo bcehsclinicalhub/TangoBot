@@ -411,3 +411,20 @@ details.details[open] {
 .md-typeset .pdf > summary {
   background-color: rgba(46, 125, 50, 0.1);
 }
+
+/* --- SEARCH BOX TEXT COLOR FIX --- */
+.md-search__input {
+    color: white !important;
+    /* Fixes text color in Chrome/Edge */
+    -webkit-text-fill-color: white !important; 
+}
+
+.md-search__input::placeholder {
+    /* Makes "Search TangoPulse..." readable but subtle */
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.md-search__input {
+    /* Keeps the blinking typing cursor white */
+    caret-color: white !important;
+}
