@@ -1,73 +1,101 @@
-/* --- 1. HEADER & SEARCHBAR (FIXED POSITION) --- */
-.md-header {
-    position: sticky !important;
-    top: 0;
-    z-index: 100 !important;
+/* --- 1. GLOBAL FONTS & NAVIGATION --- */
+body, input { 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-weight: 300; 
 }
-
-.md-header__title { display: none !important; }
 
 .md-header, .md-tabs { 
     background-color: #004B8D !important; 
 }
 
-/* Force Search to the Right and add ECG Icon */
-.md-header__search { 
-    width: 300px !important; 
-    margin-left: auto !important; /* This shifts it back to the right */
-    margin-right: 20px !important;
+/* Hide breadcrumbs and standard header titles */
+.md-header__title, .md-breadcrumb, .md-content__nav, .md-breadcrumbs { 
+    display: none !important; 
 }
 
-.md-search__form { 
-    background-color: rgba(255,255,255,0.15) !important; 
-    border-radius: 24px !important; 
-}
-
-.md-search__input { color: white !important; }
-
-/* ECG Search Icon Restoration */
-.md-search__icon svg { display: none !important; }
-.md-search__icon[for="__search"]::before {
-    background-color: #FF0000;
-    -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
-    mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3,13H5.79L8,18L13,6L16,13H21V15H15.21L13,10L8,22L5,15H3V13Z"/></svg>');
-    content: ""; display: block; width: 1.1rem; height: 1.1rem; position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
-}
-
-/* --- 2. LOGO SIZE CONSTRAINT --- */
-/* This strictly limits the size of the large blue/red banner */
-article img[src*="ClinicalHub"] {
-    max-width: 320px !important; /* Reduced further to prevent wonkiness */
-    height: auto !important;
-    display: block;
-    margin: 10px auto 20px auto !important;
-}
-
-/* --- 3. BREADCRUMBS & NAVIGATION --- */
-.md-breadcrumbs {
-    display: flex !important;
-    padding: 10px 20px;
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #eee;
-}
-
-.md-breadcrumbs__link { color: #004B8D !important; }
-
-/* --- 4. GRID CARDS --- */
+/* --- 2. LANDING PAGE BUTTON CARDS --- */
+/* This section targets ONLY the home page Enter PS/STC buttons */
 .grid.cards > ul {
     display: flex !important;
+    flex-wrap: nowrap; /* Forces side-by-side on desktop */
+    align-items: stretch !important; 
     gap: 20px;
     padding: 0;
     list-style: none;
 }
 
 .grid.cards > ul > li {
-    flex: 1;
+    flex: 1 1 0px; /* Forces identical width */
     min-width: 300px;
-    padding: 25px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important; 
+    padding: 30px !important;
+    text-align: center;
     border: 1px solid #eee;
     border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 
-/* --- 5. CLINICAL ACCORDIONS --- */
-details.details { border-bottom: 1px solid #eee !important; }
+.grid.cards .md-button {
+    margin: 20px auto 0 auto !important;
+    width: 220px !important; 
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --- 3. DIRECTORY CATEGORY LINKS (index-grid) --- */
+/* This section targets the A-Z Directory list */
+.index-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important; /* Forces 2 columns on desktop */
+    gap: 10px 40px !important;
+    margin-bottom: 30px !important;
+}
+
+.index-grid a { 
+    font-size: 1rem; 
+    font-weight: 500; 
+    color: #004B8D !important; 
+    text-decoration: none !important; 
+    display: inline-block;
+}
+
+/* --- 4. MOBILE RESPONSIVENESS (The Fix) --- */
+@media screen and (max-width: 76.25em) {
+    /* Stack the Landing Page Buttons */
+    .grid.cards > ul {
+        flex-direction: column !important; 
+        align-items: center !important;
+    }
+
+    .grid.cards > ul > li {
+        width: 100% !important; 
+        min-width: 100% !important; /* Overrides desktop fixed width */
+        margin-bottom: 20px;
+    }
+
+    /* Stack the Directory Links vertically on mobile */
+    .index-grid {
+        grid-template-columns: 1fr !important; 
+    }
+    
+    .hero-logo-small {
+        width: 180px !important; /* Smaller logo for mobile view */
+    }
+}
+
+/* --- 5. SEARCH & MISC --- */
+.md-search__input { color: rgba(0, 0, 0, 0.87) !important; }
+[data-md-color-scheme="slate"] .md-search__input { color: white !important; }
+
+.md-typeset h1 {
+    font-size: 1.6rem !important;
+    font-weight: 800 !important;
+    color: #004B8D !important;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 8px;
+}
