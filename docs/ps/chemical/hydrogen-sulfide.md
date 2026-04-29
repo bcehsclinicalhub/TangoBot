@@ -15,8 +15,6 @@ tags:
   - contamination
 
 keywords:
-  - sodium
-  - hydroxide
   - sewer gas
   - sour gas
   - hydrosulfuric acid
