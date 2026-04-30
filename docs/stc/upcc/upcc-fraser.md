@@ -22,8 +22,9 @@ keywords:
 # UPCC - Fraser <br> <span style="font-size: 0.8em; font-style: italic;">Site Details</span>
 
 
+
 | Facility Name | Abbotsford | Burnaby Edmonds | Chiliwack | Metrotown | Port Moody | Ridge Meadows | Surrey-Newton | Surry - Whalley | Mission |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Weekday Hours** | 0900-2000 | 1700-2100 | 1200-2000 | 0900-2000 | 0900-2000 | 0900-2000| 1400-2100 | 0900-2100 | 1200-2000 |
 | **Weekend Hours** | 0900-2000 | 1400-2000 (Sat)<br>1200-1800 (Sun) | 0900-1600 | 0900-2000 | 0900-2000 |	0900-2000	| 0900-2100	| 0900-2100	| 0900-2000 |
 | **Address** | 2692 Clearbrook Rd, Abbotsford | 201-7315 Edmonds St, Burnaby | 7955 Evans Rd, Chilliwack | 102-4555 Kingsway, Burnaby | 3105 Murray St, Port Moody |	121-11900 Haney Pl, Maple Ridge | 6830 King George Blvd, Surrey |	G2-9639 137A St, Surrey BC | 304 32555 London Ave, Mission |
@@ -32,7 +33,7 @@ keywords:
   **Alternate Phone** | 604-870-3325 | 604-519-3787 |	778-704-6006 |	604-451-4888 |	604-469-3123 |	604-476-4650 |	604-572-2625 |	236-332-2559 | 604-814-5648 |
   **Scheduled Appts** | Y	| Y |	Y	| Y |	Y	| Y	| Y |	Y |	Y |
 | **Lab** | Y | Y | Y | Y | Y | Y | Y | Y | Y |
-| **X-Ray** | N | N | N |
+| **X-Ray** | N | N | N | N | N | N | N | N | N |
 
 {.facility-table}
 
