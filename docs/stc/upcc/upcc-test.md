@@ -45,15 +45,10 @@ keywords:
     ### **Scheduled Appointments**
     Yes
     ### **Services**
-    ### **Services**
-
-| Service | Available |
-| :--- | :--- |
-| Lab | N { : .no-cell } |
-| X-Ray | N { : .no-cell } |
-| ECG | N { : .no-cell } |
-| Sutures | Y { : .yes-cell } |
-| Social Work | Y { : .yes-cell } |
+    ### **Services Available**
+    Lab: <span class="no-cell">N</span>
+    X-Ray: <span class="no-cell">N</span>
+    Sutures: <span class="yes-cell">Y</span>
 
 ## Chilliwack
 ??? info "Click to view details"
