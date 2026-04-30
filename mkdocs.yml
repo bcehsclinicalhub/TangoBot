@@ -49,7 +49,7 @@ markdown_extensions:
       permalink: true
       toc_depth: 3
       baselevel: 1
-      seperator: "-"
+      separator: "-"
 
 extra_css:
   - stylesheets/extra.css
