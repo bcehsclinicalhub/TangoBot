@@ -23,26 +23,40 @@ keywords:
 
 ## Abbotsford
 ??? info "Click to view details" 
-    ### Weekday Hours
+    ### **Weekday Hours**
     0900-2000
-    ### Weekdend Hours
+    ### **Weekdend Hours**
     0900-2000
 
 ## Burnaby-Edmonds
 ??? info "Click to view details"
-    ### Weekday Hours
+    ### **Weekday Hours**
     0900-2000
-    ### Weekdend Hours**
+    ### **Weekdend Hours**
     0900-2000
     ### **Address**
+    2692 Clearbrook Rd, Abbotsford
     ### **Other Details**
+    Clearbrook and Nobel, A/F KFC
     ### **Primary Phone**
+    236-332-6039
     ### **Alternate Phone**
-    ### **Scheduled Appointments**
+    604-870-3325
+    **Scheduled Appointments**
+    Yes
+    
     ### **Services**
     Lab: No
     X-Ray: No
     ECG: No
+    Bladder Scanner/ Cath Care: Yes
+    Casting: No
+    Sutures: Yes
+    Slit Lamp: No
+    IVs: No
+    IV ABx: No
+    Social Work: Yes
+    Pain Manage> Advil/Tylenol: Yes
 
 ## Chilliwack
 ??? info "Click to view details"
