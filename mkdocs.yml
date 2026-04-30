@@ -46,8 +46,8 @@ markdown_extensions:
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.snippets
   - toc:
-      permalink: true
-      toc_depth: 3
+      permalink: false
+      toc_depth: 2
       baselevel: 1
       separator: "-"
 

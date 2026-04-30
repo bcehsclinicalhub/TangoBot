@@ -22,17 +22,17 @@ keywords:
 # UPCC - TEST <br> <span style="font-size: 0.8em; font-style: italic;">Site Details</span>
 
 ## Abbotsford
-??? info "Click to view Abbotsford" 
-    ### **Weekday Hours**
+??? info "Click to view details" 
+    ### Weekday Hours
     0900-2000
-    ### **Weekdend Hours**
+    ### Weekdend Hours
     0900-2000
 
 ## Burnaby-Edmonds
-??? info "Click to view Burnaby Edmonds"
-    ### **Weekday Hours**
+??? info "Click to view details"
+    ### Weekday Hours
     0900-2000
-    ### **Weekdend Hours**
+    ### Weekdend Hours**
     0900-2000
     ### **Address**
     ### **Other Details**
@@ -45,13 +45,14 @@ keywords:
     ECG: No
 
 ## Chilliwack
-??? info "Click to view Chilliwack"
+??? info "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
     0900-2000
 
-???+ info "Metrotown"
+## Metrotown
+??? info "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
