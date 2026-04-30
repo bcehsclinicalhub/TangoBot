@@ -29,7 +29,7 @@ theme:
     - navigation.sections      # Groups items
     - navigation.expand        # Prevents sidebar nesting
     - navigation.top  # This activates the official theme button
-
+    - toc.follow
 nav:
   - Home: index.md
   - Paramedic Specialists: ps/index.md
@@ -48,7 +48,10 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - toc:
-      permalink: false
+      permalink: true
+      toc_depth: 3
+      baselevel: 1
+      seperator: "-""
 
 extra_css:
   - stylesheets/extra.css
