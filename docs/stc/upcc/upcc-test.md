@@ -45,27 +45,15 @@ keywords:
     ### **Scheduled Appointments**
     Yes
     ### **Services**
-    Lab: N {: .yes-cell }
+    ### **Services**
 
-    X-Ray: N {: .no-cell }
-    
-    ECG: N {: .no-cell }
-    
-    Bladder Scanner/ Cath Care: {: .yes-cell }
-    
-    Casting: N {: .no-cell }
-    
-    Sutures: Y {: .yes-cell }
-    
-    Slit Lamp: N {: .no-cell }
-    
-    IVs: N {: .no-cell }
-    
-    IV ABx: N {: .no-cell }
-    
-    Social Work: {: .yes-cell }
-    
-    Pain Manage> Advil/Tylenol: {: .yes-cell }
+| Service | Available |
+| :--- | :--- |
+| Lab | N { : .no-cell } |
+| X-Ray | N { : .no-cell } |
+| ECG | N { : .no-cell } |
+| Sutures | Y { : .yes-cell } |
+| Social Work | Y { : .yes-cell } |
 
 ## Chilliwack
 ??? info "Click to view details"
