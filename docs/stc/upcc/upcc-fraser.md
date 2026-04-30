@@ -23,7 +23,7 @@ keywords:
 
 
 
-| Facility Name | Abbotsford | Burnaby Edmonds | Chiliwack | Metrotown | Port Moody | Ridge Meadows | Surrey-Newton | Surry - Whalley | Mission |
+| **Facility Name** | Abbotsford | Burnaby Edmonds | Chiliwack | Metrotown | Port Moody | Ridge Meadows | Surrey-Newton | Surry - Whalley | Mission |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Weekday Hours** | 0900-2000 | 1700-2100 | 1200-2000 | 0900-2000 | 0900-2000 | 0900-2000| 1400-2100 | 0900-2100 | 1200-2000 |
 | **Weekend Hours** | 0900-2000 | 1400-2000 (Sat)<br>1200-1800 (Sun) | 0900-1600 | 0900-2000 | 0900-2000 |	0900-2000	| 0900-2100	| 0900-2100	| 0900-2000 |
