@@ -21,14 +21,15 @@ keywords:
 
 # UPCC - TEST <br> <span style="font-size: 0.8em; font-style: italic;">Site Details</span>
 
-
-???+ info "Abbotsford"
+## Abbotsford
+??? info "Click to view Abbotsford" 
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
     0900-2000
 
-???+ info "Burnaby Edmonds"
+## Burnaby-Edmonds
+??? info "Click to view Burnaby Edmonds"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -43,8 +44,8 @@ keywords:
     X-Ray: No
     ECG: No
 
-
-???+ info "Chilliwack"
+## Chilliwack
+??? info "Click to view Chilliwack"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
