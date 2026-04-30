@@ -9,7 +9,8 @@
 
 | Section | Description | Link |
 | :--- | :--- | :--- |
-| **Directory of Services** | UPCC, Clinics and Pharmacies | [Directory of Services →](services/index.md) |
+| **Urgent & Primary Care Centres** | UPCC Phone #'s and services | [Directory of Services →](services/index.md) |
+| **Directory of Services** | Clinics and Pharmacies | [Directory of Services →](services/index.md) |
 | **Reference Cards** | Various clinical tools and references | [Operational Guidelines →](reference/index.md) |
 
 ## ⚠️ Critical Alerts
