@@ -45,13 +45,11 @@ markdown_extensions:
       emoji_index: !!python/name:pymdownx.emoji.twemoji
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.snippets
-  - pymdownx.details
-  - pymdownx.superfences
   - toc:
       permalink: true
       toc_depth: 3
       baselevel: 1
-      seperator: "-""
+      seperator: "-"
 
 extra_css:
   - stylesheets/extra.css
