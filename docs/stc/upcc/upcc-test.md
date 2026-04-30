@@ -42,20 +42,31 @@ keywords:
     236-332-6039
     ### **Alternate Phone**
     604-870-3325
+    
     **Scheduled Appointments**
     Yes
     
     ### **Services**
     Lab: No
+
     X-Ray: No
+    
     ECG: No
+    
     Bladder Scanner/ Cath Care: Yes
+    
     Casting: No
-    Sutures: Yes
-    Slit Lamp: No
-    IVs: No
-    IV ABx: No
+    
+    Sutures: [Y]{ .yes }
+    
+    Slit Lamp: [N]{ .no }
+    
+    IVs: [N]{ .no }
+    
+    IV ABx: [N]{ .no }
+    
     Social Work: Yes
+    
     Pain Manage> Advil/Tylenol: Yes
 
 ## Chilliwack
