@@ -1,5 +1,5 @@
 ---
-title: Fraser UPCC Details
+title: Fraser UPCC Site Details
 policy_id: 
 version: 1.0
 status: Active
@@ -10,18 +10,13 @@ owner: Clinical Hub
 category: Operational
 
 tags:
-  - Wildfire
-  - SAR
-  - Safety
-  - DST
+  - UPCC
+  - Reference
 
 keywords:
-  - Wildfire
-  - SAR
-  - Safety
-  - DST
-  - Interface
-  - Fire
+  - Fraser
+  - UPCC
+
 ---
 
 # UPCC - Fraser <br> <span style="font-size: 0.8em; font-style: italic;">Site Details</span>
