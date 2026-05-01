@@ -5,7 +5,7 @@
 
 ## A
 <div class="index-grid">
-    <a href="211-finder/">A Reference</a>
+    <a href="approved-resources/">Approved References</a>
 </div>
 
 ## F

@@ -23,21 +23,21 @@ keywords:
 
 ## Fraser Health
 
-[211 Website](https://mts.bcehs.ca/content/FH_MOST.pdf){:target="_blank .external-link}
+[Click to view PDF](https://mts.bcehs.ca/content/FH_MOST.pdf){:target="_blank .external-link}
 
 ## Interior Health
 
-[211 Website](https://mts.bcehs.ca/content/IH_MOST.pdf){:target="_blank .external-link}
+[Click to view PDF](https://mts.bcehs.ca/content/IH_MOST.pdf){:target="_blank .external-link}
 
 ## Island Health
 
-[211 Website](https://mts.bcehs.ca/content/VIHA_MOST.pdf){:target="_blank .external-link}
+[Click to view PDF](https://mts.bcehs.ca/content/VIHA_MOST.pdf){:target="_blank .external-link}
 
 ## Northern Health
 
-[211 Website](https://mts.bcehs.ca/content/NH_MOST.pdf){:target="_blank .external-link}
+[Click to view PDF](https://mts.bcehs.ca/content/NH_MOST.pdf){:target="_blank .external-link}
 
 ## Vancouver Coastal Health
 
-[211 Website](https://mts.bcehs.ca/content/VCH_MOST.pdf){:target="_blank .external-link}
+[Click to view PDF](https://mts.bcehs.ca/content/VCH_MOST.pdf){:target="_blank .external-link}
 
