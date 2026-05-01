@@ -17,7 +17,7 @@
 
 ## 📣 Wiki News
 !!! success "Introducing Hub Wiki (May 2026)"
-    **Clinical Hub Wiki** is the new home for information resources for both Paramedic Specialists and Secondary Triage Clinicians. Future state will have this site replace the Tango Drive and Resources from the MTS pages. This wiki is designed as a one-stop resource for clinical and operational resources that can't be found onthe Handbook or Intranet.
+    **Clinical Hub Wiki** is the new home for information resources for both Paramedic Specialists and Secondary Triage Clinicians. Future state will see this site replace the Tango Drive and Resource pages from the MTS site. This wiki is designed as a one-stop resource for quick clinical and operational resources that can't be found on the Handbook or Intranet.
 
 ## ❓ Need Help?
 !!! caution "Support"
