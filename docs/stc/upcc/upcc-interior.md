@@ -1,5 +1,5 @@
 ---
-title: UPCC Fraser
+title: UPCC Interior
 policy_id: 
 version: 1.0
 status: Active
@@ -15,12 +15,12 @@ tags:
 
 keywords:
   - UPCC
-  - FHA
-  - Fraser
+  - IHA
+  - Interior
 
 ---
 
-# UPCC - Fraser Health <br> <span style="font-size: 0.8em; font-style: italic;">Site Details</span>
+# UPCC - Interior Health <br> <span style="font-size: 0.8em; font-style: italic;">Site Details</span>
 
 ## Abbotsford
 ??? info "Click to view details" 
