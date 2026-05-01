@@ -22,8 +22,8 @@ keywords:
 
 # UPCC - Vancouver Coastal Health <br> <span style="font-size: 0.8em; font-style: italic;">Site Details</span>
 
-## Abbotsford
-??? info "Click to view details" 
+## City Centre
+??? tip "Click to view details" 
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -61,8 +61,8 @@ keywords:
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
-## Burnaby-Edmonds
-??? info "Click to view details"
+## Hope to Health
+??? tip "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -100,8 +100,8 @@ keywords:
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
-## Chilliwack
-??? info "Click to view details"
+## North Vancouver
+??? tip "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -139,8 +139,8 @@ keywords:
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
-## Metrotown
-??? info "Click to view details"
+## Northeast Vancouver
+??? tip "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -178,8 +178,8 @@ keywords:
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
-## Mission
-??? info "Click to view details"
+## REACH
+??? tip "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -217,8 +217,8 @@ keywords:
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
-## Port Moody
-??? info "Click to view details"
+## Richmond City Centre
+??? tip "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -256,8 +256,8 @@ keywords:
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
-## Ridge Meadows
-??? info "Click to view details"
+## Richmond East
+??? tip "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -295,8 +295,8 @@ keywords:
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
-## Surrey-Newton
-??? info "Click to view details"
+## Southeast Vancouver
+??? tip "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -334,44 +334,6 @@ keywords:
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
-## Surrey-Whalley
-??? info "Click to view details"
-    ### **Weekday Hours**
-    0900-2000
-    ### **Weekdend Hours**
-    0900-2000
-    ### **Address**
-    2692 Clearbrook Rd, Abbotsford
-    ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
-    ### **Primary Phone**
-    236-332-6039
-    ### **Alternate Phone**
-    604-870-3325
-    ### **Scheduled Appointments**
-    Yes
-    ### **Services Available**
-    **Lab**: ✅ YES
-
-    **X-Ray**: ❌ No
-
-    **ECG**: ❌ No
-
-    **Bladder Scan/Cath Care**: ✅ YES
-
-    **Casting**: ❌ No
-
-    **Sutures**: ✅ YES
-
-    **Slit Lamp**: ❌ No
-
-    **IVs**: ❌ No
-
-    **IV ABx**: ❌ No
-
-    **Social Work**: ❌ No
-
-    **Pain (Advil/ Tylenol)**: ✅ YES
 
 ---
 

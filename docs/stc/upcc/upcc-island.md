@@ -22,8 +22,8 @@ keywords:
 
 # UPCC - Vancouver Island Health <br> <span style="font-size: 0.8em; font-style: italic;">Site Details</span>
 
-## Abbotsford
-??? info "Click to view details" 
+## Downtown Victoria
+??? example "Click to view details" 
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -61,8 +61,8 @@ keywords:
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
-## Burnaby-Edmonds
-??? info "Click to view details"
+## Gorge
+??? example "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -100,8 +100,8 @@ keywords:
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
-## Chilliwack
-??? info "Click to view details"
+## James Bay
+??? example "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -139,8 +139,8 @@ keywords:
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
-## Metrotown
-??? info "Click to view details"
+## North Quadra
+??? example "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -178,164 +178,8 @@ keywords:
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
-## Mission
-??? info "Click to view details"
-    ### **Weekday Hours**
-    0900-2000
-    ### **Weekdend Hours**
-    0900-2000
-    ### **Address**
-    2692 Clearbrook Rd, Abbotsford
-    ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
-    ### **Primary Phone**
-    236-332-6039
-    ### **Alternate Phone**
-    604-870-3325
-    ### **Scheduled Appointments**
-    Yes
-    ### **Services Available**
-    **Lab**: ✅ YES
-
-    **X-Ray**: ❌ No
-
-    **ECG**: ❌ No
-
-    **Bladder Scan/Cath Care**: ✅ YES
-
-    **Casting**: ❌ No
-
-    **Sutures**: ✅ YES
-
-    **Slit Lamp**: ❌ No
-
-    **IVs**: ❌ No
-
-    **IV ABx**: ❌ No
-
-    **Social Work**: ❌ No
-
-    **Pain (Advil/ Tylenol)**: ✅ YES
-
-## Port Moody
-??? info "Click to view details"
-    ### **Weekday Hours**
-    0900-2000
-    ### **Weekdend Hours**
-    0900-2000
-    ### **Address**
-    2692 Clearbrook Rd, Abbotsford
-    ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
-    ### **Primary Phone**
-    236-332-6039
-    ### **Alternate Phone**
-    604-870-3325
-    ### **Scheduled Appointments**
-    Yes
-    ### **Services Available**
-    **Lab**: ✅ YES
-
-    **X-Ray**: ❌ No
-
-    **ECG**: ❌ No
-
-    **Bladder Scan/Cath Care**: ✅ YES
-
-    **Casting**: ❌ No
-
-    **Sutures**: ✅ YES
-
-    **Slit Lamp**: ❌ No
-
-    **IVs**: ❌ No
-
-    **IV ABx**: ❌ No
-
-    **Social Work**: ❌ No
-
-    **Pain (Advil/ Tylenol)**: ✅ YES
-
-## Ridge Meadows
-??? info "Click to view details"
-    ### **Weekday Hours**
-    0900-2000
-    ### **Weekdend Hours**
-    0900-2000
-    ### **Address**
-    2692 Clearbrook Rd, Abbotsford
-    ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
-    ### **Primary Phone**
-    236-332-6039
-    ### **Alternate Phone**
-    604-870-3325
-    ### **Scheduled Appointments**
-    Yes
-    ### **Services Available**
-    **Lab**: ✅ YES
-
-    **X-Ray**: ❌ No
-
-    **ECG**: ❌ No
-
-    **Bladder Scan/Cath Care**: ✅ YES
-
-    **Casting**: ❌ No
-
-    **Sutures**: ✅ YES
-
-    **Slit Lamp**: ❌ No
-
-    **IVs**: ❌ No
-
-    **IV ABx**: ❌ No
-
-    **Social Work**: ❌ No
-
-    **Pain (Advil/ Tylenol)**: ✅ YES
-
-## Surrey-Newton
-??? info "Click to view details"
-    ### **Weekday Hours**
-    0900-2000
-    ### **Weekdend Hours**
-    0900-2000
-    ### **Address**
-    2692 Clearbrook Rd, Abbotsford
-    ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
-    ### **Primary Phone**
-    236-332-6039
-    ### **Alternate Phone**
-    604-870-3325
-    ### **Scheduled Appointments**
-    Yes
-    ### **Services Available**
-    **Lab**: ✅ YES
-
-    **X-Ray**: ❌ No
-
-    **ECG**: ❌ No
-
-    **Bladder Scan/Cath Care**: ✅ YES
-
-    **Casting**: ❌ No
-
-    **Sutures**: ✅ YES
-
-    **Slit Lamp**: ❌ No
-
-    **IVs**: ❌ No
-
-    **IV ABx**: ❌ No
-
-    **Social Work**: ❌ No
-
-    **Pain (Advil/ Tylenol)**: ✅ YES
-
-## Surrey-Whalley
-??? info "Click to view details"
+## Westshore
+??? example "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
