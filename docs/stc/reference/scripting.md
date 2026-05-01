@@ -23,17 +23,7 @@ keywords:
 
 **Introduction**
 
-Hi, My name is __________.  I'm the Paramedic Specialist  / Triage Paramedic with BC Ambulance. 
-
-
-Were you the one that called 9-1-1?  Were you calling about yourself or someone else?
-
-
-I'm calling you back to ask you some more questions and get you the best help for your concern. ( to make sure we are sending out the right resources to you)
-
-
-I do want to let you know this call is recorded for quality assurance and audit purposes.
-
+Hi, My name is __________.  I'm the Paramedic Specialist  / Triage Paramedic with BC Ambulance. Were you the one that called 9-1-1?  Were you calling about yourself or someone else? I'm calling you back to ask you some more questions and get you the best help for your concern -to make sure we are sending out the right resources to you. I do want to let you know this call is recorded for quality assurance and audit purposes.
 
 Can you tell me what's going on?
 
@@ -67,4 +57,5 @@ We are sending an ambulance as soon as one becomes available. If your symptoms p
 
 
 **FTF LATER** 
+
 Based on the information we have discussed. I recommend you see a doctor for further assessment. Are you able to see your doctor in the next ____ hours?  How about a doctor at the walk-in-clinic?  nearest ED?  If your symptoms persist, change, get worse or cause you any concern, call us back at 9-1-1 right away. 

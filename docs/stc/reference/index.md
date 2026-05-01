@@ -15,7 +15,7 @@
 
 ## S
 <div class="index-grid">
-    <a href="scripting/">MOST Forms</a>
+    <a href="scripting/">Scripting</a>
 </div>
 
 <a href="#" class="back-to-top">↑ TOP</a>                                                                                                                                                        
