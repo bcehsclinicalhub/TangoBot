@@ -23,7 +23,7 @@ keywords:
 # UPCC - Fraser Health <br> <span style="font-size: 0.8em; font-style: italic;">Site Details</span>
 
 ## Abbotsford
-??? info "Click to view details" 
+??? note "Click to view details" 
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -62,7 +62,7 @@ keywords:
     **Pain (Advil/ Tylenol)**: ✅ YES
 
 ## Burnaby-Edmonds
-??? info "Click to view details"
+??? note "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -101,7 +101,7 @@ keywords:
     **Pain (Advil/ Tylenol)**: ✅ YES
 
 ## Chilliwack
-??? info "Click to view details"
+??? note "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -140,7 +140,7 @@ keywords:
     **Pain (Advil/ Tylenol)**: ✅ YES
 
 ## Metrotown
-??? info "Click to view details"
+??? note "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -179,7 +179,7 @@ keywords:
     **Pain (Advil/ Tylenol)**: ✅ YES
 
 ## Mission
-??? info "Click to view details"
+??? note "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -218,7 +218,7 @@ keywords:
     **Pain (Advil/ Tylenol)**: ✅ YES
 
 ## Port Moody
-??? info "Click to view details"
+??? note "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -257,7 +257,7 @@ keywords:
     **Pain (Advil/ Tylenol)**: ✅ YES
 
 ## Ridge Meadows
-??? info "Click to view details"
+??? note "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -296,7 +296,7 @@ keywords:
     **Pain (Advil/ Tylenol)**: ✅ YES
 
 ## Surrey-Newton
-??? info "Click to view details"
+??? note "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**
@@ -335,7 +335,7 @@ keywords:
     **Pain (Advil/ Tylenol)**: ✅ YES
 
 ## Surrey-Whalley
-??? info "Click to view details"
+??? note "Click to view details"
     ### **Weekday Hours**
     0900-2000
     ### **Weekdend Hours**

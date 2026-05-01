@@ -9,6 +9,11 @@
     <a href="upcc-fraser/">Fraser Health</a>
 </div>
 
+## G
+<div class="index-grid">
+    <a href="upcc-generic/">Fraser Health</a>
+</div>
+
 ## I
 <div class="index-grid">
     <a href="upcc-interior/">Interior Health</a>
