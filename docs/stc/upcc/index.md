@@ -11,7 +11,7 @@
 
 ## G
 <div class="index-grid">
-    <a href="upcc-generic/">Fraser Health</a>
+    <a href="upcc-generic/">Generic Criteria</a>
 </div>
 
 ## I

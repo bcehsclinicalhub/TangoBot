@@ -3,19 +3,19 @@
   <h1 style="margin-top: 10px;">☎️ Directory of Services</h1>
 </div>
 
-## &#35;
+## A
 <div class="index-grid">
-    <a href="211-finder/">2-1-1 Services Finder</a>
+    <a href="211-finder/">A Reference</a>
 </div>
 
 ## F
 <div class="index-grid">
-    <a href="fraser-palliative-phone/">Fraser Palliative Care Phone</a>
+    <a href="fraser-palliative-phone/">B Reference</a>
 </div>
 
 ## H
 <div class="index-grid">
-    <a href="hlbc-finder/">HLBC Services Finder</a>
+    <a href="hlbc-finder/">H Reference</a>
 </div>
 
 
