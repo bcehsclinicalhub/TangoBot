@@ -45,17 +45,17 @@ keywords:
     ### **Scheduled Appointments**
     Yes
     ### **Services Available**
-    Lab: ✅ YES
+    Lab: ✅ **YES**
 
-    X-Ray: ❌ No
+    **X-Ray**: ❌ No
 
-    ECG: ❌ No
+    **ECG**: ❌ No
 
-    Bladder Scan/Cath Care: ✅ YES
+    Bladder Scan/Cath Care: ✅ **YES**
 
     Casting: ❌ No
 
-    Sutures: ✅ YES
+    Sutures: ✅ **YES**
 
     Slit Lamp: ❌ No
 
@@ -65,7 +65,7 @@ keywords:
 
     Social Work: ❌ No
 
-    Pain (Advil/ Tylenol): ✅ YES
+    Pain (Advil/ Tylenol): ✅ **YES**
 
 ## Chilliwack
 ??? info "Click to view details"
