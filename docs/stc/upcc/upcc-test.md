@@ -44,11 +44,12 @@ keywords:
     604-870-3325
     ### **Scheduled Appointments**
     Yes
-    ### **Services**
     ### **Services Available**
-    Lab: <span class="no-cell">N</span>
-    X-Ray: <span class="no-cell">N</span>
-    Sutures: <span class="yes-cell">Y</span>
+    Lab: ❌ No
+
+    X-Ray: ✅ YES
+    
+    Sutures: No
 
 ## Chilliwack
 ??? info "Click to view details"
