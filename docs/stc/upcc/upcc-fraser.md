@@ -34,7 +34,6 @@ keywords:
 | **Lab** | Y | Y | Y | Y | Y | Y | Y | Y | Y |
 | **X-Ray** | N | N | N | N | N | N | N | N | N |
 
-{.facility-table}
 
 ## Review Schedule
 
