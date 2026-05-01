@@ -19,7 +19,7 @@ keywords:
 
 ---
 
-# UPCC - TEST <br> <span style="font-size: 0.8em; font-style: italic;">Site Details</span>
+# UPCC - SECTIONS <br> <span style="font-size: 0.8em; font-style: italic;">Site Details</span>
 
 ## Abbotsford
 ??? info "Click to view details" 
@@ -45,11 +45,27 @@ keywords:
     ### **Scheduled Appointments**
     Yes
     ### **Services Available**
-    Lab: ❌ No
+    Lab: ✅ YES
 
-    X-Ray: ✅ YES
-    
-    Sutures: No
+    X-Ray: ❌ No
+
+    ECG: ❌ No
+
+    Bladder Scan/Cath Care: ✅ YES
+
+    Casting: ❌ No
+
+    Sutures: ✅ YES
+
+    Slit Lamp: ❌ No
+
+    IVs: ❌ No
+
+    IV ABx: ❌ No
+
+    Social Work: ❌ No
+
+    Pain (Advil/ Tylenol): ✅ YES
 
 ## Chilliwack
 ??? info "Click to view details"
