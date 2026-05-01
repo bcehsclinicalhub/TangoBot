@@ -15,7 +15,7 @@
 
 ## M
 <div class="index-grid">
-    <a href="hlbc-finder/">MOST Forms</a>
+    <a href="most-forms/">MOST Forms</a>
 </div>
 
 
