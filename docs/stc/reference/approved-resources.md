@@ -33,7 +33,6 @@ keywords:
 
 [Click to open site](https://wwwapps.tc.gc.ca/saf-sec-sur/3/erg-gmu-web/){:target="_blank .external-link}
 
-* **Tintinalli’s Emergency Medicine**
 
 * **BC Drug and Poison Information Center**
 
@@ -42,10 +41,6 @@ keywords:
 * **HealthLinkBC**
 
 [Click to open site](https://www.healthlinkbc.ca/){:target="_blank .external-link}
-
-* **"Telephone Triage Protocols for Nurses"**
-
-by Julie K Briggs for home treatment advice, 2015, 5th edition
 
 * **MedCalc**
 
@@ -59,7 +54,13 @@ by Julie K Briggs for home treatment advice, 2015, 5th edition
 
 Phone app
 
-* **Upto Date Patient Content**
+* **Up to Date Patient Content**
 
 [Click to open site](https://www.uptodate.com/home/){:target="_blank .external-link}
+
+* **"Telephone Triage Protocols for Nurses"**
+
+by Julie K Briggs for home treatment advice, 2015, 5th edition
+
+* **Tintinalli’s Emergency Medicine**
 
