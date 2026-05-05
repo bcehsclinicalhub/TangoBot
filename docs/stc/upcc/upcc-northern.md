@@ -22,34 +22,36 @@ keywords:
 
 # UPCC - Northern Health<br> <span style="font-size: 0.8em; font-style: italic;">Site Details</span>
 
+**NO Lab or X-Ray at any Northern Health UPCC**
+
 ## Prince George UPCC
 ??? success "Click to view details" 
     ### **Weekday Hours**
-    0900-2000
+    0800 - 2000
     ### **Weekdend Hours**
-    0900-2000
+    0900 - 1700
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    143-1600 15th Ave, Prince George
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    n/a
     ### **Primary Phone**
-    236-332-6039
+    250-645-6906
     ### **Alternate Phone**
-    604-870-3325
+    n/a
     ### **Scheduled Appointments**
-    Yes
+    ❌ No
     ### **Services Available**
-    **Lab**: ✅ YES
+    **Lab**: ❌ No
 
     **X-Ray**: ❌ No
 
     **ECG**: ❌ No
 
-    **Bladder Scan/Cath Care**: ✅ YES
+    **Bladder Scan/Cath Care**: ❌ No
 
     **Casting**: ❌ No
 
-    **Sutures**: ✅ YES
+    **Sutures**: ❌ No
 
     **Slit Lamp**: ❌ No
 
@@ -59,8 +61,7 @@ keywords:
 
     **Social Work**: ❌ No
 
-    **Pain (Advil/ Tylenol)**: ✅ YES
-
+    **Pain (Advil/ Tylenol)**: ❌ No
 
 ---
 

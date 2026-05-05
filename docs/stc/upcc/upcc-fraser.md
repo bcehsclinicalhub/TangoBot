@@ -37,7 +37,7 @@ keywords:
     ### **Alternate Phone**
     604-870-3325
     ### **Scheduled Appointments**
-    Yes
+    ✅ YES
     ### **Services Available**
     **Lab**: ✅ YES
 
@@ -57,26 +57,27 @@ keywords:
 
     **IV ABx**: ❌ No
 
-    **Social Work**: ❌ No
+    **Social Work**: ✅ YES
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
 ## Burnaby-Edmonds
 ??? note "Click to view details"
     ### **Weekday Hours**
-    0900-2000
+    1700-2100
     ### **Weekdend Hours**
-    0900-2000
+    1400-2000 (Sat)
+    1200-1800 (Sun)
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    201-7315 Edmonds St, Burnaby
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    In Esprit building
     ### **Primary Phone**
-    236-332-6039
+    604-519-3763
     ### **Alternate Phone**
-    604-870-3325
+    604-519-3787
     ### **Scheduled Appointments**
-    Yes
+    ✅ YES
     ### **Services Available**
     **Lab**: ✅ YES
 
@@ -103,19 +104,19 @@ keywords:
 ## Chilliwack
 ??? note "Click to view details"
     ### **Weekday Hours**
-    0900-2000
+    1200-2000
     ### **Weekdend Hours**
-    0900-2000
+    0900-1600
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    7955 Evans Rd, Chilliwack
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    n/a
     ### **Primary Phone**
-    236-332-6039
+    604-316-2173
     ### **Alternate Phone**
-    604-870-3325
+    778-704-6006
     ### **Scheduled Appointments**
-    Yes
+    ✅ YES
     ### **Services Available**
     **Lab**: ✅ YES
 
@@ -135,7 +136,7 @@ keywords:
 
     **IV ABx**: ❌ No
 
-    **Social Work**: ❌ No
+    **Social Work**: ✅ YES
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
@@ -146,15 +147,15 @@ keywords:
     ### **Weekdend Hours**
     0900-2000
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    102-4555 Kingsway, Burnaby
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    Corner of McKay and Kingsway
     ### **Primary Phone**
-    236-332-6039
+    236-632-8741
     ### **Alternate Phone**
-    604-870-3325
+    604-451-4888
     ### **Scheduled Appointments**
-    Yes
+    ✅ YES
     ### **Services Available**
     **Lab**: ✅ YES
 
@@ -174,26 +175,26 @@ keywords:
 
     **IV ABx**: ❌ No
 
-    **Social Work**: ❌ No
+    **Social Work**: ✅ YES
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
 ## Mission
 ??? note "Click to view details"
     ### **Weekday Hours**
-    0900-2000
+    1200-2000
     ### **Weekdend Hours**
     0900-2000
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    #304 32555 London Ave, Mission
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    n/a
     ### **Primary Phone**
-    236-332-6039
+    236‐632‐1803
     ### **Alternate Phone**
-    604-870-3325
+    604-814-5648
     ### **Scheduled Appointments**
-    Yes
+    ✅ YES
     ### **Services Available**
     **Lab**: ✅ YES
 
@@ -211,9 +212,9 @@ keywords:
 
     **IVs**: ❌ No
 
-    **IV ABx**: ❌ No
+    **IV ABx**: ✅ YES
 
-    **Social Work**: ❌ No
+    **Social Work**: ✅ YES
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
@@ -224,15 +225,15 @@ keywords:
     ### **Weekdend Hours**
     0900-2000
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    3105 Murray St, Port Moody
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    Corner of Electronic ave and Murray
     ### **Primary Phone**
-    236-332-6039
+    236-332-2498
     ### **Alternate Phone**
-    604-870-3325
+    604-469-3123
     ### **Scheduled Appointments**
-    Yes
+    ✅ YES
     ### **Services Available**
     **Lab**: ✅ YES
 
@@ -252,7 +253,7 @@ keywords:
 
     **IV ABx**: ❌ No
 
-    **Social Work**: ❌ No
+    **Social Work**: ✅ YES
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
@@ -263,15 +264,15 @@ keywords:
     ### **Weekdend Hours**
     0900-2000
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    121-11900 Haney Pl, Maple Ridge
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    East end of Haney Place Mall
     ### **Primary Phone**
-    236-332-6039
+    604-614-4087
     ### **Alternate Phone**
-    604-870-3325
+    604-476-4650
     ### **Scheduled Appointments**
-    Yes
+    ✅ YES
     ### **Services Available**
     **Lab**: ✅ YES
 
@@ -291,26 +292,26 @@ keywords:
 
     **IV ABx**: ❌ No
 
-    **Social Work**: ❌ No
+    **Social Work**: ✅ YES
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
 ## Surrey-Newton
 ??? note "Click to view details"
     ### **Weekday Hours**
-    0900-2000
+    1400-2100
     ### **Weekdend Hours**
-    0900-2000
+    0900-2100
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    6830 King George Blvd, Surrey
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    n/a
     ### **Primary Phone**
-    236-332-6039
+    604-807-5291
     ### **Alternate Phone**
-    604-870-3325
+    604-572-2625
     ### **Scheduled Appointments**
-    Yes
+    ✅ YES
     ### **Services Available**
     **Lab**: ✅ YES
 
@@ -330,26 +331,26 @@ keywords:
 
     **IV ABx**: ❌ No
 
-    **Social Work**: ❌ No
+    **Social Work**: ✅ YES
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
 ## Surrey-Whalley
 ??? note "Click to view details"
     ### **Weekday Hours**
-    0900-2000
+    0900-2100
     ### **Weekdend Hours**
-    0900-2000
+    0900-2100
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    G2-9639 137A St, Surrey
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    City Centre 2 Professional Building
     ### **Primary Phone**
-    236-332-6039
+    604-807-5264
     ### **Alternate Phone**
-    604-870-3325
+    236-332-2559
     ### **Scheduled Appointments**
-    Yes
+    ✅ YES
     ### **Services Available**
     **Lab**: ✅ YES
 
@@ -369,7 +370,7 @@ keywords:
 
     **IV ABx**: ❌ No
 
-    **Social Work**: ❌ No
+    **Social Work**: ✅ YES
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
