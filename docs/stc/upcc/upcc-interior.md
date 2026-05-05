@@ -27,19 +27,20 @@ keywords:
 ## Cranbrook
 ??? info "Click to view details" 
     ### **Weekday Hours**
-    0900-2000
+    Monday - Friday: 0900 - 1900 (10:00 start on statutory holidays)
     ### **Weekdend Hours**
-    0900-2000
+    CLOSED
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    230-1311 2nd Street North, Cranbrook
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    n/a
     ### **Primary Phone**
-    236-332-6039
+    250-421-8340 (Only available to STC / LAPN. This number is not to be distributed outside of the Clinical Hub)
     ### **Alternate Phone**
-    604-870-3325
+    n/a
     ### **Scheduled Appointments**
-    Yes
+    **MAX OF 1 PATIENT ONLY MID-AFTERNOON**
+    
     ### **Services Available**
     **Lab**: ✅ YES
 
