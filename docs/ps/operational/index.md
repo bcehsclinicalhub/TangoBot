@@ -8,7 +8,7 @@
     <a href="bchydro-safety/">BC Hydro Safety</a>
 </div>
 
-## U
+## S
 <div class="index-grid">
     <a href="skytrain-response-safety/">Skytrain Response Safety</a>
 </div>

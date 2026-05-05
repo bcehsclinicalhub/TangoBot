@@ -11,6 +11,10 @@ category: Chemical
 
 
 tags:
+
+  - safety
+  - chemical
+  - contamination
   
 
 keywords:
@@ -72,7 +76,7 @@ keywords:
 
     
 ??? note "Paramedic Specialist Monograph"
-    [View Full Monograph (PDF)](files/monograph-hydrogensulfide.pdf)
+    [View Full Monograph (PDF)](files/monograph-sodium-hydroxide.pdf)
 
 ??? danger "Emergency Response Guidebook"
     [ERG direct link](https://wwwapps.tc.gc.ca/Saf-Sec-Sur/3/erg-gmu-web/OrangePages?guideNum=154&dangerousGoodId=912){:target="_blank" .external-link}

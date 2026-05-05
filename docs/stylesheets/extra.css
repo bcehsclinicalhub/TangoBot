@@ -432,3 +432,22 @@ details.details[open] {
 .md-top svg {
     fill: white !important;
 }
+
+/* --- FIX MOBILE SEARCH VISIBILITY --- */
+
+/* Targets the search input field specifically */
+.md-search__input {
+    color: #333 !important; /* Force dark grey/black text */
+    background-color: white !important;
+}
+
+/* Ensure the placeholder text ("Search...") is also visible */
+.md-search__input::placeholder {
+    color: #666 !important;
+    opacity: 1;
+}
+
+/* Fixes text color while typing on mobile devices[cite: 3] */
+input.md-search__input {
+    -webkit-text-fill-color: #333 !important;
+}
