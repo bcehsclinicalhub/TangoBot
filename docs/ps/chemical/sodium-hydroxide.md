@@ -65,7 +65,7 @@ keywords:
     ### **Paramedic and Equipment Decontamination**
     No special decontamination steps are needed if no direct paramedic exposure. If contaminated clothing transported: double bag before disposal and air-out patient compartment.
 
-### Click to view more
+### **Click to view more**
 
 ??? info "DPIC Monograph"
     [BC DPIC direct link](https://www.dpic.org/pmm/alkali){:target="_blank .external-link}
