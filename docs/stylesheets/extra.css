@@ -433,21 +433,27 @@ details.details[open] {
     fill: white !important;
 }
 
-/* --- FIX MOBILE SEARCH VISIBILITY --- */
+/* --- SEARCH BAR: COLOR & VISIBILITY REPAIR --- */
 
-/* Targets the search input field specifically */
+/* Restores the blue background for the search bar */
 .md-search__input {
-    color: #333 !important; /* Force dark grey/black text */
-    background-color: white !important;
+    background-color: #004B8D !important; /* BCEHS Blue */
+    color: white !important; /* White text for contrast[cite: 3] */
 }
 
-/* Ensure the placeholder text ("Search...") is also visible */
+/* Forces the text to stay white on mobile devices like Brave[cite: 3] */
+input.md-search__input {
+    -webkit-text-fill-color: white !important;
+}
+
+/* Makes the "Search" placeholder text light grey so it's readable[cite: 3] */
 .md-search__input::placeholder {
-    color: #666 !important;
+    color: #e0e0e0 !important;
     opacity: 1;
 }
 
-/* Fixes text color while typing on mobile devices[cite: 3] */
-input.md-search__input {
-    -webkit-text-fill-color: #333 !important;
+/* Ensures the search results area remains white with dark text[cite: 3] */
+.md-search__output {
+    background-color: white !important;
+    color: #333 !important;
 }
