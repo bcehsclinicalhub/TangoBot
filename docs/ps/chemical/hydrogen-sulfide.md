@@ -65,6 +65,7 @@ keywords:
     * Provided clothing was removed before transportation no special decontamination required.
     * If clothing was transported with the patient, open ambulance doors and ventilate for 20 minutes.
 
+### **Click to view more**
 
 ??? info "DPIC Monograph"
     [BC DPIC](https://www.dpic.org/pmm/hydrogen-sulfide){:target="_blank .external-link}
@@ -78,7 +79,7 @@ keywords:
 
 ---
 
-## Revision History
+### Revision History
 
 | Version | Date | Changes | Author |
 |--------|------|---------|--------|
