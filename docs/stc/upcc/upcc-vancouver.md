@@ -31,7 +31,7 @@ keywords:
     ### **Address**
     188 Nelson St, Vancouver
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    n/a
     ### **Primary Phone**
     236-997-5380
     ### **Alternate Phone**
