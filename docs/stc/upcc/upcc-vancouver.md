@@ -337,7 +337,7 @@ keywords:
 
 ---
 
-## Revision History
+**Revision History**
 
 | Version | Date | Changes | Author |
 |--------|------|---------|--------|

@@ -38,34 +38,11 @@ keywords:
     250-645-6906
     ### **Alternate Phone**
     n/a
-    ### **Scheduled Appointments**
-    ❌ No
-    ### **Services Available**
-    **Lab**: ❌ No
-
-    **X-Ray**: ❌ No
-
-    **ECG**: ❌ No
-
-    **Bladder Scan/Cath Care**: ❌ No
-
-    **Casting**: ❌ No
-
-    **Sutures**: ❌ No
-
-    **Slit Lamp**: ❌ No
-
-    **IVs**: ❌ No
-
-    **IV ABx**: ❌ No
-
-    **Social Work**: ❌ No
-
-    **Pain (Advil/ Tylenol)**: ❌ No
+   
 
 ---
 
-## Revision History
+**Revision History**
 
 | Version | Date | Changes | Author |
 |--------|------|---------|--------|
