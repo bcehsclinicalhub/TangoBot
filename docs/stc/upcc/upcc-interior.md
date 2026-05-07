@@ -22,7 +22,7 @@ keywords:
 
 # UPCC - Interior Health <br> <span style="font-size: 0.8em; font-style: italic;">Site Details</span>
 
-## NO Lab or X-Ray at any Interior Health UPCC 
+**NO Lab or X-Ray at any Interior Health UPCC** 
 
 ## Cranbrook
 ??? info "Click to view details" 
@@ -41,227 +41,88 @@ keywords:
     ### **Scheduled Appointments**
     **MAX OF 1 PATIENT ONLY MID-AFTERNOON**
     
-    ### **Services Available**
-    **Lab**: ✅ YES
-
-    **X-Ray**: ❌ No
-
-    **ECG**: ❌ No
-
-    **Bladder Scan/Cath Care**: ✅ YES
-
-    **Casting**: ❌ No
-
-    **Sutures**: ✅ YES
-
-    **Slit Lamp**: ❌ No
-
-    **IVs**: ❌ No
-
-    **IV ABx**: ❌ No
-
-    **Social Work**: ❌ No
-
-    **Pain (Advil/ Tylenol)**: ✅ YES
 
 ## Kamloops
 ??? info "Click to view details"
     ### **Weekday Hours**
-    0900-2000
+    0900-2200, last patient at 2000
     ### **Weekdend Hours**
-    0900-2000
+    0900-2200
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    311 Columbia St, V2C 2T1 
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    n/a
     ### **Primary Phone**
-    236-332-6039
+    250-319-4029 (CNL Cell)
     ### **Alternate Phone**
-    604-870-3325
-    ### **Scheduled Appointments**
-    Yes
-    ### **Services Available**
-    **Lab**: ✅ YES
-
-    **X-Ray**: ❌ No
-
-    **ECG**: ❌ No
-
-    **Bladder Scan/Cath Care**: ✅ YES
-
-    **Casting**: ❌ No
-
-    **Sutures**: ✅ YES
-
-    **Slit Lamp**: ❌ No
-
-    **IVs**: ❌ No
-
-    **IV ABx**: ❌ No
-
-    **Social Work**: ❌ No
-
-    **Pain (Advil/ Tylenol)**: ✅ YES
+    250-314-2215
+    
 
 ## Kelowna
 ??? info "Click to view details"
     ### **Weekday Hours**
-    0900-2000
+    0930-2030 (last BCEHS patient 1930hrs)
     ### **Weekdend Hours**
-    0900-2000
+    0930-2030
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    1141 Harvey Avenue, Kelowna
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    n/a
     ### **Primary Phone**
-    236-332-6039
+    778-214-5713 (Central Referral)
+    If no answer, call Team Lead 250-878-9661
     ### **Alternate Phone**
-    604-870-3325
-    ### **Scheduled Appointments**
-    Yes
-    ### **Services Available**
-    **Lab**: ✅ YES
-
-    **X-Ray**: ❌ No
-
-    **ECG**: ❌ No
-
-    **Bladder Scan/Cath Care**: ✅ YES
-
-    **Casting**: ❌ No
-
-    **Sutures**: ✅ YES
-
-    **Slit Lamp**: ❌ No
-
-    **IVs**: ❌ No
-
-    **IV ABx**: ❌ No
-
-    **Social Work**: ❌ No
-
-    **Pain (Advil/ Tylenol)**: ✅ YES
+    250-469-6010
 
 ## Rutland
 ??? info "Click to view details"
     ### **Weekday Hours**
-    0900-2000
+    0930-2030 (last BCEHS patient 1930hrs)
     ### **Weekdend Hours**
-    0900-2000
+    0930-2030
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    150 Hwy 33 West, Kelowna
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    n/a
     ### **Primary Phone**
-    236-332-6039
+    778-214-5713 (Central UPCC Referral)
     ### **Alternate Phone**
-    604-870-3325
-    ### **Scheduled Appointments**
-    Yes
-    ### **Services Available**
-    **Lab**: ✅ YES
-
-    **X-Ray**: ❌ No
-
-    **ECG**: ❌ No
-
-    **Bladder Scan/Cath Care**: ✅ YES
-
-    **Casting**: ❌ No
-
-    **Sutures**: ✅ YES
-
-    **Slit Lamp**: ❌ No
-
-    **IVs**: ❌ No
-
-    **IV ABx**: ❌ No
-
-    **Social Work**: ❌ No
-
-    **Pain (Advil/ Tylenol)**: ✅ YES
+    250-491-1100
 
 ## Vernon
 ??? info "Click to view details"
     ### **Weekday Hours**
-    0900-2000
+    0930-1830
     ### **Weekdend Hours**
-    0900-2000
+    0930-1830
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    3105 28th Ave, Vernon
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    n/a
     ### **Primary Phone**
-    236-332-6039
+    250-541-2778 (Triage Nurse)
     ### **Alternate Phone**
-    604-870-3325
-    ### **Scheduled Appointments**
-    Yes
-    ### **Services Available**
-    **Lab**: ✅ YES
-
-    **X-Ray**: ❌ No
-
-    **ECG**: ❌ No
-
-    **Bladder Scan/Cath Care**: ✅ YES
-
-    **Casting**: ❌ No
-
-    **Sutures**: ✅ YES
-
-    **Slit Lamp**: ❌ No
-
-    **IVs**: ❌ No
-
-    **IV ABx**: ❌ No
-
-    **Social Work**: ❌ No
-
-    **Pain (Advil/ Tylenol)**: ✅ YES
+    n/a
 
 ## West Kelowna
 ??? info "Click to view details"
     ### **Weekday Hours**
-    0900-2000
+    1130-2030 (Last BCEHS Patient 1930)
     ### **Weekdend Hours**
-    0900-2000
+    1130-2030
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    2484 Main Street, West Kelowna
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    n/a
     ### **Primary Phone**
-    236-332-6039
+    778-214-5713 (Central UPCC Referral)
     ### **Alternate Phone**
-    604-870-3325
-    ### **Scheduled Appointments**
-    Yes
-    ### **Services Available**
-    **Lab**: ✅ YES
-
-    **X-Ray**: ❌ No
-
-    **ECG**: ❌ No
-
-    **Bladder Scan/Cath Care**: ✅ YES
-
-    **Casting**: ❌ No
-
-    **Sutures**: ✅ YES
-
-    **Slit Lamp**: ❌ No
-
-    **IVs**: ❌ No
-
-    **IV ABx**: ❌ No
-
-    **Social Work**: ❌ No
-
-    **Pain (Advil/ Tylenol)**: ✅ YES
-
+    250-258-3965 (Team Lead, if no answer at Referral line)
+    250-469-6985
+    
 ---
 
-## Revision History
+**Revision History**
 
 | Version | Date | Changes | Author |
 |--------|------|---------|--------|

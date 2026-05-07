@@ -25,105 +25,106 @@ keywords:
 ## Downtown Victoria
 ??? example "Click to view details" 
     ### **Weekday Hours**
-    0900-2000
+    0830-2000
     ### **Weekdend Hours**
-    0900-2000
+    0830-2000
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    1107 Pandora Ave, Victoria
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    n/a
     ### **Primary Phone**
-    236-332-6039
+    1-833-688-8722 ext 34040#
+    OR ext 1,2,4
     ### **Alternate Phone**
-    604-870-3325
+    n/a
     ### **Scheduled Appointments**
-    Yes
+    ✅ YES
     ### **Services Available**
-    **Lab**: ✅ YES
+    **Lab**: ❌ No
 
     **X-Ray**: ❌ No
 
-    **ECG**: ❌ No
+    **ECG**: ✅ YES
 
-    **Bladder Scan/Cath Care**: ✅ YES
+    **Bladder Scan/Cath Care**: ❌ No
 
     **Casting**: ❌ No
 
     **Sutures**: ✅ YES
 
-    **Slit Lamp**: ❌ No
+    **Slit Lamp**: ✅ YES
 
-    **IVs**: ❌ No
+    **IVs**: ✅ YES
 
-    **IV ABx**: ❌ No
+    **IV ABx**: ✅ YES
 
-    **Social Work**: ❌ No
+    **Social Work**: ✅ YES
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
 ## Gorge
 ??? example "Click to view details"
     ### **Weekday Hours**
-    0900-2000
+    0800-2000
     ### **Weekdend Hours**
-    0900-2000
+    0800-2000
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    63 Gorge Road E, Victoria
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    n/a
     ### **Primary Phone**
-    236-332-6039
+    1-833-688-8722 ext 1,4,4
     ### **Alternate Phone**
-    604-870-3325
+    n/a
     ### **Scheduled Appointments**
-    Yes
+    ✅ YES
     ### **Services Available**
-    **Lab**: ✅ YES
+    **Lab**: ❌ No
 
     **X-Ray**: ❌ No
 
-    **ECG**: ❌ No
+    **ECG**: ✅ YES
 
-    **Bladder Scan/Cath Care**: ✅ YES
+    **Bladder Scan/Cath Care**: ❌ No
 
     **Casting**: ❌ No
 
     **Sutures**: ✅ YES
 
-    **Slit Lamp**: ❌ No
+    **Slit Lamp**: ✅ YES
 
-    **IVs**: ❌ No
+    **IVs**: ✅ YES
 
-    **IV ABx**: ❌ No
+    **IV ABx**: ✅ YES
 
-    **Social Work**: ❌ No
+    **Social Work**: ✅ YES
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
 ## James Bay
 ??? example "Click to view details"
     ### **Weekday Hours**
-    0900-2000
+    0830-2000
     ### **Weekdend Hours**
-    0900-2000
+    0830-2000
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    547 Michigan St, Victoria
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    n/a
     ### **Primary Phone**
-    236-332-6039
+    1-833-688-8722 ext 1,5,4
     ### **Alternate Phone**
-    604-870-3325
+    n/a
     ### **Scheduled Appointments**
-    Yes
+    ✅ YES
     ### **Services Available**
-    **Lab**: ✅ YES
+    **Lab**: ❌ No
 
     **X-Ray**: ❌ No
 
-    **ECG**: ❌ No
+    **ECG**: ✅ YES
 
-    **Bladder Scan/Cath Care**: ✅ YES
+    **Bladder Scan/Cath Care**: ❌ No
 
     **Casting**: ❌ No
 
@@ -131,38 +132,38 @@ keywords:
 
     **Slit Lamp**: ❌ No
 
-    **IVs**: ❌ No
+    **IVs**: ✅ YES
 
-    **IV ABx**: ❌ No
+    **IV ABx**: ✅ YES
 
-    **Social Work**: ❌ No
+    **Social Work**: ✅ YES
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
 ## North Quadra
 ??? example "Click to view details"
     ### **Weekday Hours**
-    0900-2000
+    0800-2000
     ### **Weekdend Hours**
-    0900-2000
+    0800-2000
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    100-4420 Chatterton Way, Saanich
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    n/a
     ### **Primary Phone**
-    236-332-6039
+    1-833-688-8722 ext 1,6,4
     ### **Alternate Phone**
-    604-870-3325
+    n/a
     ### **Scheduled Appointments**
-    Yes
+    ✅ YES
     ### **Services Available**
-    **Lab**: ✅ YES
+    **Lab**: ❌ No
 
     **X-Ray**: ❌ No
 
-    **ECG**: ❌ No
+    **ECG**: ✅ YES
 
-    **Bladder Scan/Cath Care**: ✅ YES
+    **Bladder Scan/Cath Care**: ❌ No
 
     **Casting**: ❌ No
 
@@ -170,56 +171,57 @@ keywords:
 
     **Slit Lamp**: ❌ No
 
-    **IVs**: ❌ No
+    **IVs**: ✅ YES
 
-    **IV ABx**: ❌ No
+    **IV ABx**: ✅ YES
 
-    **Social Work**: ❌ No
+    **Social Work**: ✅ YES
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
 ## Westshore
 ??? example "Click to view details"
     ### **Weekday Hours**
-    0900-2000
+    0800-2000
     ### **Weekdend Hours**
-    0900-2000
+    0800-2000
     ### **Address**
-    2692 Clearbrook Rd, Abbotsford
+    582 Goldstream Ave, Langford
     ### **Other Details**
-    Clearbrook and Nobel, A/F KFC
+    Formerly St Anthonys Walk In
     ### **Primary Phone**
-    236-332-6039
+    1-833-688-8722 ext 1, 7, 4
     ### **Alternate Phone**
-    604-870-3325
+    n/a
     ### **Scheduled Appointments**
-    Yes
+    ✅ YES
     ### **Services Available**
-    **Lab**: ✅ YES
+    **Lab**: ✅ YES *
+    *LifeLabs next door
 
     **X-Ray**: ❌ No
 
-    **ECG**: ❌ No
+    **ECG**: ✅ YES
 
-    **Bladder Scan/Cath Care**: ✅ YES
+    **Bladder Scan/Cath Care**: ❌ No
 
     **Casting**: ❌ No
 
     **Sutures**: ✅ YES
 
-    **Slit Lamp**: ❌ No
+    **Slit Lamp**: ✅ YES
 
-    **IVs**: ❌ No
+    **IVs**: ✅ YES
 
-    **IV ABx**: ❌ No
+    **IV ABx**: ✅ YES
 
-    **Social Work**: ❌ No
+    **Social Work**: ✅ YES
 
     **Pain (Advil/ Tylenol)**: ✅ YES
 
 ---
 
-## Revision History
+**Revision History**
 
 | Version | Date | Changes | Author |
 |--------|------|---------|--------|
