@@ -81,7 +81,7 @@ keywords:
     ### **Weekdend Hours**
     0930-2030
     ### **Address**
-    150 Hwy 33 West, Kelowna
+    150 Hwy 33, West Kelowna
     ### **Other Details**
     n/a
     ### **Primary Phone**

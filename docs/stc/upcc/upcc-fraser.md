@@ -186,7 +186,7 @@ keywords:
     ### **Weekdend Hours**
     0900-2000
     ### **Address**
-    #304 32555 London Ave, Mission
+    304 32555 London Ave, Mission
     ### **Other Details**
     n/a
     ### **Primary Phone**
