@@ -17,10 +17,12 @@ tags:
 keywords:
   - R-717
   - ammonia
+  - anhydrous
+  - colourless gas
 
 ---
 
-# Hydrogen Sulfide (NH3)
+# Anhydrous Ammonia (NH3)
 
 !!! warning "Quick Reference"
     ### **What is NH3?**
