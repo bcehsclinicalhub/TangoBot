@@ -65,20 +65,6 @@ keywords:
     * Provided clothing was removed before transportation no special decontamination required.
     * If clothing was transported with the patient, open ambulance doors and ventilate for 20 minutes.
 
-### **Quick Access Resources**
-
-!!! info "DPIC Monograph"
-    [BC DPIC (PDF)](dpic/dpic_HydrogenSulfide.pdf){ :target="_blank" }
-
-    
-!!! note "Paramedic Specialist Safety Data Sheet"
-    [PS Chemical Response Sheet (PDF)](ps_sds/sds_HydrogenSulfide.pdf){ :target="_blank" }
-
-!!! danger "Emergency Response Guidebook"
-    [ERG (PDF)](erg/erg_HydrogenSulfide.pdf){ :target="_blank" }
-
-
-### **Quick Access Resources**
 
 ### **Quick Access Resources**
 
