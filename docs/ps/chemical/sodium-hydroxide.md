@@ -69,18 +69,16 @@ keywords:
     ### **Paramedic and Equipment Decontamination**
     No special decontamination steps are needed if no direct paramedic exposure. If contaminated clothing transported: double bag before disposal and air-out patient compartment.
 
-### **Click to view more**
+### **Quick Access Resources**
 
-??? info "DPIC Monograph"
-    [BC DPIC direct link](https://www.dpic.org/pmm/alkali){:target="_blank .external-link}
+!!! info "DPIC Monograph"
+    <a href="/ps/chemical/dpic/dpic_SodiumHydroxide.pdf" target="_blank">BC DPIC (PDF)</a>
 
-    
-??? note "Paramedic Specialist Monograph"
-    [View Full Monograph (PDF)](files/monograph-sodium-hydroxide.pdf)
+!!! note "Paramedic Specialist Safety Data Sheet"
+    <a href="/ps/chemical/ps_sds/sds_SodiumHydroxide.pdf" target="_blank">PS Chemical Response Sheet (PDF)</a>
 
-??? danger "Emergency Response Guidebook"
-    [ERG direct link](https://wwwapps.tc.gc.ca/Saf-Sec-Sur/3/erg-gmu-web/OrangePages?guideNum=154&dangerousGoodId=912){:target="_blank" .external-link}
-
+!!! danger "Emergency Response Guidebook"
+    <a href="/ps/chemical/erg/erg_SodiumHydroxide.pdf" target="_blank">ERG (PDF)</a>
 ---
 
 ### Revision History

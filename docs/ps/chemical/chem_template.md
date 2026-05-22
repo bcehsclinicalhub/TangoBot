@@ -1,5 +1,5 @@
 ---
-title: Sodium Hydroxide
+title: Hydrogen Sulfide
 policy_id: 
 version: 1.0
 status: Active
@@ -15,13 +15,13 @@ tags:
   - contamination
 
 keywords:
-  - sodium
-  - hydroxide
-  - caustic soda
-  - lye
-  - NaOH
-  - inorganic
-  - gas
+  - sewer gas
+  - sour gas
+  - hydrosulfuric acid
+  - rotten eggs
+  - sulfane
+  - H2S
+
 ---
 
 # Hydrogen Sulfide (H2S)
@@ -65,18 +65,17 @@ keywords:
     * Provided clothing was removed before transportation no special decontamination required.
     * If clothing was transported with the patient, open ambulance doors and ventilate for 20 minutes.
 
-### **Click to view more**
 
-??? info "DPIC Monograph"
-    [BC DPIC](https://www.dpic.org/pmm/hydrogen-sulfide){:target="_blank .external-link}
+### **Quick Access Resources**
 
-    
-??? pdf "Paramedic Specialist Monograph"
-    [View Full Monograph (PDF)](files/monograph-hydrogensulfide.pdf)
+!!! info "DPIC Monograph"
+    <a href="/ps/chemical/dpic/dpic_HydrogenSulfide.pdf" target="_blank">BC DPIC (PDF)</a>
 
-??? danger "Emergency Response Guidebook"
-    [ERG direct link](https://wwwapps.tc.gc.ca/Saf-Sec-Sur/3/erg-gmu-web/OrangePages?guideNum=117&dangerousGoodId=114){:target="_blank" .external-link}
+!!! note "Paramedic Specialist Safety Data Sheet"
+    <a href="/ps/chemical/ps_sds/sds_HydrogenSulfide.pdf" target="_blank">PS Chemical Response Sheet (PDF)</a>
 
+!!! danger "Emergency Response Guidebook"
+    <a href="/ps/chemical/erg/erg_HydrogenSulfide.pdf" target="_blank">ERG (PDF)</a>
 ---
 
 ### Revision History
