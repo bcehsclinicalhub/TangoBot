@@ -6,7 +6,7 @@
 
 ## A
 <div class="index-grid">
-    <a href="anhydrous_ammonia/">Anhydrous Ammonia</a>
+    <a href="anhydrous-ammonia/">Anhydrous Ammonia</a>
 </div>
 
 ## H
