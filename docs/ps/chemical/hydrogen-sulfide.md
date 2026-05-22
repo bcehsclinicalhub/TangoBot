@@ -68,14 +68,14 @@ keywords:
 ### **Click to view more**
 
 ??? info "DPIC Monograph"
-    [BC DPIC](https://www.dpic.org/pmm/hydrogen-sulfide){:target="_blank .external-link}
+    [BC DPIC](dpic/dpic_HydrogenSulfide.pdf)
 
     
-??? note "Paramedic Specialist Monograph"
-    [View Full Monograph (PDF)](files/monograph-hydrogensulfide.pdf)
+??? note "Paramedic Specialist Safety Data Sheet"
+    [View Full Monograph (PDF)](ps_sds/sds_HydrogenSulfide.pdf)
 
-??? danger "Emergency Response Guidebook"
-    [ERG direct link](https://wwwapps.tc.gc.ca/Saf-Sec-Sur/3/erg-gmu-web/OrangePages?guideNum=117&dangerousGoodId=114){:target="_blank" .external-link}
+??? danger "Emergency Response Guidebook PDF"
+    [ERG direct link](erg/erg_HydrogenSulfide.pdf)
 
 ---
 
