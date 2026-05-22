@@ -74,8 +74,8 @@ keywords:
 ??? note "Paramedic Specialist Safety Data Sheet"
     [View Full Monograph (PDF)](ps_sds/sds_HydrogenSulfide.pdf)
 
-??? danger "Emergency Response Guidebook PDF"
-    [ERG direct link](erg/erg_HydrogenSulfide.pdf)
+??? danger "Emergency Response Guidebook"
+    [ERG PDF](erg/erg_HydrogenSulfide.pdf)
 
 ---
 
