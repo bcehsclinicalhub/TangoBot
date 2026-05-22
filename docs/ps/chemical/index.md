@@ -3,6 +3,12 @@
   <h1 style="margin-top: 10px;">☣️ Safety Data Sheets</h1>
 </div>
 
+
+## A
+<div class="index-grid">
+    <a href="anhydrous_ammonia/">Anhydrous Ammonia</a>
+</div>
+
 ## H
 <div class="index-grid">
     <a href="hydrogen-sulfide/">Hydrogen Sulfide</a>
