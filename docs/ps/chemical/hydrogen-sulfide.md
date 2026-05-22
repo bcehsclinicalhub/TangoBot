@@ -77,17 +77,17 @@ keywords:
 !!! danger "Emergency Response Guidebook"
     [ERG (PDF)](erg/erg_HydrogenSulfide.pdf){ :target="_blank" }
 
-    ### **Quick Access Resources**
+
+### **Quick Access Resources**
 
 !!! info "DPIC Monograph"
-    <a href="dpic/dpic_HydrogenSulfide.pdf" target="_blank" rel="noopener noreferrer">BC DPIC (PDF)</a>
+    <a href="dpic/dpic_HydrogenSulfide.pdf" target="_blank">BC DPIC (PDF)</a>
 
 !!! note "Paramedic Specialist Safety Data Sheet"
-    <a href="ps_sds/sds_HydrogenSulfide.pdf" target="_blank" rel="noopener noreferrer">PS Chemical Response Sheet (PDF)</a>
+    <a href="ps_sds/sds_HydrogenSulfide.pdf" target="_blank">PS Chemical Response Sheet (PDF)</a>
 
 !!! danger "Emergency Response Guidebook"
-    <a href="erg/erg_HydrogenSulfide.pdf" target="_blank" rel="noopener noreferrer">ERG (PDF)</a>
-
+    <a href="erg/erg_HydrogenSulfide.pdf" target="_blank">ERG (PDF)</a>
 ---
 
 ### Revision History
