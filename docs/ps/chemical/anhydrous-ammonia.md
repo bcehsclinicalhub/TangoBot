@@ -25,10 +25,10 @@ keywords:
 # Anhydrous Ammonia (NH3)
 
 !!! warning "Quick Reference"
-    ### **What is NH3?**
+    ## **What is NH3?**
     Alkaline gas that is compressed and stored in a liquefied sate. Colorless when gaseous, rapid release produces a white vapor cloud as it reacts with moisture in the air. Used in refrigeration and agriculture. Heavier than air and will “pool” in low-lying areas. Highly water soluble and causes immediate and severe corrosive injury to mucous membranes.  
 
-    ### **Crew Safety**
+    ## **Crew Safety**
     1. **Staging/Perimeter**
         * Small spill: 30 m in all directions, stage uphill/upwind.
         * Large spill: 1000 m for a railcar and 500 m for other sources, stage uphill/upwind.  
@@ -42,23 +42,23 @@ keywords:
         * Patients MUST be brought to paramedics in a safe location determined by HAZMAT team 
         * Initial decontamination should occur prior to paramedic contact 
 
-    ### **Effect on the Patient**
+    ## **Effect on the Patient**
     Reacts with water in mucous membranes to form ammonia hydroxide (a base). This can cause liquefactive necrosis of affected tissues. Severe upper airway burns are common as are chemical burns on eyes and skin. If exposure was prolonged effects may extend to lower airway causing pulmonary edema.  
 
-    ### **Patient Decontamination**
+    ## **Patient Decontamination**
     * All clothing removed. Do not transport contaminated clothing with the patient.  
     * Flush skin with high-volume, low-pressure water with attention to skin-folds and other difficult to reach body areas 
     * Eye’s take precedence: flush continuously until pH test confirms pH is neutral  
 
-    ### **Patient Treatment**
+    ## **Patient Treatment**
     * Support ABC’s with as per BCEHS CPG’s. Continuous eye flushing. 
     * Be prepared for rapid progression of upper airway edema.  
     * Delayed effects on the respiratory system, patients should be transported for monitoring. 
 
-    ### **Safe Transfer of Care**
+    ## **Safe Transfer of Care**
     Decontamination as outlined above minimises risk of secondary contamination. No special considerations.  
 
-    ### **Paramedic and Equipment Decontamination**
+    ## **Paramedic and Equipment Decontamination**
     Provided adequate decontamination occurred prior to paramedic contact no special decontamination is required. If accidental exposure of a paramedic occurred they should be decontaminated, assessed and treated in a clinical setting.  
 
 
