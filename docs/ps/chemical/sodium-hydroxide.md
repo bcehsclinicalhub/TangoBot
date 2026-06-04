@@ -33,10 +33,10 @@ keywords:
 
 
 !!! warning "Quick Reference"
-    ### **What is NaOH?**
+    ## **What is NaOH?**
     Can be either crystalline or an aqueous solution; it is basic and highly caustic. Used in industries such as pulp production. Also found in household products such as drain cleaner. Transported in large quantities. Non-combustible, but releases toxic fumes if heated. Toxic vapors from concentrations over 4%.
 
-    ### **Crew Safety**
+    ## **Crew Safety**
     1. **Staging/Perimeter**
         * **Industrial**: Spill: 50m until spill has been isolated. Fire: 800 m
         * **Residential**: Limited exposure to small volumes (i.e. drain cleaner): no staging. Large amounts may be found in settings such as clandestine labs. Stage if concerned. 
@@ -49,24 +49,24 @@ keywords:
     4. **Safely initiating patient contact**
         * Rescue team or patient to initiate decontamination to avoid incidental exposure to concentrated NaOH. Consider callback to initiate decontamination prior to arrival.
 
-    ### **Effect on the Patient**
+    ## **Effect on the Patient**
     Saponification leading to significant tissue damage. Eye exposure has high risk of blindness. If present, vapors will act as an airway irritant. Ingestion causes saponification of upper airway and GI tract.
 
-    ### **Patient Decontamination**
+    ## **Patient Decontamination**
     Eyes take priority. If eye exposure occurred, continuous flushing until testing with a pH strip confirms pH = 7. Remove clothing without pulling over the head. Leave clothes on scene. Flush exposed skin for a minimum of 30 minutes with water. To avoid paramedic exposure, initial decontamination to be performed by rescue team or the patient. After initial flushing residual NaOH will be sufficiently dilute to provide care.
 
-    ### **Patient Treatment**
+    ## **Patient Treatment**
     * Flushing eyes and skin as indicated.
     * Analgesia and supportive care as required.
     * If ingested do not induce vomiting. Patient may rinse mouth with N/S or water if able.
 
 
-    ### **Safe Transfer of Care**
+    ## **Safe Transfer of Care**
     * If eye’s exposed, relay to receiving provider that flushing must continue until pH=7 is confirmed.
     * Provided sufficient external decontamination occurred, no risk to hospital staff.
 
 
-    ### **Paramedic and Equipment Decontamination**
+    ## **Paramedic and Equipment Decontamination**
     No special decontamination steps are needed if no direct paramedic exposure. If contaminated clothing transported: double bag before disposal and air-out patient compartment.
 
 ### **Quick Access Resources**
