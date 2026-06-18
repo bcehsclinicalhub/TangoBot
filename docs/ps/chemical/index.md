@@ -9,6 +9,11 @@
     <a href="anhydrous-ammonia/">Anhydrous Ammonia</a>
 </div>
 
+## C
+<div class="index-grid">
+    <a href="carbon-monoxide/">Hydrogen Sulfide</a>
+</div>
+
 ## H
 <div class="index-grid">
     <a href="hydrogen-sulfide/">Hydrogen Sulfide</a>
