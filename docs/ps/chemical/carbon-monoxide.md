@@ -15,16 +15,13 @@ tags:
   - contamination
 
 keywords:
-  - sewer gas
-  - sour gas
-  - hydrosulfuric acid
-  - rotten eggs
-  - sulfane
-  - H2S
+  - CO
+  - CO gas
+  - carbonix oxide
 
 ---
 
-# Hydrogen Sulfide (H2S)
+# Carbon Monoxide (CO)
 
 !!! warning "Quick Reference"
     ## **What is CO?**
@@ -61,7 +58,7 @@ keywords:
 ### **Quick Access Resources**
 
 !!! info "DPIC Monograph"
-    <a href="/ps/chemical/dpic/dpic_CarbonMonoxide.pdf" target="_blank">BC DPIC (PDF)</a>
+    <a href="/ps/chemical/dpic/dpic-CarbonMonoxide.pdf" target="_blank">BC DPIC (PDF)</a>
 
 !!! note "Paramedic Specialist Safety Data Sheet"
     <a href="/ps/chemical/ps_sds/sds_CarbonMonoxide.pdf" target="_blank">PS Chemical Response Sheet (PDF)</a>
