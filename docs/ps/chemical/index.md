@@ -11,7 +11,7 @@
 
 ## C
 <div class="index-grid">
-    <a href="carbon-monoxide/">Hydrogen Sulfide</a>
+    <a href="carbon-monoxide/">Carbon Monoxide</a>
 </div>
 
 ## H
