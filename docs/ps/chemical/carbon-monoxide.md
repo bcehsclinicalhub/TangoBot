@@ -58,7 +58,7 @@ keywords:
 ### **Quick Access Resources**
 
 !!! info "DPIC Monograph"
-    <a href="/ps/chemical/dpic/dpic-CarbonMonoxide.pdf" target="_blank">BC DPIC (PDF)</a>
+    <a href="/ps/chemical/dpic/dpic_CarbonMonoxide.pdf" target="_blank">BC DPIC (PDF)</a>
 
 !!! note "Paramedic Specialist Safety Data Sheet"
     <a href="/ps/chemical/ps_sds/sds_CarbonMonoxide.pdf" target="_blank">PS Chemical Response Sheet (PDF)</a>
