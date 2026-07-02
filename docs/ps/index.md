@@ -41,7 +41,7 @@
     * **March 20, 2026 | Updated M09:** Revised Neonatal Resuscitation flowchart now live. [Visit the Handbook →](https://handbook.bcehs.ca/clinical-practice-guidelines/m-pediatric-and-neonatal-emergencies/m09-neonatal-resuscitation/){:target="_blank"}
 
     <script>
-  const fileUrl = '/data.xml';
+  const fileUrl = '../data.xml';
 
   async function displaySchedule() {
     try {
