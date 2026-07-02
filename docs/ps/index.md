@@ -40,58 +40,42 @@
     * **March 25, 2026 | Parenteral Ondansetron:** Now considered first-line parenteral antiemetic for most causes of nausea/vomiting. ODTs remain available. [More Info on Intranet →](https://intranet.bcehs.ca){:target="_blank"}
     * **March 20, 2026 | Updated M09:** Revised Neonatal Resuscitation flowchart now live. [Visit the Handbook →](https://handbook.bcehs.ca/clinical-practice-guidelines/m-pediatric-and-neonatal-emergencies/m09-neonatal-resuscitation/){:target="_blank"}
 
-    <script>
-  const fileUrl = '../data.xml';
-
-  async function displaySchedule() {
-    try {
-      const response = await fetch(fileUrl + '?t=' + new Date().getTime());
-      const textData = await response.text();
-      
-      const parser = new DOMParser();
-      const xmlDoc = parser.parseFromString(textData, "text/xml");
-
-      const todayStr = new Date().toISOString().split('T')[0];
-      const tomorrow = new Date();
-      tomorrow.setDate(tomorrow.getDate() + 1);
-      const tomorrowStr = tomorrow.toISOString().split('T')[0];
-
-      const tbody = document.getElementById('table-rows');
-      tbody.innerHTML = ''; 
-      
-      const assignments = xmlDoc.getElementsByTagName("Assignment"); 
-      let foundAnyShifts = false;
-
-      for (let i = 0; i < assignments.length; i++) {
-        const shiftDate = assignments[i].getElementsByTagName("Date")[0]?.textContent;
-
-        if (shiftDate === todayStr || shiftDate === tomorrowStr) {
-          foundAnyShifts = true;
-          const shiftName = assignments[i].getElementsByTagName("ShiftName")[0]?.textContent || "N/A";
-          const providerName = assignments[i].getElementsByTagName("ProviderName")[0]?.textContent || "Vacant";
-
-          const row = document.createElement('tr');
-          row.style.borderBottom = "1px solid #eee";
-          row.innerHTML = `
-            <td style="padding: 10px;">${shiftDate}</td>
-            <td style="padding: 10px;"><strong>${shiftName}</strong></td>
-            <td style="padding: 10px;">${providerName}</td>
-          `;
-          tbody.appendChild(row);
-        }
+<script>
+async function displaySchedule() {
+  try {
+    const fileUrl = '/data.xml';
+    const response = await fetch(fileUrl + '?t=' + new Date().getTime());
+    const textData = await response.text();
+    const parser = new DOMParser();
+    const xmlDoc = parser.parseFromString(textData, "text/xml");
+    const todayStr = new Date().toISOString().split('T')[0];
+    const tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    const tomorrowStr = tomorrow.toISOString().split('T')[0];
+    const tbody = document.getElementById('table-rows');
+    tbody.innerHTML = '';
+    const assignments = xmlDoc.getElementsByTagName("Assignment");
+    let foundAnyShifts = false;
+    for (let i = 0; i < assignments.length; i++) {
+      const shiftDate = assignments[i].getElementsByTagName("Date")[0]?.textContent;
+      if (shiftDate === todayStr || shiftDate === tomorrowStr) {
+        foundAnyShifts = true;
+        const shiftName = assignments[i].getElementsByTagName("ShiftName")[0]?.textContent || "N/A";
+        const providerName = assignments[i].getElementsByTagName("ProviderName")[0]?.textContent || "Vacant";
+        const row = document.createElement('tr');
+        row.style.borderBottom = "1px solid #eee";
+        row.innerHTML = `<td style="padding: 10px;">${shiftDate}</td><td style="padding: 10px;"><strong>${shiftName}</strong></td><td style="padding: 10px;">${providerName}</td>`;
+        tbody.appendChild(row);
       }
-
-      document.getElementById('sync-time').textContent = "Last checked: " + new Date().toLocaleTimeString();
-
-      if (!foundAnyShifts) {
-        tbody.innerHTML = '<tr><td colspan="3" style="padding:10px; text-align:center; color:#777;">No shifts found for today or tomorrow.</td></tr>';
-      }
-
-    } catch (error) {
-      console.error("Oops:", error);
-      document.getElementById('sync-time').textContent = "Error loading schedule data.";
     }
+    document.getElementById('sync-time').textContent = "Last checked: " + new Date().toLocaleTimeString();
+    if (!foundAnyShifts) {
+      tbody.innerHTML = '<tr><td colspan="3" style="padding:10px; text-align:center; color:#777;">No shifts found for today or tomorrow.</td></tr>';
+    }
+  } catch (error) {
+    console.error("Oops:", error);
+    document.getElementById('sync-time').textContent = "Error loading schedule data.";
   }
-
-  displaySchedule();
+}
+displaySchedule();
 </script>
