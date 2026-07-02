@@ -13,7 +13,7 @@
 | **Operational Guidelines** | Practice Updates and operational resources | [Operational Guidelines →](operational/index.md) |
 | **Safety Data Sheets** | Safety data sheets and other exposure resources | [Safety Data Sheets →](chemical/index.md) |
 
-## 📅 Daily EPOS Schedule
+## 📅 EPOS Schedule
 <div id="shift-board" style="margin: 20px 0; padding: 15px; border: 1px solid #e0e0e0; border-radius: 5px; background-color: #fafafa;">
   <p><small id="sync-time" style="color: #666;">Loading today and tomorrow's schedule...</small></p>
   <table style="width:100%; border-collapse: collapse; text-align: left; margin-top: 10px;">
@@ -43,7 +43,7 @@
 <script>
 async function displaySchedule() {
   try {
-    const fileUrl = '/data.xml';
+    const fileUrl = window.location.origin + '/data.xml';
     const response = await fetch(fileUrl + '?t=' + new Date().getTime());
     const textData = await response.text();
     const parser = new DOMParser();
