@@ -16,13 +16,14 @@ jobs:
       env:
         SECRET_URL: ${{ secrets.BYTEBLOC_URL }}
       run: |
-        # This downloads the file from ByteBloc using your hidden URL and saves it as schedule.xml
-        curl -s "$SECRET_URL" -o schedule.xml
+        # CHANGED HERE: Added docs/ before schedule.xml
+        curl -s "$SECRET_URL" -o docs/schedule.xml
 
     - name: Commit and push changes
       run: |
         git config --global user.name "Schedule Bot"
         git config --global user.email "bot@github.com"
-        git add schedule.xml
+        # CHANGED HERE: Added docs/ before schedule.xml
+        git add docs/schedule.xml
         git commit -m "Hourly schedule update" || exit 0
         git push
