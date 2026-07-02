@@ -30,8 +30,9 @@
 </div>
 
 ## ⚠️ Critical Alerts
-!!! danger "Update to IFT CRM model."
-    **February 10, 2026**: PURPLE and RED interfacility transfers will be classified as Life, Limb, or Organ Threatened (LLTO) events, while the ORANGE interfacility transfers will be classified non-LLTO events and represent stable patients who have a moderate likelihood of deterioration or require an urgent diagnostic or therapeutic intervention. [More Info on the Intranet](https://intranet.bcehs.ca/mlink/post/MzI4MQ){:target="_blank"}
+!!! danger "Fraser IFT IV Pump Trial"
+    **July 2, 2026**: Starting this month (July 2026), BCEHS will begin piloting interfacility patient transports by PCPs using volumetric medication pumps to safely administer medications during transport.
+This will allow PCPs to transport patients who previously may have needed a nurse escort. [More Info on the Intranet](https://intranet.bcehs.ca/mlink/post/NDA3Ng){:target="_blank"}
 
 
 ## ⚕️ Clinical Updates
