@@ -48,14 +48,24 @@ async function displaySchedule() {
     const textData = await response.text();
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(textData, "text/xml");
-    const todayStr = new Date().toISOString().split('T')[0];
+
+    // FIX: This safely calculates local YYYY-MM-DD instead of switching to UTC time
+    const localStorageDate = (dateObj) => {
+      const offset = dateObj.getTimezoneOffset();
+      const local = new Date(dateObj.getTime() - (offset * 60 * 1000));
+      return local.toISOString().split('T')[0];
+    };
+
+    const todayStr = localStorageDate(new Date());
     const tomorrow = new Date();
     tomorrow.setDate(tomorrow.getDate() + 1);
-    const tomorrowStr = tomorrow.toISOString().split('T')[0];
+    const tomorrowStr = localStorageDate(tomorrow);
+
     const tbody = document.getElementById('table-rows');
     tbody.innerHTML = '';
     const assignments = xmlDoc.getElementsByTagName("Assignment");
     let foundAnyShifts = false;
+
     for (let i = 0; i < assignments.length; i++) {
       const shiftDate = assignments[i].getElementsByTagName("Date")[0]?.textContent;
       if (shiftDate === todayStr || shiftDate === tomorrowStr) {
