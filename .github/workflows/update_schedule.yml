@@ -1,0 +1,28 @@
+name: Hourly Schedule Fetcher
+
+on:
+  schedule:
+    - cron: '0 * * * *' # This tells it to run every hour on the hour
+  workflow_dispatch: # This adds a button so you can run it manually to test it
+
+jobs:
+  get-schedule:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v4
+
+    - name: Fetch and save data
+      env:
+        SECRET_URL: ${{ secrets.BYTEBLOC_URL }}
+      run: |
+        # This downloads the file from ByteBloc using your hidden URL and saves it as schedule.xml
+        curl -s "$SECRET_URL" -o schedule.xml
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "Schedule Bot"
+        git config --global user.email "bot@github.com"
+        git add schedule.xml
+        git commit -m "Hourly schedule update" || exit 0
+        git push
