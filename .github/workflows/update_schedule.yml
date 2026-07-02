@@ -17,13 +17,13 @@ jobs:
         SECRET_URL: ${{ secrets.BYTEBLOC_URL }}
       run: |
         # CHANGED HERE: Added docs/ before schedule.xml
-        curl -s "$SECRET_URL" -o docs/schedule.xml
+        curl -s "$SECRET_URL" -o docs/data.xml
 
     - name: Commit and push changes
       run: |
         git config --global user.name "Schedule Bot"
         git config --global user.email "bot@github.com"
         # CHANGED HERE: Added docs/ before schedule.xml
-        git add docs/schedule.xml
+        git add docs/data.xml
         git commit -m "Hourly schedule update" || exit 0
         git push
