@@ -16,10 +16,9 @@
 
 ## 📅 EPOS Schedule
 <div id="shift-board" style="margin: 24px 0; width: 100%;">
-  <!-- This container holds your blue title and pushes the timestamp right next to it -->
-  <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #eaeaea; padding-bottom: 8px; margin-bottom: 16px; width: 100%;">
+  <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--md-typeset-a-color, #eaeaea); padding-bottom: 8px; margin-bottom: 16px; width: 100%;">
     <div style="display: flex; align-items: baseline; gap: 12px;">
-      <span style="font-size: 1.6rem; font-weight: 700; color: #003366; letter-spacing: -0.01em;">📅 EPOS Schedule</span>
+      <h2 style="margin: 0; font-size: 1.4rem; font-weight: 700; border: none; padding: 0; color: var(--md-typeset-color, #333);">📅 EPOS Schedule</h2>
       <span id="sync-time" style="font-size: 0.85rem; color: #777; font-weight: 400;">Loading shifts...</span>
     </div>
   </div>
@@ -28,9 +27,9 @@
     <table style="width: 100%; border-collapse: collapse; text-align: left; background-color: #fff; font-size: 0.9rem; margin: 0; table-layout: fixed;">
       <thead>
         <tr style="background-color: #fafafa; border-bottom: 1px solid #e0e0e0; color: #555;">
-          <th style="padding: 10px 12px; font-weight: 600; width: 35%;">Date</th>
-          <th style="padding: 10px 12px; font-weight: 600; width: 35%;">Shift Name</th>
-          <th style="padding: 10px 12px; font-weight: 600; width: 30%;">Provider</th>
+          <th style="padding: 10px 12px; font-weight: 600; width: 30%;">Date</th>
+          <th style="padding: 10px 12px; font-weight: 600; width: 30%;">Shift Name</th>
+          <th style="padding: 10px 12px; font-weight: 600; width: 40%;">Physician</th>
         </tr>
       </thead>
       <tbody id="table-rows">
@@ -50,6 +49,7 @@
     * **March 27, 2026 | Epi Infusion:** Updated epinephrine medication infusions to include 15 drop set change. [Visit the Handbook →](https://handbook.bcehs.ca){:target="_blank"}
     * **March 25, 2026 | Parenteral Ondansetron:** Now considered first-line parenteral antiemetic for most causes of nausea/vomiting. ODTs remain available. [More Info on Intranet →](https://intranet.bcehs.ca){:target="_blank"}
     * **March 20, 2026 | Updated M09:** Revised Neonatal Resuscitation flowchart now live. [Visit the Handbook →](https://handbook.bcehs.ca/clinical-practice-guidelines/m-pediatric-and-neonatal-emergencies/m09-neonatal-resuscitation/){:target="_blank"}
+
 
 
 <script>
@@ -113,8 +113,8 @@ async function displaySchedule() {
 
           row.innerHTML = `
             <td style="padding: 10px 12px; display: flex; align-items: center; border: none; white-space: nowrap;"><div style="display: flex; align-items: center; min-width: max-content;">${badge} <span style="font-variant-numeric: tabular-nums;">${dayDate}</span></div></td>
-            <td style="padding: 10px 12px; overflow: hidden; text-overflow: ellipsis;">${shiftName}</td>
-            <td style="padding: 10px 12px; overflow: hidden; text-overflow: ellipsis;">👤 ${providerName}</td>
+            <td style="padding: 10px 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${shiftName}</td>
+            <td style="padding: 10px 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">👤 ${providerName}</td>
           `;
 
           tbody.appendChild(row);
@@ -129,7 +129,7 @@ async function displaySchedule() {
 
     const outputDate = xml.querySelector("DataOutputDate")?.textContent;
     if (outputDate) {
-      document.getElementById("sync-time").innerText = "Updated " + new Date(outputDate).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+      document.getElementById("sync-time").innerText = "— Updated " + new Date(outputDate).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
     }
   } catch (err) {
     console.error(err);
