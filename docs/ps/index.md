@@ -40,6 +40,28 @@
     * **March 25, 2026 | Parenteral Ondansetron:** Now considered first-line parenteral antiemetic for most causes of nausea/vomiting. ODTs remain available. [More Info on Intranet →](https://intranet.bcehs.ca){:target="_blank"}
     * **March 20, 2026 | Updated M09:** Revised Neonatal Resuscitation flowchart now live. [Visit the Handbook →](https://handbook.bcehs.ca/clinical-practice-guidelines/m-pediatric-and-neonatal-emergencies/m09-neonatal-resuscitation/){:target="_blank"}
 
+<div id="shift-board" style="margin: 24px 0;">
+  <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #eaeaea; padding-bottom: 6px; margin-bottom: 16px;">
+    <h3 style="margin: 0; font-size: 1.25rem; font-weight: 600; color: var(--md-typeset-color, #333);">Daily EPOS Schedule</h3>
+    <span id="sync-time" style="font-size: 0.8rem; color: #777;">Loading current shifts...</span>
+  </div>
+  
+  <div style="overflow-x: auto; border: 1px solid #e0e0e0; border-radius: 4px;">
+    <table style="width: 100%; border-collapse: collapse; text-align: left; background-color: #fff; font-size: 0.9rem;">
+      <thead>
+        <tr style="background-color: #fafafa; border-bottom: 1px solid #e0e0e0; color: #555;">
+          <th style="padding: 10px 16px; font-weight: 600; width: 25%;">Date</th>
+          <th style="padding: 10px 16px; font-weight: 600; width: 45%;">Shift Name</th>
+          <th style="padding: 10px 16px; font-weight: 600; width: 30%;">Provider</th>
+        </tr>
+      </thead>
+      <tbody id="table-rows">
+        <tr><td colspan="3" style="padding: 16px; text-align: center; color: #777;">Initializing view...</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
 <script>
 async function displaySchedule() {
   try {
@@ -89,19 +111,20 @@ async function displaySchedule() {
 
           let badge = '';
           if (dayDate === todayStr) {
-            badge = `<span style="background-color: #e3f2fd; color: #0d47a1; padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; margin-right: 8px;">TODAY</span>`;
+            badge = `<span style="background-color: #e3f2fd; color: #0d47a1; padding: 3px 6px; border-radius: 3px; font-size: 0.7rem; font-weight: 700; margin-right: 8px; inline-size: max-content;">TODAY</span>`;
           } else {
-            badge = `<span style="background-color: #e8f5e9; color: #1b5e20; padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; margin-right: 8px;">TOMORROW</span>`;
+            badge = `<span style="background-color: #e8f5e9; color: #1b5e20; padding: 3px 6px; border-radius: 3px; font-size: 0.7rem; font-weight: 700; margin-right: 8px; inline-size: max-content;">TOMORROW</span>`;
           }
 
           const row = document.createElement("tr");
-          row.style.borderBottom = "1px solid #e0e0e0";
-          if (rowsFound % 2 === 1) { row.style.backgroundColor = "#f9f9f9"; }
+          row.style.borderBottom = "1px solid #eabed6"; // Subtle tint divider line
+          row.style.color = "var(--md-typeset-color, #222)";
+          if (rowsFound % 2 === 1) { row.style.backgroundColor = "#fafafa"; }
 
           row.innerHTML = `
-            <td style="padding: 12px 16px; font-size: 0.9rem; color: #333; display: flex; align-items: center; border: none;">${badge} <span style="font-family: monospace;">${dayDate}</span></td>
-            <td style="padding: 12px 16px; font-size: 0.9rem; color: #000;"><strong style="color: #2c3e50;">${shiftName}</strong></td>
-            <td style="padding: 12px 16px; font-size: 0.9rem; color: #2c3e50; font-weight: 500;">👤 ${providerName}</td>
+            <td style="padding: 10px 16px; display: flex; align-items: center; border: none;">${badge} <span style="font-variant-numeric: tabular-nums;">${dayDate}</span></td>
+            <td style="padding: 10px 16px;">${shiftName}</td>
+            <td style="padding: 10px 16px;">👤 ${providerName}</td>
           `;
 
           tbody.appendChild(row);
@@ -111,7 +134,7 @@ async function displaySchedule() {
     });
 
     if (rowsFound === 0) {
-      tbody.innerHTML = `<tr><td colspan="3" style="padding: 30px; text-align: center; color: #777; font-size: 0.9rem;">No assignments found for today or tomorrow.</td></tr>`;
+      tbody.innerHTML = `<tr><td colspan="3" style="padding: 24px; text-align: center; color: #777;">No assignments found for today or tomorrow.</td></tr>`;
     }
 
     const outputDate = xml.querySelector("DataOutputDate")?.textContent;
@@ -120,10 +143,10 @@ async function displaySchedule() {
     }
   } catch (err) {
     console.error(err);
-    document.getElementById("table-rows").innerHTML = `<tr><td colspan="3" style="padding: 20px; text-align: center; color: #d32f2f;">Error loading schedule.</td></tr>`;
+    document.getElementById("table-rows").innerHTML = `<tr><td colspan="3" style="padding: 16px; text-align: center; color: #d32f2f;">Error loading schedule.</td></tr>`;
   }
 }
 
 displaySchedule();
-setInterval(displaySchedule, 3600000); // Corrected to 1 hour (3,600,000 ms)
+setInterval(displaySchedule, 3600000);
 </script>
