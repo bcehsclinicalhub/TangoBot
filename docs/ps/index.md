@@ -48,6 +48,30 @@
     * **March 20, 2026 | Updated M09:** Revised Neonatal Resuscitation flowchart now live. [Visit the Handbook →](https://handbook.bcehs.ca/clinical-practice-guidelines/m-pediatric-and-neonatal-emergencies/m09-neonatal-resuscitation/){:target="_blank"}
 
 
+<div id="shift-board" style="margin: 24px 0; width: 100%;">
+  <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #eaeaea; padding-bottom: 8px; margin-bottom: 16px; width: 100%;">
+    <div style="display: flex; align-items: baseline; gap: 12px;">
+      <span style="font-size: 1.25rem; font-weight: 600; color: var(--md-typeset-color, #333);">Daily EPOS Schedule</span>
+      <span id="sync-time" style="font-size: 0.8rem; color: #777; font-weight: 400;">Loading shifts...</span>
+    </div>
+  </div>
+  
+  <div style="overflow-x: auto; border: 1px solid #e0e0e0; border-radius: 4px; width: 100%; box-sizing: border-box;">
+    <table style="width: 100%; border-collapse: collapse; text-align: left; background-color: #fff; font-size: 0.9rem; margin: 0; table-layout: auto;">
+      <thead>
+        <tr style="background-color: #fafafa; border-bottom: 1px solid #e0e0e0; color: #555;">
+          <th style="padding: 12px 20px; font-weight: 600; white-space: nowrap;">Date</th>
+          <th style="padding: 12px 20px; font-weight: 600; white-space: nowrap;">Shift Name</th>
+          <th style="padding: 12px 20px; font-weight: 600; white-space: nowrap;">Provider</th>
+        </tr>
+      </thead>
+      <tbody id="table-rows">
+        <tr><td colspan="3" style="padding: 16px; text-align: center; color: #777;">Initializing view...</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
 <script>
 async function displaySchedule() {
   try {
@@ -107,10 +131,11 @@ async function displaySchedule() {
           row.style.color = "var(--md-typeset-color, #222)";
           if (rowsFound % 2 === 1) { row.style.backgroundColor = "#fafafa"; }
 
+          // Added padding and white-space: nowrap to cleanly lock text layout onto a single line
           row.innerHTML = `
-            <td style="padding: 10px 16px; display: flex; align-items: center; border: none;">${badge} <span style="font-variant-numeric: tabular-nums;">${dayDate}</span></td>
-            <td style="padding: 10px 16px;">${shiftName}</td>
-            <td style="padding: 10px 16px;">👤 ${providerName}</td>
+            <td style="padding: 12px 20px; display: flex; align-items: center; border: none; white-space: nowrap;"><div style="display: flex; align-items: center; min-width: max-content;">${badge} <span style="font-variant-numeric: tabular-nums;">${dayDate}</span></div></td>
+            <td style="padding: 12px 20px; white-space: nowrap;">${shiftName}</td>
+            <td style="padding: 12px 20px; white-space: nowrap;">👤 ${providerName}</td>
           `;
 
           tbody.appendChild(row);
@@ -125,7 +150,7 @@ async function displaySchedule() {
 
     const outputDate = xml.querySelector("DataOutputDate")?.textContent;
     if (outputDate) {
-      document.getElementById("sync-time").innerText = "Updated: " + new Date(outputDate).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+      document.getElementById("sync-time").innerText = "— Updated " + new Date(outputDate).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
     }
   } catch (err) {
     console.error(err);
