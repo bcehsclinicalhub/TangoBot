@@ -49,20 +49,21 @@
 
 
 <div id="shift-board" style="margin: 24px 0; width: 100%;">
+  <!-- This container holds your blue title and pushes the timestamp right next to it -->
   <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #eaeaea; padding-bottom: 8px; margin-bottom: 16px; width: 100%;">
     <div style="display: flex; align-items: baseline; gap: 12px;">
-      <span style="font-size: 1.25rem; font-weight: 600; color: var(--md-typeset-color, #333);">Daily EPOS Schedule</span>
-      <span id="sync-time" style="font-size: 0.8rem; color: #777; font-weight: 400;">Loading shifts...</span>
+      <span style="font-size: 1.6rem; font-weight: 700; color: #003366; letter-spacing: -0.01em;">📅 EPOS Schedule</span>
+      <span id="sync-time" style="font-size: 0.85rem; color: #777; font-weight: 400;">Loading shifts...</span>
     </div>
   </div>
   
-  <div style="overflow-x: auto; border: 1px solid #e0e0e0; border-radius: 4px; width: 100%; box-sizing: border-box;">
-    <table style="width: 100%; border-collapse: collapse; text-align: left; background-color: #fff; font-size: 0.9rem; margin: 0; table-layout: auto;">
+  <div style="border: 1px solid #e0e0e0; border-radius: 4px; width: 100%; box-sizing: border-box;">
+    <table style="width: 100%; border-collapse: collapse; text-align: left; background-color: #fff; font-size: 0.9rem; margin: 0; table-layout: fixed;">
       <thead>
         <tr style="background-color: #fafafa; border-bottom: 1px solid #e0e0e0; color: #555;">
-          <th style="padding: 12px 20px; font-weight: 600; white-space: nowrap;">Date</th>
-          <th style="padding: 12px 20px; font-weight: 600; white-space: nowrap;">Shift Name</th>
-          <th style="padding: 12px 20px; font-weight: 600; white-space: nowrap;">Provider</th>
+          <th style="padding: 10px 12px; font-weight: 600; width: 35%;">Date</th>
+          <th style="padding: 10px 12px; font-weight: 600; width: 35%;">Shift Name</th>
+          <th style="padding: 10px 12px; font-weight: 600; width: 30%;">Provider</th>
         </tr>
       </thead>
       <tbody id="table-rows">
@@ -121,9 +122,9 @@ async function displaySchedule() {
 
           let badge = '';
           if (dayDate === todayStr) {
-            badge = `<span style="background-color: #e3f2fd; color: #0d47a1; padding: 3px 6px; border-radius: 3px; font-size: 0.7rem; font-weight: 700; margin-right: 8px; inline-size: max-content;">TODAY</span>`;
+            badge = `<span style="background-color: #e3f2fd; color: #0d47a1; padding: 3px 6px; border-radius: 3px; font-size: 0.7rem; font-weight: 700; margin-right: 6px; inline-size: max-content;">TODAY</span>`;
           } else {
-            badge = `<span style="background-color: #e8f5e9; color: #1b5e20; padding: 3px 6px; border-radius: 3px; font-size: 0.7rem; font-weight: 700; margin-right: 8px; inline-size: max-content;">TOMORROW</span>`;
+            badge = `<span style="background-color: #e8f5e9; color: #1b5e20; padding: 3px 6px; border-radius: 3px; font-size: 0.7rem; font-weight: 700; margin-right: 6px; inline-size: max-content;">TOMORROW</span>`;
           }
 
           const row = document.createElement("tr");
@@ -131,11 +132,10 @@ async function displaySchedule() {
           row.style.color = "var(--md-typeset-color, #222)";
           if (rowsFound % 2 === 1) { row.style.backgroundColor = "#fafafa"; }
 
-          // Added padding and white-space: nowrap to cleanly lock text layout onto a single line
           row.innerHTML = `
-            <td style="padding: 12px 20px; display: flex; align-items: center; border: none; white-space: nowrap;"><div style="display: flex; align-items: center; min-width: max-content;">${badge} <span style="font-variant-numeric: tabular-nums;">${dayDate}</span></div></td>
-            <td style="padding: 12px 20px; white-space: nowrap;">${shiftName}</td>
-            <td style="padding: 12px 20px; white-space: nowrap;">👤 ${providerName}</td>
+            <td style="padding: 10px 12px; display: flex; align-items: center; border: none; white-space: nowrap;"><div style="display: flex; align-items: center; min-width: max-content;">${badge} <span style="font-variant-numeric: tabular-nums;">${dayDate}</span></div></td>
+            <td style="padding: 10px 12px; overflow: hidden; text-overflow: ellipsis;">${shiftName}</td>
+            <td style="padding: 10px 12px; overflow: hidden; text-overflow: ellipsis;">👤 ${providerName}</td>
           `;
 
           tbody.appendChild(row);
@@ -150,7 +150,7 @@ async function displaySchedule() {
 
     const outputDate = xml.querySelector("DataOutputDate")?.textContent;
     if (outputDate) {
-      document.getElementById("sync-time").innerText = "— Updated " + new Date(outputDate).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+      document.getElementById("sync-time").innerText = "Updated " + new Date(outputDate).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
     }
   } catch (err) {
     console.error(err);
