@@ -14,7 +14,6 @@
 | **Safety Data Sheets** | Safety data sheets and other exposure resources | [Safety Data Sheets →](chemical/index.md) |
 
 
-## 📅 EPOS Schedule
 <div id="shift-board" style="margin: 24px 0; width: 100%;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--md-typeset-a-color, #eaeaea); padding-bottom: 8px; margin-bottom: 16px; width: 100%;">
     <div style="display: flex; align-items: baseline; gap: 12px;">
