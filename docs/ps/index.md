@@ -14,32 +14,6 @@
 | **Safety Data Sheets** | Safety data sheets and other exposure resources | [Safety Data Sheets →](chemical/index.md) |
 
 ## 📅 EPOS Schedule
-<div id="shift-board" style="margin: 20px 0; padding: 15px; border: 1px solid #e0e0e0; border-radius: 5px; background-color: #fafafa;">
-  <p><small id="sync-time" style="color: #666;">Loading today and tomorrow's schedule...</small></p>
-  <table style="width:100%; border-collapse: collapse; text-align: left; margin-top: 10px;">
-    <thead>
-      <tr style="background-color: #eee; border-bottom: 2px solid #ccc;">
-        <th style="padding: 10px;">Date</th>
-        <th style="padding: 10px;">Shift Name</th>
-        <th style="padding: 10px;">Provider</th>
-      </tr>
-    </thead>
-    <tbody id="table-rows">
-      </tbody>
-  </table>
-</div>
-
-## ⚠️ Critical Alerts
-!!! danger "Fraser IFT IV Pump Trial"
-    **July 2, 2026**: Starting this month (July 2026), BCEHS will begin piloting interfacility patient transports by PCPs using volumetric medication pumps to safely administer medications during transport. This will allow PCPs to transport patients who previously may have needed a nurse escort. [More Info on the Intranet](https://intranet.bcehs.ca/mlink/post/NDA3Ng){:target="_blank"}
-
-
-## ⚕️ Clinical Updates
-!!! warning "Latest Practice and CPG Updates"
-    * **March 27, 2026 | Epi Infusion:** Updated epinephrine medication infusions to include 15 drop set change. [Visit the Handbook →](https://handbook.bcehs.ca){:target="_blank"}
-    * **March 25, 2026 | Parenteral Ondansetron:** Now considered first-line parenteral antiemetic for most causes of nausea/vomiting. ODTs remain available. [More Info on Intranet →](https://intranet.bcehs.ca){:target="_blank"}
-    * **March 20, 2026 | Updated M09:** Revised Neonatal Resuscitation flowchart now live. [Visit the Handbook →](https://handbook.bcehs.ca/clinical-practice-guidelines/m-pediatric-and-neonatal-emergencies/m09-neonatal-resuscitation/){:target="_blank"}
-
 <div id="shift-board" style="margin: 24px 0; width: 100%;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #eaeaea; padding-bottom: 6px; margin-bottom: 16px; width: 100%;">
     <h3 style="margin: 0; font-size: 1.25rem; font-weight: 600; color: var(--md-typeset-color, #333);">Daily EPOS Schedule</h3>
@@ -61,6 +35,18 @@
     </table>
   </div>
 </div>
+
+## ⚠️ Critical Alerts
+!!! danger "Fraser IFT IV Pump Trial"
+    **July 2, 2026**: Starting this month (July 2026), BCEHS will begin piloting interfacility patient transports by PCPs using volumetric medication pumps to safely administer medications during transport. This will allow PCPs to transport patients who previously may have needed a nurse escort. [More Info on the Intranet](https://intranet.bcehs.ca/mlink/post/NDA3Ng){:target="_blank"}
+
+
+## ⚕️ Clinical Updates
+!!! warning "Latest Practice and CPG Updates"
+    * **March 27, 2026 | Epi Infusion:** Updated epinephrine medication infusions to include 15 drop set change. [Visit the Handbook →](https://handbook.bcehs.ca){:target="_blank"}
+    * **March 25, 2026 | Parenteral Ondansetron:** Now considered first-line parenteral antiemetic for most causes of nausea/vomiting. ODTs remain available. [More Info on Intranet →](https://intranet.bcehs.ca){:target="_blank"}
+    * **March 20, 2026 | Updated M09:** Revised Neonatal Resuscitation flowchart now live. [Visit the Handbook →](https://handbook.bcehs.ca/clinical-practice-guidelines/m-pediatric-and-neonatal-emergencies/m09-neonatal-resuscitation/){:target="_blank"}
+
 
 <script>
 async function displaySchedule() {
