@@ -76,7 +76,7 @@ keywords:
     <a href="/ps/chemical/erg/erg_Acetone.pdf" target="_blank">ERG (PDF)</a>
 
 !!! other "Acetone Product Stewardship Summary (Shell Chemicals)"
-    <a href="/ps/chemical/other/Acetone.pdf" target="_blank"Acetone Product Stewardship Summary (Shell Chemicals) (PDF)</a>
+    <a href="/ps/chemical/other/acetone.pdf" target="_blank"Acetone Product Stewardship Summary (Shell Chemicals) (PDF)</a>
 ---
 
 ### Revision History
