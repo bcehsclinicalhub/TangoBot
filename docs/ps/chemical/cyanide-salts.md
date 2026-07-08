@@ -1,4 +1,4 @@
--
+---
 title: Cyanide Salts
 policy_id: 
 version: 1.0
@@ -59,8 +59,8 @@ keywords:
     Remove contaminated clothing, flush exposed skin with water/soap. If eyes exposed or irritated flush for 15 minutes. Contaminated clothing not to be transported. Paramedics should not have direct contact with the patient prior to decontamination but may coach decontamination from a safe location.  
 
     ## **Patient Treatment**
-        * High flow O2, support ABCs and treat as per BCEHS CPGs.
-        * Antidote is hydroxocobalamin, prioritize transport to hospital for treatment.
+    - High flow O2, support ABCs and treat as per BCEHS CPGs.
+    - Antidote is hydroxocobalamin, prioritize transport to hospital for treatment.
 
     ## **Safe Transfer of Care**
     Patient should be decontaminated and clothing removed prior to transferring care/entering hospital.    

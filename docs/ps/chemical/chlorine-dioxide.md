@@ -48,9 +48,9 @@ keywords:
     Remove clothing, avoid pulling clothes over head. Do not transport clothes with the patient. If symptomatic flush skin with high-volume, low-pressure water. If symptomatic flush eyes continuously. 
 
     ## **Patient Treatment**
-        * Ensure adequate decontamination.
-        * Anticipate respiratory distress and treat as per BCEHS CPGs.
-        * Delayed onset of pulmonary edema possible. Exposed persons should be transported for monitoring.
+    - Ensure adequate decontamination.
+    - Anticipate respiratory distress and treat as per BCEHS CPGs.
+    - Delayed onset of pulmonary edema possible. Exposed persons should be transported for monitoring.
 
     ## **Safe Transfer of Care**
     Provided patient was decontaminated no risk of off-gassing or secondary contamination.  

@@ -73,8 +73,8 @@ keywords:
     If eyes are exposed flush with water for 10 – 15 minutes. Remove contaminated clothing. Wash exposed skin with a mild detergent and water. 
 
     ## **Patient Treatment**
-        * Manage symptoms as per BCEHS CPGs.
-        * If ingested obtain IV access with infusion of N/S. Clearance is through renal excretion, and IV fluids help ensure clearance is timely. 
+    - Manage symptoms as per BCEHS CPGs.
+    - If ingested obtain IV access with infusion of N/S. Clearance is through renal excretion, and IV fluids help ensure clearance is timely. 
 
     ## **Safe Transfer of Care**
     No concern for secondary contamination or off-gassing, provided initial decontamination occurred. 

@@ -69,11 +69,11 @@ keywords:
 !!! danger "Emergency Response Guidebook"
     <a href="/ps/chemical/erg/erg_Benzene.pdf" target="_blank">ERG (PDF)</a>
 
-!!! other "Canadian OSH Chemical Profile for Benzene"
-    <a href="/ps/chemical/other/other_Benzene1.pdf" target="_blank"Canadian OSH Chemical Profile for Benzene (PDF)</a>
+!!! success "Canadian OSH Chemical Profile for Benzene"
+    <a href="/ps/chemical/other/benzene1.pdf" target="_blank">Canadian OSH Chemical Profile for Benzene (PDF)</a>
 
-!!! other "WHO INCHEM Fact Sheet for Benzene"
-    <a href="/ps/chemical/other/other_Benzene2.pdf" target="_blank"WHO INCHEM Fact Sheet for Benzene (PDF)</a>
+!!! example "WHO INCHEM Fact Sheet for Benzene"
+    <a href="/ps/chemical/other/benzene2.pdf" target="_blank">WHO INCHEM Fact Sheet for Benzene (PDF)</a>
     
 ---
 
