@@ -75,7 +75,7 @@ keywords:
 !!! danger "Emergency Response Guidebook"
     <a href="/ps/chemical/erg/erg_Acetone.pdf" target="_blank">ERG (PDF)</a>
 
-!!! other "Acetone Product Stewardship Summary (Shell Chemicals)"
+!!! success "Acetone Product Stewardship Summary (Shell Chemicals)"
     <a href="/ps/chemical/other/acetone.pdf" target="_blank">Acetone Product Stewardship Summary (Shell Chemicals) (PDF)</a>
 ---
 
