@@ -55,9 +55,9 @@ keywords:
     Wash exposed skin with soap and water. If eye irritation is present flush for 15 minutes. Some sources recommend activated charcoal if ingested.
 
     ## **Patient Treatment**
-        * Monitor bG closely. If LOC is altered and bG is low-normal, treat as if hypoglycemic.
-        * If hyperthermic cool aggressively. Do not administer Acetaminophen or ASA.
-        * Seizures can be treated with Midazolam. Avoid intubation as a reduced respiratory rate following induction can rapidly result in death. 
+    - Monitor bG closely. If LOC is altered and bG is low-normal, treat as if hypoglycemic.
+    - If hyperthermic cool aggressively. Do not administer Acetaminophen or ASA.
+    - Seizures can be treated with Midazolam. Avoid intubation as a reduced respiratory rate following induction can rapidly result in death. 
 
     ## **Safe Transfer of Care**
     No secondary contamination concerns. 
