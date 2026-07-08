@@ -104,10 +104,6 @@
 </div>
 <div class="index-grid">
     <a href="sulfuric-acid/">Sulfuric Acid</a>
-</div>
-<div class="index-grid">
-    <a href="sulphur-dioxide/">Sulphur Dioxide</a>
-</div>
 
 ## T
 <div class="index-grid">
