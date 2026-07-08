@@ -15,7 +15,7 @@
 </div>
 
 
-<div id="shift-board" style="margin: 24px 0; width: 100%;">
+<div id="shift-board" style="margin: 32px auto; max-width: 750px; width: 100%;">
   <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--md-typeset-a-color, #eaeaea); padding-bottom: 8px; margin-bottom: 16px; width: 100%;">
     <div style="display: flex; align-items: baseline; gap: 12px;">
       <h2 style="margin: 0; font-size: 1.4rem; font-weight: 700; border: none; padding: 0; color: var(--md-typeset-color, #333);">📅 EPOS Schedule</h2>
@@ -23,13 +23,13 @@
     </div>
   </div>
   
-  <div style="border: 1px solid #e0e0e0; border-radius: 4px; width: 100%; box-sizing: border-box;">
+  <div style="border: 1px solid #e0e0e0; border-radius: 6px; width: 100%; box-sizing: border-box; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
     <table style="width: 100%; border-collapse: collapse; text-align: left; background-color: #fff; font-size: 0.9rem; margin: 0; table-layout: fixed;">
       <thead>
         <tr style="background-color: #fafafa; border-bottom: 1px solid #e0e0e0; color: #555;">
-          <th style="padding: 10px 12px; font-weight: 600; width: 30%;">Date</th>
-          <th style="padding: 10px 12px; font-weight: 600; width: 30%;">Shift Name</th>
-          <th style="padding: 10px 12px; font-weight: 600; width: 40%;">Physician</th>
+          <th style="padding: 12px; font-weight: 600; width: 32%;">Date</th>
+          <th style="padding: 12px; font-weight: 600; width: 28%;">Shift Name</th>
+          <th style="padding: 12px; font-weight: 600; width: 40%;">Physician</th>
         </tr>
       </thead>
       <tbody id="table-rows">
