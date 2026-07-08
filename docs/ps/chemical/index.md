@@ -26,6 +26,9 @@
 
 ## C
 <div class="index-grid">
+    <a href="calcium-carbonate/">Calcium Carbonate</a>
+</div>
+<div class="index-grid">
     <a href="carbon-monoxide/">Carbon Monoxide</a>
 </div>
 <div class="index-grid">
