@@ -49,8 +49,8 @@ keywords:
     Remove from source of exposure to prevent further absorption. Remove contaminated clothing and wash skin with soap and water.
 
     ## **Patient Treatment**
-        * Mainstay of treatment is administration of fomepizole (preferred) or ethanol in hospital. These compete for available ADH which stops methanol from being metabolized into toxic metabolites.
-        * Hemodialysis may also be used in-hospital.
+    - Mainstay of treatment is administration of fomepizole (preferred) or ethanol in hospital. These compete for available ADH which stops methanol from being metabolized into toxic metabolites.
+    - Hemodialysis may also be used in-hospital.
 
     ## **Safe Transfer of Care**
     If patient has been decontaminated only contact precautions are needed. Splash precautions if ingested. 

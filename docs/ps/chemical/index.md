@@ -48,7 +48,7 @@
 
 ## F
 <div class="index-grid">
-    <a href="fluorinated_hydrocarbons/">Flouorinated Hydrocarbons</a>
+    <a href="fluorinated-hydrocarbons/">Flouorinated Hydrocarbons</a>
 </div>
 <div class="index-grid">
     <a href="formaldehyde-and-formalin/">Formaldehyde & Formalin</a>
@@ -75,7 +75,7 @@
     <a href="natural-gas-and-methane/">Natural Gas & Methane</a>
 </div>
 <div class="index-grid">
-    <a href="nitric-aced/">Nitric Acid</a>
+    <a href="nitric-acid/">Nitric Acid</a>
 </div>
 
 ## P
@@ -104,6 +104,7 @@
 </div>
 <div class="index-grid">
     <a href="sulfuric-acid/">Sulfuric Acid</a>
+</div>
 
 ## T
 <div class="index-grid">

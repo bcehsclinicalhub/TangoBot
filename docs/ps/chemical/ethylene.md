@@ -48,8 +48,8 @@ keywords:
     Move patient to ambient air and administer high flow O2. Remove bulky clothing or insulating layers as they may trap gasses. Bulky clothing should not be transported with the patient.
 
     ## **Patient Treatment**
-        * Focus on oxygenation and support of ventilation for all symptomatic patients. 
-        * Treat as per BCEHS CPGs.
+    - Focus on oxygenation and support of ventilation for all symptomatic patients. 
+    - Treat as per BCEHS CPGs.
 
     ## **Safe Transfer of Care**
     No risk of off-gassing or secondary contamination.
@@ -69,8 +69,8 @@ keywords:
 !!! danger "Emergency Response Guidebook"
     <a href="/ps/chemical/erg/erg_Ethylene.pdf" target="_blank">ERG (PDF)</a>
 
-!!! other "Ethylene NOVA Chemicals Risk Profile"
-    <a href="/ps/chemical/other/other_Ethylene.pdf" target="_blank"Ethylene NOVA Chemicals Risk Profile (PDF)</a>
+!!! success "Ethylene NOVA Chemicals Risk Profile"
+    <a href="/ps/chemical/other/ethylene.pdf" target="_blank">Ethylene NOVA Chemicals Risk Profile (PDF)</a>
     
 ---
 

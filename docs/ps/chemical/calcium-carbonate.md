@@ -65,8 +65,8 @@ keywords:
 !!! danger "Emergency Response Guidebook"
     No ERG available. 
 
-!!! other "WHO INCHEM Guide to Calcium Carbonate"
-    <a href="/ps/chemical/other/other_CalciumCarbonate.pdf" target="_blank"WHO INCHEM Guide to Calcium Carbonate (PDF)</a>
+!!! success "WHO INCHEM Guide to Calcium Carbonate"
+    <a href="/ps/chemical/other/calciumcarbonate.pdf" target="_blank">WHO INCHEM Guide to Calcium Carbonate (PDF)</a>
     
 ---
 

@@ -64,13 +64,13 @@ keywords:
     Release of pressurized gasses may cause frostbite. Some refrigerants are highly water soluble, forming acids such as hydrofluoric acid when dissolved in water. They may cause localized irritation of mucous membranes, eyes, and skin. If inhaled, they act as an anesthetic: expect altered cognition or decreased level of consciousness. Also causes increased sensitivity of the myocardium to catecholamines, increasing the propensity for fatal dysrhythmias.  
 
     ## **Patient Decontamination**
-        * Moving patient to ambient air is the primary form of decontamination.  
-        * Eye irritation present flush eyes for 15 minutes. 
-        * Remove contaminated clothing and flush skin with water if patient was exposed to significant quantities of gas.  
+    - Moving patient to ambient air is the primary form of decontamination.  
+    - Eye irritation present flush eyes for 15 minutes. 
+    - Remove contaminated clothing and flush skin with water if patient was exposed to significant quantities of gas.  
 
     ## **Patient Treatment**
-        * Monitor for potential dysrhythmias. Use epi judiciously, if at all. Otherwise treat as per CPGs.   
-        * Treat frostbite with lukewarm water, gentle rewarming. Avoid heat and rubbing.  
+    - Monitor for potential dysrhythmias. Use epi judiciously, if at all. Otherwise treat as per CPGs.   
+    - Treat frostbite with lukewarm water, gentle rewarming. Avoid heat and rubbing.  
 
     ## **Safe Transfer of Care**
     No concerns about offgassing or secondary contamination.   
@@ -90,8 +90,8 @@ keywords:
 !!! danger "Emergency Response Guidebook"
     <a href="/ps/chemical/erg/erg_FluorinatedHydrocarbons.pdf" target="_blank">ERG (PDF)</a>
 
-!!! other "CANTUEC - Refrigerant Properties and Associated Risks"
-    <a href="/ps/chemical/other/other_FluorinatedHydrocarbons.pdf" target="_blank">CANTUEC - Refrigerant Properties and Associated Risks (PDF)</a>
+!!! success "CANTUEC - Refrigerant Properties and Associated Risks"
+    <a href="/ps/chemical/other/fluorinatedhydrocarbons.pdf" target="_blank">CANTUEC - Refrigerant Properties and Associated Risks (PDF)</a>
 ---
 
 ### Revision History

@@ -51,12 +51,12 @@ keywords:
     Most rapid routes of absorption are inhalation and ingestion. Exact mechanism of toxicity is not known. Causes CNS depression, loss of motor control, confusion, loss of consciousness, arrythmia, and acidosis. Myocardium becomes sensitive to catecholamines. Vomiting may occur if ingested, and emesis poses secondary exposure risk.
 
     ## **Patient Decontamination**
-        * Remove contaminated clothing, flush exposed skin with water for 2 – 3 minutes followed by washing with soap and water. 
-        * For eye exposure, flush for 15 minutes. 
+    - Remove contaminated clothing, flush exposed skin with water for 2 – 3 minutes followed by washing with soap and water. 
+    - For eye exposure, flush for 15 minutes. 
 
     ## **Patient Treatment**
-        * Avoid administering epinephrine, even in cardiac arrest. May cause refractory Vfib. Treat with indicated antiarrhythmic.
-        * Otherwise, treat as per CPGs with emphasis on oxygenation and ventilation. 
+    - Avoid administering epinephrine, even in cardiac arrest. May cause refractory Vfib. Treat with indicated antiarrhythmic.
+    - Otherwise, treat as per CPGs with emphasis on oxygenation and ventilation. 
 
     ## **Safe Transfer of Care**
     Provided patient has been decontaminated secondary exposure risk is vapour from emesis if ingestion occurred. Emesis should be bagged and moved to a well-ventilated area. Organic vapor cartridges may be used on respirators but should not be relied on for long-term protection if exposure risk is ongoing. 
@@ -76,8 +76,8 @@ keywords:
 !!! danger "Emergency Response Guidebook"
     <a href="/ps/chemical/erg/erg_Toluene.pdf" target="_blank">ERG (PDF)</a>
 
-!!! danger "CDC Fact Sheet for Toluene"
-    <a href="/ps/chemical/other/other_Toluene.pdf" target="_blank">CDC Fact Sheet for Toluene (PDF)</a>
+!!! success "CDC Fact Sheet for Toluene"
+    <a href="/ps/chemical/other/toluene.pdf" target="_blank">CDC Fact Sheet for Toluene (PDF)</a>
 ---
 
 ### Revision History

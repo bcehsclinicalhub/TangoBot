@@ -47,12 +47,12 @@ keywords:
     Powerful oxidizing agent that will cause significant tissue damage to any tissue it contacts. Minimal vapor risk. If ingested causes profound methemoglobinemia.
 
     ## **Patient Decontamination**
-        * Remove clothing, avoid pulling over head. Keep contaminated clothes wet and DO NOT transport with the patient.
-        * Minimum of 30 minutes of flushing exposed eyes or skin with water. EYES TAKE PRECEDENT.
+    - Remove clothing, avoid pulling over head. Keep contaminated clothes wet and DO NOT transport with the patient.
+    - Minimum of 30 minutes of flushing exposed eyes or skin with water. EYES TAKE PRECEDENT.
 
     ## **Patient Treatment**
-        * Following decontamination treat as per BCEHS CPGs
-        * Symptoms of toxicity can be delayed. Patient should be transported for observation even if stable.
+    - Following decontamination treat as per BCEHS CPGs
+    - Symptoms of toxicity can be delayed. Patient should be transported for observation even if stable.
 
     ## **Safe Transfer of Care**
     Provided decontamination has occurred and the patients clothing was not transported with them to the hospital, little risk of secondary contamination. Contact and splash precautions until certain adequate decontamination has occurred. 

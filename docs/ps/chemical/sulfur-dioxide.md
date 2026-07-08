@@ -48,14 +48,14 @@ keywords:
     It is an acidic gas that is highly soluble in water and, when it contacts moisture, it converts to sulfurous acid.  Thus, it is highly irritating to mucous membranes and the eyes. This usually limits exposure times, however prolonged exposure is possible if a patient is trapped. This may cause irritation or burns to a patient’s eyes, or irritation/burns/edema in the upper airway. Prolonged exposure may lead to delayed onset of pulmonary edema. 
 
     ## **Patient Decontamination**
-        * Remove clothing without pulling over the head. Contaminated clothing not to accompany patient. 
-        * If eye irritation is present continuously flush eyes.
-        * Skin irritation not usually present, but if it is, flush skin with warm water for 15 minutes.
+    - Remove clothing without pulling over the head. Contaminated clothing not to accompany patient. 
+    - If eye irritation is present continuously flush eyes.
+    - Skin irritation not usually present, but if it is, flush skin with warm water for 15 minutes.
 
     ## **Patient Treatment**
-        * Decontamination as above. 
-        * Treat respiratory distress and other symptoms as per BCEHS CPGs.
-        * Transport for assessment and observation due to risk of delayed onset pulmonary edema.
+    - Decontamination as above. 
+    - Treat respiratory distress and other symptoms as per BCEHS CPGs.
+    - Transport for assessment and observation due to risk of delayed onset pulmonary edema.
 
     ## **Safe Transfer of Care**
     No risk of secondary contamination once patient has been removed from source and initial decontamination has occurred. 
@@ -76,7 +76,7 @@ keywords:
     <a href="/ps/chemical/erg/erg_SulfurDioxide.pdf" target="_blank">ERG (PDF)</a>
 
 !!! other "WorkSafe BC Bulletin on SO2 in Winemaking"
-    <a href="/ps/chemical/other/other_SulfurDioxide.pdf" target="_blank">WorkSafe BC Bulletin on SO2 in Winemaking (PDF)</a>
+    <a href="/ps/chemical/other/sulphurdioxide.pdf" target="_blank">WorkSafe BC Bulletin on SO2 in Winemaking (PDF)</a>
 ---
 
 ### Revision History

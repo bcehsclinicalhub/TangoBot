@@ -48,11 +48,11 @@ keywords:
     Saponification of affected area. This causes localized tissue damage at exposure site. This includes the eyes if exposed and GI tract if ingested. If Chlorine gas was produced see Chlorine treatment.  
 
     ## **Patient Decontamination**
-        * EYES TAKE PRECEDENCE. Flush for a minimum of 15 minutes. If irritation persists flush continuously. 
-        * Flush exposed skin well with water. 
+    - EYES TAKE PRECEDENCE. Flush for a minimum of 15 minutes. If irritation persists flush continuously. 
+    - Flush exposed skin well with water. 
 
     ## **Patient Treatment**
-        Decontaminate as above. If ingested have the patient drink 1 glass of water to dilute. If significant airway burns manage as per BCEHS CPGs. If respiratory distress, consider toxic gas exposure.  
+    Decontaminate as above. If ingested have the patient drink 1 glass of water to dilute. If significant airway burns manage as per BCEHS CPGs. If respiratory distress, consider toxic gas exposure.  
 
     ## **Safe Transfer of Care**
     No concerns if decontamination has occurred. If ingested use contact precautions with eye protection. No significant risk of off gassing if ingested (concentrations low enough no concern).   

@@ -54,8 +54,8 @@ keywords:
     Minimal to no risk of secondary contamination and little to no decontamination is required. If patient was in a confined space the crew may risk removing heavy clothing such as jackets due to risk of gas entrainment. 
 
     ## **Patient Treatment**
-        * Treat burns and other traumatic injuries in accordance with BCEHS CPGs. 
-        * Treat CNS depression in accordance with BCEHS CPGs. No specific antidote. 
+    - Treat burns and other traumatic injuries in accordance with BCEHS CPGs. 
+    - Treat CNS depression in accordance with BCEHS CPGs. No specific antidote. 
 
     ## **Safe Transfer of Care**
     No risk of secondary contamination to hospital staff. 

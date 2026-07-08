@@ -44,14 +44,14 @@ keywords:
     ## **Patient Decontamination**
     Gas exposure only: only required decon is of mucous membranes/eyes if irritation is present.  
     Liquid exposure: 
-        * Remove clothing without pulling over head. Clothes not to be transported with patient.
-        * EYES TAKE PRECEDENCE. If eyes exposed, flush continuously until hospital handover. 
-        * Flush skin thoroughly with water. 
+    - Remove clothing without pulling over head. Clothes not to be transported with patient.
+    - EYES TAKE PRECEDENCE. If eyes exposed, flush continuously until hospital handover. 
+    - Flush skin thoroughly with water. 
 
     ## **Patient Treatment**
-        * IV Calcium Chloride to treat hyperkalemia and hypocalcaemia if findings suggest treatment needed.
-        * IV MgSO4 to treat hypomagnesemia if dysrhythmia occurs.
-        * Other symptom management as per BCEHS CPGs. 
+    - IV Calcium Chloride to treat hyperkalemia and hypocalcaemia if findings suggest treatment needed.
+    - IV MgSO4 to treat hypomagnesemia if dysrhythmia occurs.
+    - Other symptom management as per BCEHS CPGs. 
 
     ## **Safe Transfer of Care**
     No secondary contamination concerns if patient has been decontaminated. 

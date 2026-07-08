@@ -44,14 +44,14 @@ keywords:
     Contact causes coagulation necrosis. Causes severe eye damage with high risk of permanent blindness as well as severe skin damage. Upper airway irritation with edema may occur, but lower water solubility allows NO2 fumes to travel into lower airways where it is converted back into HNO3. This may cause severe non-cardiogenic pulmonary edema. Onset may be delayed up to 48 hours.  Ingestion causes severe GI burns with risk of perforation. Systemic absorption causes methemoglobinemia. 
 
     ## **Patient Decontamination**
-        * Remove clothing, do not pull over head. Do not transport clothes with patient.
-        * Flush exposed eyes with large volumes of water until testing with pH strip confirms pH neutral. Continuous flushing until after handover at the hospital. EYES TAKE PRECEDENCE. 
-        * If skin is exposed, minimum of 30 minutes of flushing with large volume, low pressure water. 
+    - Remove clothing, do not pull over head. Do not transport clothes with patient.
+    - Flush exposed eyes with large volumes of water until testing with pH strip confirms pH neutral. Continuous flushing until after handover at the hospital. EYES TAKE PRECEDENCE. 
+    - If skin is exposed, minimum of 30 minutes of flushing with large volume, low pressure water. 
 
     ## **Patient Treatment**
-        * EYES TAKE PRECEDENCE, flush eyes continuously until confirmed to be neutral with pH test strip. 
-        * Flush exposed skin with water for 30 minutes. 
-        * Transport to the hospital for possible delayed onset of pulmonary edema. 
+    - EYES TAKE PRECEDENCE, flush eyes continuously until confirmed to be neutral with pH test strip. 
+    - Flush exposed skin with water for 30 minutes. 
+    - Transport to the hospital for possible delayed onset of pulmonary edema. 
 
     ## **Safe Transfer of Care**
     Provided the patient has been decontaminated there is no risk of secondary exposure. 

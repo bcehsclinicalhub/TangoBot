@@ -72,8 +72,8 @@ keywords:
 !!! danger "Emergency Response Guidebook"
     <a href="/ps/chemical/erg/erg_Formaldehyde.pdf" target="_blank">ERG (PDF)</a>
 
-!!! other "US CDC Medical Management of Formaldehyde"
-    <a href="/ps/chemical/other/other_Formaldehyde.pdf" target="_blank"US CDC Medical Management of Formaldehyde (PDF)</a>
+!!! success "US CDC Medical Management of Formaldehyde"
+    <a href="/ps/chemical/other/formaldehyde.pdf" target="_blank">US CDC Medical Management of Formaldehyde (PDF)</a>
 ---
 
 ### Revision History

@@ -48,15 +48,15 @@ keywords:
     Sodium Azide inhibits cytochrome oxidase in the electron transport chain causing cellular hypoxia. This leads to CNS and CVS dysfunction (unconsciousness, seizures) and dysrhythmias. Vomiting may occur, and emesis will release gaseous hydrazoic acid risking secondary exposure. Inhalation irritates mucous membranes and can cause systemic toxicity. If patient not vomiting secondary exposure risk is minimal. 
 
     ## **Patient Decontamination**
-        * Have the patient moved to a well-ventilated area (ambient air).
-        * If crystals are on the patient remove contaminated clothing and flush affected areas with water. 
-        * If the patient is vomiting, remove contaminated clothing and flush affected area with water.
-        * If patient is vomiting SCBAs required for transport, ambulance ventilation is insufficient. 
-        * If vomit has contaminated the patient or equipment, gross decon should occur prior to transport. 
+    - Have the patient moved to a well-ventilated area (ambient air).
+    - If crystals are on the patient remove contaminated clothing and flush affected areas with water. 
+    - If the patient is vomiting, remove contaminated clothing and flush affected area with water.
+    - If patient is vomiting SCBAs required for transport, ambulance ventilation is insufficient. 
+    - If vomit has contaminated the patient or equipment, gross decon should occur prior to transport. 
 
     ## **Patient Treatment**
-        * Administer high-flow O2. Treat as per CPGs. Anticipate need for airway management. If intubation is required, it should be performed in ambient air. DO NOT intubate in the ambulance.
-        * Definitive treatment involves administering hydroxocobalamin: transport quickly if safe to do so.
+    - Administer high-flow O2. Treat as per CPGs. Anticipate need for airway management. If intubation is required, it should be performed in ambient air. DO NOT intubate in the ambulance.
+    - Definitive treatment involves administering hydroxocobalamin: transport quickly if safe to do so.
 
     ## **Safe Transfer of Care**
     Hospital to be notified of incoming patient, risk of secondary exposure from emesis, and PPE requirements.
@@ -77,7 +77,7 @@ keywords:
     <a href="/ps/chemical/erg/erg_SodiumAzide.pdf" target="_blank">ERG (PDF)</a>
 
 !!! other "US CDC Guide for Sodium Azide"
-    <a href="/ps/chemical/other/other_SodiumAzide.pdf" target="_blank"US CDC Guide for Sodium Azide (PDF)</a>
+    <a href="/ps/chemical/other/sodiumazide.pdf" target="_blank">US CDC Guide for Sodium Azide (PDF)</a>
     
 ---
 

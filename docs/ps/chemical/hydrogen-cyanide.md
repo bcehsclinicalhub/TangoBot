@@ -46,8 +46,8 @@ keywords:
     Remove contaminated clothing, flush exposed skin with water/soap. If eyes exposed or irritated flush for 15 minutes. Contaminated clothing not to be transported. If exposure occurred due to a house fire, clothing should be removed from the patient followed with washing of soot/smoke with mild soap and water. 
 
     ## **Patient Treatment**
-        * High flow O2, support ABC’s and treat as per BCEHS CPGs. 
-        * Antidote is hydroxocobalamin, prioritize transport to hospital for treatment. 
+    - High flow O2, support ABC’s and treat as per BCEHS CPGs. 
+    - Antidote is hydroxocobalamin, prioritize transport to hospital for treatment. 
 
     ## **Safe Transfer of Care**
     Patient should be decontaminated and clothing removed prior to transferring care/entering hospital.  
