@@ -55,7 +55,7 @@ keywords:
     For inhalational exposure, remove patient from source of vapors. Wash exposed skin with water, using soap if available. If eyes exposed flush for 5 minutes. Do not transport contaminated clothing with patient. Use exhaust fan during transport. 
 
     ## **Patient Treatment**
-    - Anticipate declining level of consciousness; be prepared to support ventilations and maintain airway as indicated. Treat as per BCEHS CPGs.
+    Anticipate declining level of consciousness; be prepared to support ventilations and maintain airway as indicated. Treat as per BCEHS CPGs.
 
     ## **Safe Transfer of Care**
     Patients will breathe off acetone; however, this will not be in a sufficient concentration to cause risk to care providers. No special precautions needed. 
@@ -76,7 +76,7 @@ keywords:
     <a href="/ps/chemical/erg/erg_Acetone.pdf" target="_blank">ERG (PDF)</a>
 
 !!! other "Acetone Product Stewardship Summary (Shell Chemicals)"
-    <a href="/ps/chemical/other/other_Acetone.pdf" target="_blank"Acetone Product Stewardship Summary (Shell Chemicals) (PDF)</a>
+    <a href="/ps/chemical/other/Acetone.pdf" target="_blank"Acetone Product Stewardship Summary (Shell Chemicals) (PDF)</a>
 ---
 
 ### Revision History
