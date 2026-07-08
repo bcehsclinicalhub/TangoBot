@@ -3,13 +3,23 @@
   <h1 style="margin-top: 10px;">☣️ Safety Data Sheets</h1>
 </div>
 
+## 1
+<div class="index-grid">
+    <a href="2-4-dinitrophenol/">2-4 Dinitrophenol</a>
+</div>
 
 ## A
+<div class="index-grid">
+    <a href="acetone/">Acetone</a>
+</div>
 <div class="index-grid">
     <a href="anhydrous-ammonia/">Anhydrous Ammonia</a>
 </div>
 
-## C
+## B
+<div class="index-grid">
+    <a href="benzene/">Benzene</a>
+</div>
 <div class="index-grid">
     <a href="borates/">Borates</a>
 </div>
@@ -22,10 +32,18 @@
     <a href="chlorine/">Chlorine</a>
 </div>
 <div class="index-grid">
+    <a href="chlorophenoxy-herbicides/">Chlorophenoxy Herbicides</a>
+</div>
+<div class="index-grid">
     <a href="chlorine-dioxide/">Chlorine Dioxide</a>
 </div>
 <div class="index-grid">
     <a href="cyanide-salts/">Cyanide Salts</a>
+</div>
+
+## E
+<div class="index-grid">
+    <a href="ethylene/">Ethylene</a>
 </div>
 
 ## F
@@ -64,8 +82,14 @@
 <div class="index-grid">
     <a href="propane/">Propane</a>
 </div>
+<div class="index-grid">
+    <a href="propylene/">Propylene</a>
+</div>
 
 ## S
+<div class="index-grid">
+    <a href="sodium-azide/">Sodium Azide</a>
+</div>
 <div class="index-grid">
     <a href="sodium-chlorate/">Sodium Chlorate</a>
 </div>
@@ -85,5 +109,8 @@
     <a href="sulphur-dioxide/">Sulphur Dioxide</a>
 </div>
 
-
+## T
+<div class="index-grid">
+    <a href="toluene/">Toluene</a>
+</div>
 <a href="#" class="back-to-top">↑ TOP</a>
