@@ -76,7 +76,7 @@ keywords:
 !!! danger "Emergency Response Guidebook"
     <a href="/ps/chemical/erg/erg_SodiumAzide.pdf" target="_blank">ERG (PDF)</a>
 
-!!! other "US CDC Guide for Sodium Azide"
+!!! success "US CDC Guide for Sodium Azide"
     <a href="/ps/chemical/other/sodiumazide.pdf" target="_blank">US CDC Guide for Sodium Azide (PDF)</a>
     
 ---

@@ -75,7 +75,7 @@ keywords:
 !!! danger "Emergency Response Guidebook"
     <a href="/ps/chemical/erg/erg_SulfurDioxide.pdf" target="_blank">ERG (PDF)</a>
 
-!!! other "WorkSafe BC Bulletin on SO2 in Winemaking"
+!!! success "WorkSafe BC Bulletin on SO2 in Winemaking"
     <a href="/ps/chemical/other/sulphurdioxide.pdf" target="_blank">WorkSafe BC Bulletin on SO2 in Winemaking (PDF)</a>
 ---
 
