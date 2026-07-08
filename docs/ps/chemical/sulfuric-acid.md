@@ -47,14 +47,14 @@ keywords:
     Strong acid causing coagulative necrosis. High risk of blindness if eye exposure occurs. Inhalation of vapors will cause irritation, burns and edema in upper airway, and ingestion will cause significant GI burns.  
 
     ## **Patient Decontamination**
-        * Continuous irrigation of eyes until testing in-hospital confirms neutral pH. EYES TAKE PRECEDENCE. 
-        * Clothing removed from patient without pulling over the head. Contaminated clothes left on scene. 
-        * Irrigation of exposed skin for a minimum of 30 minutes.  
-        * Do not attempt to neutralize acid with a base, will cause exothermic reaction causing thermal burns. 
+    - Continuous irrigation of eyes until testing in-hospital confirms neutral pH. EYES TAKE PRECEDENCE. 
+    - Clothing removed from patient without pulling over the head. Contaminated clothes left on scene. 
+    - Irrigation of exposed skin for a minimum of 30 minutes.  
+    - Do not attempt to neutralize acid with a base, will cause exothermic reaction causing thermal burns. 
 
     ## **Patient Treatment**
-        * Decontamination as above. If present, burst blisters on skin. 
-        * Treatment of airway/breathing concerns and analgesia as per BCEHS CPGs.  
+    - Decontamination as above. If present, burst blisters on skin. 
+    - Treatment of airway/breathing concerns and analgesia as per BCEHS CPGs.  
 
     ## **Safe Transfer of Care**
     If initial decontamination has occurred there is no risk of secondary contamination. If ingested staff should use standard contact and splash precautions. No risk of offgassing.  
