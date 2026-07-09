@@ -109,48 +109,48 @@ The pump attaches to the bracket by sliding lining up the grooves on the pump wi
 
 **Common Alarms**
 
-Downstream Occlusion 
+*Downstream Occlusion* 
 
-_Causes:_
-* Kinked tubing
-* Interstitial IV
-* Bent arm (especially if AC)
-* Roller clamp
-* Thrombus
-* You’re sitting on it
+Causes:
+- Kinked tubing
+- Interstitial IV
+- Bent arm (especially if AC)
+- Roller clamp
+- Thrombus
+- You’re sitting on it
 
-_Solutions:_
-* Address cause of kinked line
-* Flush the IV
-* Be aware of bolus
-* Restart IV
-* Move
+Solutions:
+- Address cause of kinked line
+- Flush the IV
+- Be aware of bolus
+- Restart IV
+- Move
 
-Upstream Occlusion
+*Upstream Occlusion*
 
-_Causes:_
-* Clamp closed between pump and IV bag
-* Closed vent port on drip chamber with rigid container
-* Kinked upstream tubing
+Causes:
+- Clamp closed between pump and IV bag
+- Closed vent port on drip chamber with rigid container
+- Kinked upstream tubing
 
-_Solutions:_
-* Open clamp
-* Open vent port
-* Un-kink tubing
+Solutions:
+- Open clamp
+- Open vent port
+- Un-kink tubing
 
-Air Bubble
+*Air Bubble*
 
-_Causes:_
-* Air introduced during priming
-* Changing bags
-* Accessing Luer-lock ports
-* Inverted bag
+Causes:
+- Air introduced during priming
+- Changing bags
+- Accessing Luer-lock ports
+- Inverted bag
 
-_Solutions:_
-* Address cause of air entrainment
-* Follow screen prompts to prime the line
-* Detach from patient to avoid injecting air
-* Use syringe to remove air in the line at the middle port
+Solutions:
+- Address cause of air entrainment
+- Follow screen prompts to prime the line
+- Detach from patient to avoid injecting air
+- Use syringe to remove air in the line at the middle port
 
 !!! warning: The occlusion alarms and need for higher pressure can indicate a problem with the IV or IO or infusion system (Interstitial IV, Dislodged IO). Troubleshoot and check your IV/infusion before adjusting the pressure. 
 
@@ -159,8 +159,8 @@ _Solutions:_
 Push the BOL button > Select the bolus dose unit you want to use
 
 Usually, we want to bolus:
-* A quantity of drug (i.e., mg)
-* A volume of fluid (i.e., ml)
+- A quantity of drug (i.e., mg)
+- A volume of fluid (i.e., ml)
 
 Push the or OK button to select ml. You can now enter the amount in ml you wish to bolus. Units are shown on the bottom right. The confirmation screen shows what you selected as a check to make sure it’s what you intended.
 
@@ -171,12 +171,12 @@ Pressing BOL again will deliver the bolus.
 To deliver a secondary infusion a **Secondary Medication Set** is used.
 
 Simple equipment:
-* Spike
-* Drip chamber
-* Tubing (93 cm long)
-* Roller clamp
-* Luer-lock end
-* Blue hanger
+- Spike
+- Drip chamber
+- Tubing (93 cm long)
+- Roller clamp
+- Luer-lock end
+- Blue hanger
 
 The secondary set is used to spike the medication to be delivered over a set time. The secondary set is attached to the most proximal port of the main B. Braun drip set. This is the first port after the drip chamber and before the set enters the IV pump.
 
@@ -195,19 +195,15 @@ Repeat steps 1 to 3 until all the air is removed from the band
 **After Air Removal from VCD**
 
 Leave the band on the patient’s wrist. Continue to observe for the following while in transit:
-* Assess site for hematoma or bleeding
-* Capillary refill (< 3 seconds)
-* Coolness and/or colour change
-* O2 saturation of affected thumb
-* Pain, numbness and tingling
-* Continue the scheduled site checks every 15 min
+- Assess site for hematoma or bleeding
+- Capillary refill (< 3 seconds)
+- Coolness and/or colour change
+- O2 saturation of affected thumb
+- Pain, numbness and tingling
+- Continue the scheduled site checks every 15 min
 
 
 ## References
-
-**Related BCEHS Policy**
-
-[Placeholder - unsure of policy](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-11-85066.pdf){:target="_blank .external-link}
 
 **Guidelines/Procedures/Forms**
 
