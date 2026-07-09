@@ -55,10 +55,10 @@ different dose rates as it only specifies the volume and not the amount of drug.
 With the expansion of PCP scope of practice, they are now able to administer out-of-scope medications under the orders of a physician, equipping them to manage many of these transfers without an escort. A training program and IV pumps are being provided to PCP crews in the two stations in the Fraser Valley on a trial basis to test the feasibility of PCP crews performing low-acuity transfers requiring out-of-scope care. 
 
 PCPs will be caring for patients who are expected to be stable during transport and require one or more of the following interventions:
-  * Cardiac Monitoring
-  * Single IV medication infusion 
-  * Vascular Constriction Band
-  * PRN medication administration required during transport
+* Cardiac Monitoring
+* Single IV medication infusion 
+* Vascular Constriction Band
+* PRN medication administration required during transport
 
 The PCP crews will be able to administer out-of-scope medications either using the IV pump or PRN by any route under the orders of an EPOS physician or transport advisor. 
 
@@ -91,7 +91,7 @@ BCEHS is utilizing the B. Braun Infusomat® Space® Large Volume Pump.
 * Priming volume is 26 mL
 * 15 gtts set (compared with our regular 10 or 60 sets) – 15 drops = 1 milliliter
 
-Components
+**Components**
 * Normal spike/drip chamber
 * White slide clamp
 * 3 Luer-lock ports
@@ -109,9 +109,9 @@ The pump attaches to the bracket by sliding lining up the grooves on the pump wi
 
 **Common Alarms**
 
-*Downstream Occlusion* 
+**Downstream Occlusion** 
 
-Causes:
+*Causes:*
 - Kinked tubing
 - Interstitial IV
 - Bent arm (especially if AC)
@@ -119,40 +119,41 @@ Causes:
 - Thrombus
 - You’re sitting on it
 
-Solutions:
+*Solutions:*
 - Address cause of kinked line
 - Flush the IV
 - Be aware of bolus
 - Restart IV
 - Move
 
-*Upstream Occlusion*
+**Upstream Occlusion**
 
-Causes:
+*Causes:*
 - Clamp closed between pump and IV bag
 - Closed vent port on drip chamber with rigid container
 - Kinked upstream tubing
 
-Solutions:
+*Solutions:*
 - Open clamp
 - Open vent port
 - Un-kink tubing
 
-*Air Bubble*
+**Air Bubble**
 
-Causes:
+*Causes:*
 - Air introduced during priming
 - Changing bags
 - Accessing Luer-lock ports
 - Inverted bag
 
-Solutions:
+*Solutions:*
 - Address cause of air entrainment
 - Follow screen prompts to prime the line
 - Detach from patient to avoid injecting air
 - Use syringe to remove air in the line at the middle port
 
-!!! warning: The occlusion alarms and need for higher pressure can indicate a problem with the IV or IO or infusion system (Interstitial IV, Dislodged IO). Troubleshoot and check your IV/infusion before adjusting the pressure. 
+!!! warning "**SAFETY ALERT**" 
+The occlusion alarms and need for higher pressure can indicate a problem with the IV or IO or infusion system (Interstitial IV, Dislodged IO). Troubleshoot and check your IV/infusion before adjusting the pressure. 
 
 **Providing a Bolus**
 
@@ -187,7 +188,9 @@ The secondary infusion that you are delivering **must** hang higher than the ori
 **Deflation**
 
 1) Use the syringe provided with the band. Ensure the syringe is in the 2 mL deflation position.
+
 2) Remove 2 mL of air from the inflation balloon every 15 minutes via air port. Document time and volume of air removed; remove syringe from the band inflator.
+
 3) Re-assess site for bleeding and hematoma after each deflation. If bleeding restarts, reinflate to hemostasis and wait 30 mins.
 
 Repeat steps 1 to 3 until all the air is removed from the band
