@@ -160,7 +160,8 @@ The pump attaches to the bracket by sliding lining up the grooves on the pump wi
 - Detach from patient to avoid injecting air
 - Use syringe to remove air in the line at the middle port
 
-!!! warning "**SAFETY ALERT**" The occlusion alarms and need for higher pressure can indicate a problem with the IV or IO or infusion system (Interstitial IV, Dislodged IO). Troubleshoot and check your IV/infusion before adjusting the pressure. 
+!!! warning "**SAFETY ALERT**"
+    * The occlusion alarms and need for higher pressure can indicate a problem with the IV or IO or infusion system (Interstitial IV, Dislodged IO). Troubleshoot and check your IV/infusion before adjusting the pressure. 
 
 **Providing a Bolus**
 
