@@ -16,7 +16,7 @@
 
 <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
 
-  <!-- Wider table display -->
+  <!-- Expanded max-width to 900px for a wider table display -->
   <div id="shift-board" style="margin: 32px 0; max-width: 900px; width: 100%;">
     <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--md-typeset-a-color, #eaeaea); padding-bottom: 8px; margin-bottom: 16px; width: 100%;">
       <div style="display: flex; align-items: baseline; gap: 12px;">
@@ -45,16 +45,21 @@
 </div>
 
 ## ❓ Need Help?
-!!! caution "Support"
-    This site is **NOT** supported by the BCEHS Help Desk | contact [Lee Roberts](mailto:lee.roberts@bcehs.ca) for feedback or support.
+!!! success "Support"
+    This site is **NOT** supported by the BCEHS Help Desk | contact Lee Roberts for feedback or support.
 
 <script>
 async function displaySchedule() {
   try {
-    // Pointing directly to schedule.xml in your highest main folder
-    const fileUrl = window.location.origin + "/schedule.xml";
+    // Targets the native assets folder where your site images are stored
+    let basePath = window.location.pathname;
+    if (!basePath.endsWith('/')) {
+      basePath = basePath.substring(0, basePath.lastIndexOf('/') + 1);
+    }
+    const fileUrl = window.location.origin + basePath + "assets/data.xml";
+    
     const response = await fetch(fileUrl + "?t=" + Date.now());
-    if (!response.ok) { throw new Error(`Unable to load schedule.xml (HTTP ${response.status})`); }
+    if (!response.ok) { throw new Error(`Unable to load data.xml (HTTP ${response.status})`); }
     const xmlText = await response.text();
     const parser = new DOMParser();
     const xml = parser.parseFromString(xmlText, "text/xml");
@@ -99,7 +104,7 @@ async function displaySchedule() {
           const providerId = sp.getElementsByTagName("ProviderId")[0]?.textContent?.trim();
           const providerName = providerLookup[providerId] || providerId || "Unknown Provider";
 
-          // Pull individual shift hours safely
+          // Safe extraction of split shift hours
           const startIso = sp.getElementsByTagName("ScheduledStart")[0]?.textContent;
           const endIso = sp.getElementsByTagName("ScheduledEnd")[0]?.textContent;
           let hoursStr = "—";
