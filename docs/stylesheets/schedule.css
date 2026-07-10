@@ -86,9 +86,9 @@
 
 .schedule-table td{
 
-    padding:.85rem;
+    vertical-align:top;
 
-    border-top:1px solid var(--md-default-fg-color--lightest);
+    padding:12px 16px;
 
 }
 
@@ -127,14 +127,13 @@
 
     flex-direction:column;
 
-    align-items:flex-start;
-
     justify-content:center;
 
-    gap:4px;
+    gap:3px;
 
-    min-height:52px;
+    min-height:54px;
 
+    padding-top:8px;
 }
 
 .schedule-hours{
@@ -233,25 +232,20 @@
 }
 .shift-pill{
 
-    display:inline-flex;
+    display:inline-block;
 
-    align-items:center;
+    width:72px;
 
-    justify-content:center;
+    text-align:center;
 
-    min-width:78px;
-
-    padding:.35rem .75rem;
+    padding:.35rem 0;
 
     border-radius:999px;
 
-    font-size:.70rem;
-
     font-weight:700;
 
-    letter-spacing:.05em;
-
 }
+
 .day{
     background:#dff6dd;
     color:#1b5e20;
@@ -275,4 +269,18 @@
 .other{
     background:#ececec;
     color:#444;
+}
+
+.shift-code{
+
+    margin-top:6px;
+
+    margin-left:6px;
+
+    font-size:.82rem;
+
+    color:#666;
+
+    font-family:var(--md-code-font-family);
+
 }
