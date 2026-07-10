@@ -174,3 +174,21 @@
 
     font-weight:700;
 }
+
+.provider-chip{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:.35rem;
+
+    padding:.30rem .75rem;
+
+    border-radius:999px;
+
+    background:var(--md-code-bg-color);
+
+    font-weight:500;
+
+}

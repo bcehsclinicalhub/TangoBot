@@ -170,7 +170,13 @@ tbody.insertAdjacentHTML("beforeend",`
 </td>
 
 <td class="schedule-shift">
-    ${shiftName}
+
+    ${getShiftPill(shiftName)}
+
+    <div class="shift-code">
+        ${shiftName.replace(/^(Day|Swing|Eve|Night)\s*/i, "")}
+    </div>
+
 </td>
 
 <td class="schedule-hours">
@@ -178,8 +184,9 @@ tbody.insertAdjacentHTML("beforeend",`
 </td>
 
 <td class="schedule-provider">
-    <span class="material-symbols-outlined schedule-icon">badge</span>
-    ${providerName}
+    <span class="provider-chip">
+        👤 ${providerName}
+    </span>
 </td>
 
 </tr>
