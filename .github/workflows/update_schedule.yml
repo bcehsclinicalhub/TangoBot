@@ -1,29 +1,111 @@
-name: Hourly Schedule Fetcher
+name: Update Schedule
 
 on:
   schedule:
-    - cron: '0 * * * *' # This tells it to run every hour on the hour
-  workflow_dispatch: # This adds a button so you can run it manually to test it
+    - cron: '0 * * * *'   # Every hour
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  get-schedule:
+  update:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Check out repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Fetch and save data
-      env:
-        SECRET_URL: ${{ secrets.BYTEBLOC_URL }}
-      run: |
-        # CHANGED HERE: Added docs/ before schedule.xml
-        curl -s "$SECRET_URL" -o docs/data.xml
+      - name: Download latest schedule
+        env:
+          SECRET_URL: ${{ secrets.BYTEBLOC_URL }}
+        run: |
 
-    - name: Commit and push changes
-      run: |
-        git config --global user.name "Schedule Bot"
-        git config --global user.email "bot@github.com"
-        # CHANGED HERE: Added docs/ before schedule.xml
-        git add docs/data.xml
-        git commit -m "Hourly schedule update" || exit 0
-        git push
+          set -e
+
+          echo "Downloading latest schedule..."
+
+          HTTP_CODE=$(curl \
+            --silent \
+            --show-error \
+            --location \
+            --connect-timeout 30 \
+            --max-time 120 \
+            --write-out "%{http_code}" \
+            --output schedule.tmp \
+            "$SECRET_URL")
+
+          echo "HTTP Status: $HTTP_CODE"
+
+          if [ "$HTTP_CODE" != "200" ]; then
+            echo "Download failed."
+            rm -f schedule.tmp
+            exit 1
+          fi
+
+          if [ ! -s schedule.tmp ]; then
+            echo "Downloaded file is empty."
+            rm -f schedule.tmp
+            exit 1
+          fi
+
+          if grep -qi "called at most once every 10 min" schedule.tmp; then
+            echo "ByteBloc rate limit reached."
+            rm -f schedule.tmp
+            exit 1
+          fi
+
+          if ! grep -q "^<" schedule.tmp; then
+            echo "Response is not XML."
+            cat schedule.tmp
+            rm -f schedule.tmp
+            exit 1
+          fi
+
+          sudo apt-get update >/dev/null
+          sudo apt-get install -y libxml2-utils >/dev/null
+
+          if ! xmllint --noout schedule.tmp; then
+            echo "XML is malformed."
+            rm -f schedule.tmp
+            exit 1
+          fi
+
+          ROOT=$(xmllint --xpath 'name(/*)' schedule.tmp)
+
+          if [ "$ROOT" != "Schedule" ]; then
+            echo "Unexpected XML root element: $ROOT"
+            rm -f schedule.tmp
+            exit 1
+          fi
+
+          mkdir -p docs/assets
+
+          if [ -f docs/assets/data.xml ]; then
+            if cmp -s schedule.tmp docs/assets/data.xml; then
+              echo "Schedule unchanged."
+              rm schedule.tmp
+              exit 0
+            fi
+          fi
+
+          mv schedule.tmp docs/assets/data.xml
+
+          echo "Schedule updated successfully."
+
+      - name: Commit updated schedule
+        run: |
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add docs/assets/data.xml
+
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+
+          git commit -m "Update schedule"
+
+          git push

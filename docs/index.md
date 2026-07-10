@@ -16,7 +16,6 @@
 
 <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
 
-  <!-- Expanded max-width to 900px for a wider table display -->
   <div id="shift-board" style="margin: 32px 0; max-width: 900px; width: 100%;">
     <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--md-typeset-a-color, #eaeaea); padding-bottom: 8px; margin-bottom: 16px; width: 100%;">
       <div style="display: flex; align-items: baseline; gap: 12px;">
@@ -51,7 +50,8 @@
 <script>
 async function displaySchedule() {
   try {
-    const fileUrl = window.location.origin + "/data.xml";
+    const fileUrl = "assets/data.xml";
+    // Using an aggressive cache-busting configuration to force fresh browser retrieval
     const response = await fetch(fileUrl, {
       method: 'GET',
       headers: { 'Cache-Control': 'no-cache', 'Pragma': 'no-cache' },
