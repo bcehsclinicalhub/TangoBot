@@ -44,8 +44,8 @@
 </div>
 
 ## ❓ Need Help?
-!!! caution "Support"
-    This site is **NOT** supported by the BCEHS Help Desk | contact [Lee Roberts](mailto:lee.roberts@bcehs.ca) for feedback or support.
+!!! success "Support"
+    This site is **NOT** supported by the BCEHS Help Desk | contact [Lee Roberts](mailto:lee.roberts@bcehs.ca) for any issues, feedback or support.
 
 <script>
 async function displaySchedule() {
