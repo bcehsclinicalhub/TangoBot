@@ -122,7 +122,19 @@
 }
 
 .schedule-shift{
-    font-weight:500;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+    justify-content:center;
+
+    gap:4px;
+
+    min-height:52px;
+
 }
 
 .schedule-hours{
@@ -131,9 +143,11 @@
 }
 
 .schedule-provider{
-    display:flex;
-    align-items:center;
-    gap:.4rem;
+
+    vertical-align:top;
+
+    padding-top:14px;
+
 }
 
 .schedule-icon{
@@ -191,4 +205,74 @@
 
     font-weight:500;
 
+}
+
+.schedule-table td{
+
+    vertical-align: top;
+
+    padding: 14px 16px;
+
+    border-top: 1px solid #ececec;
+
+}
+.time-pill{
+
+    display:inline-block;
+
+    padding:.35rem .80rem;
+
+    border-radius:999px;
+
+    background:#f5f6f8;
+
+    font-weight:600;
+
+    font-variant-numeric:tabular-nums;
+
+}
+.shift-pill{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    min-width:78px;
+
+    padding:.35rem .75rem;
+
+    border-radius:999px;
+
+    font-size:.70rem;
+
+    font-weight:700;
+
+    letter-spacing:.05em;
+
+}
+.day{
+    background:#dff6dd;
+    color:#1b5e20;
+}
+
+.swing{
+    background:#fff3cd;
+    color:#8a6100;
+}
+
+.evening{
+    background:#dbeafe;
+    color:#1d4ed8;
+}
+
+.night{
+    background:#ede9fe;
+    color:#6d28d9;
+}
+
+.other{
+    background:#ececec;
+    color:#444;
 }

@@ -199,7 +199,9 @@ tbody.insertAdjacentHTML("beforeend",`
 </td>
 
 <td class="schedule-hours">
-    ${start} - ${end}
+    <span class="time-pill">
+        ${start} – ${end}
+    </span>
 </td>
 
 <td class="schedule-provider">
