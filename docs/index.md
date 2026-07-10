@@ -190,10 +190,14 @@ tbody.insertAdjacentHTML("beforeend",`
 
 <td class="schedule-shift">
 
-    ${getShiftPill(shiftName)}
+    <div class="shift-stack">
 
-    <div class="shift-code">
-        ${shiftName.replace(/^(Day|Swing|Eve|Night)\s*/i, "")}
+        ${getShiftPill(shiftName)}
+
+        <div class="shift-code">
+            ${shiftName.replace(/^(Day|Swing|Eve|Night)\s*/i,"")}
+        </div>
+
     </div>
 
 </td>
