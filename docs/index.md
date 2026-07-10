@@ -50,13 +50,20 @@
 <script>
 async function displaySchedule() {
   try {
-    const fileUrl = window.location.origin + "/data.xml";
-    const response = await fetch(fileUrl + "?t=" + Date.now());
-    if (!response.ok) { throw new Error("Unable to load data.xml"); }
+    let response;
+    const cacheBuster = "?t=" + Date.now();
+    
+    // 1. Try loading data.xml right here in the current subfolder directory
+    try {
+      response = await fetch("data.xml" + cacheBuster);
+      if (!response.ok) throw new Error();
+    } catch (e) {
+      // 2. Fallback: Try loading it from the absolute main root origin directory
+      response = await fetch(window.location.origin + "/data.xml" + cacheBuster);
+      if (!response.ok) throw new Error("Could not find data.xml");
+    }
+
     const xmlText = await response.text();
-    const parser = new DOMParser();
-    const xml = parser.parseFromString(xmlText, "text/xml");
-    if (xml.querySelector("parsererror")) { throw new Error("XML parsing error"); }
 
     const shiftLookup = {};
     xml.querySelectorAll("Shift").forEach(shift => {
