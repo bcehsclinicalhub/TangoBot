@@ -6,7 +6,7 @@
 
 <div class="grid cards" markdown>
 
-* :ambulance: **Param Specialists**
+* :ambulance: **Paramedic Specialists**
     [Enter PS Page →](ps/index.md){ .md-button }
 
 * <span style="color: #d32f2f;">☎</span> **Secondary Triage**
@@ -16,6 +16,7 @@
 
 <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
 
+  <!-- Expanded max-width from 750px to 900px to make the table wider -->
   <div id="shift-board" style="margin: 32px 0; max-width: 900px; width: 100%;">
     <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--md-typeset-a-color, #eaeaea); padding-bottom: 8px; margin-bottom: 16px; width: 100%;">
       <div style="display: flex; align-items: baseline; gap: 12px;">
@@ -45,37 +46,34 @@
 
 ## ❓ Need Help?
 !!! success "Support"
-    This site is **NOT** supported by the BCEHS Help Desk | contact [Lee Roberts](mailto:lee.roberts@bcehs.ca) for feedback or support.
+    This site is **NOT** supported by the BCEHS Help Desk | contact [Lee Roberts](mailto:lee.roberts@bcehs.ca) for any issues, feedback or support.
 
 <script>
 async function displaySchedule() {
   try {
-    // Removed window.location.origin so it fetches data.xml relative to the current subfolder
-    const response = await fetch("data.xml?t=" + Date.now());
+    // Restored the working absolute path root
+    const fileUrl = window.location.origin + "/data.xml";
+    const response = await fetch(fileUrl + "?t=" + Date.now());
     if (!response.ok) { throw new Error(`Unable to load data.xml (HTTP ${response.status})`); }
     const xmlText = await response.text();
     const parser = new DOMParser();
     const xml = parser.parseFromString(xmlText, "text/xml");
-    
-    const parseError = xml.querySelector("parsererror");
-    if (parseError) { 
-      throw new Error("XML syntax error inside data.xml: " + parseError.textContent.split("\n")[0]); 
-    }
-
-    const getElements = (parent, tag) => Array.from(parent.querySelectorAll('*')).filter(el => el.localName === tag);
-    const getElement = (parent, tag) => Array.from(parent.querySelectorAll('*')).find(el => el.localName === tag);
+    if (xml.getElementsByTagName("parsererror").length > 0) { throw new Error("XML parsing error"); }
 
     const shiftLookup = {};
-    getElements(xml, "Shift").forEach(shift => {
-      const id = getElement(shift, "ShiftId")?.textContent?.trim();
-      const name = getElement(shift, "ShiftName")?.textContent?.trim();
+    Array.from(xml.getElementsByTagName("Shift")).forEach(shift => {
+      const id = shift.getElementsByTagName("ShiftId")[0]?.textContent?.trim();
+      const name = shift.getElementsByTagName("ShiftName")[0]?.textContent?.trim();
       if (id) shiftLookup[id] = name;
     });
 
     const providerLookup = {};
-    getElements(xml, "Provider").forEach(provider => {
-      const id = getElement(provider, "ProviderId")?.textContent?.trim();
-      const name = getElement(provider, "PrintName")?.textContent?.trim() || getElement(provider, "ProviderName")?.textContent?.trim() || getElement(provider, "DisplayName")?.textContent?.trim() || getElement(provider, "Name")?.textContent?.trim();
+    Array.from(xml.getElementsByTagName("Provider")).forEach(provider => {
+      const id = provider.getElementsByTagName("ProviderId")[0]?.textContent?.trim();
+      const name = provider.getElementsByTagName("PrintName")[0]?.textContent?.trim() || 
+                   provider.getElementsByTagName("ProviderName")[0]?.textContent?.trim() || 
+                   provider.getElementsByTagName("DisplayName")[0]?.textContent?.trim() || 
+                   provider.getElementsByTagName("Name")[0]?.textContent?.trim();
       if (id) providerLookup[id] = name || "Unknown";
     });
 
@@ -89,20 +87,21 @@ async function displaySchedule() {
     tbody.innerHTML = "";
     let rowsFound = 0;
 
-    getElements(xml, "Day").forEach(day => {
-      const dayDate = getElement(day, "DayDate")?.textContent?.trim();
+    Array.from(xml.getElementsByTagName("Day")).forEach(day => {
+      const dayDate = day.getElementsByTagName("DayDate")[0]?.textContent?.trim();
       if (dayDate !== todayStr && dayDate !== tomorrowStr) return;
 
-      getElements(day, "SchedShift").forEach(schedShift => {
-        const shiftId = getElement(schedShift, "ShiftId")?.textContent?.trim();
+      Array.from(day.getElementsByTagName("SchedShift")).forEach(schedShift => {
+        const shiftId = schedShift.getElementsByTagName("ShiftId")[0]?.textContent?.trim();
         const shiftName = shiftLookup[shiftId] || shiftId || "Unknown Shift";
 
-        getElements(schedShift, "SchedProvider").forEach(sp => {
-          const providerId = getElement(sp, "ProviderId")?.textContent?.trim();
+        Array.from(schedShift.getElementsByTagName("SchedProvider")).forEach(sp => {
+          const providerId = sp.getElementsByTagName("ProviderId")[0]?.textContent?.trim();
           const providerName = providerLookup[providerId] || providerId || "Unknown Provider";
 
-          const startIso = getElement(sp, "ScheduledStart")?.textContent;
-          const endIso = getElement(sp, "ScheduledEnd")?.textContent;
+          // Safely extract split hours using namespace-immune method
+          const startIso = sp.getElementsByTagName("ScheduledStart")[0]?.textContent;
+          const endIso = sp.getElementsByTagName("ScheduledEnd")[0]?.textContent;
           let hoursStr = "—";
           if (startIso && endIso) {
             const startTime = startIso.split("T")[1]?.substring(0, 5) || "";
@@ -139,13 +138,13 @@ async function displaySchedule() {
       tbody.innerHTML = `<tr><td colspan="4" style="padding: 24px; text-align: center; color: #777;">No assignments found for today or tomorrow.</td></tr>`;
     }
 
-    const outputDate = getElement(xml, "DataOutputDate")?.textContent;
+    const outputDate = xml.getElementsByTagName("DataOutputDate")[0]?.textContent;
     if (outputDate) {
       document.getElementById("sync-time").innerText = "— Updated " + new Date(outputDate).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
     }
   } catch (err) {
     console.error(err);
-    document.getElementById("table-rows").innerHTML = `<tr><td colspan="4" style="padding: 16px; text-align: center; color: #d32f2f; font-weight: bold;">🚨 Debug Info: ${err.message}</td></tr>`;
+    document.getElementById("table-rows").innerHTML = `<tr><td colspan="4" style="padding: 16px; text-align: center; color: #d32f2f;">Error loading schedule.</td></tr>`;
   }
 }
 
