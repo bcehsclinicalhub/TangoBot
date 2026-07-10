@@ -50,20 +50,19 @@
 <script>
 async function displaySchedule() {
   try {
-    let response;
-    const cacheBuster = "?t=" + Date.now();
+    const fileUrl = window.location.origin + "/data.xml";
+    const response = await fetch(fileUrl + "?t=" + Date.now());
     
-    // 1. Try loading data.xml right here in the current subfolder directory
-    try {
-      response = await fetch("data.xml" + cacheBuster);
-      if (!response.ok) throw new Error();
-    } catch (e) {
-      // 2. Fallback: Try loading it from the absolute main root origin directory
-      response = await fetch(window.location.origin + "/data.xml" + cacheBuster);
-      if (!response.ok) throw new Error("Could not find data.xml");
+    if (!response.ok) { 
+      throw new Error(`HTTP Error: ${response.status} ${response.statusText} when trying to load /data.xml`); 
     }
-
+    
     const xmlText = await response.text();
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(xmlText, "text/xml");
+    if (xml.querySelector("parsererror")) { 
+      throw new Error("XML formatting or syntax parsing error inside your data.xml file."); 
+    }
 
     const shiftLookup = {};
     xml.querySelectorAll("Shift").forEach(shift => {
@@ -82,8 +81,8 @@ async function displaySchedule() {
     const today = new Date();
     const tomorrow = new Date();
     tomorrow.setDate(today.getDate() + 1);
-    const todayStr = "2026-07-07";
-    const tomorrowStr = "2026-07-08";
+    const todayStr = today.toLocaleDateString("en-CA");
+    const tomorrowStr = tomorrow.toLocaleDateString("en-CA");
 
     const tbody = document.getElementById("table-rows");
     tbody.innerHTML = "";
@@ -135,7 +134,8 @@ async function displaySchedule() {
     }
   } catch (err) {
     console.error(err);
-    document.getElementById("table-rows").innerHTML = `<tr><td colspan="3" style="padding: 16px; text-align: center; color: #d32f2f;">Error loading schedule.</td></tr>`;
+    // This will print the EXACT background error onto your screen
+    document.getElementById("table-rows").innerHTML = `<tr><td colspan="3" style="padding: 16px; text-align: center; color: #d32f2f; font-weight: bold;">🚨 Debug Info: ${err.message}</td></tr>`;
   }
 }
 
