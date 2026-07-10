@@ -8,7 +8,7 @@
 .schedule-card{
 
     width:100%;
-    max-width:950px;
+    max-width:1050px;
 
     background:var(--md-default-bg-color);
 
@@ -112,4 +112,65 @@
 
     padding:2rem;
 
+}
+
+.schedule-date{
+    display:flex;
+    align-items:center;
+    gap:.6rem;
+    white-space:nowrap;
+}
+
+.schedule-shift{
+    font-weight:500;
+}
+
+.schedule-hours{
+    white-space:nowrap;
+    font-variant-numeric:tabular-nums;
+}
+
+.schedule-provider{
+    display:flex;
+    align-items:center;
+    gap:.4rem;
+}
+
+.schedule-icon{
+    font-size:18px;
+    color:var(--md-primary-fg-color);
+}
+
+.badge-today{
+
+    display:inline-block;
+
+    padding:.25rem .55rem;
+
+    border-radius:999px;
+
+    background:#e3f2fd;
+
+    color:#0d47a1;
+
+    font-size:.70rem;
+
+    font-weight:700;
+}
+
+.badge-tomorrow{
+
+    display:inline-block;
+
+    padding:.25rem .55rem;
+
+    border-radius:999px;
+
+    background:#e8f5e9;
+
+    color:#1b5e20;
+
+    font-size:.70rem;
+
+    font-weight:700;
 }

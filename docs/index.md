@@ -64,8 +64,8 @@
 </div>
 
 ## ❓ Need Help?
-!!! caution "Support"
-    This site is **NOT** supported by the BCEHS Help Desk | contact [Lee Roberts](mailto:lee.roberts@bcehs.ca) for feedback or support.
+!!! success "Support"
+    This site is **NOT** supported by the BCEHS Help Desk | contact [Lee Roberts](mailto:lee.roberts@bcehs.ca) for any issues, feedback or support.
 
 <script>
 async function displaySchedule() {
@@ -157,16 +157,31 @@ async function displaySchedule() {
             text(provider,"ScheduledEnd").split("T")[1]?.substring(0,5) ?? "";
 
           const badge =
-            dayDate === todayStr
-              ? `<span style="background:#e3f2fd;color:#0d47a1;padding:3px 6px;border-radius:3px;font-size:.7rem;font-weight:bold;margin-right:6px;">TODAY</span>`
-              : `<span style="background:#e8f5e9;color:#1b5e20;padding:3px 6px;border-radius:3px;font-size:.7rem;font-weight:bold;margin-right:6px;">TOMORROW</span>`;
+  dayDate === todayStr
+    ? `<span class="badge-today">TODAY</span>`
+    : `<span class="badge-tomorrow">TOMORROW</span>`;
 
-          tbody.insertAdjacentHTML("beforeend",`
-<tr style="border-bottom:1px solid #ececec">
-<td style="padding:10px">${badge}${dayDate}</td>
-<td style="padding:10px">${shiftName}</td>
-<td style="padding:10px">${start} - ${end}</td>
-<td style="padding:10px">👤 ${providerName}</td>
+tbody.insertAdjacentHTML("beforeend",`
+<tr>
+
+<td class="schedule-date">
+    ${badge}
+    <span>${dayDate}</span>
+</td>
+
+<td class="schedule-shift">
+    ${shiftName}
+</td>
+
+<td class="schedule-hours">
+    ${start} - ${end}
+</td>
+
+<td class="schedule-provider">
+    <span class="material-symbols-outlined schedule-icon">badge</span>
+    ${providerName}
+</td>
+
 </tr>
 `);
 
