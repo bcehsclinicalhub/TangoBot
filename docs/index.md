@@ -75,8 +75,8 @@ async function displaySchedule() {
     const today = new Date();
     const tomorrow = new Date();
     tomorrow.setDate(today.getDate() + 1);
-    const todayStr = today.toLocaleDateString("en-CA");
-    const tomorrowStr = tomorrow.toLocaleDateString("en-CA");
+    const todayStr = "2026-07-07";
+    const tomorrowStr = "2026-07-08";
 
     const tbody = document.getElementById("table-rows");
     tbody.innerHTML = "";
