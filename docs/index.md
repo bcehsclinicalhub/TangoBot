@@ -16,7 +16,7 @@
 
 <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
 
-  <!-- Expanded max-width from 750px to 900px to make the table wider -->
+  <!-- Wider table display -->
   <div id="shift-board" style="margin: 32px 0; max-width: 900px; width: 100%;">
     <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--md-typeset-a-color, #eaeaea); padding-bottom: 8px; margin-bottom: 16px; width: 100%;">
       <div style="display: flex; align-items: baseline; gap: 12px;">
@@ -45,16 +45,16 @@
 </div>
 
 ## ❓ Need Help?
-!!! success "Support"
-    This site is **NOT** supported by the BCEHS Help Desk | contact [Lee Roberts](mailto:lee.roberts@bcehs.ca) for any issues, feedback or support.
+!!! caution "Support"
+    This site is **NOT** supported by the BCEHS Help Desk | contact [Lee Roberts](mailto:lee.roberts@bcehs.ca) for feedback or support.
 
 <script>
 async function displaySchedule() {
   try {
-    // Restored the working absolute path root
-    const fileUrl = window.location.origin + "/data.xml";
+    // Pointing directly to schedule.xml in your highest main folder
+    const fileUrl = window.location.origin + "/schedule.xml";
     const response = await fetch(fileUrl + "?t=" + Date.now());
-    if (!response.ok) { throw new Error(`Unable to load data.xml (HTTP ${response.status})`); }
+    if (!response.ok) { throw new Error(`Unable to load schedule.xml (HTTP ${response.status})`); }
     const xmlText = await response.text();
     const parser = new DOMParser();
     const xml = parser.parseFromString(xmlText, "text/xml");
@@ -99,7 +99,7 @@ async function displaySchedule() {
           const providerId = sp.getElementsByTagName("ProviderId")[0]?.textContent?.trim();
           const providerName = providerLookup[providerId] || providerId || "Unknown Provider";
 
-          // Safely extract split hours using namespace-immune method
+          // Pull individual shift hours safely
           const startIso = sp.getElementsByTagName("ScheduledStart")[0]?.textContent;
           const endIso = sp.getElementsByTagName("ScheduledEnd")[0]?.textContent;
           let hoursStr = "—";
