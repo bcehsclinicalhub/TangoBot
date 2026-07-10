@@ -73,6 +73,25 @@ async function displaySchedule() {
   const text = (parent, tag) =>
     parent.querySelector(tag)?.textContent.trim() ?? "";
 
+    function getShiftPill(name) {
+
+    const lower = name.toLowerCase();
+
+    if (lower.startsWith("day"))
+        return '<span class="shift-pill day">DAY</span>';
+
+    if (lower.startsWith("swing"))
+        return '<span class="shift-pill swing">SWING</span>';
+
+    if (lower.startsWith("eve"))
+        return '<span class="shift-pill evening">EVENING</span>';
+
+    if (lower.startsWith("night"))
+        return '<span class="shift-pill night">NIGHT</span>';
+
+    return '<span class="shift-pill other">SHIFT</span>';
+}
+
   try {
 
     const response = await fetch("assets/data.xml", {
