@@ -6,7 +6,7 @@
 
 <div class="grid cards" markdown>
 
-* :ambulance: **Paramedic Specialists**
+* :ambulance: **Param Specialists**
     [Enter PS Page →](ps/index.md){ .md-button }
 
 * <span style="color: #d32f2f;">☎</span> **Secondary Triage**
@@ -16,7 +16,6 @@
 
 <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
 
-  <!-- Wider table display -->
   <div id="shift-board" style="margin: 32px 0; max-width: 900px; width: 100%;">
     <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--md-typeset-a-color, #eaeaea); padding-bottom: 8px; margin-bottom: 16px; width: 100%;">
       <div style="display: flex; align-items: baseline; gap: 12px;">
@@ -45,26 +44,24 @@
 </div>
 
 ## ❓ Need Help?
-!!! caution "Support"
+!!! success "Support"
     This site is **NOT** supported by the BCEHS Help Desk | contact [Lee Roberts](mailto:lee.roberts@bcehs.ca) for feedback or support.
 
 <script>
 async function displaySchedule() {
   try {
-    const fileUrl = window.location.origin + "/data.xml";
-    const response = await fetch(fileUrl + "?t=" + Date.now());
-    if (!response.ok) { throw new Error(`Unable to download data.xml (HTTP ${response.status})`); }
+    // Removed window.location.origin so it fetches data.xml relative to the current subfolder
+    const response = await fetch("data.xml?t=" + Date.now());
+    if (!response.ok) { throw new Error(`Unable to load data.xml (HTTP ${response.status})`); }
     const xmlText = await response.text();
     const parser = new DOMParser();
     const xml = parser.parseFromString(xmlText, "text/xml");
     
-    // Fallback system to show you exactly why and where your data file is broken
     const parseError = xml.querySelector("parsererror");
     if (parseError) { 
-      throw new Error("XML formatting/syntax error inside data.xml: " + parseError.textContent.split("\n")[0]); 
+      throw new Error("XML syntax error inside data.xml: " + parseError.textContent.split("\n")[0]); 
     }
 
-    // Helper functions to handle XML tags regardless of namespace strings
     const getElements = (parent, tag) => Array.from(parent.querySelectorAll('*')).filter(el => el.localName === tag);
     const getElement = (parent, tag) => Array.from(parent.querySelectorAll('*')).find(el => el.localName === tag);
 
@@ -104,7 +101,6 @@ async function displaySchedule() {
           const providerId = getElement(sp, "ProviderId")?.textContent?.trim();
           const providerName = providerLookup[providerId] || providerId || "Unknown Provider";
 
-          // Calculate split/individual times safely
           const startIso = getElement(sp, "ScheduledStart")?.textContent;
           const endIso = getElement(sp, "ScheduledEnd")?.textContent;
           let hoursStr = "—";
