@@ -16,50 +16,55 @@
 
 <div class="schedule-wrapper">
 
-  <div id="shift-board" class="schedule-card">
+    <div id="shift-board" class="schedule-card">
 
-    <div class="schedule-header">
-      <div class="schedule-title-group">
-        <h2 class="schedule-title">
-          📅 EPOS Schedule
-        </h2>
+        <div class="schedule-header">
 
-        <span id="sync-time" class="schedule-sync">
-          Loading shifts...
-        </span>
-      </div>
+            <div class="schedule-title">
+
+                <span class="schedule-icon">📅</span>
+
+                <div>
+
+                    <h2>EPOS Schedule</h2>
+
+                    <div class="schedule-subtitle">
+                        Today's Physician Coverage
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="schedule-updated">
+
+                <span id="sync-time">
+
+                    Loading...
+
+                </span>
+
+            </div>
+
+        </div>
+
+        <div class="schedule-body">
+
+            <div id="schedule-content">
+
+                <div class="schedule-loading">
+
+                    <div class="loading-spinner"></div>
+
+                    <p>Loading today's assignments...</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
-
-    <div class="schedule-table-container">
-
-      <table class="schedule-table">
-
-        <thead>
-
-          <tr>
-            <th>Date</th>
-            <th>Shift Name</th>
-            <th>Hours</th>
-            <th>Physician</th>
-          </tr>
-
-        </thead>
-
-        <tbody id="table-rows">
-
-          <tr>
-            <td colspan="4" class="schedule-loading">
-              Initializing view...
-            </td>
-          </tr>
-
-        </tbody>
-
-      </table>
-
-    </div>
-
-  </div>
 
 </div>
 
@@ -180,7 +185,7 @@ async function displaySchedule() {
     ? `<span class="badge-today">TODAY</span>`
     : `<span class="badge-tomorrow">TOMORROW</span>`;
 
-tbody.insertAdjacentHTML("beforeend",`
+scheduleContent.insertAdjacentHTML(...)
 <tr>
 
 <td class="schedule-date">
