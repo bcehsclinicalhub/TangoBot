@@ -14,31 +14,51 @@
 
 </div>
 
-<div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
+<div class="schedule-wrapper">
 
-  <div id="shift-board" style="margin: 32px 0; max-width: 900px; width: 100%;">
-    <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--md-typeset-a-color, #eaeaea); padding-bottom: 8px; margin-bottom: 16px; width: 100%;">
-      <div style="display: flex; align-items: baseline; gap: 12px;">
-        <h2 style="margin: 0; font-size: 1.4rem; font-weight: 700; border: none; padding: 0; color: var(--md-typeset-color, #333);">📅 EPOS Schedule</h2>
-        <span id="sync-time" style="font-size: 0.85rem; color: #777; font-weight: 400;">Loading shifts...</span>
+  <div id="shift-board" class="schedule-card">
+
+    <div class="schedule-header">
+      <div class="schedule-title-group">
+        <h2 class="schedule-title">
+          📅 EPOS Schedule
+        </h2>
+
+        <span id="sync-time" class="schedule-sync">
+          Loading shifts...
+        </span>
       </div>
     </div>
-    
-    <div style="border: 1px solid #e0e0e0; border-radius: 6px; width: 100%; box-sizing: border-box; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
-      <table style="width: 100%; border-collapse: collapse; text-align: left; background-color: #fff; font-size: 0.9rem; margin: 0; table-layout: fixed;">
+
+    <div class="schedule-table-container">
+
+      <table class="schedule-table">
+
         <thead>
-          <tr style="background-color: #fafafa; border-bottom: 1px solid #e0e0e0; color: #555;">
-            <th style="padding: 12px; font-weight: 600; width: 28%;">Date</th>
-            <th style="padding: 12px; font-weight: 600; width: 24%;">Shift Name</th>
-            <th style="padding: 12px; font-weight: 600; width: 20%;">Hours</th>
-            <th style="padding: 12px; font-weight: 600; width: 28%;">Physician</th>
+
+          <tr>
+            <th>Date</th>
+            <th>Shift Name</th>
+            <th>Hours</th>
+            <th>Physician</th>
           </tr>
+
         </thead>
+
         <tbody id="table-rows">
-          <tr><td colspan="4" style="padding: 16px; text-align: center; color: #777;">Initializing view...</td></tr>
+
+          <tr>
+            <td colspan="4" class="schedule-loading">
+              Initializing view...
+            </td>
+          </tr>
+
         </tbody>
+
       </table>
+
     </div>
+
   </div>
 
 </div>
