@@ -49,108 +49,159 @@
 
 <script>
 async function displaySchedule() {
+
+  const text = (parent, tag) =>
+    parent.querySelector(tag)?.textContent.trim() ?? "";
+
   try {
-    const fileUrl = "assets/data.xml";
-    // Using an aggressive cache-busting configuration to force fresh browser retrieval
-    const response = await fetch(fileUrl, {
-      method: 'GET',
-      headers: { 'Cache-Control': 'no-cache', 'Pragma': 'no-cache' },
-      cache: 'no-store'
+
+    const response = await fetch("assets/data.xml", {
+      cache: "no-store",
+      headers: {
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache"
+      }
     });
-    
-    if (!response.ok) { throw new Error(`HTTP Error: ${response.status}`); }
+
+    if (!response.ok)
+      throw new Error(`HTTP ${response.status}`);
+
     const xmlText = await response.text();
-    const parser = new DOMParser();
-    const xml = parser.parseFromString(xmlText, "text/xml");
-    if (xml.getElementsByTagName("parsererror").length > 0) { throw new Error("XML structure format error"); }
 
+    const xml = new DOMParser().parseFromString(xmlText, "application/xml");
+
+    if (xml.querySelector("parsererror"))
+      throw new Error("Invalid XML");
+
+    // Build Shift lookup
     const shiftLookup = {};
-    Array.from(xml.getElementsByTagName("Shift")).forEach(shift => {
-      const id = shift.getElementsByTagName("ShiftId")[0]?.textContent?.trim();
-      const name = shift.getElementsByTagName("ShiftName")[0]?.textContent?.trim();
-      if (id) shiftLookup[id] = name;
+
+    xml.querySelectorAll("Shift").forEach(shift => {
+      shiftLookup[text(shift, "ShiftId")] = text(shift, "ShiftName");
     });
 
+    // Build Provider lookup
     const providerLookup = {};
-    Array.from(xml.getElementsByTagName("Provider")).forEach(provider => {
-      const id = provider.getElementsByTagName("ProviderId")[0]?.textContent?.trim();
-      const name = provider.getElementsByTagName("PrintName")[0]?.textContent?.trim() || 
-                   provider.getElementsByTagName("ProviderName")[0]?.textContent?.trim() || 
-                   provider.getElementsByTagName("DisplayName")[0]?.textContent?.trim() || 
-                   provider.getElementsByTagName("Name")[0]?.textContent?.trim();
-      if (id) providerLookup[id] = name || "Unknown";
+
+    xml.querySelectorAll("Provider").forEach(provider => {
+
+      providerLookup[text(provider, "ProviderId")] =
+          text(provider, "PrintName") ||
+          text(provider, "ProviderName") ||
+          text(provider, "DisplayName") ||
+          text(provider, "Name") ||
+          "Unknown";
+
     });
 
+    // Today's dates
     const today = new Date();
-    const tomorrow = new Date();
+
+    const tomorrow = new Date(today);
     tomorrow.setDate(today.getDate() + 1);
-    const todayStr = today.toLocaleDateString("en-CA");
-    const tomorrowStr = tomorrow.toLocaleDateString("en-CA");
+
+    const todayStr = today.toISOString().slice(0,10);
+    const tomorrowStr = tomorrow.toISOString().slice(0,10);
+
+    console.log("Today:", todayStr);
+    console.log("Tomorrow:", tomorrowStr);
 
     const tbody = document.getElementById("table-rows");
     tbody.innerHTML = "";
-    let rowsFound = 0;
 
-    Array.from(xml.getElementsByTagName("Day")).forEach(day => {
-      const dayDate = day.getElementsByTagName("DayDate")[0]?.textContent?.trim();
-      if (dayDate !== todayStr && dayDate !== tomorrowStr) return;
+    let rows = 0;
 
-      Array.from(day.getElementsByTagName("SchedShift")).forEach(schedShift => {
-        const shiftId = schedShift.getElementsByTagName("ShiftId")[0]?.textContent?.trim();
-        const shiftName = shiftLookup[shiftId] || shiftId || "Unknown Shift";
+    xml.querySelectorAll("Day").forEach(day => {
 
-        Array.from(schedShift.getElementsByTagName("SchedProvider")).forEach(sp => {
-          const providerId = sp.getElementsByTagName("ProviderId")[0]?.textContent?.trim();
-          const providerName = providerLookup[providerId] || providerId || "Unknown Provider";
+      const dayDate = text(day,"DayDate");
 
-          const startIso = sp.getElementsByTagName("ScheduledStart")[0]?.textContent;
-          const endIso = sp.getElementsByTagName("ScheduledEnd")[0]?.textContent;
-          let hoursStr = "—";
-          if (startIso && endIso) {
-            const startTime = startIso.split("T")[1]?.substring(0, 5) || "";
-            const endTime = endIso.split("T")[1]?.substring(0, 5) || "";
-            hoursStr = startTime && endTime ? `${startTime} - ${endTime}` : "—";
-          }
+      if (dayDate !== todayStr && dayDate !== tomorrowStr)
+        return;
 
-          let badge = '';
-          if (dayDate === todayStr) {
-            badge = `<span style="background-color: #e3f2fd; color: #0d47a1; padding: 3px 6px; border-radius: 3px; font-size: 0.7rem; font-weight: 700; margin-right: 6px; inline-size: max-content;">TODAY</span>`;
-          } else {
-            badge = `<span style="background-color: #e8f5e9; color: #1b5e20; padding: 3px 6px; border-radius: 3px; font-size: 0.7rem; font-weight: 700; margin-right: 6px; inline-size: max-content;">TOMORROW</span>`;
-          }
+      day.querySelectorAll("SchedShift").forEach(schedShift => {
 
-          const row = document.createElement("tr");
-          row.style.borderBottom = "1px solid #eaeaea";
-          row.style.color = "var(--md-typeset-color, #222)";
-          if (rowsFound % 2 === 1) { row.style.backgroundColor = "#fafafa"; }
+        const shiftName =
+          shiftLookup[text(schedShift,"ShiftId")] ||
+          "Unknown Shift";
 
-          row.innerHTML = `
-            <td style="padding: 10px 12px; display: flex; align-items: center; border: none; white-space: nowrap;"><div style="display: flex; align-items: center; min-width: max-content;">${badge} <span style="font-variant-numeric: tabular-nums;">${dayDate}</span></div></td>
-            <td style="padding: 10px 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${shiftName}</td>
-            <td style="padding: 10px 12px; font-variant-numeric: tabular-nums; white-space: nowrap;">${hoursStr}</td>
-            <td style="padding: 10px 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">👤 ${providerName}</td>
-          `;
+        schedShift.querySelectorAll("SchedProvider").forEach(provider => {
 
-          tbody.appendChild(row);
-          rowsFound++;
+          const providerName =
+            providerLookup[text(provider,"ProviderId")] ||
+            "Unknown Provider";
+
+          const start =
+            text(provider,"ScheduledStart").split("T")[1]?.substring(0,5) ?? "";
+
+          const end =
+            text(provider,"ScheduledEnd").split("T")[1]?.substring(0,5) ?? "";
+
+          const badge =
+            dayDate === todayStr
+              ? `<span style="background:#e3f2fd;color:#0d47a1;padding:3px 6px;border-radius:3px;font-size:.7rem;font-weight:bold;margin-right:6px;">TODAY</span>`
+              : `<span style="background:#e8f5e9;color:#1b5e20;padding:3px 6px;border-radius:3px;font-size:.7rem;font-weight:bold;margin-right:6px;">TOMORROW</span>`;
+
+          tbody.insertAdjacentHTML("beforeend",`
+<tr style="border-bottom:1px solid #ececec">
+<td style="padding:10px">${badge}${dayDate}</td>
+<td style="padding:10px">${shiftName}</td>
+<td style="padding:10px">${start} - ${end}</td>
+<td style="padding:10px">👤 ${providerName}</td>
+</tr>
+`);
+
+          rows++;
+
         });
+
       });
+
     });
 
-    if (rowsFound === 0) {
-      tbody.innerHTML = `<tr><td colspan="4" style="padding: 24px; text-align: center; color: #777;">No assignments found for today or tomorrow.</td></tr>`;
+    if (!rows) {
+
+      tbody.innerHTML =
+      `<tr>
+          <td colspan="4"
+              style="padding:20px;text-align:center;color:#777">
+              No assignments found for today or tomorrow.
+          </td>
+      </tr>`;
+
     }
 
-    const outputDate = xml.getElementsByTagName("DataOutputDate")[0]?.textContent;
+    const outputDate =
+      xml.querySelector("DataOutputDate")?.textContent;
+
     if (outputDate) {
-      document.getElementById("sync-time").innerText = "— Updated " + new Date(outputDate).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+
+      document.getElementById("sync-time").textContent =
+        "— Updated " +
+        new Date(outputDate).toLocaleTimeString([],{
+          hour:"2-digit",
+          minute:"2-digit"
+        });
+
     }
-  } catch (err) {
-    console.error(err);
-    document.getElementById("table-rows").innerHTML = `<tr><td colspan="4" style="padding: 16px; text-align: center; color: #d32f2f;">Error loading schedule.</td></tr>`;
+
   }
+  catch(err) {
+
+    console.error(err);
+
+    document.getElementById("table-rows").innerHTML =
+    `<tr>
+        <td colspan="4"
+            style="padding:20px;color:#d32f2f;text-align:center;">
+            ${err.message}
+        </td>
+    </tr>`;
+
+  }
+
 }
 
 displaySchedule();
+
 setInterval(displaySchedule, 3600000);
 </script>
