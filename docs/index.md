@@ -16,7 +16,6 @@
 
 <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
 
-  <!-- Increased max-width to expand table width -->
   <div id="shift-board" style="margin: 32px 0; max-width: 900px; width: 100%;">
     <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--md-typeset-a-color, #eaeaea); padding-bottom: 8px; margin-bottom: 16px; width: 100%;">
       <div style="display: flex; align-items: baseline; gap: 12px;">
@@ -45,40 +44,41 @@
 </div>
 
 ## ❓ Need Help?
-!!! caution "Support"
-    This site is **NOT** supported by the BCEHS Help Desk | contact [Lee Roberts](mailto:lee.roberts@bcehs.ca) for feedback or support.
+!!! success "Support"
+    This site is **NOT** supported by the BCEHS Help Desk | contact [Lee Roberts](mailto:lee.roberts@bcehs.ca) for any issues, feedback or support.
 
 <script>
-// Helper function to find elements regardless of XML namespace
-function getElementsNS(parent, localName) {
-  return Array.from(parent.querySelectorAll('*')).filter(el => el.localName === localName);
-}
-
-function getElementNS(parent, localName) {
-  return Array.from(parent.querySelectorAll('*')).find(el => el.localName === localName);
-}
-
 async function displaySchedule() {
   try {
-    const fileUrl = window.location.origin + "/data.xml";
-    const response = await fetch(fileUrl + "?t=" + Date.now());
-    if (!response.ok) { throw new Error("Unable to load data.xml"); }
+    let response;
+    const cacheBuster = "?t=" + Date.now();
+    
+    // Try data.xml first
+    try {
+      response = await fetch(window.location.origin + "/data.xml" + cacheBuster);
+      if (!response.ok) throw new Error();
+    } catch (e) {
+      // Fallback to schedule.xml if data.xml fails
+      response = await fetch(window.location.origin + "/schedule.xml" + cacheBuster);
+      if (!response.ok) throw new Error("Could not load data.xml or schedule.xml");
+    }
+
     const xmlText = await response.text();
     const parser = new DOMParser();
     const xml = parser.parseFromString(xmlText, "text/xml");
     if (xml.querySelector("parsererror")) { throw new Error("XML parsing error"); }
 
     const shiftLookup = {};
-    getElementsNS(xml, "Shift").forEach(shift => {
-      const id = getElementNS(shift, "ShiftId")?.textContent?.trim();
-      const name = getElementNS(shift, "ShiftName")?.textContent?.trim();
+    xml.querySelectorAll("*|Shift").forEach(shift => {
+      const id = shift.querySelector("*|ShiftId")?.textContent?.trim();
+      const name = shift.querySelector("*|ShiftName")?.textContent?.trim();
       if (id) shiftLookup[id] = name;
     });
 
     const providerLookup = {};
-    getElementsNS(xml, "Provider").forEach(provider => {
-      const id = getElementNS(provider, "ProviderId")?.textContent?.trim();
-      const name = getElementNS(provider, "PrintName")?.textContent?.trim() || getElementNS(provider, "ProviderName")?.textContent?.trim() || getElementNS(provider, "DisplayName")?.textContent?.trim() || getElementNS(provider, "Name")?.textContent?.trim();
+    xml.querySelectorAll("*|Provider").forEach(provider => {
+      const id = provider.querySelector("*|ProviderId")?.textContent?.trim();
+      const name = provider.querySelector("*|PrintName")?.textContent?.trim() || provider.querySelector("*|ProviderName")?.textContent?.trim() || provider.querySelector("*|DisplayName")?.textContent?.trim() || provider.querySelector("*|Name")?.textContent?.trim();
       if (id) providerLookup[id] = name || "Unknown";
     });
 
@@ -92,21 +92,20 @@ async function displaySchedule() {
     tbody.innerHTML = "";
     let rowsFound = 0;
 
-    getElementsNS(xml, "Day").forEach(day => {
-      const dayDate = getElementNS(day, "DayDate")?.textContent?.trim();
+    xml.querySelectorAll("*|Day").forEach(day => {
+      const dayDate = day.querySelector("*|DayDate")?.textContent?.trim();
       if (dayDate !== todayStr && dayDate !== tomorrowStr) return;
 
-      getElementsNS(day, "SchedShift").forEach(schedShift => {
-        const shiftId = getElementNS(schedShift, "ShiftId")?.textContent?.trim();
+      day.querySelectorAll("*|SchedShift").forEach(schedShift => {
+        const shiftId = schedShift.querySelector("*|ShiftId")?.textContent?.trim();
         const shiftName = shiftLookup[shiftId] || shiftId || "Unknown Shift";
 
-        getElementsNS(schedShift, "SchedProvider").forEach(sp => {
-          const providerId = getElementNS(sp, "ProviderId")?.textContent?.trim();
+        schedShift.querySelectorAll("*|SchedProvider").forEach(sp => {
+          const providerId = sp.querySelector("*|ProviderId")?.textContent?.trim();
           const providerName = providerLookup[providerId] || providerId || "Unknown Provider";
 
-          // Extract individual provider scheduled times from XML
-          const startIso = getElementNS(sp, "ScheduledStart")?.textContent;
-          const endIso = getElementNS(sp, "ScheduledEnd")?.textContent;
+          const startIso = sp.querySelector("*|ScheduledStart")?.textContent;
+          const endIso = sp.querySelector("*|ScheduledEnd")?.textContent;
           let hoursStr = "—";
           if (startIso && endIso) {
             const startTime = startIso.split("T")[1]?.substring(0, 5) || "";
@@ -143,7 +142,7 @@ async function displaySchedule() {
       tbody.innerHTML = `<tr><td colspan="4" style="padding: 24px; text-align: center; color: #777;">No assignments found for today or tomorrow.</td></tr>`;
     }
 
-    const outputDate = getElementNS(xml, "DataOutputDate")?.textContent;
+    const outputDate = xml.querySelector("*|DataOutputDate")?.textContent;
     if (outputDate) {
       document.getElementById("sync-time").innerText = "— Updated " + new Date(outputDate).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
     }
