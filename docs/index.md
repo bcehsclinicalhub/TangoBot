@@ -14,8 +14,10 @@
 
 </div>
 
+
 <div style="display: flex; flex-direction: column; align-items: center; width: 100%;">
 
+  <!-- Increased max-width from 750px to 900px to expand table width -->
   <div id="shift-board" style="margin: 32px 0; max-width: 900px; width: 100%;">
     <div style="display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--md-typeset-a-color, #eaeaea); padding-bottom: 8px; margin-bottom: 16px; width: 100%;">
       <div style="display: flex; align-items: baseline; gap: 12px;">
@@ -50,25 +52,16 @@
 <script>
 async function displaySchedule() {
   try {
-    let response;
-    const cacheBuster = "?t=" + Date.now();
-    
-    // Try data.xml first
-    try {
-      response = await fetch(window.location.origin + "/data.xml" + cacheBuster);
-      if (!response.ok) throw new Error();
-    } catch (e) {
-      // Fallback to schedule.xml if data.xml fails
-      response = await fetch(window.location.origin + "/schedule.xml" + cacheBuster);
-      if (!response.ok) throw new Error("Could not load data.xml or schedule.xml");
-    }
-
+    const fileUrl = window.location.origin + "/data.xml";
+    const response = await fetch(fileUrl + "?t=" + Date.now());
+    if (!response.ok) { throw new Error("Unable to load data.xml"); }
     const xmlText = await response.text();
     const parser = new DOMParser();
     const xml = parser.parseFromString(xmlText, "text/xml");
     if (xml.querySelector("parsererror")) { throw new Error("XML parsing error"); }
 
     const shiftLookup = {};
+    // *| accounts for the XML namespaces natively
     xml.querySelectorAll("*|Shift").forEach(shift => {
       const id = shift.querySelector("*|ShiftId")?.textContent?.trim();
       const name = shift.querySelector("*|ShiftName")?.textContent?.trim();
@@ -104,6 +97,7 @@ async function displaySchedule() {
           const providerId = sp.querySelector("*|ProviderId")?.textContent?.trim();
           const providerName = providerLookup[providerId] || providerId || "Unknown Provider";
 
+          // Pull individual provider scheduled times out of the XML node
           const startIso = sp.querySelector("*|ScheduledStart")?.textContent;
           const endIso = sp.querySelector("*|ScheduledEnd")?.textContent;
           let hoursStr = "—";
