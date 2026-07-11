@@ -14,7 +14,6 @@
         <div class="schedule-header">
             <div class="schedule-title">
                 <h2>📅 EPOS Schedule</h2>
-                <div class="schedule-subtitle">Today's Physician Coverage</div>
             </div>
             <div class="schedule-updated">
                 <span id="sync-time">Loading...</span>
@@ -92,7 +91,7 @@ async function displaySchedule() {
         const xml = new DOMParser().parseFromString(xmlText, "application/xml");
         if (xml.querySelector("parsererror")) throw new Error("Invalid XML layout format");
 
-        // 1. Build Shift & Provider Maps
+        // 1. Build Lookups
         const shiftLookup = {};
         xml.querySelectorAll("Shift").forEach(s => { shiftLookup[text(s, "ShiftId")] = text(s, "ShiftName"); });
 
@@ -101,7 +100,7 @@ async function displaySchedule() {
             providerLookup[text(p, "ProviderId")] = text(p, "PrintName") || text(p, "ProviderName") || "Unknown";
         });
 
-        // 2. Setup System Dates
+        // 2. Normalize System Matching Dates
         const todayObj = new Date();
         const tomorrowObj = new Date();
         tomorrowObj.setDate(todayObj.getDate() + 1);
@@ -110,32 +109,45 @@ async function displaySchedule() {
         const todayStr = todayObj.toLocaleDateString('en-CA', dateOptions);
         const tomorrowStr = tomorrowObj.toLocaleDateString('en-CA', dateOptions);
 
-        const todayISO = todayObj.toISOString().split('T')[0];
-        const tomorrowISO = tomorrowObj.toISOString().split('T')[0];
+        // Strip dates to simple YYYY-MM-DD for reliable string matching
+        const toDateKey = (d) => d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+        const todayMatchKey = toDateKey(todayObj);
+        const tomorrowMatchKey = toDateKey(tomorrowObj);
 
-        // 3. Extract and Distribute Assignments
+        // 3. Process Assignments dynamically
         const todayCards = [];
         const tomorrowCards = [];
 
-        // Evaluates default XML collections (looks for Assignment, ShiftAssignment, or Row blocks)
-        const assignments = xml.querySelectorAll("Assignment, ShiftAssignment, Row");
+        // Check for common schedule row wrappers
+        const assignments = xml.querySelectorAll("Assignment, ShiftAssignment, Schedule, Row");
         
-        assignments.forEach(row => {
+        console.log(`Found ${assignments.length} total assignment rows in XML.`);
+
+        assignments.forEach((row, index) => {
             const shiftId = text(row, "ShiftId");
             const providerId = text(row, "ProviderId");
-            const rawDate = text(row, "AssignmentDate") || text(row, "Date") || "";
-            const startTime = text(row, "StartTime") || "00:00";
-            const endTime = text(row, "EndTime") || "00:00";
+            
+            // Collect any possible raw date string variant
+            let rawDate = text(row, "AssignmentDate") || text(row, "Date") || text(row, "ShiftDate") || "";
+            if (!rawDate) return;
 
-            if (!shiftId || !providerId) return;
+            // Normalize slashes to dashes to handle YYYY/MM/DD formats securely
+            const normalizedDate = rawDate.replace(/\//g, '-');
+
+            if (index === 0) {
+                console.log("Sample Data Row parsed:", { shiftId, providerId, originalDate: rawDate, normalizedDate, todayMatchKey });
+            }
 
             const shiftName = shiftLookup[shiftId] || "Duty Shift";
             const providerName = providerLookup[providerId] || "Unassigned";
+            
+            const startTime = text(row, "StartTime") || "00:00";
+            const endTime = text(row, "EndTime") || "00:00";
             const cardHTML = renderShiftCard(shiftName, startTime, endTime, providerName);
 
-            if (rawDate.includes(todayISO)) {
+            if (normalizedDate.includes(todayMatchKey)) {
                 todayCards.push(cardHTML);
-            } else if (rawDate.includes(tomorrowISO)) {
+            } else if (normalizedDate.includes(tomorrowMatchKey)) {
                 tomorrowCards.push(cardHTML);
             }
         });
@@ -159,7 +171,6 @@ async function displaySchedule() {
     }
 }
 
-// Initial fire & auto-refresh interval
 displaySchedule();
 setInterval(displaySchedule, 300000);
 </script>
