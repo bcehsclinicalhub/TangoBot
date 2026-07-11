@@ -55,6 +55,9 @@ extra_css:
   - stylesheets/extra.css
   - stylesheets/schedule.css
 
+extra_javascript:
+  - javascripts/schedule.js
+
 copyright: "Internal Use Only | © 2026 BC Emergency Health Services"
 
 extra:

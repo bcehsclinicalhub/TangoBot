@@ -116,6 +116,72 @@ function renderShiftCard(shiftName,start,end,providerName){
 
 }
 
+function renderDaySection(title, icon, dateText, cards){
+
+    return `
+
+<section class="day-section">
+
+<h2 class="day-header">
+
+${icon} ${title}
+
+</h2>
+
+<div class="day-date">
+
+${dateText}
+
+</div>
+
+${cards.join("")}
+
+</section>
+
+`;
+
+}
+
+function renderDashboard(todayCards,tomorrowCards,today,tomorrow){
+
+    const container =
+        document.getElementById("schedule-content");
+
+    container.innerHTML="";
+
+    container.insertAdjacentHTML("beforeend",
+
+        renderDaySection(
+
+            "TODAY",
+
+            "☀️",
+
+            today,
+
+            todayCards
+
+        )
+
+    );
+
+    container.insertAdjacentHTML("beforeend",
+
+        renderDaySection(
+
+            "TOMORROW",
+
+            "🌙",
+
+            tomorrow,
+
+            tomorrowCards
+
+        )
+
+    );
+
+}
 
 async function displaySchedule() {
 
