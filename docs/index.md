@@ -91,10 +91,17 @@ async function displaySchedule() {
         const xml = new DOMParser().parseFromString(xmlText, "application/xml");
         if (xml.querySelector("parsererror")) throw new Error("Invalid XML layout format");
 
-        // 1. Build Global Maps
+        // 1. Log top level children to debug structures if needed
+        const topTags = Array.from(xml.documentElement.children).map(c => c.tagName);
+        console.log("Top level XML components found:", topTags);
+
+        // 2. Build Global Maps[cite: 2]
         const shiftLookup = {};
         xml.querySelectorAll("Shift").forEach(s => { 
             shiftLookup[text(s, "ShiftId")] = text(s, "ShiftName"); 
+            // Save times as fallback defaults from definition[cite: 2]
+            shiftLookup[text(s, "ShiftId") + "_start"] = text(s, "ShiftStartTime");
+            shiftLookup[text(s, "ShiftId") + "_end"] = text(s, "ShiftEndTime");
         });
 
         const providerLookup = {};
@@ -102,7 +109,7 @@ async function displaySchedule() {
             providerLookup[text(p, "ProviderId")] = text(p, "PrintName") || text(p, "ProviderName") || "Unknown";
         });
 
-        // 2. Setup Relative Target Dates
+        // 3. Setup Relative Target Dates
         const todayObj = new Date();
         const tomorrowObj = new Date();
         tomorrowObj.setDate(todayObj.getDate() + 1);
@@ -115,31 +122,40 @@ async function displaySchedule() {
         const todayMatchKey = toDateKey(todayObj);
         const tomorrowMatchKey = toDateKey(tomorrowObj);
 
-        // 3. Extract Assignments securely
+        // 4. Extract Assignments securely
         const todayCards = [];
         const tomorrowCards = [];
 
-        // Scan for elements where ShiftId and ProviderId are direct child elements
         const allElements = xml.getElementsByTagName("*");
         const assignments = [];
         
         for (let el of allElements) {
-            // Check immediate children to skip structural containers like <Schedule> or <ShiftList>
-            const hasDirectShift = el.parentElement && el.parentElement.tagName !== "ShiftList" && el.querySelector(":scope > ShiftId");
-            const hasDirectProvider = el.querySelector(":scope > ProviderId");
+            // Find rows containing ShiftId/ProviderId that aren't inside definitions list blocks[cite: 2]
+            const hasShift = el.querySelector("ShiftId");
+            const hasProvider = el.querySelector("ProviderId");
             
-            if (hasDirectShift && hasDirectProvider) {
-                assignments.push(el);
+            if (hasShift && hasProvider) {
+                let current = el.parentElement;
+                let isDefinition = false;
+                while (current) {
+                    if (current.tagName === "ShiftList" || current.tagName === "ProviderList" || current.tagName === "SiteList") {
+                        isDefinition = true;
+                        break;
+                    }
+                    current = current.parentElement;
+                }
+                if (!isDefinition) {
+                    assignments.push(el);
+                }
             }
         }
         
-        console.log(`Successfully mapped ${assignments.length} individual shift assignments.`);
+        console.log(`Successfully mapped ${assignments.length} live coverage assignments.`);
 
         assignments.forEach((row) => {
             const shiftId = text(row, "ShiftId");
             const providerId = text(row, "ProviderId");
             
-            // Look for any variation of assignment date fields
             let rawDate = text(row, "AssignmentDate") || 
                           text(row, "Date") || 
                           text(row, "ShiftDate") || 
@@ -151,9 +167,9 @@ async function displaySchedule() {
             const shiftName = shiftLookup[shiftId] || "Duty Shift";
             const providerName = providerLookup[providerId] || "Unassigned";
             
-            // Fallback to shift-definition defaults if individual override times aren't present
-            const startTime = text(row, "StartTime") || "07:00";
-            const endTime = text(row, "EndTime") || "15:00";
+            // Extract assignment override times or fall back to standard shift definition times[cite: 2]
+            const startTime = text(row, "StartTime") || text(row, "ShiftStartTime") || shiftLookup[shiftId + "_start"] || "07:00";
+            const endTime = text(row, "EndTime") || text(row, "ShiftEndTime") || shiftLookup[shiftId + "_end"] || "15:00";
             
             const cardHTML = renderShiftCard(shiftName, startTime, endTime, providerName);
 
@@ -164,12 +180,10 @@ async function displaySchedule() {
             }
         });
 
-        // 4. Handle Sync Timer & Render Dashboard
+        // 5. Handle Sync Timer & Render Dashboard[cite: 2]
         const outputDate = xml.querySelector("DataOutputDate")?.textContent;
         if (outputDate) {
             document.getElementById("sync-time").textContent = "— Updated " + new Date(outputDate).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
-        } else {
-            document.getElementById("sync-time").textContent = "— Live Sync Active";
         }
 
         renderDashboard(todayCards, tomorrowCards, todayStr, tomorrowStr);
