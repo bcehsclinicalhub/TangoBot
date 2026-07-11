@@ -109,33 +109,37 @@ async function displaySchedule() {
         const todayStr = todayObj.toLocaleDateString('en-CA', dateOptions);
         const tomorrowStr = tomorrowObj.toLocaleDateString('en-CA', dateOptions);
 
-        // Strip dates to simple YYYY-MM-DD for reliable string matching
         const toDateKey = (d) => d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
         const todayMatchKey = toDateKey(todayObj);
         const tomorrowMatchKey = toDateKey(tomorrowObj);
 
-        // 3. Process Assignments dynamically
+        // 3. Process Assignments
         const todayCards = [];
         const tomorrowCards = [];
 
-        // Check for common schedule row wrappers
-        const assignments = xml.querySelectorAll("Assignment, ShiftAssignment, Schedule, Row");
+        // STRATEGY: Target any element containing a ShiftId node that isn't the definition itself
+        const allElements = xml.getElementsByTagName("*");
+        const assignments = [];
         
-        console.log(`Found ${assignments.length} total assignment rows in XML.`);
+        for (let el of allElements) {
+            if (el.tagName !== "Shift" && el.querySelector("ShiftId") && el.querySelector("ProviderId")) {
+                assignments.push(el);
+            }
+        }
+        
+        console.log(`Found ${assignments.length} structural shift row elements.`);
 
         assignments.forEach((row, index) => {
             const shiftId = text(row, "ShiftId");
             const providerId = text(row, "ProviderId");
             
-            // Collect any possible raw date string variant
             let rawDate = text(row, "AssignmentDate") || text(row, "Date") || text(row, "ShiftDate") || "";
             if (!rawDate) return;
 
-            // Normalize slashes to dashes to handle YYYY/MM/DD formats securely
             const normalizedDate = rawDate.replace(/\//g, '-');
 
             if (index === 0) {
-                console.log("Sample Data Row parsed:", { shiftId, providerId, originalDate: rawDate, normalizedDate, todayMatchKey });
+                console.log("Sample Entry Matched:", { shiftId, providerId, normalizedDate, todayMatchKey });
             }
 
             const shiftName = shiftLookup[shiftId] || "Duty Shift";
@@ -152,7 +156,7 @@ async function displaySchedule() {
             }
         });
 
-        // 4. Update Header Sync Label & Draw Interface
+        // 4. Update Interface Header
         const outputDate = xml.querySelector("DataOutputDate")?.textContent;
         if (outputDate) {
             document.getElementById("sync-time").textContent = "— Updated " + new Date(outputDate).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
