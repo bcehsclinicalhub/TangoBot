@@ -73,50 +73,6 @@
     This site is **NOT** supported by the BCEHS Help Desk | contact [Lee Roberts](mailto:lee.roberts@bcehs.ca) for any issues, feedback or support.
 
 <script>
-
-function renderShiftCard(shiftName,start,end,providerName){
-
-    return `
-
-<div class="shift-card">
-
-    <div class="shift-main">
-
-        ${getShiftPill(shiftName)}
-
-        <div class="shift-code">
-            ${shiftName.replace(/^(Day|Swing|Eve|Night)\s*/i,"")}
-        </div>
-
-    </div>
-
-    <div class="shift-time">
-
-        <span class="time-pill">
-
-            ${start} – ${end}
-
-        </span>
-
-    </div>
-
-    <div class="shift-provider">
-
-        <span class="provider-chip">
-
-            👤 ${providerName}
-
-        </span>
-
-    </div>
-
-</div>
-
-`;
-
-}
-
-
 async function displaySchedule() {
 
   const text = (parent, tag) =>
@@ -182,7 +138,57 @@ async function displaySchedule() {
 
     });
 
+    // Today's dates
+    const today = new Date();
 
+    const tomorrow = new Date(today);
+    tomorrow.setDate(today.getDate() + 1);
+
+    const todayStr = today.toISOString().slice(0,10);
+    const tomorrowStr = tomorrow.toISOString().slice(0,10);
+
+    console.log("Today:", todayStr);
+    console.log("Tomorrow:", tomorrowStr);
+
+    const scheduleContent = document.getElementById("schedule-content");
+    scheduleContent.innerHTML = "";
+
+const todayCards = [];
+const tomorrowCards = [];
+
+    let rows = 0;
+
+    xml.querySelectorAll("Day").forEach(day => {
+
+      const dayDate = text(day,"DayDate");
+
+      if (dayDate !== todayStr && dayDate !== tomorrowStr)
+        return;
+
+      day.querySelectorAll("SchedShift").forEach(schedShift => {
+
+        const shiftName =
+          shiftLookup[text(schedShift,"ShiftId")] ||
+          "Unknown Shift";
+
+        schedShift.querySelectorAll("SchedProvider").forEach(provider => {
+
+          const providerName =
+            providerLookup[text(provider,"ProviderId")] ||
+            "Unknown Provider";
+
+          const start =
+            text(provider,"ScheduledStart").split("T")[1]?.substring(0,5) ?? "";
+
+          const end =
+            text(provider,"ScheduledEnd").split("T")[1]?.substring(0,5) ?? "";
+
+          const badge =
+  dayDate === todayStr
+    ? `<span class="badge-today">TODAY</span>`
+    : `<span class="badge-tomorrow">TOMORROW</span>`;
+
+scheduleContent.insertAdjacentHTML(...)
 <tr>
 
 <td class="schedule-date">
