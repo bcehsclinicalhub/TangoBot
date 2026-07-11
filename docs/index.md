@@ -5,67 +5,30 @@
 </div>
 
 <div class="grid cards" markdown>
-
-* :ambulance: **Paramedic Specialists**
-    [Enter PS Page →](ps/index.md){ .md-button }
-
-* <span style="color: #d32f2f;">☎</span> **Secondary Triage**
-    [Enter STC Page →](stc/index.md){ .md-button }
-
+* :ambulance: **Paramedic Specialists** [Enter PS Page →](ps/index.md){ .md-button }
+* <span style="color: #d32f2f;">☎</span> **Secondary Triage** [Enter STC Page →](stc/index.md){ .md-button }
 </div>
 
 <div class="schedule-wrapper">
-
     <div id="shift-board" class="schedule-card">
-
         <div class="schedule-header">
-
             <div class="schedule-title">
-
-                <span class="schedule-icon">📅</span>
-
-                <div>
-
-                    <h2>EPOS Schedule</h2>
-
-                    <div class="schedule-subtitle">
-                        Today's Physician Coverage
-                    </div>
-
-                </div>
-
+                <h2>📅 EPOS Schedule</h2>
+                <div class="schedule-subtitle">Today's Physician Coverage</div>
             </div>
-
             <div class="schedule-updated">
-
-                <span id="sync-time">
-
-                    Loading...
-
-                </span>
-
+                <span id="sync-time">Loading...</span>
             </div>
-
         </div>
-
         <div class="schedule-body">
-
             <div id="schedule-content">
-
                 <div class="schedule-loading">
-
                     <div class="loading-spinner"></div>
-
                     <p>Loading today's assignments...</p>
-
                 </div>
-
             </div>
-
         </div>
-
     </div>
-
 </div>
 
 ## ❓ Need Help?
@@ -73,270 +36,130 @@
     This site is **NOT** supported by the BCEHS Help Desk | contact [Lee Roberts](mailto:lee.roberts@bcehs.ca) for any issues, feedback or support.
 
 <script>
-
-function renderShiftCard(shiftName,start,end,providerName){
-
-    return `
-
-<div class="shift-card">
-
-    <div class="shift-main">
-
-        ${getShiftPill(shiftName)}
-
-        <div class="shift-code">
-            ${shiftName.replace(/^(Day|Swing|Eve|Night)\s*/i,"")}
-        </div>
-
-    </div>
-
-    <div class="shift-time">
-
-        <span class="time-pill">
-
-            ${start} – ${end}
-
-        </span>
-
-    </div>
-
-    <div class="shift-provider">
-
-        <span class="provider-chip">
-
-            👤 ${providerName}
-
-        </span>
-
-    </div>
-
-</div>
-
-`;
-
-}
-
-function renderDaySection(title, icon, dateText, cards){
-
-    return `
-
-<section class="day-section">
-
-<h2 class="day-header">
-
-${icon} ${title}
-
-</h2>
-
-<div class="day-date">
-
-${dateText}
-
-</div>
-
-${cards.join("")}
-
-</section>
-
-`;
-
-}
-
-function renderDashboard(todayCards,tomorrowCards,today,tomorrow){
-
-    const container =
-        document.getElementById("schedule-content");
-
-    container.innerHTML="";
-
-    container.insertAdjacentHTML("beforeend",
-
-        renderDaySection(
-
-            "TODAY",
-
-            "☀️",
-
-            today,
-
-            todayCards
-
-        )
-
-    );
-
-    container.insertAdjacentHTML("beforeend",
-
-        renderDaySection(
-
-            "TOMORROW",
-
-            "🌙",
-
-            tomorrow,
-
-            tomorrowCards
-
-        )
-
-    );
-
-}
-
-async function displaySchedule() {
-
-  const text = (parent, tag) =>
-    parent.querySelector(tag)?.textContent.trim() ?? "";
-
-    function getShiftPill(name) {
-
+function getShiftPill(name) {
     const lower = name.toLowerCase();
-
-    if (lower.startsWith("day"))
-        return '<span class="shift-pill day">DAY</span>';
-
-    if (lower.startsWith("swing"))
-        return '<span class="shift-pill swing">SWING</span>';
-
-    if (lower.startsWith("eve"))
-        return '<span class="shift-pill evening">EVENING</span>';
-
-    if (lower.startsWith("night"))
-        return '<span class="shift-pill night">NIGHT</span>';
-
+    if (lower.startsWith("day")) return '<span class="shift-pill day">DAY</span>';
+    if (lower.startsWith("swing")) return '<span class="shift-pill swing">SWING</span>';
+    if (lower.startsWith("eve")) return '<span class="shift-pill evening">EVENING</span>';
+    if (lower.startsWith("night")) return '<span class="shift-pill night">NIGHT</span>';
     return '<span class="shift-pill other">SHIFT</span>';
 }
 
-  try {
-
-    const response = await fetch("assets/data.xml", {
-      cache: "no-store",
-      headers: {
-        "Cache-Control": "no-cache",
-        "Pragma": "no-cache"
-      }
-    });
-
-    if (!response.ok)
-      throw new Error(`HTTP ${response.status}`);
-
-    const xmlText = await response.text();
-
-    const xml = new DOMParser().parseFromString(xmlText, "application/xml");
-
-    if (xml.querySelector("parsererror"))
-      throw new Error("Invalid XML");
-
-    // Build Shift lookup
-    const shiftLookup = {};
-
-    xml.querySelectorAll("Shift").forEach(shift => {
-      shiftLookup[text(shift, "ShiftId")] = text(shift, "ShiftName");
-    });
-
-    // Build Provider lookup
-    const providerLookup = {};
-
-    xml.querySelectorAll("Provider").forEach(provider => {
-
-      providerLookup[text(provider, "ProviderId")] =
-          text(provider, "PrintName") ||
-          text(provider, "ProviderName") ||
-          text(provider, "DisplayName") ||
-          text(provider, "Name") ||
-          "Unknown";
-
-    });
-
-
-<tr>
-
-<td class="schedule-date">
-    ${badge}
-    <span>${dayDate}</span>
-</td>
-
-<td class="schedule-shift">
-
-    <div class="shift-stack">
-
-        ${getShiftPill(shiftName)}
-
-        <div class="shift-code">
-            ${shiftName.replace(/^(Day|Swing|Eve|Night)\s*/i,"")}
+function renderShiftCard(shiftName, start, end, providerName) {
+    return `
+    <div class="shift-card">
+        <div class="shift-main">
+            ${getShiftPill(shiftName)}
+            <div class="shift-code">${shiftName.replace(/^(Day|Swing|Eve|Night)\s*/i,"")}</div>
         </div>
-
-    </div>
-
-</td>
-
-<td class="schedule-hours">
-    <span class="time-pill">
-        ${start} – ${end}
-    </span>
-</td>
-
-<td class="schedule-provider">
-    <span class="provider-chip">
-        👤 ${providerName}
-    </span>
-</td>
-
-</tr>
-`);
-
-          rows++;
-
-        });
-
-      });
-
-    });
-
-    if (!rows) {
-
-      tbody.innerHTML =
-      `<tr>
-          <td colspan="4"
-              style="padding:20px;text-align:center;color:#777">
-              No assignments found for today or tomorrow.
-          </td>
-      </tr>`;
-
-    }
-
-    const outputDate =
-      xml.querySelector("DataOutputDate")?.textContent;
-
-    if (outputDate) {
-
-      document.getElementById("sync-time").textContent =
-        "— Updated " +
-        new Date(outputDate).toLocaleTimeString([],{
-          hour:"2-digit",
-          minute:"2-digit"
-        });
-
-    }
-
-  }
-  catch(err) {
-
-    console.error(err);
-
-    document.getElementById("table-rows").innerHTML =
-    `<tr>
-        <td colspan="4"
-            style="padding:20px;color:#d32f2f;text-align:center;">
-            ${err.message}
-        </td>
-    </tr>`;
-
-  }
-
+        <div class="shift-time">
+            <span class="time-pill">${start} – ${end}</span>
+        </div>
+        <div class="shift-provider">
+            <span class="provider-chip">👤 ${providerName}</span>
+        </div>
+    </div>`;
 }
 
-displaySchedule();
+function renderDaySection(title, icon, dateText, cards) {
+    return `
+    <section class="day-section">
+        <h2 class="day-header">${icon} ${title}</h2>
+        <div class="day-date">${dateText}</div>
+        ${cards.length ? cards.join("") : '<p style="color:var(--md-default-fg-color--light); padding-left:10px;">No shifts scheduled.</p>'}
+    </section>`;
+}
 
-setInterval(displaySchedule, 3600000);
+function renderDashboard(todayCards, tomorrowCards, todayStr, tomorrowStr) {
+    const container = document.getElementById("schedule-content");
+    if (!container) return;
+    container.innerHTML = "";
+    container.insertAdjacentHTML("beforeend", renderDaySection("TODAY", "☀️", todayStr, todayCards));
+    container.insertAdjacentHTML("beforeend", renderDaySection("TOMORROW", "🌙", tomorrowStr, tomorrowCards));
+}
+
+async function displaySchedule() {
+    const text = (parent, tag) => parent.querySelector(tag)?.textContent.trim() ?? "";
+
+    try {
+        const response = await fetch("assets/data.xml", {
+            cache: "no-store",
+            headers: { "Cache-Control": "no-cache", "Pragma": "no-cache" }
+        });
+
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const xmlText = await response.text();
+        const xml = new DOMParser().parseFromString(xmlText, "application/xml");
+        if (xml.querySelector("parsererror")) throw new Error("Invalid XML layout format");
+
+        // 1. Build Shift & Provider Maps
+        const shiftLookup = {};
+        xml.querySelectorAll("Shift").forEach(s => { shiftLookup[text(s, "ShiftId")] = text(s, "ShiftName"); });
+
+        const providerLookup = {};
+        xml.querySelectorAll("Provider").forEach(p => {
+            providerLookup[text(p, "ProviderId")] = text(p, "PrintName") || text(p, "ProviderName") || "Unknown";
+        });
+
+        // 2. Setup System Dates
+        const todayObj = new Date();
+        const tomorrowObj = new Date();
+        tomorrowObj.setDate(todayObj.getDate() + 1);
+
+        const dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const todayStr = todayObj.toLocaleDateString('en-CA', dateOptions);
+        const tomorrowStr = tomorrowObj.toLocaleDateString('en-CA', dateOptions);
+
+        const todayISO = todayObj.toISOString().split('T')[0];
+        const tomorrowISO = tomorrowObj.toISOString().split('T')[0];
+
+        // 3. Extract and Distribute Assignments
+        const todayCards = [];
+        const tomorrowCards = [];
+
+        // Evaluates default XML collections (looks for Assignment, ShiftAssignment, or Row blocks)
+        const assignments = xml.querySelectorAll("Assignment, ShiftAssignment, Row");
+        
+        assignments.forEach(row => {
+            const shiftId = text(row, "ShiftId");
+            const providerId = text(row, "ProviderId");
+            const rawDate = text(row, "AssignmentDate") || text(row, "Date") || "";
+            const startTime = text(row, "StartTime") || "00:00";
+            const endTime = text(row, "EndTime") || "00:00";
+
+            if (!shiftId || !providerId) return;
+
+            const shiftName = shiftLookup[shiftId] || "Duty Shift";
+            const providerName = providerLookup[providerId] || "Unassigned";
+            const cardHTML = renderShiftCard(shiftName, startTime, endTime, providerName);
+
+            if (rawDate.includes(todayISO)) {
+                todayCards.push(cardHTML);
+            } else if (rawDate.includes(tomorrowISO)) {
+                tomorrowCards.push(cardHTML);
+            }
+        });
+
+        // 4. Update Header Sync Label & Draw Interface
+        const outputDate = xml.querySelector("DataOutputDate")?.textContent;
+        if (outputDate) {
+            document.getElementById("sync-time").textContent = "— Updated " + new Date(outputDate).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+        } else {
+            document.getElementById("sync-time").textContent = "— Live Sync Active";
+        }
+
+        renderDashboard(todayCards, tomorrowCards, todayStr, tomorrowStr);
+
+    } catch (err) {
+        console.error(err);
+        const container = document.getElementById("schedule-content");
+        if (container) {
+            container.innerHTML = `<div style="padding:20px; color:#d32f2f; text-align:center; font-weight:600;">⚠️ Error parsing scheduling data: ${err.message}</div>`;
+        }
+    }
+}
+
+// Initial fire & auto-refresh interval
+displaySchedule();
+setInterval(displaySchedule, 300000);
 </script>
