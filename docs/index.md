@@ -78,125 +78,102 @@ function renderDashboard(todayCards, tomorrowCards, todayStr, tomorrowStr) {
 }
 
 async function displaySchedule() {
-    const text = (parent, tag) => parent.querySelector(tag)?.textContent.trim() ?? "";
+  const text = (parent, tag) => parent.querySelector(tag)?.textContent.trim() ?? "";
 
-    try {
-        const response = await fetch("assets/data.xml", {
-            cache: "no-store",
-            headers: { "Cache-Control": "no-cache", "Pragma": "no-cache" }
+  try {
+    const response = await fetch("assets/data.xml", {
+      cache: "no-store",
+      headers: {
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache"
+      }
+    });
+
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const xmlText = await response.text();
+    const xml = new DOMParser().parseFromString(xmlText, "application/xml");
+    if (xml.querySelector("parsererror")) throw new Error("Invalid XML layout");
+
+    // 1. Build Global Maps
+    const shiftLookup = {};
+    xml.querySelectorAll("Shift").forEach(shift => {
+      shiftLookup[text(shift, "ShiftId")] = text(shift, "ShiftName");
+    });
+
+    const providerLookup = {};
+    xml.querySelectorAll("Provider").forEach(provider => {
+      providerLookup[text(provider, "ProviderId")] =
+          text(provider, "PrintName") ||
+          text(provider, "ProviderName") ||
+          text(provider, "DisplayName") ||
+          "Unknown";
+    });
+
+    // 2. Setup System Target Dates
+    const todayObj = new Date();
+    const tomorrowObj = new Date(todayObj);
+    tomorrowObj.setDate(todayObj.getDate() + 1);
+
+    // Human-readable labels for the dashboard UI
+    const dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    const todayLabel = todayObj.toLocaleDateString('en-CA', dateOptions);
+    const tomorrowLabel = tomorrowObj.toLocaleDateString('en-CA', dateOptions);
+
+    // Matching strings for XML evaluation (YYYY-MM-DD)
+    const todayISO = todayObj.toISOString().slice(0, 10);
+    const tomorrowISO = tomorrowObj.toISOString().slice(0, 10);
+
+    const todayCards = [];
+    const tomorrowCards = [];
+
+    // 3. Drill into Day -> SchedShift -> SchedProvider elements
+    xml.querySelectorAll("Day").forEach(day => {
+      const dayDate = text(day, "DayDate");
+      if (dayDate !== todayISO && dayDate !== tomorrowISO) return;
+
+      day.querySelectorAll("SchedShift").forEach(schedShift => {
+        const shiftName = shiftLookup[text(schedShift, "ShiftId")] || "Duty Shift";
+
+        schedShift.querySelectorAll("SchedProvider").forEach(provider => {
+          const providerName = providerLookup[text(provider, "ProviderId")] || "Unknown Provider";
+
+          // Parse timestamps securely splitting at 'T' 
+          const start = text(provider, "ScheduledStart").split("T")[1]?.substring(0, 5) ?? "00:00";
+          const end = text(provider, "ScheduledEnd").split("T")[1]?.substring(0, 5) ?? "00:00";
+
+          // Generate card element
+          const cardHTML = renderShiftCard(shiftName, start, end, providerName);
+
+          if (dayDate === todayISO) {
+            todayCards.push(cardHTML);
+          } else {
+            tomorrowCards.push(cardHTML);
+          }
         });
+      });
+    });
 
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-        const xmlText = await response.text();
-        const xml = new DOMParser().parseFromString(xmlText, "application/xml");
-        if (xml.querySelector("parsererror")) throw new Error("Invalid XML layout format");
-
-        // 1. Log top level children to debug structures if needed
-        const topTags = Array.from(xml.documentElement.children).map(c => c.tagName);
-        console.log("Top level XML components found:", topTags);
-
-        // 2. Build Global Maps[cite: 2]
-        const shiftLookup = {};
-        xml.querySelectorAll("Shift").forEach(s => { 
-            shiftLookup[text(s, "ShiftId")] = text(s, "ShiftName"); 
-            // Save times as fallback defaults from definition[cite: 2]
-            shiftLookup[text(s, "ShiftId") + "_start"] = text(s, "ShiftStartTime");
-            shiftLookup[text(s, "ShiftId") + "_end"] = text(s, "ShiftEndTime");
+    // 4. Update Header Timestamp and Paint Layout
+    const outputDate = xml.querySelector("DataOutputDate")?.textContent;
+    if (outputDate) {
+      document.getElementById("sync-time").textContent =
+        "— Updated " + new Date(outputDate).toLocaleTimeString([], {
+          hour: "2-digit",
+          minute: "2-digit"
         });
-
-        const providerLookup = {};
-        xml.querySelectorAll("Provider").forEach(p => {
-            providerLookup[text(p, "ProviderId")] = text(p, "PrintName") || text(p, "ProviderName") || "Unknown";
-        });
-
-        // 3. Setup Relative Target Dates
-        const todayObj = new Date();
-        const tomorrowObj = new Date();
-        tomorrowObj.setDate(todayObj.getDate() + 1);
-
-        const dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-        const todayStr = todayObj.toLocaleDateString('en-CA', dateOptions);
-        const tomorrowStr = tomorrowObj.toLocaleDateString('en-CA', dateOptions);
-
-        const toDateKey = (d) => d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
-        const todayMatchKey = toDateKey(todayObj);
-        const tomorrowMatchKey = toDateKey(tomorrowObj);
-
-        // 4. Extract Assignments securely
-        const todayCards = [];
-        const tomorrowCards = [];
-
-        const allElements = xml.getElementsByTagName("*");
-        const assignments = [];
-        
-        for (let el of allElements) {
-            // Find rows containing ShiftId/ProviderId that aren't inside definitions list blocks[cite: 2]
-            const hasShift = el.querySelector("ShiftId");
-            const hasProvider = el.querySelector("ProviderId");
-            
-            if (hasShift && hasProvider) {
-                let current = el.parentElement;
-                let isDefinition = false;
-                while (current) {
-                    if (current.tagName === "ShiftList" || current.tagName === "ProviderList" || current.tagName === "SiteList") {
-                        isDefinition = true;
-                        break;
-                    }
-                    current = current.parentElement;
-                }
-                if (!isDefinition) {
-                    assignments.push(el);
-                }
-            }
-        }
-        
-        console.log(`Successfully mapped ${assignments.length} live coverage assignments.`);
-
-        assignments.forEach((row) => {
-            const shiftId = text(row, "ShiftId");
-            const providerId = text(row, "ProviderId");
-            
-            let rawDate = text(row, "AssignmentDate") || 
-                          text(row, "Date") || 
-                          text(row, "ShiftDate") || 
-                          text(row, "DateString") || "";
-
-            if (!rawDate) return;
-            const normalizedDate = rawDate.replace(/\//g, '-');
-
-            const shiftName = shiftLookup[shiftId] || "Duty Shift";
-            const providerName = providerLookup[providerId] || "Unassigned";
-            
-            // Extract assignment override times or fall back to standard shift definition times[cite: 2]
-            const startTime = text(row, "StartTime") || text(row, "ShiftStartTime") || shiftLookup[shiftId + "_start"] || "07:00";
-            const endTime = text(row, "EndTime") || text(row, "ShiftEndTime") || shiftLookup[shiftId + "_end"] || "15:00";
-            
-            const cardHTML = renderShiftCard(shiftName, startTime, endTime, providerName);
-
-            if (normalizedDate.includes(todayMatchKey)) {
-                todayCards.push(cardHTML);
-            } else if (normalizedDate.includes(tomorrowMatchKey)) {
-                tomorrowCards.push(cardHTML);
-            }
-        });
-
-        // 5. Handle Sync Timer & Render Dashboard[cite: 2]
-        const outputDate = xml.querySelector("DataOutputDate")?.textContent;
-        if (outputDate) {
-            document.getElementById("sync-time").textContent = "— Updated " + new Date(outputDate).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
-        }
-
-        renderDashboard(todayCards, tomorrowCards, todayStr, tomorrowStr);
-
-    } catch (err) {
-        console.error(err);
-        const container = document.getElementById("schedule-content");
-        if (container) {
-            container.innerHTML = `<div style="padding:20px; color:#d32f2f; text-align:center; font-weight:600;">⚠️ Error parsing scheduling data: ${err.message}</div>`;
-        }
     }
+
+    renderDashboard(todayCards, tomorrowCards, todayLabel, tomorrowLabel);
+
+  } catch(err) {
+    console.error(err);
+    const container = document.getElementById("schedule-content");
+    if (container) {
+        container.innerHTML = `<div style="padding:20px;color:#d32f2f;text-align:center;font-weight:600;">⚠️ Error: ${err.message}</div>`;
+    }
+  }
 }
 
 displaySchedule();
-setInterval(displaySchedule, 300000);
+setInterval(displaySchedule, 3600000);
 </script>
