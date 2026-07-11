@@ -117,7 +117,6 @@ async function displaySchedule() {
         const todayCards = [];
         const tomorrowCards = [];
 
-        // STRATEGY: Target any element containing a ShiftId node that isn't the definition itself
         const allElements = xml.getElementsByTagName("*");
         const assignments = [];
         
@@ -130,17 +129,28 @@ async function displaySchedule() {
         console.log(`Found ${assignments.length} structural shift row elements.`);
 
         assignments.forEach((row, index) => {
+            // DIAGNOSTIC LOG: Let's inspect the very first row properties directly
+            if (index === 0) {
+                console.log("DIAGNOSTIC - First Row XML Tag:", row.tagName);
+                console.log("DIAGNOSTIC - First Row Inner HTML:", row.innerHTML);
+                // Check if date hides in an attribute
+                console.log("DIAGNOSTIC - First Row Attributes:", Array.from(row.attributes).map(a => `${a.name}=${a.value}`));
+            }
+
             const shiftId = text(row, "ShiftId");
             const providerId = text(row, "ProviderId");
             
-            let rawDate = text(row, "AssignmentDate") || text(row, "Date") || text(row, "ShiftDate") || "";
+            // Try explicit tags, fallback to common attribute keys if tags are empty
+            let rawDate = text(row, "AssignmentDate") || 
+                          text(row, "Date") || 
+                          text(row, "ShiftDate") || 
+                          row.getAttribute("AssignmentDate") || 
+                          row.getAttribute("Date") || 
+                          "";
+
             if (!rawDate) return;
 
             const normalizedDate = rawDate.replace(/\//g, '-');
-
-            if (index === 0) {
-                console.log("Sample Entry Matched:", { shiftId, providerId, normalizedDate, todayMatchKey });
-            }
 
             const shiftName = shiftLookup[shiftId] || "Duty Shift";
             const providerName = providerLookup[providerId] || "Unassigned";
