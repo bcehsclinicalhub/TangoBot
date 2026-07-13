@@ -129,4 +129,4 @@ Symptoms can begin 2-21 days post-exposure.
 
 | Adopted | Next Review Scheduled | Owner | Reviewer| 
 | :--- | :--- | :--- | :--- | 
-| Dec 2024 | Mar 2025 | Clinical Hub Mnager | BCEHS OHS Team |
+| JUL 2025 | JUL 2026 | Clinical Hub Mnager | BCEHS OHS Team |
