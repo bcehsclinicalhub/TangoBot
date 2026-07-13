@@ -62,7 +62,7 @@ Symptoms can begin 2-21 days post-exposure.
 
 *Initial symptoms:*
 
--Fever, chills 
+- Fever, chills 
 
 - Headache
 
@@ -95,28 +95,28 @@ Symptoms can begin 2-21 days post-exposure.
 - Severe weight loss
 
 !!! warning "**Asymptomatic Category 1**"
-Regular crew with POC Risk Assessment 
+    Regular crew with POC Risk Assessment 
 
-!!! warning "**Symptomatic Category 1**"
-Regular crew with POC RA or IDCT activation depending on clinical assessment
+!!! danger "**Symptomatic Category 1**"
+    Regular crew with POC RA or IDCT activation depending on clinical assessment
 
 !!! warning "**Asymptomatic Category 2**"
-Regular crew with POC RA or IDCT activation depending on clinical assessment
+    Regular crew with POC RA or IDCT activation depending on clinical assessment
 
-!!! warning "**Symptomatic Category 2**"
-IDCT activation 
+!!! danger "**Symptomatic Category 2**"
+    IDCT activation 
 
 ## Procedures
 
-1.Place a **“wait”** on the call with appropriate notes in supp info to support the decision.
+1. Place a **wait** on the call with appropriate notes in supp info to support the decision.
 
-2.Escalate to EPOS. Their role is to work with the MHO on-call to risk stratify the patient and determine if the IDCT is needed for transport.
+2. Escalate to EPOS. Their role is to work with the MHO on-call to risk stratify the patient and determine if the IDCT is needed for transport.
 
-3.Sig the CEMD and notify the POM as per our existing workflows.
+3. Sig the CEMD and notify the POM as per our existing workflows.
 
 ## References
 
-[MHO Phone Directory]  <a href="/ps/clinical/images/MHO-phone-numbers.pdf" target="_blank">WHO Phone Directory (PDF)</a>
+<a href="/ps/clinical/images/MHO-phone-numbers.pdf" target="_blank">WHO Phone Directory</a>
 
 [MTS HTP Tool](https://mts.bcehs.ca/Items/Display?id=56.1){:target="_blank .external-link}
 
