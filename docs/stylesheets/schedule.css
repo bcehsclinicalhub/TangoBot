@@ -105,7 +105,8 @@
 .shift-time {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 3rem;
     min-width: 120px;
 }
 
