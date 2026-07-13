@@ -17,6 +17,9 @@
 <div class="index-grid">
     <a href="hfnc-airvo2/">HFNC AIRVO2</a>
 </div>
+<div class="index-grid">
+    <a href="htp-ebola/">HTP: Ebola Virus</a>
+</div>
 
 ## P
 <div class="index-grid">
