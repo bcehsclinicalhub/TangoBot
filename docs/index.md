@@ -60,11 +60,13 @@ function renderShiftCard(shiftName, start, end, providerName) {
     </div>`;
 }
 
-function renderDaySection(title, icon, dateText, cards) {
+// Cleaned up section header to only display the raw formatted date label
+function renderDaySection(dateText, cards) {
     return `
     <section class="day-section">
-        <h2 class="day-header">${icon} ${title}</h2>
-        <div class="day-date">${dateText}</div>
+        <div class="day-date" style="font-weight: 700; font-size: 0.95rem; color: var(--md-primary-fg-color); border-bottom: 1px solid var(--md-default-fg-color--lightest); padding-bottom: 0.25rem; margin-bottom: 0.5rem;">
+            ${dateText}
+        </div>
         ${cards.length ? cards.join("") : '<p style="color:var(--md-default-fg-color--light); padding-left:10px;">No shifts scheduled.</p>'}
     </section>`;
 }
@@ -73,8 +75,8 @@ function renderDashboard(todayCards, tomorrowCards, todayStr, tomorrowStr) {
     const container = document.getElementById("schedule-content");
     if (!container) return;
     container.innerHTML = "";
-    container.insertAdjacentHTML("beforeend", renderDaySection("TODAY", "☀️", todayStr, todayCards));
-    container.insertAdjacentHTML("beforeend", renderDaySection("TOMORROW", "🌙", tomorrowStr, tomorrowCards));
+    container.insertAdjacentHTML("beforeend", renderDaySection(todayStr, todayCards));
+    container.insertAdjacentHTML("beforeend", renderDaySection(tomorrowStr, tomorrowCards));
 }
 
 async function displaySchedule() {
@@ -94,7 +96,6 @@ async function displaySchedule() {
     const xml = new DOMParser().parseFromString(xmlText, "application/xml");
     if (xml.querySelector("parsererror")) throw new Error("Invalid XML layout");
 
-    // 1. Build Global Maps
     const shiftLookup = {};
     xml.querySelectorAll("Shift").forEach(shift => {
       shiftLookup[text(shift, "ShiftId")] = text(shift, "ShiftName");
@@ -109,24 +110,20 @@ async function displaySchedule() {
           "Unknown";
     });
 
-    // 2. Setup System Target Dates
     const todayObj = new Date();
     const tomorrowObj = new Date(todayObj);
     tomorrowObj.setDate(todayObj.getDate() + 1);
 
-    // Human-readable labels for the dashboard UI
     const dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     const todayLabel = todayObj.toLocaleDateString('en-CA', dateOptions);
     const tomorrowLabel = tomorrowObj.toLocaleDateString('en-CA', dateOptions);
 
-    // Matching strings for XML evaluation (YYYY-MM-DD)
     const todayISO = todayObj.toISOString().slice(0, 10);
     const tomorrowISO = tomorrowObj.toISOString().slice(0, 10);
 
     const todayCards = [];
     const tomorrowCards = [];
 
-    // 3. Drill into Day -> SchedShift -> SchedProvider elements
     xml.querySelectorAll("Day").forEach(day => {
       const dayDate = text(day, "DayDate");
       if (dayDate !== todayISO && dayDate !== tomorrowISO) return;
@@ -137,11 +134,9 @@ async function displaySchedule() {
         schedShift.querySelectorAll("SchedProvider").forEach(provider => {
           const providerName = providerLookup[text(provider, "ProviderId")] || "Unknown Provider";
 
-          // Parse timestamps securely splitting at 'T' 
           const start = text(provider, "ScheduledStart").split("T")[1]?.substring(0, 5) ?? "00:00";
           const end = text(provider, "ScheduledEnd").split("T")[1]?.substring(0, 5) ?? "00:00";
 
-          // Generate card element
           const cardHTML = renderShiftCard(shiftName, start, end, providerName);
 
           if (dayDate === todayISO) {
@@ -153,7 +148,6 @@ async function displaySchedule() {
       });
     });
 
-    // 4. Update Header Timestamp and Paint Layout
     const outputDate = xml.querySelector("DataOutputDate")?.textContent;
     if (outputDate) {
       document.getElementById("sync-time").textContent =
