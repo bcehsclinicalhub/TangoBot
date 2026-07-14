@@ -20,40 +20,54 @@ jobs:
         env:
           SECRET_URL: ${{ secrets.BYTEBLOC_URL }}
         run: |
-
           set -e
 
-          echo "Downloading latest schedule..."
+          # We will attempt to download twice. If we get rate limited on attempt 1,
+          # we wait out the 10-minute cooldown and try one more time.
+          for attempt in 1 2; do
+            echo "Downloading latest schedule (Attempt $attempt)..."
 
-          HTTP_CODE=$(curl \
-            --silent \
-            --show-error \
-            --location \
-            --connect-timeout 30 \
-            --max-time 120 \
-            --write-out "%{http_code}" \
-            --output schedule.tmp \
-            "$SECRET_URL")
+            HTTP_CODE=$(curl \
+              --silent \
+              --show-error \
+              --location \
+              --connect-timeout 30 \
+              --max-time 120 \
+              --write-out "%{http_code}" \
+              --output schedule.tmp \
+              "$SECRET_URL")
 
-          echo "HTTP Status: $HTTP_CODE"
+            echo "HTTP Status: $HTTP_CODE"
 
-          if [ "$HTTP_CODE" != "200" ]; then
-            echo "Download failed."
-            rm -f schedule.tmp
-            exit 1
-          fi
+            if [ "$HTTP_CODE" != "200" ]; then
+              echo "Download failed with HTTP Status: $HTTP_CODE"
+              rm -f schedule.tmp
+              exit 1
+            fi
 
-          if [ ! -s schedule.tmp ]; then
-            echo "Downloaded file is empty."
-            rm -f schedule.tmp
-            exit 1
-          fi
+            if [ ! -s schedule.tmp ]; then
+              echo "Downloaded file is empty."
+              rm -f schedule.tmp
+              exit 1
+            fi
 
-          if grep -qi "called at most once every 10 min" schedule.tmp; then
-            echo "ByteBloc rate limit reached."
-            rm -f schedule.tmp
-            exit 1
-          fi
+            # Check for the actual error strings returned by ByteBloc
+            if grep -qi "ByteBloc rate limit reached" schedule.tmp || grep -qi "called at most once every 10 min" schedule.tmp; then
+              if [ "$attempt" -eq 1 ]; then
+                echo "ByteBloc rate limit reached. Waiting 10.5 minutes (630s) to clear the cooldown..."
+                rm -f schedule.tmp
+                sleep 630
+                continue
+              else
+                echo "ByteBloc rate limit reached again on attempt 2. Exiting."
+                rm -f schedule.tmp
+                exit 1
+              fi
+            fi
+
+            # If we reached here without continuing, the download succeeded. Break the retry loop.
+            break
+          done
 
           if ! grep -q "^<" schedule.tmp; then
             echo "Response is not XML."
@@ -90,12 +104,10 @@ jobs:
           fi
 
           mv schedule.tmp docs/assets/data.xml
-
           echo "Schedule updated successfully."
 
       - name: Commit updated schedule
         run: |
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
@@ -107,5 +119,4 @@ jobs:
           fi
 
           git commit -m "Update schedule"
-
           git push
