@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Schedule xmlns="https://bytebloc.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://bytebloc.com https://ca.bytebloc.com/sk/Content/xsd/MainScheduleV5.xsd">
   <ScheduleInfo xmlns="">
-    <DataOutputDate>2026-07-17T16:10:53-05:00</DataOutputDate>
+    <DataOutputDate>2026-07-17T17:19:25-05:00</DataOutputDate>
     <SchedId>21c1ed9b8f974189bda9b45e0134fe9d</SchedId>
     <SchedTitle>EPOS Final July 2026</SchedTitle>
     <SchedDesc>As-worked</SchedDesc>
@@ -2447,8 +2447,23 @@
             <SchedProvider>
               <ProviderId>9df10bfe84c64b2d8192b38a015e1063</ProviderId>
               <ScheduledStart>2026-07-17T12:00:00-07:00</ScheduledStart>
-              <ScheduledEnd>2026-07-18T00:00:00-07:00</ScheduledEnd>
+              <ScheduledEnd>2026-07-17T18:30:00-07:00</ScheduledEnd>
               <WorkedStart>2026-07-17T12:00:00-07:00</WorkedStart>
+              <WorkedEnd>2026-07-17T18:30:00-07:00</WorkedEnd>
+              <HoursConfirmation>2026-07-17T17:02:45-05:00</HoursConfirmation>
+            </SchedProvider>
+            <SchedProvider>
+              <ProviderId>af6669f8880b41f9842db19500beb8da</ProviderId>
+              <ScheduledStart>2026-07-17T18:30:00-07:00</ScheduledStart>
+              <ScheduledEnd>2026-07-17T21:00:00-07:00</ScheduledEnd>
+              <WorkedStart>2026-07-17T18:30:00-07:00</WorkedStart>
+              <WorkedEnd>2026-07-17T21:00:00-07:00</WorkedEnd>
+            </SchedProvider>
+            <SchedProvider>
+              <ProviderId>9df10bfe84c64b2d8192b38a015e1063</ProviderId>
+              <ScheduledStart>2026-07-17T21:00:00-07:00</ScheduledStart>
+              <ScheduledEnd>2026-07-18T00:00:00-07:00</ScheduledEnd>
+              <WorkedStart>2026-07-17T21:00:00-07:00</WorkedStart>
               <WorkedEnd>2026-07-18T00:00:00-07:00</WorkedEnd>
             </SchedProvider>
           </SchedProviderList>
