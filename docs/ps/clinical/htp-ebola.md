@@ -116,7 +116,7 @@ Symptoms can begin 2-21 days post-exposure.
 
 ## References
 
-<a href="/ps/clinical/images/MHO-phone-numbers.pdf" target="_blank">WHO Phone Directory</a>
+<a href="/ps/clinical/images/MHO-phone-numbers.pdf" target="_blank">MHO Phone Directory</a>
 
 [MTS HTP Tool](https://mts.bcehs.ca/Items/Display?id=56.1){:target="_blank .external-link}
 
