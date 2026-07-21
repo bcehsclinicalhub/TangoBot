@@ -32,7 +32,7 @@ This trial is designed to address LARU utilization challenges and drive growth i
 
 a.	Transport Chair: Mobb or Drive Medical models of transport chair authorized to be on LARU unit.
 
-b.	JAY Tool: “Justifiable, Accountable, You” tool available on the [Handbook](https://handbook.bcehs.ca/clinical-resources/miscellaneous-resources/jay-decision-making-tool/){:target="_blank .external-link}Handbook or Intranet.
+b.	JAY Tool: “Justifiable, Accountable, You” tool available on the [Handbook](https://handbook.bcehs.ca/clinical-resources/miscellaneous-resources/jay-decision-making-tool/){:target="_blank .external-link} or Intranet.
 
 c.	Reasonably level ground: any slope that could cause the device to roll or become unstable, typically an 8% grade (typical wheelchair ramp).
 
@@ -88,93 +88,93 @@ The transport chair will be located on the rear seat and secured with a seatbelt
 
 | Chair Storage | Both Models |
 | :--- | :--- |
-| ![Chair Storage](images/chair1.jpg) | (images/chair2.jpg) |
+| ![Mobb Chair](images/chair1.jpg) | ![Drive Chair](images/chair2.jpg) |
 
 
 ## Cleaning Process
 **Mobb or Drive Transport Chair**
 
-Required Supplies:
+**Required Supplies:**
 
-• Accel PREVention Wipes (AHP-based disinfectant)
+❑ Accel PREVention Wipes (AHP-based disinfectant)
 
-• Disposable gloves
+❑ Disposable gloves
 
-• Face shield or goggles (if gross contamination is present)
+❑ Face shield or goggles (if gross contamination is present)
 
-• Soap and water (if gross contamination is present)
+❑ Soap and water (if gross contamination is present)
 
-• Hand hygiene products (soap/water or alcohol-based hand rub)
+❑ Hand hygiene products (soap/water or alcohol-based hand rub)
 
-• Brawny paper towels or equivalent
+❑ Brawny paper towels or equivalent
 
-Frequency of Cleaning:
+**Frequency of Cleaning:**
 
 • After each use
 
 • As part of pre-shift inspection as needed
 
-Procedure – Step 1 - Preperation
+**Step 1 - Preperation:**
 
-• Perform hand hygiene before putting on PPE
+❑ Perform hand hygiene before putting on PPE
 
-• Don appropriate PPE:
+❑ Don appropriate PPE:
 
-     • Disposable Gloves
+  • Disposable Gloves
 
-     • Face shield or googles (if required)
+  • Face shield or googles (if required)
 
-Procedure - Step 2: Inspection/Cleaning
+**Step 2: Inspection/Cleaning:**
 
-•	Inspect for visible soiling or damage (tears, fraying material, rust, broken connections, wheels)
+ Inspect for visible soiling or damage (tears, fraying material, rust, broken connections, wheels)
 
-•	Clean lightly soiled surfaces with warm soapy water and brawny towel
+❑ Clean lightly soiled surfaces with warm soapy water and brawny towel
 
-•	All surfaces must be dry prior to disinfection
+❑ All surfaces must be dry prior to disinfection
 
-•	Disinfect the following areas with Accel prevention wipes:
+❑	Disinfect the following areas with Accel prevention wipes:
 
-• Seat base and seatbelts
+❑ Seat base and seatbelts
 
-• Backrest
+❑ Backrest
 
-• Footrest
+❑ Footrest
 
-• Handles and Brake Levers
+❑ Handles and Brake Levers
 
-• Wheels
+❑ Wheels
 
-• Focus on joints, crevices, and undersides removing components for thorough cleaning
+❑ Focus on joints, crevices, and undersides removing components for thorough cleaning
 
-• Chair Frame and Fixed Surfaces 
+❑ Chair Frame and Fixed Surfaces 
 
-• Detach the footrest
+❑ Detach the footrest
 
-• Set aside for separate cleaning
+❑ Set aside for separate cleaning
 
-• Unfasten patient restraint straps and lay them flat for easier access
+❑ Unfasten patient restraint straps and lay them flat for easier access
 
-• Ensure full surface contact time (3 minutes)
+❑ Ensure full surface contact time (3 minutes)
 
-• Surfaces must stay visibly wet for at least 3 minutes (or per label instructions)
+❑ Surfaces must stay visibly wet for at least 3 minutes (or per label instructions)
 
-• Allow surfaces to air dry before folding chair up
+❑ Allow surfaces to air dry before folding chair up
 
-Procedure - Step 3: Grossly Contaminated
+**Step 3: Grossly Contaminated:**
 
-• Remove all restraints
+❑ Remove all restraints
 
-• Thoroughly clean all components
+❑ Thoroughly clean all components
 
-• Contact LaRUOperations@bcehs.ca for replacement of grossly contaminated belts
+❑ Contact LaRUOperations@bcehs.ca for replacement of grossly contaminated belts
 
-Procedure - Step 4: Disposal and Hand Hygiene
+**Step 4: Disposal and Hand Hygiene:**
 
-•Discard used wipes/gloves in designated waste
+❑ Discard used wipes/gloves in designated waste
 
-•Remove PPE per doffing procedure
+❑ Remove PPE per doffing procedure
 
-•Perform hand hygiene after each step of PPE removal
+❑ Perform hand hygiene after each step of PPE removal
 
 
 ## References
