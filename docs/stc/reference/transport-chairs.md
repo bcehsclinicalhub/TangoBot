@@ -118,7 +118,7 @@ The transport chair will be located on the rear seat and secured with a seatbelt
 
 ❑ Perform hand hygiene before putting on PPE
 
-- Don appropriate PPE:
+  **Don appropriate PPE:**
 
 ❑ Disposable Gloves
 
