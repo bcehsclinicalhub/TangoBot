@@ -110,23 +110,23 @@ The transport chair will be located on the rear seat and secured with a seatbelt
 
 **Frequency of Cleaning:**
 
-• After each use
+1. After each use
 
-• As part of pre-shift inspection as needed
+2. As part of pre-shift inspection as needed
 
 **Step 1 - Preperation:**
 
 ❑ Perform hand hygiene before putting on PPE
 
-❑ Don appropriate PPE:
+- Don appropriate PPE:
 
-  • Disposable Gloves
+❑ Disposable Gloves
 
-  • Face shield or googles (if required)
+❑ Face shield or googles (if required)
 
 **Step 2: Inspection/Cleaning:**
 
- Inspect for visible soiling or damage (tears, fraying material, rust, broken connections, wheels)
+❑ Inspect for visible soiling or damage (tears, fraying material, rust, broken connections, wheels)
 
 ❑ Clean lightly soiled surfaces with warm soapy water and brawny towel
 
@@ -183,7 +183,7 @@ The transport chair will be located on the rear seat and secured with a seatbelt
 
 [JAY Tool](https://handbook.bcehs.ca/clinical-resources/miscellaneous-resources/jay-decision-making-tool/){:target="_blank .external-link}
 
-[PMAT (Patient Movement Assessment Tool)](https://handbook.bcehs.ca/clinical-resources/clinical-references-cards/pmat-patient-movement-assessment-tool/)){:target="_blank .external-link}
+[PMAT (Patient Movement Assessment Tool)](https://handbook.bcehs.ca/clinical-resources/clinical-references-cards/pmat-patient-movement-assessment-tool/){:target="_blank .external-link}
 
 
 ## Review Schedule
