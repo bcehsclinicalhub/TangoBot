@@ -23,26 +23,35 @@ keywords:
 
 # High Threat Pathogen Tool<br>
 
-The High Threat Pathogen Assessment Card is intended for use by BCEHS Paramedic Specialists when screening prehospital patients for risk factors that may require activation / notification of the BCEHS Infectious Disease Care Team (IDCT).  
+The High Threat Pathogen Assessment Card is intended for use by BCEHS Paramedic Specialists when screening prehospital patients for risk factors that may require activation / notification of the BCEHS Infectious Disease Care Team (IDCT).
 
+## Result
 
-Within the assessment card, patients will be stratified as **No Risk, Low Risk**, or **High Risk** based on their clinical presentation, travel history, and care requirements per the BCEHS/BCCDC EVD Transportation Policy.  
+<div class="card-grid-3">
 
-## Initial Questions
+  <!-- Column 1: Result (Red) -->
+  <div class="status-card card-red">
+    <h4>Result:</h4>
+    <p>High Risk</p>
+  </div>
 
-1. Suspected or confirmed exposure to high threat pathogen?
+  <!-- Column 2: Action (Green) -->
+  <div class="status-card card-green">
+    <h4>Action:</h4>
+    <p>A) Place WAIT on event for further evaluation.</p>
+    <p>B) Alert Provincial Operations Manager of HIGH-RISK patient identified (604-828-4510).</p>
+    <p>C) Provincial Operations Manager to alert IDCT Manager on call and Medical Health Officer as appropriate.</p>
+  </div>
 
-2. High risk travel history based on public health intelligence?
+  <!-- Column 3: Advice (Yellow) -->
+  <div class="status-card card-yellow">
+    <h4>Advice:</h4>
+    <p>Provide Dispatch Life Support advice if required.</p>
+    <p>Proceed to collect information for SBAR handover to Medical Health Officer.</p>
+    <p>Medical Health Officer to advise on activation of Infectious Disease Care Team and/or transport to Type 3 receiving facility.</p>
+  </div>
 
-3. Acute symptoms in alignment with known high threat pathogen?   
-
-!!! danger "⚠️ STOP ASSESSMENT"
-    **IF "YES" TO ANY OF THE ABOVE, SELECT THE YES BUTTON BELOW.**
-
-[YES](#yes-link){ .md-button .md-button--primary }
-[NO](#no-link){ .md-button }
-
-YES | NO
+</div>
 
 ## Discriminator Questions
 

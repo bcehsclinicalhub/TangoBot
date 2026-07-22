@@ -30,18 +30,18 @@ Within the assessment card, patients will be stratified as **No Risk, Low Risk**
 
 ## Initial Questions
 
-1. Suspected or confirmed exposure to high threat pathogen?
+**1. Suspected or confirmed exposure to high threat pathogen?**
 
-2. High risk travel history based on public health intelligence?
+**2. High risk travel history based on public health intelligence?**
 
-3. Acute symptoms in alignment with known high threat pathogen?   
+**3. Acute symptoms in alignment with known high threat pathogen?**   
 
 !!! danger "STOP ASSESSMENT"
     **IF "YES" TO ANY OF THE ABOVE, SELECT THE YES BUTTON BELOW.**
 
 <div style="text-align: center; margin-top: 1rem;">
-  <a href="#yes-link" class="md-button btn-yes">YES</a>
-  <a href="#no-link" class="md-button btn-no">NO</a>
+  <a href="htp-tool-yes/" class="md-button btn-yes">YES</a>
+  <a href="htp-tool-no/" class="md-button btn-no">NO</a>
 </div>
 
 ## Discriminator Questions

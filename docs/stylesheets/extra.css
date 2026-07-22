@@ -481,3 +481,53 @@ input.md-search__input {
   background-color: #b71c1c;
   border-color: #b71c1c;
 }
+
+/* 3-Column Horizontal Grid Container */
+.card-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 16px;
+  margin: 20px 0;
+}
+
+/* Base Card Style */
+.status-card {
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.status-card h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Red Card (Result) */
+.card-red {
+  background-color: #ffb6c1; /* Soft Red / Pink */
+  border-color: #d32f2f;
+  color: #111;
+}
+
+/* Green Card (Action) */
+.card-green {
+  background-color: #c8e6c9; /* Soft Green */
+  border-color: #2e7d32;
+  color: #111;
+}
+
+/* Yellow Card (Advice) */
+.card-yellow {
+  background-color: #fff9c4; /* Soft Yellow */
+  border-color: #fbc02d;
+  color: #111;
+}
+
+/* Responsive adjustment for mobile screens */
+@media (max-width: 900px) {
+  .card-grid-3 {
+    grid-template-columns: 1fr; /* Stack vertically on small screens */
+  }
+}
