@@ -36,15 +36,13 @@ Within the assessment card, patients will be stratified as **No Risk, Low Risk**
 
 3. Acute symptoms in alignment with known high threat pathogen?   
 
-!!! danger "STOP ASSESSMENT"
+!!! danger "⚠️ STOP ASSESSMENT"
     **IF "YES" TO ANY OF THE ABOVE, SELECT THE YES BUTTON BELOW.**
 
-<div align="center" style="margin-top: 1rem;">
+[YES](#yes-link){ .md-button .md-button--primary }
+[NO](#no-link){ .md-button }
 
-[YES](#yes-link){ .md-button .btn-yes }
-[NO](#no-link){ .md-button .btn-no }
-
-</div>
+YES | NO
 
 ## Discriminator Questions
 
