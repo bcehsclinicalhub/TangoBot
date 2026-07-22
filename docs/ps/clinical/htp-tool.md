@@ -36,8 +36,11 @@ Within the assessment card, patients will be stratified as **No Risk, Low Risk**
 
 3. Acute symptoms in alignment with known high threat pathogen?   
 
-!!! warning "**STOP ASSESSMENT**"
-    * IF "YES" TO ANY OF THE ABOVE, SELECT YES BUTTON 
+!!! danger "⚠️ STOP ASSESSMENT"
+    **IF "YES" TO ANY OF THE ABOVE, SELECT THE YES BUTTON BELOW.**
+
+[YES](#yes-link){ .md-button .md-button--primary }
+[NO](#no-link){ .md-button }
 
 YES | NO
 
@@ -64,10 +67,6 @@ YES | NO
 **4. Suspected or confirmed exposure to known infectious disease (not high threat pathogen)?**
 
 ❑ Review Public Health Agency of Canada Known Infectious Diseases and Conditions. [Jump to HTP References](#references).
-
-...
-
-## Installation Guide
 
 **5. Transmission likely via casual (droplet/aerosol) contact?**
 
@@ -111,8 +110,6 @@ YES | NO
 [Pathogen Risk Assessment (PHAC)](https://www.canada.ca/en/public-health/services/laboratory-biosafety-biosecurity/pathogen-safety-data-sheets-risk-assessment/pathogen-risk-assessment-template.html){:target="_blank .external-link}
 
 [NETEC Outbreak Updates](https://repository.netecweb.org/outbreaks){:target="_blank .external-link}
-
-[BCCDC PPE Recommendations](http://www.bccdc.ca/health-professionals/clinical-resources/covid-19-care/infection-control/personal-protective-equipment#:~:text=Use%20a%20N95%20respirator%20or,confirmed%20to%20have%20COVID%2D19){:target="_blank .external-link}
 
 [PICNet PPE Guidelines](https://picnet.ca/guidelines/personal-protective-equipment/){:target="_blank .external-link}
 
