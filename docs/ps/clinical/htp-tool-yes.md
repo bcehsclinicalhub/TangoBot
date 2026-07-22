@@ -30,16 +30,17 @@ The following results are based on answering **YES** to any one of the first thr
   <!-- Column 1: Result (Red) -->
   <div class="status-card card-red">
     <h4>Result:</h4>
-    <p>**High Risk**</p>
+    <p><strong>High Risk</strong></p>
   </div>
 
   <!-- Column 2: Action (Green) -->
   <div class="status-card card-green">
     <h4>Action:</h4>
-    <p>A) Place **WAIT** on event for further evaluation.</p>
-    <p>B) Alert Provincial Operations Manager of HIGH-RISK patient identified (604-828-4510).</p>
+    <p>A) Place <strong>WAIT</strong> on event for further evaluation.</p>
+    <p>B) Alert Provincial Operations Manager of <strong>HIGH-RISK</strong> patient identified (604-828-4510).</p>
     <p>C) Provincial Operations Manager to alert IDCT Manager on call and Medical Health Officer as appropriate.</p>
   </div>
+
 
   <!-- Column 3: Advice (Yellow) -->
   <div class="status-card card-yellow">
