@@ -39,11 +39,9 @@ Within the assessment card, patients will be stratified as **No Risk, Low Risk**
 !!! danger "STOP ASSESSMENT"
     **IF "YES" TO ANY OF THE ABOVE, SELECT THE YES BUTTON BELOW.**
 
-<div align="center" style="margin-top: 1rem;">
-
-[YES](#yes-link){ .md-button .btn-yes }
-[NO](#no-link){ .md-button .btn-no }
-
+<div style="text-align: center; margin-top: 1rem;">
+  <a href="#yes-link" class="md-button btn-yes">YES</a>
+  <a href="#no-link" class="md-button btn-no">NO</a>
 </div>
 
 ## Discriminator Questions
