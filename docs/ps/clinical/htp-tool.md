@@ -40,8 +40,8 @@ Within the assessment card, patients will be stratified as **No Risk, Low Risk**
     **IF "YES" TO ANY OF THE ABOVE, SELECT THE YES BUTTON BELOW.**
 
 <div style="text-align: center; margin-top: 1rem;">
-  <a href="/htp-tool-yes.md" class="md-button btn-yes">YES</a>
-  <a href="/htp-tool-no.md/" class="md-button btn-no">NO</a>
+  <a href="../htp-tool-yes/" class="md-button btn-yes">YES</a>
+  <a href="../htp-tool-no/" class="md-button btn-no">NO</a>
 </div>
 
 ## Discriminator Questions
