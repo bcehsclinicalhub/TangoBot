@@ -36,11 +36,10 @@ Within the assessment card, patients will be stratified as **No Risk, Low Risk**
 
 3. Acute symptoms in alignment with known high threat pathogen?   
 
-
-**STOP ASSESSMENT AND MOVE TO ACTION ITEMS IF "YES" TO ANY OF THE ABOVE**
+!!! warning "**STOP ASSESSMENT**"
+    * IF "YES" TO ANY OF THE ABOVE, SELECT YES BUTTON 
 
 YES | NO
-
 
 ## Discriminator Questions
 
@@ -50,7 +49,9 @@ YES | NO
 
 ❑ Known HTP's include Lassa Fever, Marburg Virus, Ebola Virus Disease, Crimean Congo Hemorrhagic Fever and Middle East Respiratory Syndrome.
 
-**2. High risk travel history based on public health intelligence?Has the patient traveled to or lived in a country with known high threat pathogen transmission in the past 21 days?
+**2. High risk travel history based on public health intelligence?**
+
+❑ Has the patient traveled to or lived in a country with known high threat pathogen transmission in the past 21 days?
 
 ❑ Is an active outbreak of the pathogen described in the Government of Canada Travel Health Notices list?
 
@@ -62,27 +63,40 @@ YES | NO
 
 **4. Suspected or confirmed exposure to known infectious disease (not high threat pathogen)?**
 
-❑ Review Public Health Agency of Canada Known Infectious Diseases and Conditions. [See HTP References page](docs/setup.md).
+❑ Review Public Health Agency of Canada Known Infectious Diseases and Conditions. [Jump to HTP References](#references).
+
+...
+
+## Installation Guide
 
 **5. Transmission likely via casual (droplet/aerosol) contact?**
 
 ❑ What is the likelihood of infection or disease arising from casual contact of the agent with intact skin? 
+
 ❑ What is the likelihood of infection or disease arising from contact of the agent with mucous membranes or damaged skin? 
+
 ❑ What is the likelihood of infection or disease arising from inhalation of the agent (eg: large or small droplet aerosols, spores)?
+
 ❑ Review National Emerging Special Pathogens Training & Education Center and Public Health Agency of Canada for (known) pathogen specific information.
 
 **6. Transmission likely via intimate, fomite or vector contact?** 
 
 ❑ What is the likelihood of infection or disease arising from intimate contact of the agent with intact skin?
+
 ❑ What is the likelihood of infection or disease arising from contact of the agent with mucous membranes or damaged skin?
+
 ❑ What is the likelihood of infection or disease arising from inhalation of the agent (e.g., large or small droplet aerosols, spores)?
 
 **7. Sub-acute symptoms in alignment with known HTP?**
 
 ❑ Fever (<38 degrees)
+
 ❑ Chills
+
 ❑ Sore Throat / Pharyngitis 
+
 ❑ Headache
+
 ❑ Muscle Pain
 
 
