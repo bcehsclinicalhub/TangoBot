@@ -23,32 +23,30 @@ keywords:
 
 # High Threat Pathogen Tool<br>
 
-Continue with questions 4-7 to determine low or no risk. 
+<div class="card-grid-3">
 
-<div class="status-card card-yellow">
-  <h4>Question:</h4>
-  
-  <p>4. Suspected or confirmed exposure to known infectious disease (not high threat pathogen)?</p>
-  
-  <p>Review Public Health Agency of Canada <a href="https://www.canada.ca/en/public-health/services/diseases.html" target="_blank">Known Infectious Diseases and Conditions</a></p>
-  
-  <p>5. Transmission likely via casual (droplet/aerosol) contact?</p>
-  
-  <p>6. Transmission likely via intimate, fomite or vector contact?</p>
-  
-  <p><strong>Fomite</strong> = objects or materials which are likely to carry infection, such as clothes, utensils, and furniture. <strong>Vector</strong> = A carrier of a disease-causing agent (e.g., mosquito, tick)</p>
-  
-  <p>Review <a href="https://netec.org/" target="_blank">National Emerging Special Pathogens Training & Education Center</a> and <a href="https://www.canada.ca/en/public-health.html" target="_blank">Public Health Agency of Canada</a> for (known) pathogen specific information</p>
-  
-  <p>7. Sub-acute symptoms in alignment with known HTP?</p>
-</div>
+  <!-- Column 1: Result (Green) -->
+  <div class="status-card card-green">
+    <h4>Result:</h4>
+    <p>Action as <strong>NO HTP RISK</strong></p>
+  </div>
 
-!!! danger "STOP ASSESSMENT"
-    **IF "YES" TO ANY OF THE ABOVE, SELECT THE YES BUTTON BELOW.**
+  <!-- Column 2: Action (Green) -->
+  <div class="status-card card-green">
+    <h4>Action:</h4>
+    <p>Provide recommendation of contact/droplet PPE as appropriate.</p>
+    <br>
+    <p>Recommend conveyance to Type 1 receiving facility (pre-alert as required).</p>
+    <br>
+    <p>All hospitals in British Columbia are considered Type 1 Receiving Facilities.</p>
+  </div>
 
-<div style="text-align: center; margin-top: 1rem;">
-  <a href="../htp-tool-low-risk/" class="md-button btn-yes">YES</a>
-  <a href="../htp-tool-no-risk/" class="md-button btn-no">NO</a>
+  <!-- Column 3: Advice (Green) -->
+  <div class="status-card card-green">
+    <h4>Advice:</h4>
+    <p>Despite no high-threat pathogen or risk of infection being identified, contact crew to discuss case as appropriate.</p>
+  </div>
+
 </div>
 
 ## Discriminator Questions
