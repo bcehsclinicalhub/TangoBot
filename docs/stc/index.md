@@ -11,7 +11,7 @@
 | :--- | :--- | :--- |
 | **Urgent & Primary Care Centres** | UPCC Phone #'s and services | [UPCC Site Details →](upcc/index.md) |
 | **Directory of Services** | Clinics and Pharmacies | [Directory of Services →](services/index.md) |
-| **Reference Cards** | Various clinical tools and references | [Reference Cards →](reference/index.md) |
+| **Reference Tools** | Various clinical tools and references | [Reference Tools →](reference/index.md) |
 
 ## ⚠️ Critical Alerts
 !!! danger "NEW UPCCs Coming Soon"

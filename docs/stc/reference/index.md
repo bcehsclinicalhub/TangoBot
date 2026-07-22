@@ -1,6 +1,6 @@
 <div align="center">
   <img src="../assets/hublogo.png" class="hero-logo-small" />
-  <h1 style="margin-top: 10px;">☎️ Directory of Services</h1>
+  <h1 style="margin-top: 10px;">✂️ Reference Tools</h1>
 </div>
 
 ## A

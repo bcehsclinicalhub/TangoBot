@@ -20,6 +20,9 @@
 <div class="index-grid">
     <a href="htp-ebola/">HTP: Ebola Virus</a>
 </div>
+<div class="index-grid">
+    <a href="htp-tool/">High Threat Pathogen Tool</a>
+</div>
 
 ## P
 <div class="index-grid">
