@@ -23,22 +23,20 @@ keywords:
 
 # High Threat Pathogen Tool<br>
 
-The High Threat Pathogen Assessment Card is intended for use by BCEHS Paramedic Specialists when screening prehospital patients for risk factors that may require activation / notification of the BCEHS Infectious Disease Care Team (IDCT).
-
-## Result
+The following results are based on answering **YES** to any one of the first three discrimnator questions. 
 
 <div class="card-grid-3">
 
   <!-- Column 1: Result (Red) -->
   <div class="status-card card-red">
     <h4>Result:</h4>
-    <p>High Risk</p>
+    <p>**High Risk**</p>
   </div>
 
   <!-- Column 2: Action (Green) -->
   <div class="status-card card-green">
     <h4>Action:</h4>
-    <p>A) Place WAIT on event for further evaluation.</p>
+    <p>A) Place **WAIT** on event for further evaluation.</p>
     <p>B) Alert Provincial Operations Manager of HIGH-RISK patient identified (604-828-4510).</p>
     <p>C) Provincial Operations Manager to alert IDCT Manager on call and Medical Health Officer as appropriate.</p>
   </div>
@@ -46,9 +44,9 @@ The High Threat Pathogen Assessment Card is intended for use by BCEHS Paramedic 
   <!-- Column 3: Advice (Yellow) -->
   <div class="status-card card-yellow">
     <h4>Advice:</h4>
-    <p>Provide Dispatch Life Support advice if required.</p>
-    <p>Proceed to collect information for SBAR handover to Medical Health Officer.</p>
-    <p>Medical Health Officer to advise on activation of Infectious Disease Care Team and/or transport to Type 3 receiving facility.</p>
+    <p>- Provide Dispatch Life Support advice if required.</p>
+    <p>- Proceed to collect information for SBAR handover to Medical Health Officer.</p>
+    <p>- Medical Health Officer to advise on activation of Infectious Disease Care Team and/or transport to Type 3 receiving facility.</p>
   </div>
 
 </div>

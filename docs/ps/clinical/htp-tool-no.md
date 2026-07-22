@@ -23,26 +23,25 @@ keywords:
 
 # High Threat Pathogen Tool<br>
 
-The High Threat Pathogen Assessment Card is intended for use by BCEHS Paramedic Specialists when screening prehospital patients for risk factors that may require activation / notification of the BCEHS Infectious Disease Care Team (IDCT).  
+Continue with questions 4-7, based on answering **NO** to ALL of the first three discrimnator questions.
 
-
-Within the assessment card, patients will be stratified as **No Risk, Low Risk**, or **High Risk** based on their clinical presentation, travel history, and care requirements per the BCEHS/BCCDC EVD Transportation Policy.  
-
-## Initial Questions
-
-1. Suspected or confirmed exposure to high threat pathogen?
-
-2. High risk travel history based on public health intelligence?
-
-3. Acute symptoms in alignment with known high threat pathogen?   
-
-!!! danger "⚠️ STOP ASSESSMENT"
-    **IF "YES" TO ANY OF THE ABOVE, SELECT THE YES BUTTON BELOW.**
-
-[YES](#yes-link){ .md-button .md-button--primary }
-[NO](#no-link){ .md-button }
-
-YES | NO
+<div class="status-card card-yellow">
+  <h4>Question:</h4>
+  
+  <p>4. Suspected or confirmed exposure to known infectious disease (not high threat pathogen)?</p>
+  
+  <p>Review Public Health Agency of Canada <a href="https://www.canada.ca/en/public-health/services/diseases.html" target="_blank">Known Infectious Diseases and Conditions</a></p>
+  
+  <p>5. Transmission likely via casual (droplet/aerosol) contact?</p>
+  
+  <p>6. Transmission likely via intimate, fomite or vector contact?</p>
+  
+  <p><strong>Fomite</strong> = objects or materials which are likely to carry infection, such as clothes, utensils, and furniture. <strong>Vector</strong> = A carrier of a disease-causing agent (e.g., mosquito, tick)</p>
+  
+  <p>Review <a href="https://netec.org/" target="_blank">National Emerging Special Pathogens Training & Education Center</a> and <a href="https://www.canada.ca/en/public-health.html" target="_blank">Public Health Agency of Canada</a> for (known) pathogen specific information</p>
+  
+  <p>7. Sub-acute symptoms in alignment with known HTP?</p>
+</div>
 
 ## Discriminator Questions
 
