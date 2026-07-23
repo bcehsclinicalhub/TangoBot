@@ -31,7 +31,7 @@ The following results are based on answering **YES** to any one of the first thr
   </div>
 
   <!-- Column 2: Action (Red) -->
-  <div class="status-card card-green">
+  <div class="status-card card-red">
     <h4>Action:</h4>
     <p>A) Place <strong>WAIT</strong> on event for further evaluation.</p>
     <p>B) Alert Provincial Operations Manager of <strong>HIGH-RISK</strong> patient identified (604-828-4510).</p>
@@ -40,7 +40,7 @@ The following results are based on answering **YES** to any one of the first thr
 
 
   <!-- Column 3: Advice (Red) -->
-  <div class="status-card card-yellow">
+  <div class="status-card card-red">
     <h4>Advice:</h4>
     <p>- Provide Dispatch Life Support advice if required.</p>
     <p>- Proceed to collect information for SBAR handover to Medical Health Officer.</p>

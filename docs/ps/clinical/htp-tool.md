@@ -69,7 +69,7 @@ Has the patient had direct contact with a living or deceased person who is suspe
 
 ❑ What is the likelihood of infection or disease arising from contact of the agent with mucous membranes or damaged skin? 
 
-❑ What is the likelihood of infection or disease arising from inhalation of the agent (e.g., large or small droplet aerosols, spores)?
+❑ What is the likelihood of infection or disease arising from inhalation of the agent (e.g.,git pull large or small droplet aerosols, spores)?
 
 ❑ Review National Emerging Special Pathogens Training & Education Center and Public Health Agency of Canada for (known) pathogen specific information.
 
