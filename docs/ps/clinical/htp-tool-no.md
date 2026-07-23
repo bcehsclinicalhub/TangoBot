@@ -51,17 +51,13 @@ Continue with questions 4-7 to determine low or no risk.
 
 **1. Suspected or confirmed exposure to High Threat Pathogen**
 
-❑ Has the patient had direct contact with a living or deceased person who is suspected or confirmed to have a known High Threat Pathogen? 
-
-❑ Known HTP's include Lassa Fever, Marburg Virus, Ebola Virus Disease, Crimean Congo Hemorrhagic Fever and Middle East Respiratory Syndrome.
+Has the patient had direct contact with a living or deceased person who is suspected or confirmed to have a known High Threat Pathogen? Known HTPs include Lassa Fever, Marburg Virus, Ebola Virus Disease, Crimean Congo Hemorrhagic Fever and Middle East Respiratory Syndrome.
 
 **2. High risk travel history based on public health intelligence?**
 
 ❑ Has the patient traveled to or lived in a country with known high threat pathogen transmission in the past 21 days?
 
-❑ Is an active outbreak of the pathogen described in the Government of Canada Travel Health Notices list?
-
-❑ Review Global Public Health Intelligence Network (GPHIN) report in PS inbox.
+❑ Is an active outbreak of the pathogen described in the Government of Canada Travel Health Notices list? Review Global Public Health Intelligence Network (GPHIN) report in PS inbox.
 
 **3. Acute Symptoms in alignment with known HTP?**
 
@@ -77,7 +73,7 @@ Continue with questions 4-7 to determine low or no risk.
 
 ❑ What is the likelihood of infection or disease arising from contact of the agent with mucous membranes or damaged skin? 
 
-❑ What is the likelihood of infection or disease arising from inhalation of the agent (eg: large or small droplet aerosols, spores)?
+❑ What is the likelihood of infection or disease arising from inhalation of the agent (e.g., large or small droplet aerosols, spores)?
 
 ❑ Review National Emerging Special Pathogens Training & Education Center and Public Health Agency of Canada for (known) pathogen specific information.
 
