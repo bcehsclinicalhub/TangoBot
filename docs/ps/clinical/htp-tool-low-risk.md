@@ -10,15 +10,10 @@ owner: Clinical Hub
 category: Operational
 
 tags:
-  - HTP
   - Safety
   - Tool
 
 keywords:
-  - HTP
-  - High Threat Pathogen
-  - Tool
-  - Screen
 ---
 
 # High Threat Pathogen Tool<br>
