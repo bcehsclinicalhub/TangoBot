@@ -8,7 +8,6 @@ last_reviewed: 2024-12-01
 next_review: 2023-03-01
 owner: Clinical Hub
 category: Operational
----
 
 tags:
   - Safety
