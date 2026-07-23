@@ -8,17 +8,14 @@ last_reviewed: 2024-12-01
 next_review: 2023-03-01
 owner: Clinical Hub
 category: Operational
+search:
+  exclude: true
 
 tags:
-  - HTP
-  - Safety
-  - Tool
+  
 
 keywords:
-  - HTP
-  - High Threat Pathogen
-  - Tool
-  - Screen
+  
 ---
 
 # High Threat Pathogen Tool<br>
