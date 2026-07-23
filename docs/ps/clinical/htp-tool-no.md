@@ -44,7 +44,7 @@ Continue with questions 4-7 to determine low or no risk.
 </div>
 
 !!! danger "STOP ASSESSMENT"
-    **IF "YES" TO ANY OF THE ABOVE, SELECT THE YES BUTTON BELOW.**
+    **IF "YES" TO ANY OF THE ABOVE, SELECT THE YES BUTTON BELOW, IF NOT SELECT NO.**
 
 <div style="text-align: center; margin-top: 1rem;">
   <a href="../htp-tool-low-risk/" class="md-button btn-yes">YES</a>
