@@ -30,7 +30,7 @@ The following results are based on answering **YES** to any one of the first thr
     <p><strong>High Risk</strong></p>
   </div>
 
-  <!-- Column 2: Action (Green) -->
+  <!-- Column 2: Action (Red) -->
   <div class="status-card card-green">
     <h4>Action:</h4>
     <p>A) Place <strong>WAIT</strong> on event for further evaluation.</p>
@@ -39,12 +39,12 @@ The following results are based on answering **YES** to any one of the first thr
   </div>
 
 
-  <!-- Column 3: Advice (Yellow) -->
+  <!-- Column 3: Advice (Red) -->
   <div class="status-card card-yellow">
     <h4>Advice:</h4>
     <p>- Provide Dispatch Life Support advice if required.</p>
     <p>- Proceed to collect information for SBAR handover to Medical Health Officer.</p>
-    <p>- Medical Health Officer to advise on activation of Infectious Disease Care Team and/or transport to Type 3 receiving facility.</p>
+    <p>- Medical Health Officer to advise on activation of Infectious Disease Care Team and/or transport to Type 3 receiving facility (BC Biocontainment Treatment Center).</p>
   </div>
 
 </div>
