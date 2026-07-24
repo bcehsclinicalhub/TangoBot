@@ -21,6 +21,6 @@
 
 ## ⚕️ Important Updates
 !!! warning "Latest Clinical & Operational Updates"
-    * **July 24, 2026 | High Threat Pathogen Tool:** The HTP screening tool, previously available in MTS, is now in the Hub Wiki site.[Find it here →](ps/clinical/htp-tool/)
-    * **March 25, 2026 | Parenteral Ondansetron:** Now considered first-line parenteral antiemetic for most causes of nausea/vomiting. ODTs remain available. [More Info on Intranet →](https://intranet.bcehs.ca){:target="_blank"}
-    * **March 20, 2026 | Updated M09:** Revised Neonatal Resuscitation flowchart now live. [Visit the Handbook →](https://handbook.bcehs.ca/clinical-practice-guidelines/m-pediatric-and-neonatal-emergencies/m09-neonatal-resuscitation/){:target="_blank"}
+    * **July 24, 2026 | High Threat Pathogen Tool:** The HTP screening tool, previously available in MTS, is now in the Hub Wiki site.[Find it here →](clinical/htp-tool/)
+    * **July 14, 2026 | Parenteral Ondansetron:** BCEHS paramedics and other employees have an increased risk of harm when working alone or in isolation, due to limitations in getting help. Safety check-in procedure for both crews and lone responders have been updated [More Info on Intranet →](https://intranet.bcehs.ca/mlink/post/Mzk1OQ){:target="_blank"}
+    * **March 20, 2026 | Updated M09:** Fraser Region Updates: Trauma Services, Pediatric Mental Health Services & Stroke Services - Practice & Learning Update [Read the details on the Intranet →](https://intranet.bcehs.ca/mlink/post/NDA2NQ){:target="_blank"}
