@@ -1,1 +1,4 @@
 site/
+# Windows / OneDrive system files
+desktop.ini
+Thumbs.db
