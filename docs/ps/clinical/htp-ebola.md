@@ -118,7 +118,7 @@ Symptoms can begin 2-21 days post-exposure.
 
 <a href="/ps/clinical/images/MHO-phone-numbers.pdf" target="_blank">MHO Phone Directory</a>
 
-[MTS HTP Tool](https://mts.bcehs.ca/Items/Display?id=56.1){:target="_blank .external-link}
+[HTP Screening Tool](https://tango.bcehsclinicalhub.ca/ps/clinical/htp-tool){:target="_blank .external-link}
 
 [Health Canada](https://www.canada.ca/en/public-health/services/diseases/ebola/health-professionals-ebola.html){:target="_blank .external-link}
 
