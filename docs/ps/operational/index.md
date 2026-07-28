@@ -8,6 +8,11 @@
     <a href="bchydro-safety/">BC Hydro Safety</a>
 </div>
 
+## E
+<div class="index-grid">
+    <a href="calls-evac-zones/">Evacuation Zones</a>
+</div>
+
 ## S
 <div class="index-grid">
     <a href="skytrain-response-safety/">Skytrain Response Safety</a>
