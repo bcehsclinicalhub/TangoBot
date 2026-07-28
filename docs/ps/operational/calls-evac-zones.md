@@ -84,10 +84,10 @@ May be given alternate contact by DEOC depending on event - contact area manager
 
 Either (i) no response or (ii) other agency responding. 
 
-!!!NOTE Recommended that call should be made by regional CEMD for event. If allied agency responding to patient, may be more appropriate
+!!!NOTE "Recommended that call should be made by regional CEMD for event" If allied agency responding to patient, may be more appropriate
 for allied agency to contact caller directly at discretion of CEMD and area manager on call.
 
-!!!NOTE Recommend CIS activation for all staff involved in call. 
+!!!NOTE "Recommend CIS activation for all staff involved in call"
 
 **BCEHS crew meets patient/allied agency at designated meet point outside evacuation order zone.**
 
