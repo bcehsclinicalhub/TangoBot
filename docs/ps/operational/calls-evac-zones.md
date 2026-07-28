@@ -24,7 +24,7 @@ keywords:
   - Fire
 ---
 
-# Calls in Evacuation Order Zones <br> <span style="font-size: 0.8em; font-style: italic;">Process for assessig calls</span>
+# Calls in Evacuation Order Zones <br> <span style="font-size: 0.8em; font-style: italic;">Process for assessing calls</span>
 
 
 ## Purpose
@@ -38,40 +38,36 @@ Document process for assessing calls inside Evacuation Order Zones.
 
 2. Calltaker warm transfers call to Paramedic Specialist:
 
-NOTE:
+!!!NOTE "Exclusions for PS Transfer"
 
-**Exclusions for PS Transfer**
+- CRM Purple
 
-CRM Purple
+- Childbirth
 
-Childbirth
+- Maintain Airway PAI being used
 
-Maintain Airway PAI being used
+**If any of these occur EMCT should remain on the line directly with caller**
 
-If any of these occur EMCT should remain on the line directly with caller.
+!!!NOTE: "PS Speed Dials"
 
-NOTE:
+- KDOC: S/D 666
 
-**PS Speed Dials**
+- LDOC: S/D 333
 
-KDOC: S/D 666
+- VDOC: Use DID
 
-LDOC: S/D 333
-
-VDOC: Use DID
-
-3. Paramedic Specialist Assessment
+## Paramedic Specialist Assessment
 
 Paramedic Specialist have a range of tools to help determine event acuity. Including discussing the call with the review requester, using clinical
 judgement and patient call-back utilizing the Manchester triage system.
 
 4. PS assessment = patient **does not** require face to face assessment.
 
-Sig POM and Regional Charge Dispatcher/DS and Request to Cancel the event
+❑ Sig POM and Regional Charge Dispatcher/DS and Request to Cancel the event
 
 5. PS assessment =  patient **does** require face to face assessment.
 
-Conference call with PS, POM, CEMD, area Manager on Call
+❑ Conference call with PS, POM, CEMD, area Manager on Call
 
 **Contact numbers:**
 
@@ -85,14 +81,16 @@ North MoC Pager: 855-549-0551
 
 May be given alternate contact by DEOC depending on event - contact area manager on call, unless informed otherwise.
 
-6. CEMD advises caller of plan - either no response or other agency
+## CEMD advises caller of plan
 
-NOTE Recommended that call should be made by regional CEMD for event - if allied agency responding to patient, may be more appropriate
+Either no response or other agency
+
+!!! NOTE Recommended that call should be made by regional CEMD for event. If allied agency responding to patient, may be more appropriate
 for allied agency to contact caller directly at discretion of CEMD and area manager on call.
 
-NOTE Recommend CIS activation for all staff involved in call. 
+!!! NOTE Recommend CIS activation for all staff involved in call. 
 
-- BCEHS crew meets patient/allied agency at designated meet point outside evacuation order zone.
+**BCEHS crew meets patient/allied agency at designated meet point outside evacuation order zone.**
 
 
 
