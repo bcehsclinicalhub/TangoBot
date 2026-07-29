@@ -16,10 +16,8 @@ tags:
   - DST
 
 keywords:
-  - Ebola
-  - EVD
+  - HTP
   - IDCT
-  - Virus
 ---
 
 # BCEHS Infectious Disease Care Team (IDCT)<br> <span style="font-size: 0.8em; font-style: italic;">Activation Threshold Guidance</span>

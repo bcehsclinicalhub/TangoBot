@@ -13,15 +13,22 @@
     <a href="bed-bugs-procedure/">Bed Bugs</a>
 </div>
 
+## E
+<div class="index-grid">
+    <a href="evd-facts/">Ebola Virus Fact Sheet</a>
+</div>
+
 ## H
 <div class="index-grid">
     <a href="hfnc-airvo2/">HFNC AIRVO2</a>
 </div>
 <div class="index-grid">
-    <a href="htp-ebola/">HTP: Ebola Virus</a>
-</div>
-<div class="index-grid">
     <a href="htp-tool/">High Threat Pathogen Tool</a>
+</div>
+
+## I
+<div class="index-grid">
+    <a href="htp-idct/">IDCT Activation</a>
 </div>
 
 ## P
