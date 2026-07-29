@@ -112,7 +112,7 @@ If a first responder is exposed (contact without wearing appropriate PPE, or a B
 
 •	After performing first aid he/she should contact their appropriate health and safety officer. Immediately phone the dedicated BC Ambulance phone number for your area that is used for immediate contact with BCEHS Dispatch. Direct consultation with the Medical Health Officer (MHO) for their geographical area will be arranged, and depending on their scenario, the Medical Health Officer will advise the first responder on the specific recommended actions for their personal care and monitoring for signs and symptoms of Ebola.
 
-## When should a you self-monitor?
+## When should you self-monitor?
 
 A first responder should self-monitor for signs and symptoms of Ebola while caring for and for 21 days after termination of care for a person with a suspected or a confirmed case of Ebola. All first responders who are self-monitoring will be contacted daily by occupational health and/or their local MHO.
 
@@ -137,7 +137,6 @@ First responders should contact their health and safety officer if they:
 •	Are unsure if they meet the exposure criteria
 •	Meet the exposure criteria
 •	Are caring for/have cared for a suspected/confirmed case of Ebola and have symptoms of Ebola.
-
 
 
 !!! NOTE "BCEHS is continuing to work on ways of minimizing potential exposure and will provide updates as available"
