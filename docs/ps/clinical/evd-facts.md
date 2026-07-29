@@ -27,7 +27,7 @@ Ebola virus disease (EVD) is a potentially severe illness caused by the Ebola vi
 
 Ebola is contracted through direct contact of the mucous membranes or non-intact skin with blood or body fluids from an infected person or animal. Additionally, Ebola can be transmitted from contact with surfaces contaminated by body fluids such as clothes, bedding, medical equipment.
 
-There are currently no reported Canadian cases related to any outbreaks, although Canadians do participate in responding to outbreaks as they occur around the world. The risk to most travelers is considered low, but it is important to be on the lookout for illnesses compatible with EVD and remain vigilant for other illnesses prevalent in the region (e.g., Malaria, Typhoid, etc.). 
+The risk to most travelers is considered low, but it is important to be on the lookout for illnesses compatible with EVD and remain vigilant for other illnesses prevalent in the region (e.g., Malaria, Typhoid, etc.). 
 
 
 ## Considerations
@@ -43,12 +43,30 @@ Consider Ebola when there is a **history of travel to an affected area** within 
 | :--- | :--- |
 | • Fever<br>• Chills<br>• Headache<br>• Sore throat<br>• Cough<br>• Weakness<br>• Myalgia<br>• Fatigue<br>• Muscle pain<br>• Joint pain<br>• Loss of appetite | • Rash (Erythematous maculopapular rash on trunk)<br>• Nausea, vomiting and diarrhea<br>• Conjunctivitis (Red eye)<br>• Chest and abdominal pain<br>• Jaundice<br>• Swelling and pain in the stomach area<br>• Severe weight loss<br>• Delirium<br>• Shock<br>• Bruising<br>• Nosebleeds<br>• Hemorrhaging (inside or outside body) |
 
-The incubation period for EVD is 2 -21 days. Patients are not infectious until they develop symptoms,
-most often fever.
+## How is Ebola spread?
 
-Person-to-person transmission occurs through direct contact of the mucous membranes or non-intact skin with infected blood/body fluids including urine, vomitus, and feces. Once symptoms appear, the risk of transmission increases throughout the illness, particularly when the patient is vomiting, having diarrhea, or hemorrhaging. People are not infectious during the incubation period unless symptoms develop.
+Ebola virus can spread through direct contact of mucous membranes or non-intact skin with:
 
-## What if I suspect a person may be at risk for EVD?
+•	infected animals
+
+•	blood, body fluids or tissues of infected persons (feces, urine, vomitus, saliva, sweat, amniotic fluid, breast milk, semen)
+
+•	the body of someone who has died from Ebola; or
+
+•	clothes, bedding and medical equipment, such as needles and syringes, contaminated with infected body fluids.
+
+Ebola cannot be spread: 
+
+• through airborne transmission (unless aerosolized during AGMP’s)
+
+•	through food or water (unless contaminated with bodily fluids of a symptomatic person)
+
+•	via an infected person who does not have symptoms
+
+**The incubation period for EVD is 2 -21 days. Patients are not infectious until they develop symptoms, most often fever.**
+
+
+## Suspect a person may be at risk for EVD?
 
 All patients are screened by call takers either in Dispatch or the Patient Transfer Network to identify whether they are at risk of having Ebola (through travel to an affected country or contact with a known case of EVD).
 
@@ -71,6 +89,56 @@ As part of your point-of-care risk assessment, if a patient has any of the above
 • **Do not administer nebulized therapy**
 
 • **Avoid direct contact with the patient or with the patient’s blood or body fluids**, including medical equipment such as needles which may be contaminated.
+
+## When is a Paramedic considered exposed to Ebola?
+
+A first responder is considered to be exposed at the worksite if they meet the following conditions:
+
+•	They did not wear the recommended personal protective equipment **AND**:
+
+•	Had direct contact (through broken skin or mucous membranes) with the blood, feces, secretions, organs or any other bodily fluids of infected people, or with surfaces and materials (e.g. bedding, clothing or equipment) contaminated with these fluids **OR**
+
+•	Sustained a sharps injury with medical equipment, such as needles, contaminated with infected body fluids
+
+## What if a Paramedic is exposed?
+
+If a first responder is exposed (contact without wearing appropriate PPE, or a BBF/blood splash) to either a suspected or confirmed case of Ebola at work, they will be required to immediately perform first aid:
+
+•	The site of a percutaneous injury should be thoroughly rinsed with running water, and any wound should be gently cleansed with soap and water.
+
+•	Mucous membranes of the eyes, nose or mouth should be flushed with running water if contaminated with blood, body fluids, secretions or excretions.
+
+•	Non-intact skin should be rinsed thoroughly with running water if contaminated with blood, body fluids, secretions or excretions.
+
+•	After performing first aid he/she should contact their appropriate health and safety officer. Immediately phone the dedicated BC Ambulance phone number for your area that is used for immediate contact with BCEHS Dispatch. Direct consultation with the Medical Health Officer (MHO) for their geographical area will be arranged, and depending on their scenario, the Medical Health Officer will advise the first responder on the specific recommended actions for their personal care and monitoring for signs and symptoms of Ebola.
+
+## When should a Paramedic self-monitor?
+
+A first responder should self-monitor for signs and symptoms of Ebola while caring for and for 21 days after termination of care for a person with a suspected or a confirmed case of Ebola. All first responders who are self-monitoring will be contacted daily by occupational health and/or their local MHO.
+
+What should first responders who are self-monitoring do?
+
+Record temperature twice daily and report any reading ≥ 38.0°C to their local public health department.
+
+Refrain from taking any medications that reduce fever (e.g. Acetaminophen or Ibuprofen) for the duration of the monitoring period, if possible.
+
+Monitor for appearance of any other early symptoms including chills, headache, muscle or joint pain and weakness, sore throat, rash, diarrhea, nausea or vomiting.
+
+
+Additional symptoms may include: conjunctivitis with red eyes, chest and abdominal pain, jaundice, swelling and pain in the stomach area, severe weight loss, delirium, shock, bruising, nosebleeds and hemorrhaging.
+
+If symptoms appear, they must **SELF ISOLATE** as quickly as possible and immediately call their local Public Health Department. Public Health will arrange direct discussion with the medical health officer for your geographical area to provide you with step-by-step instructions on how to travel to the hospital for medical treatment without exposing others.
+Communication and notification within your own organization should be immediately established internally
+
+## When should a Paramedic contact their health and safety officer?
+
+First responders should contact their health and safety officer if they:
+•	Are caring for/have cared for a person with suspected/confirmed case of Ebola without the appropriate use of personal protective equipment
+•	Are unsure if they meet the exposure criteria
+•	Meet the exposure criteria
+•	Are caring for/have cared for a suspected/confirmed case of Ebola and have symptoms of Ebola.
+
+
 
 !!! NOTE "BCEHS is continuing to work on ways of minimizing potential exposure and will provide updates as available"
 
