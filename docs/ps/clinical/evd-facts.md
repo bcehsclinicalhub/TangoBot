@@ -72,8 +72,11 @@ As part of your point-of-care risk assessment, if a patient has any of the above
 
 • **Avoid direct contact with the patient or with the patient’s blood or body fluids**, including medical equipment such as needles which may be contaminated.
 
-!!! NOTE BCEHS is continuing to work on ways of minimizing potential exposure and will provide updates as available.
+!!! NOTE "BCEHS is continuing to work on ways of minimizing potential exposure and will provide updates as available"
 
+## References
+
+<a href="/ps/clinical/images/evd-infographic.pdf" target="_blank">EVD Infographic</a>
 
 ## Review Schedule
 
