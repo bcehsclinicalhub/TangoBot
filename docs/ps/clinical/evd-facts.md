@@ -16,6 +16,7 @@ tags:
 keywords:
   - ebola
   - evd
+
 ---
 
 # Ebola Virus Disease <br> <span style="font-size: 0.8em; font-style: italic;">Fact Sheet</span>
@@ -36,8 +37,6 @@ Consider Ebola when there is a **history of travel to an affected area** within 
 
 
 ## Symptoms
-
-Symptoms can begin 2 to 21 days after exposure.
 
 **Symptoms can begin 2 to 21 days after exposure**
 
@@ -73,69 +72,14 @@ As part of your point-of-care risk assessment, if a patient has any of the above
 • **Do not administer nebulized therapy**
 
 • **Avoid direct contact with the patient or with the patient’s blood or body fluids**, including medical equipment such as needles which may be contaminated.
+
 BCEHS is continuing to work on ways of minimizing potential exposure and will provide updates as available.
 
-**Initial Notification**
 
-i) Once an Urban-Wildland SAR event notification is received, the PS will review event details in the CAD and confirm that a helicopter extraction is taking place.
 
-ii) When confirmed, add a critical event remark with key safety information:
-
-!!! warning "**SAFETY ALERT**"
-    * Stage **>50m (160ft)** from hoist / landing zone as directed
-    * Conduct scene safety assessment
-    * Don PPE (helmet, eye protection and high-vis vest)
-    * Switch ONE portable radio to **PEPCORD 1**
-    * If any safety concerns, contact Paramedic Specialist at **(604-829-4099)**
-    * Review handbook for more information
-
-iii) Request that the responsible channel operator contact responding / on-scene crews over the air to confirm safety direction with CliniCall.
-
-iv) Contact the OCUC assigned to the call to discuss scene safety responsibilities if no TNG resource is responding or if the OCUC will arrive before the TNG resource.
-
-v) If the interface event takes place in the Lower Mainland, T1/T2 will engage the Charge Emergency Medical Dispatcher in considering deploying a PS Unit (in TNG mode) to act as the on-scene Safety Officer.
-
-This collaborative decision will weigh the expected response time and risk involved in reaching the scene (long code-3 response) with the safety benefits of BCEHS personnel and partner agencies having PS Safety Officer support.
-
-**Direction for Crews**
-
-i) Establish a BCEHS Incident Command (IC) to liaise with the SAR Manager (Event Command) and PS Safety Officer (if available) supporting patient extraction.
-
-ii) The BCEHS IC will shift [one portable radio to PEPCORD 1](https://handbook.bcehs.ca/operations/air-operations/){:target="_blank .external-link}. to maintain situational awareness of air-to-ground operations per existing BCEHS guidelines.
-
-iii) Direct all BCEHS personnel to don appropriate backcountry PPE
-(per [HRH 14](https://intranet.bcehs.ca/ce/pulse/user/teams/department/conversation_site_page/NDA1?page_id=405&project_id=48){:target="_blank .external-link} and [HRH 19](https://intranet.bcehs.ca/ce/pulse/user/teams/department/conversation_site_page/NDEx?page_id=411&project_id=48){:target="_blank .external-link}). This includes:
-
-| Category | Required Item |
-| :---: | :---: |
-| Head/ Eye | BCEHS Helmet (visor down) |
-| Visibility | High-Visibility vest |
-| Safety | Hearing protection |
-
-iv) The BCEHS IC will liaise with the SAR Manager (Event Command) and PS Safety Officer (if available) regarding planned aircraft movements and patient packaging needs.
-
-v) Once the patient has been packaged with support of ground teams, all BCEHS personnel will stage **>50m (160ft)** from the planned hoist / long line extraction area.
-
-vi) Once the aircraft has completed the hoist/long line/loading operation, BCEHS personnel will return to the vehicle staging area for patient handover.
-
-## References
-
-**Related BCEHS Policy**
-
-[BCEHS OHS 130 Paramedic Safety at the Scene](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-11-85066.pdf){:target="_blank .external-link}
-
-[BCEHS OHS 180.1 Search and Rescue Situations](https://shop.healthcarebc.ca/phsa/BCEHS/Clinical%20Operations/C-04-12-85214.pdf){:target="_blank .external-link}
-
-**Guidelines/Procedures/Forms**
-
-[High Risk Hazard Field Support Guide](https://intranet.bcehs.ca/intranet/pages/347?lang=ENG){:target="_blank .external-link}
-
-[Working In and Around Moving Vehicles and Equipment](https://shop.healthcarebc.ca/phsa/BCEHS/Guidelines/C-04-07-85274.pdf){:target="_blank .external-link}
-
-[Paramedic Specialist Deployment and Dispatching Procedure](https://shop.healthcarebc.ca/phsa/BCEHS/Guidelines/C-04-07-85256.pdf){:target="_blank .external-link}
 
 ## Review Schedule
 
 | Adopted | Next Review Scheduled | Owner | Reviewer| 
 | :--- | :--- | :--- | :--- | 
-| Dec 2024 | Mar 2025 | Clinical Hub Mnager | BCEHS OHS Team |
+| JUL 2026 | DEC 2026 | Chief Medical Officer | Clinical Hub |
