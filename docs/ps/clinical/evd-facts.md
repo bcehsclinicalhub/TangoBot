@@ -16,7 +16,6 @@ tags:
 keywords:
   - ebola
   - evd
-
 ---
 
 # Ebola Virus Disease <br> <span style="font-size: 0.8em; font-style: italic;">Fact Sheet</span>
