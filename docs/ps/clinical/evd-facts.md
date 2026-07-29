@@ -66,7 +66,7 @@ Ebola cannot be spread:
 **The incubation period for EVD is 2 -21 days. Patients are not infectious until they develop symptoms, most often fever.**
 
 
-## Suspect a person may be at risk for EVD?
+## Suspect a person may be at risk?
 
 All patients are screened by call takers either in Dispatch or the Patient Transfer Network to identify whether they are at risk of having Ebola (through travel to an affected country or contact with a known case of EVD).
 
@@ -90,7 +90,7 @@ As part of your point-of-care risk assessment, if a patient has any of the above
 
 • **Avoid direct contact with the patient or with the patient’s blood or body fluids**, including medical equipment such as needles which may be contaminated.
 
-## When is a Paramedic considered exposed to Ebola?
+## When are you considered exposed to Ebola?
 
 A first responder is considered to be exposed at the worksite if they meet the following conditions:
 
@@ -100,7 +100,7 @@ A first responder is considered to be exposed at the worksite if they meet the f
 
 •	Sustained a sharps injury with medical equipment, such as needles, contaminated with infected body fluids
 
-## What if a Paramedic is exposed?
+## What if you're exposed?
 
 If a first responder is exposed (contact without wearing appropriate PPE, or a BBF/blood splash) to either a suspected or confirmed case of Ebola at work, they will be required to immediately perform first aid:
 
@@ -112,17 +112,17 @@ If a first responder is exposed (contact without wearing appropriate PPE, or a B
 
 •	After performing first aid he/she should contact their appropriate health and safety officer. Immediately phone the dedicated BC Ambulance phone number for your area that is used for immediate contact with BCEHS Dispatch. Direct consultation with the Medical Health Officer (MHO) for their geographical area will be arranged, and depending on their scenario, the Medical Health Officer will advise the first responder on the specific recommended actions for their personal care and monitoring for signs and symptoms of Ebola.
 
-## When should a Paramedic self-monitor?
+## When should a you self-monitor?
 
 A first responder should self-monitor for signs and symptoms of Ebola while caring for and for 21 days after termination of care for a person with a suspected or a confirmed case of Ebola. All first responders who are self-monitoring will be contacted daily by occupational health and/or their local MHO.
 
-What should first responders who are self-monitoring do?
+**What should paramedics who are self-monitoring do?**
 
-Record temperature twice daily and report any reading ≥ 38.0°C to their local public health department.
+❑ Record temperature twice daily and report any reading ≥ 38.0°C to their local public health department.
 
-Refrain from taking any medications that reduce fever (e.g. Acetaminophen or Ibuprofen) for the duration of the monitoring period, if possible.
+❑ Refrain from taking any medications that reduce fever (e.g. Acetaminophen or Ibuprofen) for the duration of the monitoring period, if possible.
 
-Monitor for appearance of any other early symptoms including chills, headache, muscle or joint pain and weakness, sore throat, rash, diarrhea, nausea or vomiting.
+❑ Monitor for appearance of any other early symptoms including chills, headache, muscle or joint pain and weakness, sore throat, rash, diarrhea, nausea or vomiting.
 
 
 Additional symptoms may include: conjunctivitis with red eyes, chest and abdominal pain, jaundice, swelling and pain in the stomach area, severe weight loss, delirium, shock, bruising, nosebleeds and hemorrhaging.
@@ -130,7 +130,7 @@ Additional symptoms may include: conjunctivitis with red eyes, chest and abdomin
 If symptoms appear, they must **SELF ISOLATE** as quickly as possible and immediately call their local Public Health Department. Public Health will arrange direct discussion with the medical health officer for your geographical area to provide you with step-by-step instructions on how to travel to the hospital for medical treatment without exposing others.
 Communication and notification within your own organization should be immediately established internally
 
-## When should a Paramedic contact their health and safety officer?
+## When to contact a health and safety officer?
 
 First responders should contact their health and safety officer if they:
 •	Are caring for/have cared for a person with suspected/confirmed case of Ebola without the appropriate use of personal protective equipment
