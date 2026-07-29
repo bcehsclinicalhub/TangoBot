@@ -48,7 +48,7 @@ most often fever.
 
 Person-to-person transmission occurs through direct contact of the mucous membranes or non-intact skin with infected blood/body fluids including urine, vomitus, and feces. Once symptoms appear, the risk of transmission increases throughout the illness, particularly when the patient is vomiting, having diarrhea, or hemorrhaging. People are not infectious during the incubation period unless symptoms develop.
 
-## What should I do if I suspect a person may be at risk for EVD?
+## What if I suspect a person may be at risk for EVD?
 
 All patients are screened by call takers either in Dispatch or the Patient Transfer Network to identify whether they are at risk of having Ebola (through travel to an affected country or contact with a known case of EVD).
 
@@ -72,9 +72,7 @@ As part of your point-of-care risk assessment, if a patient has any of the above
 
 • **Avoid direct contact with the patient or with the patient’s blood or body fluids**, including medical equipment such as needles which may be contaminated.
 
-BCEHS is continuing to work on ways of minimizing potential exposure and will provide updates as available.
-
-
+!!! NOTE BCEHS is continuing to work on ways of minimizing potential exposure and will provide updates as available.
 
 
 ## Review Schedule
