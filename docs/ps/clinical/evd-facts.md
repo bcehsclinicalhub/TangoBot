@@ -3,8 +3,8 @@ title: Ebola Virus Disease Fact Sheet
 policy_id: 
 version: 1.0
 status: Active
-effective_date: 2026-16-16
-last_reviewed: 2026-16-16
+effective_date: 2026-06-16
+last_reviewed: 2026-06-16
 next_review: 2026-12-31
 owner: Clinical Hub
 category: Clinical
