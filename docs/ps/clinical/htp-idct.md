@@ -45,35 +45,47 @@ Guidelines are just that, and each case will be evaluated on a case-by-case basi
 e) **Conveyance:**
 Self-conveyance should be considered in **every suspected EVD case** as a transport option. 
 
+## Activation Threshold Guidance
+
 !!! note "**Risk Identified (initial 9-1-1 call)**"
-    • Ebola risk factors identified during the 9-1-1 call
-    • Patient reports recent travel or quarantine
+    *Patient with Ebola risk factors identified at time of call
+    *Patient/caller self declares quarantine orders or recent travel
 
 !!! warning "**Notification Required**"
     EMCT notifies the PS/Charge Dispatcher
 
-!!! danger "**Immediate Action**"
-    * Ensure the call is WAIT
-    * Add supporting notes
+!!! danger "**PS/ Charge**"
+    * Ensure the call is **WAIT**
+    * Add supporting notes to Supp Info
 
 !!! info "**PS Tasks**"
-    1. Complete callback
-    2. Notify EPOS
-    3. Determine appropriate risk category
-    4. Conference MHO
-    5. Consider IDCT engagement
+    1. Complete callback to scene to assess risk (questions on next page)
+    2. Notify EPOS and share findings
+    3. Discuss most appropriate risk category with EPOS (categories on
+next page)
+    4. Conference MHO into call for discussion regarding IDCT activation
+    5. Consider engaging IDCT team for additional support with decision
+making
 
 !!! success "**Decision Point**"
-    Shared decision from EPOS / MHO / PS
+    **Shared decision from EPOS / MHO / PS**
+
+<p align="center">
+
+⬇️
+
+**Choose one option**
+
+</p>
 
 <div class="grid cards" markdown>
 
-- **IDCT Activation**
+- **Activate IDCT**
 
     - Notify ID3 on call for IDCT activation.
     - Consider notifying POM for operational awareness.
 
-- **Alternatives**
+- **Continue without IDCT**
 
     - Regular crew with appropriate PPE.
     - Consider self-conveyance when safe and appropriate.
