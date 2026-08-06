@@ -46,8 +46,9 @@ e) **Conveyance:**
 Self-conveyance should be considered in **every suspected EVD case** as a transport option. 
 
 ## Activation Threshold Guidance
+**Risk identified during 9-1-1 call**
 
-!!! note "**Risk Identified (initial 9-1-1 call)**"
+!!! note "**Risk Identified**"
     *Patient with Ebola risk factors identified at time of call
     *Patient/caller self declares quarantine orders or recent travel
 
@@ -82,8 +83,8 @@ making
 
 - **Activate IDCT**
 
-    - Notify ID3 on call for IDCT activation.
-    - Consider notifying POM for operational awareness.
+    - Notify DR3 for IDCT activation.
+    - Notify POM for operational awareness.
 
 - **Continue without IDCT**
 
@@ -91,6 +92,65 @@ making
     - Consider self-conveyance when safe and appropriate.
 
 </div>
+
+
+## Activation Threshold Guidance
+**Risk discovered by crew on scene**
+
+!!! note "**Risk Identified**"
+    Risk factors discovered by crews on scene at time of PCRA
+
+!!! warning "**Notification Required**"
+    Crew calls CliniCall and shares assessment and concerns
+
+!!! danger "**PS/ Charge**"
+    * Ensure the call is **WAIT**
+    * Add supporting notes to Supp Info
+
+!!! info "**PS Tasks**"
+    1. Complete risk assessment based on information obtained from crew on scene. Consider callback to patient/caller, as necessary.
+    *Based on suspected risk, PS may request crew withdraw from scene to ensure their safety and allow time for further risk assessment to be completed
+    *Decision to withdraw from scene if risks are identified to be made **regardless of patient condition**
+    *Discuss most appropriate risk category with EPOS (categories on next page)
+    2. Notify EPOS and share findings
+    3. Discuss most appropriate risk category with EPOS (categories on next page)
+    4. Conference MHO into call for discussion regarding IDCT activation
+    5. Consider engaging IDCT team for additional support with decision making
+
+!!! success "**Decision Point**"
+    **Shared decision from EPOS / MHO / PS**
+
+<p align="center">
+
+⬇️
+
+**Choose one option**
+
+</p>
+
+<div class="grid cards" markdown>
+
+- **Activate IDCT**
+
+    - Notify DR3 for IDCT activation.
+    - Notify POM for operational awareness.
+
+- **Continue without IDCT**
+
+    - Regular crew with appropriate PPE.
+    - Consider self-conveyance when safe and appropriate.
+
+</div>
+
+
+
+
+
+
+
+
+
+
 
 ## Who to Suspect
 
