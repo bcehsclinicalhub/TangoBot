@@ -45,7 +45,7 @@ Guidelines are just that, and each case will be evaluated on a case-by-case basi
 e) **Conveyance:**
 Self-conveyance should be considered in **every suspected EVD case** as a transport option. 
 
-## Activation Threshold Guidance
+## Activation Guidance 9-1-1 Call
 **Risk identified during 9-1-1 call**
 
 !!! note "**Risk Identified**"
@@ -61,57 +61,6 @@ Self-conveyance should be considered in **every suspected EVD case** as a transp
 
 !!! info "**PS Tasks**"
     1. Complete callback to scene to assess risk (questions on next page)
-    2. Notify EPOS and share findings
-    3. Discuss most appropriate risk category with EPOS (categories on
-next page)
-    4. Conference MHO into call for discussion regarding IDCT activation
-    5. Consider engaging IDCT team for additional support with decision
-making
-
-!!! success "**Decision Point**"
-    **Shared decision from EPOS / MHO / PS**
-
-<p align="center">
-
-⬇️
-
-**Choose one option**
-
-</p>
-
-<div class="grid cards" markdown>
-
-- **Activate IDCT**
-
-    - Notify DR3 for IDCT activation.
-    - Notify POM for operational awareness.
-
-- **Continue without IDCT**
-
-    - Regular crew with appropriate PPE.
-    - Consider self-conveyance when safe and appropriate.
-
-</div>
-
-
-## Activation Threshold Guidance
-**Risk discovered by crew on scene**
-
-!!! note "**Risk Identified**"
-    Risk factors discovered by crews on scene at time of PCRA
-
-!!! warning "**Notification Required**"
-    Crew calls CliniCall and shares assessment and concerns
-
-!!! danger "**PS/ Charge**"
-    * Ensure the call is **WAIT**
-    * Add supporting notes to Supp Info
-
-!!! info "**PS Tasks**"
-    1. Complete risk assessment based on information obtained from crew on scene. Consider callback to patient/caller, as necessary.
-    *Based on suspected risk, PS may request crew withdraw from scene to ensure their safety and allow time for further risk assessment to be completed
-    *Decision to withdraw from scene if risks are identified to be made **regardless of patient condition**
-    *Discuss most appropriate risk category with EPOS (categories on next page)
     2. Notify EPOS and share findings
     3. Discuss most appropriate risk category with EPOS (categories on next page)
     4. Conference MHO into call for discussion regarding IDCT activation
@@ -132,6 +81,52 @@ making
 
 - **Activate IDCT**
 
+    - Notify DR3 for IDCT activation
+    - Notify POM for operational awareness
+
+- **Continue without IDCT**
+
+    - Regular crew with appropriate PPE
+    - Consider self-conveyance when safe and appropriate
+
+</div>
+
+
+## Activation Guidance Crew on Scene
+**Risk discovered by crew on scene**
+
+!!! note "**Risk Identified**"
+    Risk factors discovered by crews on scene at time of PCRA
+
+!!! warning "**Notification Required**"
+    Crew calls CliniCall and shares assessment and concerns
+
+!!! danger "**PS/ Charge**"
+    * Ensure the call is **WAIT**
+    * Add supporting notes to Supp Info
+
+!!! info "**PS Tasks**"
+    1. Complete risk assessment based on information obtained from crew on scene. Consider callback to patient/caller, as necessary.
+        *Based on suspected risk, PS may request crew withdraw from scene to ensure their safety and allow time for further risk assessment to be completed
+        *Decision to withdraw from scene if risks are identified to be made **regardless of patient condition**
+        *Discuss most appropriate risk category with EPOS (categories on next page)
+    2. Notify EPOS and share findings
+    3. Discuss most appropriate risk category with EPOS (categories on next page)
+    4. Conference MHO into call for discussion regarding IDCT activation
+    5. Consider engaging IDCT team for additional support with decision making
+
+!!! success "**Decision Point**"
+    **Shared decision from EPOS / MHO / PS**
+
+<p class="decision-label">
+⬇️<br>
+Choose ONE option
+</p>
+
+<div class="grid cards" markdown>
+
+- **Activate IDCT**
+
     - Notify DR3 for IDCT activation.
     - Notify POM for operational awareness.
 
@@ -143,24 +138,20 @@ making
 </div>
 
 
+## Discriminator Questions
 
+    1. Has the patient travelled to DRC, South Sudan, or Uganda within the last 21 days?
+    2. Has the patient been ordered to quarantine from the PHAC?
+    3. Is there any probable exposure to Ebola?
+        •In an outbreak area or around anyone ill?
+        •Healthcare worker who worked in healthcare facility?
+        •Did healthcare worker have access to and use appropriate PPE?
+        •Had contact with people in affected provinces?
+    4. What symptoms are described?
+ 
+**Consider CareConnect for additional details if patient has recently been assessed by a physician.**
 
-
-
-
-
-
-
-
-## Who to Suspect
-
-Patients that have travelled to DRC, South Sudan or Uganda within the last 21 days. These patients can be broken down into Category 1 and Category 2, as determined by the MHO.
-
-- **Category 1:** No probable exposure to Ebola (were not in outbreak area or around anyone ill etc.). These people will be required to identify a suitable place for quarantine, given quarantine instructions. 
-
-- **Category 2:** Possible exposure to Ebola (e.g. HCW who worked in healthcare facility, had contact with people in affected provinces of the DRC, etc.). If they have a **suitable quarantine plan** and can drive there in a personal vehicle they will be allowed to do that, otherwise they will be ordered into a Federal Designated Quarantine Facility (DQF). They will have daily active follow up for 21 days. A suitable quarantine plan does not include returning to any of the territories or any remote areas of provinces where they cannot access appropriate health services if needed.
-
-## Symptoms
+## Ebola Symptoms
 
 Symptoms can begin 2-21 days post-exposure. 
 
@@ -198,6 +189,36 @@ Symptoms can begin 2-21 days post-exposure.
 
 - Severe weight loss
 
+*Higher Transmission Risk:*
+
+- Vomiting
+
+- Diarrhea
+
+- Bleeding/ hemorrhage
+
+!!! failure "**Category 1**" 
+No probable exposure to Ebola (were not in outbreak area or around anyone ill). 
+
+**Asymptomatic Category 1**
+    • Regular crew with POC Risk Assessment
+
+**Symptomatic Category 1**
+    - Regular crew with POC Risk Assessment or IDCT activation depending on clinical assessment
+
+!!! example "**Category 2**"
+Possible exposure to Ebola (e.g. HCW who worked in healthcare facility, had contact with people in affected provinces of the DRC, etc.)
+
+**Asymptomatic Category 2**
+    • Regular crew with POC Risk Assessment **OR** IDCT activation depending on clinical assessment
+
+**Symptomatic Category 2**
+    - IDCT activation
+
+ If they have a **suitable quarantine plan** and can drive there in a personal vehicle they will be allowed to do that, otherwise they will be ordered into a Federal Designated Quarantine Facility (DQF). They will have daily active follow up for 21 days. A suitable quarantine plan does not include returning to any of the territories or any remote areas of provinces where they cannot access appropriate health services if needed.
+
+**Categories reflect the current guidance based on expert consensus and best practice.These may change as recommendations are updated from PHAC. These will be tracked and the document will be updated as these changes occur.**
+
 !!! warning "**Asymptomatic Category 1**"
     Regular crew with POC Risk Assessment 
 
@@ -209,14 +230,6 @@ Symptoms can begin 2-21 days post-exposure.
 
 !!! danger "**Symptomatic Category 2**"
     IDCT activation 
-
-## Procedures
-
-1. Place a **wait** on the call with appropriate notes in supp info to support the decision.
-
-2. Escalate to EPOS. Their role is to work with the MHO on-call to risk stratify the patient and determine if the IDCT is needed for transport.
-
-3. Sig the CEMD and notify the POM as per our existing workflows.
 
 ## References
 

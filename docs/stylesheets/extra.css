@@ -531,3 +531,11 @@ input.md-search__input {
     grid-template-columns: 1fr; /* Stack vertically on small screens */
   }
 }
+
+.decision-label {
+    color: #d32f2f;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0.5rem 0;
+}
