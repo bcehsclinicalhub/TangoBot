@@ -76,17 +76,23 @@ Choose ONE option
 
 <div class="decision-grid">
 
-<div class="decision-card activate-card" markdown>
+  <div class="decision-card activate-card">
+    <h3>Activate IDCT</h3>
+    <ul>
+      <li><a href="https://bcgov.sharepoint.com/..." target="_blank">Notify DR3</a></li>
+      <li>Notify POM for operational awareness.</li>
+    </ul>
+  </div>
 
-### Activate IDCT
-
-- [Notify DR3](https://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA){:target="_blank"}
-
-- Notify POM for operational awareness.
+  <div class="decision-card standard-card">
+    <h3>Standard Response</h3>
+    <ul>
+      <li>Dispatch a regular crew with appropriate PPE.</li>
+      <li>Consider self-conveyance when safe and appropriate.</li>
+    </ul>
+  </div>
 
 </div>
-
-<div class="decision-card standard-card" markdown>
 
 ### Standard Response
 
@@ -135,13 +141,21 @@ Choose ONE option
 
 <div class="decision-grid">
 
-<div class="decision-card activate-card" markdown>
+  <div class="decision-card activate-card">
+    <h3>Activate IDCT</h3>
+    <ul>
+      <li><a href="https://bcgov.sharepoint.com/..." target="_blank">Notify DR3</a></li>
+      <li>Notify POM for operational awareness.</li>
+    </ul>
+  </div>
 
-### Activate IDCT
-
-- [Notify DR3](https://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA){:target="_blank"}
-
-- Notify POM for operational awareness.
+  <div class="decision-card standard-card">
+    <h3>Standard Response</h3>
+    <ul>
+      <li>Dispatch a regular crew with appropriate PPE.</li>
+      <li>Consider self-conveyance when safe and appropriate.</li>
+    </ul>
+  </div>
 
 </div>
 
