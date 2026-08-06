@@ -713,20 +713,3 @@ input.md-search__input {
 .md-typeset details {
     font-size: 1rem;
 }
-
-/* ==========================================================================
-   Compact Reference Notes
-   ========================================================================== */
-
-.md-typeset .admonition.note {
-    margin: .5rem 0;
-}
-
-.md-typeset .admonition.note > .admonition-title {
-    font-size: .95rem;
-}
-
-.md-typeset .admonition.note p {
-    font-size: .9rem;
-    line-height: 1.45;
-}

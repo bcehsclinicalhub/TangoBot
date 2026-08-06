@@ -32,26 +32,6 @@ Currently, there is an outbreak of Ebola virus (EVD) in DRC, South Sudan and Uga
 
 ## Key Facts
 
-!!! note "Specialized Training"
-
-    Only **IDCT paramedics** are trained to manage patients requiring enhanced HTP PPE (e.g. double gloving).
-
-!!! note "PPE"
-
-    Double gloving is **not required** for low-risk suspected EVD patients who are not actively hemorrhaging, producing respiratory secretions, or losing fluids.
-
-!!! note "Transmission"
-
-    Patients **do not transmit Ebola while asymptomatic.**
-
-!!! note "Clinical Decision"
-
-    Every case should be evaluated individually with the **Paramedic Specialist, EPOS and MHO**.
-
-!!! note "Conveyance"
-
-    Consider **self-conveyance** whenever clinically appropriate.
-
 <div class="decision-grid">
 
 <div class="decision-card reference-card">
