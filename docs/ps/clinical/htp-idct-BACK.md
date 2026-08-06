@@ -176,12 +176,11 @@ Symptoms typically begin **2–21 days** after exposure.
 
 <div class="decision-grid">
 
-<div class="decision-card reference-card symptom-card">
+<div class="decision-card">
 
 <h3>Initial Symptoms</h3>
 
 <ul>
-
 <li>Fever / chills</li>
 <li>Headache</li>
 <li>Sore throat</li>
@@ -189,17 +188,15 @@ Symptoms typically begin **2–21 days** after exposure.
 <li>Fatigue</li>
 <li>Malaise</li>
 <li>Muscle &amp; joint pain</li>
-
 </ul>
 
 </div>
 
-<div class="decision-card reference-card symptom-card">
+<div class="decision-card">
 
 <h3>Progressive Symptoms</h3>
 
 <ul>
-
 <li>Nausea, vomiting, diarrhea</li>
 <li>Rash or red eyes</li>
 <li>Jaundice</li>
@@ -208,10 +205,7 @@ Symptoms typically begin **2–21 days** after exposure.
 <li>Bruising or bleeding</li>
 <li>Anorexia</li>
 <li>Severe weight loss</li>
-
 </ul>
-
-</div>
 
 </div>
 
