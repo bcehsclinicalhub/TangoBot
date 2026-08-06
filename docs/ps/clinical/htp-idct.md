@@ -45,7 +45,7 @@ Guidelines are just that, and each case will be evaluated on a case-by-case basi
 e) **Conveyance:**
 Self-conveyance should be considered in **every suspected EVD case** as a transport option. 
 
-## Risk Identified During 9-1-1 Call
+## Risk: Identified During 9-1-1 Call
 **Activation Threshold Guidance**
 
 !!! note "**Risk Identified**"
@@ -79,32 +79,22 @@ Choose ONE option
   <div class="decision-card activate-card">
     <h3>Activate IDCT</h3>
     <ul>
-      <li><a href="https://bcgov.sharepoint.com/..." target="_blank">Notify DR3</a></li>
-      <li>Notify POM for operational awareness.</li>
+      <li><a href="hhttps://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNTA1MDkwMTEuMDIiLCJPUyI6IldpbmRvd3MgMTAifQ%3D%3D" target="_blank">Notify DR3 for activation</a></li>
+      <li>Consider notifying POM for operational awareness</li>
     </ul>
   </div>
 
   <div class="decision-card standard-card">
     <h3>Standard Response</h3>
     <ul>
-      <li>Dispatch a regular crew with appropriate PPE.</li>
-      <li>Consider self-conveyance when safe and appropriate.</li>
+      <li>Dispatch a regular crew with appropriate PPE</li>
+      <li>Consider self-conveyance when safe and appropriate</li>
     </ul>
   </div>
 
 </div>
 
-### Standard Response
-
-- Dispatch a regular crew with appropriate PPE.
-
-- Consider self-conveyance when safe and appropriate.
-
-</div>
-
-</div>
-
-##  Crew on Scene Discovered Risk
+##  Risk: Discovered by Crew
 **Activation Threshold Guidance**
 
 !!! note "**Risk Identified**"
@@ -144,33 +134,20 @@ Choose ONE option
   <div class="decision-card activate-card">
     <h3>Activate IDCT</h3>
     <ul>
-      <li><a href="https://bcgov.sharepoint.com/..." target="_blank">Notify DR3</a></li>
-      <li>Notify POM for operational awareness.</li>
+      <li><a href="https://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNTA1MDkwMTEuMDIiLCJPUyI6IldpbmRvd3MgMTAifQ%3D%3D" target="_blank">Notify DR3 for activation</a></li>
+      <li>Consider notifying POM for operational awareness</li>
     </ul>
   </div>
 
   <div class="decision-card standard-card">
     <h3>Standard Response</h3>
     <ul>
-      <li>Dispatch a regular crew with appropriate PPE.</li>
-      <li>Consider self-conveyance when safe and appropriate.</li>
+      <li>Dispatch a regular crew with appropriate PPE</li>
+      <li>Consider self-conveyance when safe and appropriate</li>
     </ul>
   </div>
 
 </div>
-
-<div class="decision-card standard-card" markdown>
-
-### Standard Response
-
-- Dispatch a regular crew with appropriate PPE.
-
-- Consider self-conveyance when safe and appropriate.
-
-</div>
-
-</div>
-
 
 ## Discriminator Questions
 
@@ -195,49 +172,38 @@ Choose ONE option
 
 ## Ebola Symptoms
 
-Symptoms can begin 2-21 days post-exposure. 
+Symptoms typically begin **2–21 days** after exposure.
 
-### Initial symptoms:
+<div class="grid cards" markdown>
 
-- Fever, chills 
+- **Initial Symptoms**
 
-- Headache
+    - Fever / chills
+    - Headache
+    - Sore throat
+    - Weakness
+    - Fatigue
+    - Malaise
+    - Muscle & joint pain
 
-- sore throat 
+- **Progressive Symptoms**
 
-- Weakness
+    - Nausea, vomiting, diarrhea
+    - Rash or red eyes
+    - Jaundice
+    - Chest or abdominal pain
+    - Delirium
+    - Bruising or bleeding
+    - Anorexia
+    - Severe weight loss
 
-- Fatigue
+</div>
 
-- Malaise 
+!!! danger "Higher Transmission Risk"
 
-- Muscle and joint pain
-
-### Symptoms may progress to:
-
-- Nausea, vomiting, diarrhea 
-
-- Rash or red eyes 
-
-- Jaundice
-
-- Chest or abdominal pain
-
-- Delirium
-
-- Bruising or bleeding
-
-- Anorexia
-
-- Severe weight loss
-
-### Higher Transmission Risk:
-
-- Vomiting
-
-- Diarrhea
-
-- Bleeding/ hemorrhage
+    - Vomiting
+    - Diarrhea
+    - Bleeding / hemorrhage
 
 ## Risk Categories
 
@@ -245,16 +211,16 @@ Symptoms can begin 2-21 days post-exposure.
 
     **Definition**
 
-    - Not in an outbreak area.
-    - No contact with anyone who is ill.
+    - Not in an outbreak area
+    - No contact with anyone who is ill
 
     **Management**
 
     **Asymptomatic Category 1**
-    : Regular crew with POC Risk Assessment.
+    : Regular crew with POC Risk Assessment
 
     **Symptomatic Category 1**
-    : Regular crew with POC Risk Assessment **OR** IDCT activation, depending on the clinical assessment.
+    : Regular crew with POC Risk Assessment **OR** IDCT activation, depending on the clinical assessment
 
 ---
 
@@ -262,17 +228,17 @@ Symptoms can begin 2-21 days post-exposure.
 
     **Definition**
 
-    - Healthcare worker who worked in a healthcare facility.
-    - Contact with people in affected provinces of the DRC.
-    - Other potential exposure identified during risk assessment.
+    - Healthcare worker who worked in a healthcare facility
+    - Contact with people in affected provinces of the DRC
+    - Other potential exposure identified during risk assessment
 
     **Management**
 
     **Asymptomatic Category 2**
-    : Regular crew with POC Risk Assessment **OR** IDCT activation, depending on the clinical assessment.
+    : Regular crew with POC Risk Assessment **OR** IDCT activation, depending on the clinical assessment
 
     **Symptomatic Category 2**
-    : **IDCT activation.**
+    : **IDCT activation**
 
 ---
 
@@ -286,9 +252,11 @@ Symptoms can begin 2-21 days post-exposure.
 
 <a href="/ps/clinical/images/MHO-phone-numbers.pdf" target="_blank">MHO Phone Directory</a>
 
-<a href="/ps/clinical/images/evd-picto.png" target="_blank">EVD Infographic</a>
+<a href="/ps/clinical/images/evd-picto.png" target="_blank">Ebola Virus Disease Infographic</a>
 
 [HTP Screening Tool](https://tango.bcehsclinicalhub.ca/ps/clinical/htp-tool){:target="_blank .external-link}
+
+[Ebola Preparedness and Paramedic Safety](https://intranet.bcehs.ca/mlink/post/NDE5Ng){:target="_blank .external-link}
 
 [Health Canada](https://www.canada.ca/en/public-health/services/diseases/ebola/health-professionals-ebola.html){:target="_blank .external-link}
 
