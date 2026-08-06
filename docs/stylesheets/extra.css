@@ -686,18 +686,6 @@ input.md-search__input {
 
 }
 
-/* ==========================================================================
-   Clinical Body Text
-   ========================================================================== */
-
-.md-typeset p {
-    line-height: 1.6;
-}
-
-.md-typeset li {
-    line-height: 1.5;
-    margin-bottom: .35rem;
-}
 
 /* ==========================================================================
    Reference Cards
@@ -720,10 +708,25 @@ input.md-search__input {
     line-height: 1.5;
 }
 
+
+.md-typeset .admonition,
+.md-typeset details {
+    font-size: 1rem;
+}
+
 /* ==========================================================================
-   Clinical Hub Typography
+   Compact Reference Notes
    ========================================================================== */
 
-.md-typeset {
-    font-weight: 300;
+.md-typeset .admonition.note {
+    margin: .5rem 0;
+}
+
+.md-typeset .admonition.note > .admonition-title {
+    font-size: .95rem;
+}
+
+.md-typeset .admonition.note p {
+    font-size: .9rem;
+    line-height: 1.45;
 }
