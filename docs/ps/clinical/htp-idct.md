@@ -74,17 +74,27 @@ Self-conveyance should be considered in **every suspected EVD case** as a transp
 Choose ONE option
 </p>
 
-<div class="grid cards" markdown>
+<div class="decision-grid">
 
-- **Activate IDCT**
+<div class="decision-card activate-card" markdown>
 
-    - [Notify DR3](https://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNTA1MDkwMTEuMDIiLCJPUyI6IldpbmRvd3MgMTAifQ%3D%3D){:target="_blank"}
-    - Notify POM for operational awareness.
+### Activate IDCT
 
-- **Standard Response**
+- [Notify DR3](https://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA){:target="_blank"}
 
-    - Dispatch regular crew with appropriate PPE.
-    - Consider options for self-conveyance when safe and appropriate.
+- Notify POM for operational awareness.
+
+</div>
+
+<div class="decision-card standard-card" markdown>
+
+### Standard Response
+
+- Dispatch a regular crew with appropriate PPE.
+
+- Consider self-conveyance when safe and appropriate.
+
+</div>
 
 </div>
 
@@ -123,17 +133,27 @@ Choose ONE option
 Choose ONE option
 </p>
 
-<div class="grid cards" markdown>
+<div class="decision-grid">
 
-- **Activate IDCT**
+<div class="decision-card activate-card" markdown>
 
-    - [Notify DR3](https://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNTA1MDkwMTEuMDIiLCJPUyI6IldpbmRvd3MgMTAifQ%3D%3D){:target="_blank"}
-    - Notify POM for operational awareness.
+### Activate IDCT
 
-- **Standard Response**
+- [Notify DR3](https://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA){:target="_blank"}
 
-    - Dispatch regular crew with appropriate PPE.
-    - Consider options for self-conveyance when safe and appropriate.
+- Notify POM for operational awareness.
+
+</div>
+
+<div class="decision-card standard-card" markdown>
+
+### Standard Response
+
+- Dispatch a regular crew with appropriate PPE.
+
+- Consider self-conveyance when safe and appropriate.
+
+</div>
 
 </div>
 
@@ -155,10 +175,10 @@ Choose ONE option
 
     4. What symptoms are described?
 
-!!! tip "Clinical Pearl"
+!!! tip "Notes"
 
     Consider **CareConnect** for additional details if the patient has recently been assessed by a physician.
-    
+
 ## Ebola Symptoms
 
 Symptoms can begin 2-21 days post-exposure. 
