@@ -266,7 +266,7 @@ Symptoms typically begin **2–21 days** after exposure.
 
 ## Risk Categories
 
-!!! danger "**Category 1** – No probable exposure to Ebola"
+!!! warning "**Category 1** – No probable exposure to Ebola"
 
     **Definition**
 
@@ -283,7 +283,7 @@ Symptoms typically begin **2–21 days** after exposure.
 
 ---
 
-!!! warning "**Category 2** – Possible exposure to Ebola"
+!!! danger "**Category 2** – Possible exposure to Ebola"
 
     **Definition**
 

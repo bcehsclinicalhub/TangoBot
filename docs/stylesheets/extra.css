@@ -687,23 +687,15 @@ input.md-search__input {
 }
 
 /* ==========================================================================
-   Clinical Typography
+   Clinical Body Text
    ========================================================================== */
 
-.md-typeset {
-    font-size: 0.95rem;
+.md-typeset p {
     line-height: 1.6;
 }
 
-.md-typeset p,
-.md-typeset li,
-.md-typeset td {
-    font-size: 0.95rem;
-    line-height: 1.6;
-}
-
-.md-typeset ul li,
-.md-typeset ol li {
+.md-typeset li {
+    line-height: 1.5;
     margin-bottom: .35rem;
 }
 
