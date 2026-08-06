@@ -77,14 +77,14 @@ Choose ONE option
 <div class="grid cards" markdown>
 
 - **Activate IDCT**
-    -[Notify DR3](https://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNTA1MDkwMTEuMDIiLCJPUyI6IldpbmRvd3MgMTAifQ%3D%3D){:target="_blank .external-link} for IDCT activation 
 
-    - Notify POM for operational awareness
+    - [Notify DR3](https://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNTA1MDkwMTEuMDIiLCJPUyI6IldpbmRvd3MgMTAifQ%3D%3D){:target="_blank"}
+    - Notify POM for operational awareness.
 
-- **Continue without IDCT**
+- **Standard Response**
 
-    - Regular crew with appropriate PPE
-    - Consider self-conveyance when safe and appropriate
+    - Dispatch regular crew with appropriate PPE.
+    - Consider options for self-conveyance when safe and appropriate.
 
 </div>
 
@@ -126,34 +126,39 @@ Choose ONE option
 <div class="grid cards" markdown>
 
 - **Activate IDCT**
-    -[Notify DR3](https://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNTA1MDkwMTEuMDIiLCJPUyI6IldpbmRvd3MgMTAifQ%3D%3D){:target="_blank .external-link} for IDCT activation 
 
+    - [Notify DR3](https://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNTA1MDkwMTEuMDIiLCJPUyI6IldpbmRvd3MgMTAifQ%3D%3D){:target="_blank"}
     - Notify POM for operational awareness.
 
-- **Continue without IDCT**
+- **Standard Response**
 
-    - Regular crew with appropriate PPE.
-    - Consider self-conveyance when safe and appropriate.
+    - Dispatch regular crew with appropriate PPE.
+    - Consider options for self-conveyance when safe and appropriate.
 
 </div>
 
 
 ## Discriminator Questions
 
-    1. Has the patient travelled to DRC, South Sudan, or Uganda within the last 21 days?
+!!! info "Assess the following"
 
-    2. Has the patient been ordered to quarantine from the PHAC?
+    1. Has the patient travelled to **DRC, South Sudan, or Uganda** within the last **21 days**?
+
+    2. Has the patient been ordered to quarantine by **PHAC**?
 
     3. Is there any probable exposure to Ebola?
-        - In an outbreak area or around anyone ill?
-        - Healthcare worker who worked in healthcare facility?
-        - Did healthcare worker have access to and use appropriate PPE?
-        - Had contact with people in affected provinces?
+
+        - In an outbreak area or around anyone who is ill?
+        - Healthcare worker who worked in a healthcare facility?
+        - Did the healthcare worker have access to and use appropriate PPE?
+        - Contact with people in affected provinces?
 
     4. What symptoms are described?
- 
-**Consider CareConnect for additional details if patient has recently been assessed by a physician.**
 
+!!! tip "Clinical Pearl"
+
+    Consider **CareConnect** for additional details if the patient has recently been assessed by a physician.
+    
 ## Ebola Symptoms
 
 Symptoms can begin 2-21 days post-exposure. 
@@ -211,17 +216,17 @@ Symptoms can begin 2-21 days post-exposure.
 
     **Management**
 
-    **Asymptomatic**
+    **Asymptomatic Category 1**
     : Regular crew with POC Risk Assessment.
 
-    **Symptomatic**
+    **Symptomatic Category 1**
     : Regular crew with POC Risk Assessment **OR** IDCT activation, depending on the clinical assessment.
 
 ---
 
 !!! warning "**Category 2** – Possible exposure to Ebola"
 
-    **Examples**
+    **Definition**
 
     - Healthcare worker who worked in a healthcare facility.
     - Contact with people in affected provinces of the DRC.
@@ -229,10 +234,10 @@ Symptoms can begin 2-21 days post-exposure.
 
     **Management**
 
-    **Asymptomatic**
+    **Asymptomatic Category 2**
     : Regular crew with POC Risk Assessment **OR** IDCT activation, depending on the clinical assessment.
 
-    **Symptomatic**
+    **Symptomatic Category 2**
     : **IDCT activation.**
 
 ---
