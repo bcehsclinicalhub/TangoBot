@@ -30,6 +30,8 @@ theme:
     - navigation.expand        # Prevents sidebar nesting
     - navigation.top  # This activates the official theme button
     - toc.follow
+    - content.cards
+
 nav:
   - Home: index.md
   - Paramedic Specialists: ps/index.md

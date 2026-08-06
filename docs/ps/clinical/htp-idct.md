@@ -3,9 +3,9 @@ title: BCEHS Infectious Disease Care Team (IDCT) Activation Threshold Guidance
 policy_id: 
 version: 1.0
 status: Active
-effective_date: 2024-12-01
-last_reviewed: 2024-12-01
-next_review: 2023-03-01
+effective_date: 2026-08-01
+last_reviewed: 2026-08-01
+next_review: 2026-12-31
 owner: Clinical Hub
 category: Clinical
 
@@ -20,7 +20,7 @@ keywords:
   - IDCT
 ---
 
-# BCEHS Infectious Disease Care Team (IDCT)<br> <span style="font-size: 0.8em; font-style: italic;">Activation Threshold Guidance</span>
+# BCEHS Infectious Disease Care Team<br> <span style="font-size: 0.8em; font-style: italic;">Activation Threshold Guidance</span>
 
 
 ## Purpose
@@ -45,6 +45,40 @@ Guidelines are just that, and each case will be evaluated on a case-by-case basi
 e) **Conveyance:**
 Self-conveyance should be considered in **every suspected EVD case** as a transport option. 
 
+!!! note "**Risk Identified (initial 9-1-1 call)**"
+    • Ebola risk factors identified during the 9-1-1 call
+    • Patient reports recent travel or quarantine
+
+!!! warning "**Notification Required**"
+    EMCT notifies the PS/Charge Dispatcher
+
+!!! danger "**Immediate Action**"
+    * Ensure the call is WAIT
+    * Add supporting notes
+
+!!! info "**PS Tasks**"
+    1. Complete callback
+    2. Notify EPOS
+    3. Determine appropriate risk category
+    4. Conference MHO
+    5. Consider IDCT engagement
+
+!!! success "**Decision Point**"
+    Shared decision from EPOS / MHO / PS
+
+<div class="grid cards" markdown>
+
+- **IDCT Activation**
+
+    - Notify ID3 on call for IDCT activation.
+    - Consider notifying POM for operational awareness.
+
+- **Alternatives**
+
+    - Regular crew with appropriate PPE.
+    - Consider self-conveyance when safe and appropriate.
+
+</div>
 
 ## Who to Suspect
 
