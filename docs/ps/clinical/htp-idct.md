@@ -45,19 +45,19 @@ Guidelines are just that, and each case will be evaluated on a case-by-case basi
 e) **Conveyance:**
 Self-conveyance should be considered in **every suspected EVD case** as a transport option. 
 
-## Risk identified during 9-1-1 call
+## Risk Identified During 9-1-1 Call
 **Activation Threshold Guidance**
 
 !!! note "**Risk Identified**"
-    *Patient with Ebola risk factors identified at time of call
-    *Patient/caller self declares quarantine orders or recent travel
+    - Patient with Ebola risk factors identified at time of call
+    - Patient/caller self declares quarantine orders or recent travel
 
 !!! warning "**Notification Required**"
     EMCT notifies the PS/Charge Dispatcher
 
 !!! danger "**PS/ Charge**"
-    * Ensure the call is a **WAIT**
-    * Add supporting notes to Supp Info
+    - Ensure the call is a **WAIT**
+    - Add supporting notes to Supp Info
 
 !!! info "**PS Tasks**"
     1. Complete callback to scene to assess risk, [questions below.](#discriminator-questions)
@@ -77,8 +77,8 @@ Choose ONE option
 <div class="grid cards" markdown>
 
 - **Activate IDCT**
-
     -[Notify DR3](https://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNTA1MDkwMTEuMDIiLCJPUyI6IldpbmRvd3MgMTAifQ%3D%3D){:target="_blank .external-link} for IDCT activation 
+
     - Notify POM for operational awareness
 
 - **Continue without IDCT**
@@ -88,7 +88,7 @@ Choose ONE option
 
 </div>
 
-## Risk discovered by Crew on Scene
+##  Crew on Scene Discovered Risk
 **Activation Threshold Guidance**
 
 !!! note "**Risk Identified**"
@@ -126,8 +126,8 @@ Choose ONE option
 <div class="grid cards" markdown>
 
 - **Activate IDCT**
-
     -[Notify DR3](https://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNTA1MDkwMTEuMDIiLCJPUyI6IldpbmRvd3MgMTAifQ%3D%3D){:target="_blank .external-link} for IDCT activation 
+
     - Notify POM for operational awareness.
 
 - **Continue without IDCT**
@@ -145,10 +145,10 @@ Choose ONE option
     2. Has the patient been ordered to quarantine from the PHAC?
 
     3. Is there any probable exposure to Ebola?
-        *In an outbreak area or around anyone ill?
-        * Healthcare worker who worked in healthcare facility?
-        * Did healthcare worker have access to and use appropriate PPE?
-        * Had contact with people in affected provinces?
+        - In an outbreak area or around anyone ill?
+        - Healthcare worker who worked in healthcare facility?
+        - Did healthcare worker have access to and use appropriate PPE?
+        - Had contact with people in affected provinces?
 
     4. What symptoms are described?
  
@@ -158,7 +158,7 @@ Choose ONE option
 
 Symptoms can begin 2-21 days post-exposure. 
 
-*Initial symptoms:*
+### Initial symptoms:
 
 - Fever, chills 
 
@@ -174,7 +174,7 @@ Symptoms can begin 2-21 days post-exposure.
 
 - Muscle and joint pain
 
-*Symptoms may progress to:*
+### Symptoms may progress to:
 
 - Nausea, vomiting, diarrhea 
 
@@ -192,7 +192,7 @@ Symptoms can begin 2-21 days post-exposure.
 
 - Severe weight loss
 
-*Higher Transmission Risk:*
+### Higher Transmission Risk:
 
 - Vomiting
 
@@ -202,29 +202,46 @@ Symptoms can begin 2-21 days post-exposure.
 
 ## Risk Categories
 
-!!! failure "**Category 1** No probable exposure to Ebola"
-    Were not in outbreak area or around anyone ill 
+!!! failure "**Category 1** – No probable exposure to Ebola"
 
-**Asymptomatic Category 1**
-    • Regular crew with POC Risk Assessment
+    **Definition**
 
-**Symptomatic Category 1**
-    - Regular crew with POC Risk Assessment **OR** IDCT activation depending on clinical assessment
+    - Not in an outbreak area.
+    - No contact with anyone who is ill.
 
-!!! example "**Category 2** Possible exposure to Ebola"
-    HCW who worked in healthcare facility; had contact with people in affected provinces of the DRC; etc.
+    **Management**
 
-**Asymptomatic Category 2**
-    • Regular crew with POC Risk Assessment **OR** IDCT activation depending on clinical assessment
+    **Asymptomatic**
+    : Regular crew with POC Risk Assessment.
 
-**Symptomatic Category 2**
-    - IDCT activation
+    **Symptomatic**
+    : Regular crew with POC Risk Assessment **OR** IDCT activation, depending on the clinical assessment.
 
-**Categories reflect the current guidance based on expert consensus and best practice. These may change as recommendations are updated from PHAC. Events will be tracked and this document will be updated as changes occur.**
+---
 
-!!! warning "**Asymptomatic Category 1**"
+!!! warning "**Category 2** – Possible exposure to Ebola"
 
-!!! warning "**Asymptomatic Category 2**"
+    **Examples**
+
+    - Healthcare worker who worked in a healthcare facility.
+    - Contact with people in affected provinces of the DRC.
+    - Other potential exposure identified during risk assessment.
+
+    **Management**
+
+    **Asymptomatic**
+    : Regular crew with POC Risk Assessment **OR** IDCT activation, depending on the clinical assessment.
+
+    **Symptomatic**
+    : **IDCT activation.**
+
+---
+
+!!! note "Clinical Note"
+
+    Risk categories reflect the current guidance based on expert consensus and best practice.
+
+    Recommendations may change as PHAC updates its guidance. This page will be reviewed and updated as changes occur.
 
 ## References
 
