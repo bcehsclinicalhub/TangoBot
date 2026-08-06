@@ -25,25 +25,67 @@ keywords:
 
 ## Purpose
 
-BCEHS has an Infectious Disease Care Team (IDCT) to assist with the management and transport of patients with a high threat pathogen (HTP). The IDCT has additional HTP PPE training and specialized equipment that can be used as needed to transport patient with a suspected HTP. The IDCT team is both ground and air capable. It does take time to organize the team for deployment. Currently, there is an outbreak of Ebola virus (EVD) in DRC, South Sudan and Uganda. As the province of British Columbia and BCEHS prepare to transport any potential EVD patient, the following guidance is given to BCEHS, and specifically, Paramedic Specialists and EPOS physicians on how to evaluate the best mode of transport for these patients. 
+BCEHS has an Infectious Disease Care Team (IDCT) to assist with the management and transport of patients with a high threat pathogen (HTP). The IDCT has additional HTP PPE training and specialized equipment that can be used as needed to transport patient with a suspected HTP. The IDCT team is both ground and air capable. It does take time to organize the team for deployment. 
+
+Currently, there is an outbreak of Ebola virus (EVD) in DRC, South Sudan and Uganda. As the province of British Columbia and BCEHS prepare to transport any potential EVD patient, the following guidance is given to BCEHS, and specifically, Paramedic Specialists and EPOS physicians on how to evaluate the best mode of transport for these patients. 
 
 
 ## Key Facts
 
-a) **Specialized Training:**
-Currently, only IDCT BCEHS paramedics are trained in the standard of PPE (Ie double gloving) that suspected high risk EVD patients require; ie patients who are actively hemorrhaging, or having respiratory secretions, or losing fluid through vomiting or diarrhea in the setting of a known exposure and later stage EVD symptoms. 
+<div class="decision-grid">
 
-b) **PPE:**
-Double gloving is not required for low risk suspected EVD patients, ie: not actively hemorrhaging, or having respiratory secretions, or losing fluid through vomiting or diarrhea in the setting of a known exposure and later stage EVD symptoms.
+<div class="decision-card reference-card">
 
-c) **Transmission:**
-Patients do not transmit the virus when they are asymptomatic.
+<h3>Specialized Training</h3>
 
-d) **Guidelines:**
-Guidelines are just that, and each case will be evaluated on a case-by-case basis with the Paramedic Specialist, the Emergency Physician Online Support (EPOS) and the Medical Health Officer on call (MHO).
+<p>
+Only <strong>IDCT paramedics</strong> are trained to manage patients requiring enhanced HTP PPE (e.g. double gloving). This includes patients with active hemorrhage, respiratory secretions or significant fluid loss in the setting of a known exposure and later-stage EVD symptoms.
+</p>
 
-e) **Conveyance:**
-Self-conveyance should be considered in **every suspected EVD case** as a transport option. 
+</div>
+
+<div class="decision-card reference-card">
+
+<h3>PPE</h3>
+
+<p>
+Double gloving is <strong>not required</strong> for low-risk suspected EVD patients who are not actively hemorrhaging, producing respiratory secretions or losing fluids.
+</p>
+
+</div>
+
+<div class="decision-card reference-card">
+
+<h3>Transmission</h3>
+
+<p>
+Patients <strong>do not transmit Ebola while asymptomatic.</strong>
+</p>
+
+</div>
+
+<div class="decision-card reference-card">
+
+<h3>Clinical Decision</h3>
+
+<p>
+Every case should be evaluated individually with the
+<strong>Paramedic Specialist, EPOS and MHO.</strong>
+</p>
+
+</div>
+
+<div class="decision-card reference-card">
+
+<h3>Conveyance</h3>
+
+<p>
+Consider <strong>self-conveyance</strong> whenever clinically appropriate for suspected EVD patients.
+</p>
+
+</div>
+
+</div>
 
 ## Risk: Identified During 9-1-1 Call
 **Activation Threshold Guidance**
@@ -216,7 +258,7 @@ Symptoms typically begin **2–21 days** after exposure.
 </div>
 
 </div>
-!!! danger "Higher Transmission Risk"
+!!! failure "Higher Transmission Risk"
 
     - Vomiting
     - Diarrhea
@@ -224,7 +266,7 @@ Symptoms typically begin **2–21 days** after exposure.
 
 ## Risk Categories
 
-!!! failure "**Category 1** – No probable exposure to Ebola"
+!!! danger "**Category 1** – No probable exposure to Ebola"
 
     **Definition**
 

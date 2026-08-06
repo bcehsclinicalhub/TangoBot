@@ -685,3 +685,45 @@ input.md-search__input {
     }
 
 }
+
+/* ==========================================================================
+   Clinical Typography
+   ========================================================================== */
+
+.md-typeset {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.md-typeset p,
+.md-typeset li,
+.md-typeset td {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.md-typeset ul li,
+.md-typeset ol li {
+    margin-bottom: .35rem;
+}
+
+/* ==========================================================================
+   Reference Cards
+   ========================================================================== */
+
+.reference-card {
+    border-left: 6px solid #607d8b;
+    padding: 18px;
+}
+
+.reference-card h3 {
+    text-align: left;
+    color: #004B8D;
+    margin-bottom: .75rem;
+    font-size: 1.15rem;
+}
+
+.reference-card p {
+    margin: 0;
+    line-height: 1.5;
+}
