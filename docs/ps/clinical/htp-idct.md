@@ -45,12 +45,11 @@ Guidelines are just that, and each case will be evaluated on a case-by-case basi
 e) **Conveyance:**
 Self-conveyance should be considered in **every suspected EVD case** as a transport option. 
 
-## Guidance: 9-1-1 Call
-**Risk identified during 9-1-1 call**
+## Risk identified during 9-1-1 call
+**Activation Threshold Guidance**
 
 !!! note "**Risk Identified**"
     *Patient with Ebola risk factors identified at time of call
-
     *Patient/caller self declares quarantine orders or recent travel
 
 !!! warning "**Notification Required**"
@@ -61,9 +60,9 @@ Self-conveyance should be considered in **every suspected EVD case** as a transp
     * Add supporting notes to Supp Info
 
 !!! info "**PS Tasks**"
-    1. Complete callback to scene to assess risk [questions below](#discriminator-questions)
+    1. Complete callback to scene to assess risk, [questions below.](#discriminator-questions)
     2. Notify EPOS and share findings
-    3. Discuss most appropriate risk category with EPOS [Categories below](#risk-categories)
+    3. Discuss most appropriate risk category with EPOS, [categories below](#risk-categories)
     4. Conference MHO into call for discussion regarding IDCT activation
     5. Consider engaging IDCT team for additional support with decision making
 
@@ -79,7 +78,7 @@ Choose ONE option
 
 - **Activate IDCT**
 
-    - [Notify DR3](https://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNTA1MDkwMTEuMDIiLCJPUyI6IldpbmRvd3MgMTAifQ%3D%3D){:target="_blank .external-link} for IDCT activation 
+    -[Notify DR3](https://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNTA1MDkwMTEuMDIiLCJPUyI6IldpbmRvd3MgMTAifQ%3D%3D){:target="_blank .external-link} for IDCT activation 
     - Notify POM for operational awareness
 
 - **Continue without IDCT**
@@ -89,9 +88,8 @@ Choose ONE option
 
 </div>
 
-
-## Guidance: Crew on Scene
-**Risk discovered by crew on scene**
+## Risk discovered by Crew on Scene
+**Activation Threshold Guidance**
 
 !!! note "**Risk Identified**"
     Risk factors discovered by crews on scene at time of PCRA
@@ -104,10 +102,14 @@ Choose ONE option
     * Add supporting notes to Supp Info
 
 !!! info "**PS Tasks**"
-    1. Complete risk assessment based on information obtained from crew on scene. Consider callback to patient/caller, as necessary. [Questions below](#discriminator-questions)
-        *Based on suspected risk, PS may request crew withdraw from scene to ensure their safety and allow time for further risk assessment to be completed
-        *Decision to withdraw from scene if risks are identified to be made **regardless of patient condition**
-        *Discuss most appropriate risk category with EPOS [Categories below](#risk-categories)
+    1. Complete risk assessment based on information obtained from crew on scene. Consider callback to patient/caller as necessary, [questions below.](#discriminator-questions)
+
+        * Based on suspected risk, PS may request crew withdraw from scene to ensure their safety and allow time for further risk assessment to be completed
+
+        * Decision to withdraw from scene if risks are identified to be made **regardless of patient condition**
+
+        * Discuss most appropriate risk category with EPOS, [categories below](#risk-categories)
+
     2. Notify EPOS and share findings
     3. Discuss most appropriate risk category with EPOS (categories on next page)
     4. Conference MHO into call for discussion regarding IDCT activation
@@ -125,7 +127,7 @@ Choose ONE option
 
 - **Activate IDCT**
 
-    - [Notify DR3](https://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNTA1MDkwMTEuMDIiLCJPUyI6IldpbmRvd3MgMTAifQ%3D%3D){:target="_blank .external-link} for IDCT activation 
+    -[Notify DR3](https://bcgov.sharepoint.com/:w:/t/000759/EZ7sDuc1wkpPmP3Rt9Ffth4BpS4XTb5nAD2Q8ku0ODdQTg?CID=054c03b2-e80f-77a4-865b-e17338e2e18c&e=NgDtcA&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNTA1MDkwMTEuMDIiLCJPUyI6IldpbmRvd3MgMTAifQ%3D%3D){:target="_blank .external-link} for IDCT activation 
     - Notify POM for operational awareness.
 
 - **Continue without IDCT**
@@ -143,10 +145,10 @@ Choose ONE option
     2. Has the patient been ordered to quarantine from the PHAC?
 
     3. Is there any probable exposure to Ebola?
-        •In an outbreak area or around anyone ill?
-        •Healthcare worker who worked in healthcare facility?
-        •Did healthcare worker have access to and use appropriate PPE?
-        •Had contact with people in affected provinces?
+        *In an outbreak area or around anyone ill?
+        * Healthcare worker who worked in healthcare facility?
+        * Did healthcare worker have access to and use appropriate PPE?
+        * Had contact with people in affected provinces?
 
     4. What symptoms are described?
  
@@ -200,7 +202,8 @@ Symptoms can begin 2-21 days post-exposure.
 
 ## Risk Categories
 
-!!! failure "**Category 1**" No probable exposure to Ebola (were not in outbreak area or around anyone ill). 
+!!! failure "**Category 1** No probable exposure to Ebola"
+    Were not in outbreak area or around anyone ill 
 
 **Asymptomatic Category 1**
     • Regular crew with POC Risk Assessment
@@ -208,15 +211,14 @@ Symptoms can begin 2-21 days post-exposure.
 **Symptomatic Category 1**
     - Regular crew with POC Risk Assessment **OR** IDCT activation depending on clinical assessment
 
-!!! example "**Category 2**" Possible exposure to Ebola (e.g. HCW who worked in healthcare facility, had contact with people in affected provinces of the DRC, etc.)
+!!! example "**Category 2** Possible exposure to Ebola"
+    HCW who worked in healthcare facility; had contact with people in affected provinces of the DRC; etc.
 
 **Asymptomatic Category 2**
     • Regular crew with POC Risk Assessment **OR** IDCT activation depending on clinical assessment
 
 **Symptomatic Category 2**
     - IDCT activation
-
- If they have a **suitable quarantine plan** and can drive there in a personal vehicle they will be allowed to do that, otherwise they will be ordered into a Federal Designated Quarantine Facility (DQF). They will have daily active follow up for 21 days. A suitable quarantine plan does not include returning to any of the territories or any remote areas of provinces where they cannot access appropriate health services if needed.
 
 **Categories reflect the current guidance based on expert consensus and best practice. These may change as recommendations are updated from PHAC. Events will be tracked and this document will be updated as changes occur.**
 
@@ -228,7 +230,7 @@ Symptoms can begin 2-21 days post-exposure.
 
 <a href="/ps/clinical/images/MHO-phone-numbers.pdf" target="_blank">MHO Phone Directory</a>
 
-<a href="/ps/clinical/images/evd-infographic.pdf" target="_blank">EVD Infographic</a>
+<a href="/ps/clinical/images/evd-picto.png" target="_blank">EVD Infographic</a>
 
 [HTP Screening Tool](https://tango.bcehsclinicalhub.ca/ps/clinical/htp-tool){:target="_blank .external-link}
 

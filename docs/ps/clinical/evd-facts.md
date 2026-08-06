@@ -143,7 +143,7 @@ First responders should contact their health and safety officer if they:
 
 ## References
 
-<a href="/ps/clinical/images/evd-infographic.pdf" target="_blank">EVD Infographic</a>
+<a href="/ps/clinical/images/evd-picto.png" target="_blank">EVD Infographic</a>
 
 ## Review Schedule
 
