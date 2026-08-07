@@ -32,7 +32,7 @@ Currently, there is an outbreak of Ebola virus (EVD) in DRC, South Sudan and Uga
 
 ## Key Facts
 
-<div class="decision-grid">
+<div class="reference-grid">
 
 <div class="decision-card reference-card">
 
@@ -40,6 +40,18 @@ Currently, there is an outbreak of Ebola virus (EVD) in DRC, South Sudan and Uga
 
 <p>
 Only <strong>IDCT paramedics</strong> are trained to manage patients requiring enhanced HTP PPE (e.g. double gloving). This includes patients with active hemorrhage, respiratory secretions or significant fluid loss in the setting of a known exposure and later-stage EVD symptoms.
+</p>
+
+</div>
+
+<div class="reference-grid">
+
+<div class="decision-card reference-card">
+
+<h3>Specialized Training</h3>
+
+<p>
+Only <strong>IDCT paramedics</strong> are trained to manage patients requiring enhanced HTP PPE (e.g. double gloving).
 </p>
 
 </div>
@@ -69,8 +81,7 @@ Patients <strong>do not transmit Ebola while asymptomatic.</strong>
 <h3>Clinical Decision</h3>
 
 <p>
-Every case should be evaluated individually with the
-<strong>Paramedic Specialist, EPOS and MHO.</strong>
+Every case should be evaluated individually with the <strong>Paramedic Specialist, EPOS and MHO.</strong>
 </p>
 
 </div>

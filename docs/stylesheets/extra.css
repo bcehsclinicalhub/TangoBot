@@ -688,28 +688,36 @@ input.md-search__input {
 
 
 /* ==========================================================================
-   Reference Cards
+   Reference Cards (Clinical Hub)
    ========================================================================== */
 
 .reference-card {
-    border-left: 6px solid #607d8b;
-    padding: 18px;
+    background: #f8f9fa;
+    border: 1px solid #d8dde3;
+    border-left: 5px solid #9aa5b1;
+    border-radius: 6px;
+    padding: 14px 18px;
+    box-shadow: none;
 }
 
 .reference-card h3 {
+    margin: 0 0 .5rem;
+    color: #2f3b45;
+    font-size: 1rem;
+    font-weight: 700;
     text-align: left;
-    color: #004B8D;
-    margin-bottom: .75rem;
-    font-size: 1.15rem;
 }
 
 .reference-card p {
     margin: 0;
-    line-height: 1.5;
+    font-size: .8rem;
+    line-height: 1.45;
+    color: #444;
 }
 
-
-.md-typeset .admonition,
-.md-typeset details {
-    font-size: 1rem;
+.reference-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 16px;
+    margin: 1rem 0 2rem;
 }
