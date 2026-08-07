@@ -245,49 +245,6 @@ Symptoms typically begin **2–21 days** after exposure.
 
 ## Risk Categories
 
-!!! warning "**Category 1** – No probable exposure to Ebola"
-
-    **Definition**
-
-    - Not in an outbreak area
-    - No contact with anyone who is ill
-
-    **Management**
-
-    **Asymptomatic Category 1**
-    : Regular crew with POC Risk Assessment
-
-    **Symptomatic Category 1**
-    : Regular crew with POC Risk Assessment **OR** IDCT activation, depending on the clinical assessment
-
----
-
-!!! danger "**Category 2** – Possible exposure to Ebola"
-
-    **Definition**
-
-    - Healthcare worker who worked in a healthcare facility
-    - Contact with people in affected provinces of the DRC
-    - Other potential exposure identified during risk assessment
-
-    **Management**
-
-    **Asymptomatic Category 2**
-    : Regular crew with POC Risk Assessment **OR** IDCT activation, depending on the clinical assessment
-
-    **Symptomatic Category 2**
-    : **IDCT activation**
-
----
-
-!!! note "Clinical Note"
-
-    Risk categories reflect the current guidance based on expert consensus and best practice.
-
-    Recommendations may change as PHAC updates its guidance. This page will be reviewed and updated as changes occur.
-
-## Risk Categories NEW! AUG06
-
 !!! warning "**Category 1** – No probable exposure to Ebola/Bundibugyo Virus Disease (EVD/BVD)"
 
     **Definition**
@@ -312,7 +269,6 @@ Symptoms typically begin **2–21 days** after exposure.
 
     **Guidance**
 
-    ---
 
     **Asymptomatic Category 1**
     : Regular crew with **POC Risk Assessment**
