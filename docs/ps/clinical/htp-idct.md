@@ -18,6 +18,8 @@ tags:
 keywords:
   - HTP
   - IDCT
+  - EVD
+  - BVD
 ---
 
 # BCEHS Infectious Disease Care Team<br> <span style="font-size: 0.8em; font-style: italic;">Activation Threshold Guidance</span>
@@ -283,6 +285,57 @@ Symptoms typically begin **2–21 days** after exposure.
     Risk categories reflect the current guidance based on expert consensus and best practice.
 
     Recommendations may change as PHAC updates its guidance. This page will be reviewed and updated as changes occur.
+
+## Risk Categories NEW! AUG06
+
+!!! warning "**Category 1** – No known, likely or possible exposure to Bundibugyo virus disease but returning from the Democratic Republic of Congo, Uganda or South Sudan in the preceding 21 days"
+
+    **Criteria**
+
+    - Travellers are placed in this category if they have NO known, likely or possible exposure to the Bundibugyo virus (BVD) in the preceding 21 days
+    - This applies if the traveller has been in the Democratic Republic of Congo, Uganda or South Sudan in the preceding 21 days but is assessed to have had none of the exposures listed in Category 2
+
+    **Requirements**
+
+    - Includes the civic address of the place where the person plans to quarantine themselves during the mandatory 21 day quarantine period that begins on the day on which they enter Canada;
+    - Includes the person’s contact information for the 21-day period that begins on the day on which they enter Canada;
+    - Avoid all physical contact with other people in their household and refrain from sharing objects such as cutlery (if the person is a minor they can have contact with people who are providing them with care);
+    - Avoid all contact with any other people outside their household unless to seek medical care.
+    - Have access to the necessities of life, including water, food, medication and appropriate environmental temperature control without leaving quarantine;
+    - Confirm they will have no visitors at the place of quarantine;
+    - Have access to health services and be able to contact public health; and
+    - Other measures deemed necessary as instructed by the quarantine officer following the mandatory health assessment.
+
+---
+
+!!! danger "**Category 2** – Known,  likely or possible exposure to Bundibugyo virus  in the preceding 21 days"
+
+    **Criteria**
+
+    - Healthcare worker who worked in a healthcare facility
+    - Contact with people in affected provinces of the DRC
+    - Other potential exposure identified during risk assessment
+
+    **Requirements**
+
+    - Travellers are placed in this category if there IS known, likely or possible exposure1 to Bundibugyo virus in the preceding 21 days.  This applies if the traveller has had:
+    - Percutaneous (i.e., piercing the skin), mucous membrane (e.g., eye, nose or mouth), sexual or skin contact with blood or other body fluids (e.g. semen2, breastmilk) from a person with confirmed  Bundibugyo virus disease (BVD) or who is considered likely to have BVD, including through objects contaminated by that person
+    - Close contact with a person who has confirmed BVD or who is considered likely to have BVD (with or without personal protective equipment) 
+    - Cared for a person with confirmed BVD or who is considered likely to have BVD (with or without personal protective equipment) 
+    - Physical contact with any human remains of a person who has confirmed BVD or who was considered likely to have had BVD (with or without personal protective equipment) 
+    - Lived in the same household as a person with confirmed BVD or who is considered likely to have BVD 
+    - Laboratory or other worker who handled Bundibugyo virus or processed body fluids and/or tissues from a person with BVD or who is considered likely to have BVD (with or without personal protective equipment)
+    - Healthcare and humanitarian workers who have been in the Democratic Republic of Congo
+
+
+---
+
+!!! note "Footnotes"
+
+    1. Exposure to a person with confirmed BVD or who is likely to have BVD refers to exposure that occurred while the person is infectious (i.e., from the onset of symptoms until no longer deemed infectious by their clinical care team).  
+    2. For sexual contact, semen from people who have recovered from Ebola disease can remain infectious for months. 
+    3. 2A & 2B refers to how survey data is differentiated. When the provinces and territories receive data from PHAC, they will see “Category 2A” and “Category 2B”. 2B refers to humanitarian and healthcare workers
+
 
 ## References
 
