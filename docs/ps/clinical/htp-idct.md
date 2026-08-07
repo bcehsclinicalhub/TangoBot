@@ -269,31 +269,31 @@ Symptoms typically begin **2–21 days** after exposure.
 
     <p><strong>Guidance</strong></p>
 
-<div class="decision-grid">
+    <div class="decision-grid">
 
-<div class="decision-card reference-card">
+    <div class="decision-card reference-card">
 
-<h3>Asymptomatic</h3>
+    <h3>Asymptomatic</h3>
 
-<p>
-Regular crew with <strong>POC Risk Assessment</strong>
-</p>
+    <p>
+    Regular crew with <strong>POC Risk Assessment</strong>
+    </p>
 
-</div>
+    </div>
 
-<div class="decision-card reference-card">
+    <div class="decision-card reference-card">
 
-<h3>Symptomatic</h3>
+    <h3>Symptomatic</h3>
 
-<p>
-Regular crew with
-<strong>POC Risk Assessment OR IDCT Activation</strong>,
-depending on the clinical assessment.
-</p>
+    <p>
+    Regular crew with
+    <strong>POC Risk Assessment OR IDCT Activation</strong>,
+    depending on the clinical assessment.
+    </p>
 
-</div>
+    </div>
 
-</div>
+    </div>
 
 
 !!! danger "**Category 2** – Known, or possible exposure to Ebola/Bundibugyo Virus Disease (EVD/BVD)"
@@ -326,6 +326,31 @@ depending on the clinical assessment.
     
     **For any other person in Category 2 (2A)**: Cannot involve onward travel on commercial transport (e.g., commercial flight, taxi, ride-sharing) so traveller must be able to arrange private transport to their quarantine location
     
+    <p><strong>Guidance</strong></p>
+
+    <div class="decision-grid">
+
+    <div class="decision-card reference-card">
+
+    <h3>Asymptomatic</h3>
+
+    <p>
+    Regular crew with <strong>POC Risk Assessment OR IDCT Activation</strong> depending on the clinical assessment.
+    </p>
+
+    </div>
+
+    <div class="decision-card reference-card">
+
+    <h3>Symptomatic</h3>
+
+    <p>
+    <strong>IDCT Activation</strong>
+    </p>
+
+    </div>
+
+    </div>
     
     **Guidance**
 
