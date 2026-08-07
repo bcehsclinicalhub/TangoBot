@@ -32,71 +32,35 @@ Currently, there is an outbreak of Ebola virus (EVD) in DRC, South Sudan and Uga
 
 ## Key Facts
 
-<div class="reference-grid">
+!!! note ""
 
-<div class="decision-card reference-card">
+    **Specialized Training**
 
-<h3>Specialized Training</h3>
+    Only **IDCT paramedics** are trained to manage patients requiring enhanced HTP PPE (e.g. double gloving). This includes patients with active hemorrhage, respiratory secretions, or significant fluid loss in the setting of a known exposure and later-stage EVD symptoms.
 
-<p>
-Only <strong>IDCT paramedics</strong> are trained to manage patients requiring enhanced HTP PPE (e.g. double gloving). This includes patients with active hemorrhage, respiratory secretions or significant fluid loss in the setting of a known exposure and later-stage EVD symptoms.
-</p>
+    ---
 
-</div>
+    **PPE**
 
-<div class="reference-grid">
+    Double gloving is **not required** for low-risk suspected EVD patients who are **not** actively hemorrhaging, producing respiratory secretions, or losing fluids.
 
-<div class="decision-card reference-card">
+    ---
 
-<h3>Specialized Training</h3>
+    **Transmission**
 
-<p>
-Only <strong>IDCT paramedics</strong> are trained to manage patients requiring enhanced HTP PPE (e.g. double gloving).
-</p>
+    Patients **do not transmit Ebola while asymptomatic.**
 
-</div>
+    ---
 
-<div class="decision-card reference-card">
+    **Clinical Decision**
 
-<h3>PPE</h3>
+    Every suspected case should be evaluated individually with the **Paramedic Specialist, EPOS and MHO**.
 
-<p>
-Double gloving is <strong>not required</strong> for low-risk suspected EVD patients who are not actively hemorrhaging, producing respiratory secretions or losing fluids.
-</p>
+    ---
 
-</div>
+    **Conveyance**
 
-<div class="decision-card reference-card">
-
-<h3>Transmission</h3>
-
-<p>
-Patients <strong>do not transmit Ebola while asymptomatic.</strong>
-</p>
-
-</div>
-
-<div class="decision-card reference-card">
-
-<h3>Clinical Decision</h3>
-
-<p>
-Every case should be evaluated individually with the <strong>Paramedic Specialist, EPOS and MHO.</strong>
-</p>
-
-</div>
-
-<div class="decision-card reference-card">
-
-<h3>Conveyance</h3>
-
-<p>
-Consider <strong>self-conveyance</strong> whenever clinically appropriate for suspected EVD patients.
-</p>
-
-</div>
-
-</div>
+    Consider **self-conveyance** whenever clinically appropriate for suspected EVD patients.
 
 ## Risk: Identified During 9-1-1 Call
 **Activation Threshold Guidance**
