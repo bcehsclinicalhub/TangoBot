@@ -737,3 +737,29 @@ input.md-search__input {
     margin-bottom: .35rem;
     font-size: .95rem;
 }
+
+/* ==========================================================================
+   Symptom Cards
+   ========================================================================== */
+
+.symptom-card hr {
+    margin: 1rem 0 .8rem;
+    border: 0;
+    border-top: 1px solid #d8dde3;
+}
+
+.high-risk-heading {
+    color: #c62828;
+    font-weight: 700;
+    margin: 0 0 .35rem;
+}
+
+.high-risk-list {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.high-risk-list li {
+    color: #c62828;
+    margin-bottom: .25rem;
+}

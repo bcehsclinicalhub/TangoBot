@@ -43,7 +43,7 @@ Current Ebola outbreaks in **DRC, South Sudan and Uganda** require heightened aw
 
     **PPE**
 
-    Double gloving is not required for low-risk suspected EVD patients who are **not** actively hemorrhaging, producing respiratory secretions, or losing fluids.
+    Double gloving is not required for low-risk suspected EVD patients who are not actively hemorrhaging, producing respiratory secretions, or losing fluids.
 
     ---
 
@@ -56,7 +56,7 @@ Current Ebola outbreaks in **DRC, South Sudan and Uganda** require heightened aw
     **Clinical Decision**
 
     Every suspected case should be evaluated individually with the Paramedic Specialist, EPOS and MHO.
-    
+
     ---
 
     **Conveyance**
@@ -217,28 +217,31 @@ Symptoms typically begin **2–21 days** after exposure.
 <h3>Progressive Symptoms</h3>
 
 <ul>
+    <li>Nausea, vomiting, diarrhea</li>
+    <li>Rash or red eyes</li>
+    <li>Jaundice</li>
+    <li>Chest or abdominal pain</li>
+    <li>Delirium</li>
+    <li>Bruising or bleeding</li>
+    <li>Anorexia</li>
+    <li>Severe weight loss</li>
+</ul>
 
-<li>Nausea, vomiting, diarrhea</li>
-<li>Rash or red eyes</li>
-<li>Jaundice</li>
-<li>Chest or abdominal pain</li>
-<li>Delirium</li>
-<li>Bruising or bleeding</li>
-<li>Anorexia</li>
-<li>Severe weight loss</li>
+<hr>
 
+<p class="high-risk-heading">
+<strong>⚠ Higher Transmission Risk</strong>
+</p>
+
+<ul class="high-risk-list">
+    <li>Vomiting</li>
+    <li>Diarrhea</li>
+    <li>Bleeding / hemorrhage</li>
 </ul>
 
 </div>
 
 </div>
-
-</div>
-!!! failure "Higher Transmission Risk"
-
-    - Vomiting
-    - Diarrhea
-    - Bleeding / hemorrhage
 
 ## Risk Categories
 
