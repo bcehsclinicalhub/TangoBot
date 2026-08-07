@@ -290,52 +290,47 @@ Symptoms typically begin **2–21 days** after exposure.
 
 !!! warning "**Category 1** – No probable exposure to Ebola/Bundibugyo Virus Disease (EVD/BVD)"
 
-    <div class="category-section">Definition</div>
+    **Definition**
 
-    - Travellers are placed in this category if they have NO known, likely or possible exposure to the Bundibugyo virus (BVD) in the preceding 21 days
-    - This applies if the traveller has been in the Democratic Republic of Congo, Uganda or South Sudan in the preceding 21 days but is assessed to have had none of the exposures listed in Category 2
+    ---
 
-    <div class="category-section">Requirements</div>
+    - Travellers are placed in this category if they have **no known, likely or possible exposure** to the Bundibugyo virus (BVD) during the preceding 21 days.
+    - This applies if the traveller has been in the **Democratic Republic of Congo, Uganda or South Sudan** during the preceding 21 days but is assessed to have had **none of the Category 2 exposures**.
 
+    **Requirements**
 
-    - Includes the civic address of the place where the person plans to quarantine themselves during the mandatory 21 day quarantine period that begins on the day on which they enter Canada;
-    - Includes the person’s contact information for the 21-day period that begins on the day on which they enter Canada;
-    - Avoid all physical contact with other people in their household and refrain from sharing objects such as cutlery (if the person is a minor they can have contact with people who are providing them with care);
-    - Avoid all contact with any other people outside their household unless to seek medical care.
-    - Have access to the necessities of life, including water, food, medication and appropriate environmental temperature control without leaving quarantine;
-    - Confirm they will have no visitors at the place of quarantine;
-    - Have access to health services and be able to contact public health; and
-    - Other measures deemed necessary as instructed by the quarantine officer following the mandatory health assessment.
+    ---
 
-    <div class="category-section">Guidance</div>
+    - Includes the civic address of the place where the person plans to quarantine during the mandatory 21-day quarantine period beginning on the day they enter Canada.
+    - Includes the person's contact information for the 21-day quarantine period.
+    - Avoid all physical contact with other people in the household and refrain from sharing objects such as cutlery (if the person is a minor they may have contact with caregivers).
+    - Avoid all contact with people outside the household unless seeking medical care.
+    - Have access to necessities of life, including water, food, medication and appropriate environmental temperature control without leaving quarantine.
+    - Confirm there will be **no visitors** at the place of quarantine.
+    - Have access to health services and be able to contact Public Health.
+    - Follow any additional measures directed by the quarantine officer following the mandatory health assessment.
 
-      <div class="guidance-grid">
+    **Guidance**
 
-<div class="guidance-card">
+    ---
 
-<h4>Asymptomatic</h4>
+    **Asymptomatic Category 1**
 
-Regular crew with
-<strong>POC Risk Assessment</strong>
+    Regular crew with **POC Risk Assessment**
 
-</div>
+    **Symptomatic Category 1**
 
-<div class="guidance-card">
+    Regular crew with **POC Risk Assessment OR IDCT Activation**, depending on the clinical assessment.
 
-<h4>Symptomatic</h4>
+    **Guidance**
 
-Regular crew with
-<strong>POC Risk Assessment</strong>
+---
 
-<strong>OR</strong>
+    **Asymptomatic Category 1**
+    : Regular crew with **POC Risk Assessment**
 
-<strong>IDCT Activation</strong>
-
-depending on clinical assessment
-
-</div>
-
-</div>
+    **Symptomatic Category 1**
+    : Regular crew with **POC Risk Assessment OR IDCT Activation**, depending on the clinical assessment.
 ---
 
 !!! danger "**Category 2** – Known, or possible exposure to Ebola/Bundibugyo Virus Disease (EVD/BVD)"
