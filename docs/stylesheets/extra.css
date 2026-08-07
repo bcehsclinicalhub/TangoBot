@@ -4,10 +4,10 @@ body, input {
     font-weight: 300; 
 }
 
-/* Make bold text pop */
-.md-typeset strong, .md-typeset b { 
-    font-weight: 800 !important; 
-    color: #000 !important; 
+.md-typeset strong,
+.md-typeset b {
+    font-weight: 700 !important;
+    color: #000;
 }
 
 /* --- 2. HEADER & NAVIGATION --- */
@@ -767,4 +767,15 @@ input.md-search__input {
 .md-typeset strong,
 .md-typeset b {
     font-weight: 800 !important;
+}
+
+/* ==========================================================================
+   Normalize admonition title typography
+   ========================================================================== */
+
+.md-typeset .admonition > .admonition-title,
+.md-typeset .admonition > .admonition-title strong {
+    font-size: 0.95rem !important;
+    font-weight: 700 !important;
+    line-height: 1.3;
 }

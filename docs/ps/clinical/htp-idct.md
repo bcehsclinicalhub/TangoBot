@@ -84,7 +84,7 @@ Current Ebola outbreaks in **DRC, South Sudan and Uganda** require heightened aw
     4. Conference MHO into call for discussion regarding IDCT activation
     5. Consider engaging IDCT team for additional support with decision making
 
-!!! success "**Decision Point**"
+!!! success "Decision Point"
     **Shared decision from EPOS / MHO / PS**
 
 <p class="decision-label">
@@ -115,17 +115,17 @@ Choose ONE option
 ##  Risk: Discovered by Crew
 **Activation Threshold Guidance**
 
-!!! note "**Risk Identified**"
+!!! note "Risk Identified"
     Risk factors discovered by crews on scene at time of PCRA
 
-!!! warning "**Notification Required**"
+!!! warning "Notification Required"
     Crew calls CliniCall and shares assessment and concerns
 
-!!! danger "**PS/ Charge**"
+!!! danger "PS/ Charge"
     * Ensure the call is a **WAIT**
     * Add supporting notes to Supp Info
 
-!!! info "**PS Tasks**"
+!!! info "PS Tasks"
     1. Complete risk assessment based on information obtained from crew on scene. Consider callback to patient/caller as necessary, [questions below.](#discriminator-questions)
 
         * Based on suspected risk, PS may request crew withdraw from scene to ensure their safety and allow time for further risk assessment to be completed
@@ -139,7 +139,7 @@ Choose ONE option
     4. Conference MHO into call for discussion regarding IDCT activation
     5. Consider engaging IDCT team for additional support with decision making
 
-!!! success "**Decision Point**"
+!!! success "Decision Point"
     **Shared decision from EPOS / MHO / PS**
 
 <p class="decision-label">
