@@ -63,21 +63,21 @@ Current Ebola outbreaks in **DRC, South Sudan and Uganda** require heightened aw
 
     Consider self-conveyance whenever clinically appropriate for suspected EVD patients.
 
-## Risk: Identified During 9-1-1 Call
+## Risk: Identified During 9-1-1
 **Activation Threshold Guidance**
 
-!!! note "**Risk Identified**"
+!!! note "Risk Identified"
     - Patient with Ebola risk factors identified at time of call
     - Patient/caller self declares quarantine orders or recent travel
 
-!!! warning "**Notification Required**"
+!!! warning "Notification Required"
     EMCT notifies the PS/Charge Dispatcher
 
-!!! danger "**PS/ Charge**"
+!!! danger "PS/ Charge"
     - Ensure the call is a **WAIT**
     - Add supporting notes to Supp Info
 
-!!! info "**PS Tasks**"
+!!! info "PS Tasks"
     1. Complete callback to scene to assess risk, [questions below.](#discriminator-questions)
     2. Notify EPOS and share findings
     3. Discuss most appropriate risk category with EPOS, [categories below](#risk-categories)

@@ -763,3 +763,8 @@ input.md-search__input {
     color: #c62828;
     margin-bottom: .25rem;
 }
+
+.md-typeset strong,
+.md-typeset b {
+    font-weight: 800 !important;
+}
