@@ -37,7 +37,7 @@ Current Ebola outbreaks in **DRC, South Sudan and Uganda** require heightened aw
 
     **Specialized Training**
 
-    Only IDCT paramedics are trained to manage patients requiring enhanced HTP PPE (e.g. double gloving). This includes patients with active hemorrhage, respiratory secretions, or significant fluid loss in the setting of a known exposure and later-stage EVD symptoms.
+    Only IDCT paramedics are trained to manage patients requiring enhanced HTP PPE (i.e., double gloving). This includes patients with active hemorrhage, respiratory secretions, or significant fluid loss in the setting of a known exposure and later-stage EVD symptoms.
 
     ---
 
@@ -73,12 +73,12 @@ Current Ebola outbreaks in **DRC, South Sudan and Uganda** require heightened aw
 !!! warning "Notification Required"
     EMCT notifies the PS/Charge Dispatcher
 
-!!! danger "PS/ Charge"
+!!! danger "PS/Charge"
     - Ensure the call is a **WAIT**
     - Add supporting notes to Supp Info
 
 !!! info "PS Tasks"
-    1. Complete callback to scene to assess risk, [questions below.](#discriminator-questions)
+    1. Complete callback to scene to assess risk, [questions below](#discriminator-questions)
     2. Notify EPOS and share findings
     3. Discuss most appropriate risk category with EPOS, [categories below](#risk-categories)
     4. Conference MHO into call for discussion regarding IDCT activation
@@ -121,21 +121,19 @@ Choose ONE option
 !!! warning "Notification Required"
     Crew calls CliniCall and shares assessment and concerns
 
-!!! danger "PS/ Charge"
+!!! danger "PS/Charge"
     * Ensure the call is a **WAIT**
     * Add supporting notes to Supp Info
 
 !!! info "PS Tasks"
-    1. Complete risk assessment based on information obtained from crew on scene. Consider callback to patient/caller as necessary, [questions below.](#discriminator-questions)
+    1. Complete risk assessment based on information obtained from crew on scene. Consider callback to patient/caller as necessary, [questions below](#discriminator-questions)
 
         * Based on suspected risk, PS may request crew withdraw from scene to ensure their safety and allow time for further risk assessment to be completed
 
         * Decision to withdraw from scene if risks are identified to be made **regardless of patient condition**
 
-        * Discuss most appropriate risk category with EPOS, [categories below](#risk-categories)
-
     2. Notify EPOS and share findings
-    3. Discuss most appropriate risk category with EPOS (categories on next page)
+    3. Discuss most appropriate risk category with EPOS, [categories below](#risk-categories)
     4. Conference MHO into call for discussion regarding IDCT activation
     5. Consider engaging IDCT team for additional support with decision making
 
@@ -305,4 +303,4 @@ Symptoms typically begin **2–21 days** after exposure.
 
 | Adopted | Next Review Scheduled | Owner | Reviewer| 
 | :--- | :--- | :--- | :--- | 
-| JUL 2025 | JUL 2026 | Clinical Hub Mnager | BCEHS OHS Team |
+| JUL 2026 | JUL 2027 | Clinical Hub Manager | BCEHS OHS Team |
