@@ -290,7 +290,7 @@ Symptoms typically begin **2–21 days** after exposure.
 
 !!! warning "**Category 1** – No known, likely or possible exposure to Bundibugyo virus disease but returning from the Democratic Republic of Congo, Uganda or South Sudan in the preceding 21 days"
 
-    **Criteria**
+    **Definition**
 
     - Travellers are placed in this category if they have NO known, likely or possible exposure to the Bundibugyo virus (BVD) in the preceding 21 days
     - This applies if the traveller has been in the Democratic Republic of Congo, Uganda or South Sudan in the preceding 21 days but is assessed to have had none of the exposures listed in Category 2
@@ -306,19 +306,19 @@ Symptoms typically begin **2–21 days** after exposure.
     - Have access to health services and be able to contact public health; and
     - Other measures deemed necessary as instructed by the quarantine officer following the mandatory health assessment.
 
+    **Guidance**
+
+      **Asymptomatic Category 1**: Regular crew with POC Risk Assessment
+
+    **Symptomatic Category 1**: Regular crew with POC Risk Assessment **OR** IDCT activation, depending on the clinical assessment
+
 ---
 
 !!! danger "**Category 2** – Known,  likely or possible exposure to Bundibugyo virus  in the preceding 21 days"
 
-    **Criteria**
+    **Definition**
 
-    - Healthcare worker who worked in a healthcare facility
-    - Contact with people in affected provinces of the DRC
-    - Other potential exposure identified during risk assessment
-
-    **Requirements**
-
-    - Travellers are placed in this category if there IS known, likely or possible exposure1 to Bundibugyo virus in the preceding 21 days.  This applies if the traveller has had:
+    Travellers are placed in this category if there **IS known, likely or possible exposure1 to Bundibugyo virus in the preceding 21 days.**  **This applies if the traveller has had:**
     - Percutaneous (i.e., piercing the skin), mucous membrane (e.g., eye, nose or mouth), sexual or skin contact with blood or other body fluids (e.g. semen2, breastmilk) from a person with confirmed  Bundibugyo virus disease (BVD) or who is considered likely to have BVD, including through objects contaminated by that person
     - Close contact with a person who has confirmed BVD or who is considered likely to have BVD (with or without personal protective equipment) 
     - Cared for a person with confirmed BVD or who is considered likely to have BVD (with or without personal protective equipment) 
@@ -327,6 +327,24 @@ Symptoms typically begin **2–21 days** after exposure.
     - Laboratory or other worker who handled Bundibugyo virus or processed body fluids and/or tissues from a person with BVD or who is considered likely to have BVD (with or without personal protective equipment)
     - Healthcare and humanitarian workers who have been in the Democratic Republic of Congo
 
+    **Requirements**
+
+    **All requirements from Category 1. Additionally,**
+    - The place of quarantine must be accessible by ground transportation within 250 km or 3 hours of a “hold and test” facility.
+    - The traveller must have access to a separate bedroom; and
+    - The traveller must have access to a separate bathroom, unless directed otherwise at the discretion of the quarantine officer.
+    - Will receive daily monitoring by public health.
+
+    **3For healthcare and humanitarian workers without known breaches in personal protective equipment (2B)**: Allowed to travel to their place of quarantine using commercial transportation as long as they are asymptomatic and can arrive within 24 hours
+    
+    **For any other person in Category 2 (2A)**: Cannot involve onward travel on commercial transport (e.g., commercial flight, taxi, ride-sharing) so traveller must be able to arrange private transport to their quarantine location
+    
+    
+    **Guidance**
+
+     **Asymptomatic Category 2**: Regular crew with POC Risk Assessment **OR** IDCT activation, depending on the clinical assessment
+
+    **Symptomatic Category 2**: **IDCT activation**
 
 ---
 
@@ -336,6 +354,11 @@ Symptoms typically begin **2–21 days** after exposure.
     2. For sexual contact, semen from people who have recovered from Ebola disease can remain infectious for months. 
     3. 2A & 2B refers to how survey data is differentiated. When the provinces and territories receive data from PHAC, they will see “Category 2A” and “Category 2B”. 2B refers to humanitarian and healthcare workers
 
+!!! example "Clinical Note"
+
+    Risk categories reflect the current guidance based on expert consensus and best practice.
+
+    Recommendations may change as PHAC updates its guidance. This page will be reviewed and updated as changes occur.
 
 ## References
 
