@@ -594,7 +594,6 @@ input.md-search__input {
     margin: 0;
     padding-left: 1.4rem;
 }
-
 .decision-card li {
     margin-bottom: .45rem;
     line-height: 1.4;
@@ -785,4 +784,44 @@ input.md-search__input {
     margin: 0.8rem 0;
     border: 0;
     border-top: 1px solid rgba(0,0,0,.12);
+}
+
+/* ==========================================================================
+   Guidance Cards (Definition Lists)
+   ========================================================================== */
+
+.md-typeset dl {
+    margin: 1rem 0 0;
+}
+
+.md-typeset dt {
+    display: block;
+    margin: 0;
+    padding: 0.9rem 1rem 0.35rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #004B8D;
+    background: #f8fafc;
+    border: 1px solid #d8dde6;
+    border-bottom: 0;
+    border-left: 5px solid #004B8D;
+    border-radius: 6px 6px 0 0;
+}
+
+.md-typeset dd {
+    margin: 0 0 1rem;
+    padding: 0 1rem 1rem;
+    background: #f8fafc;
+    border: 1px solid #d8dde6;
+    border-top: 0;
+    border-left: 5px solid #004B8D;
+    border-radius: 0 0 6px 6px;
+}
+
+.md-typeset dd p:first-child {
+    margin-top: 0;
+}
+
+.md-typeset dd p:last-child {
+    margin-bottom: 0;
 }

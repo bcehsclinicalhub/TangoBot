@@ -269,7 +269,8 @@ Symptoms typically begin **2–21 days** after exposure.
 
     **Guidance**
 
-
+    ---
+    
     **Asymptomatic Category 1**
     : Regular crew with **POC Risk Assessment**
 
