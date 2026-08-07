@@ -310,17 +310,6 @@ Symptoms typically begin **2–21 days** after exposure.
     - Have access to health services and be able to contact Public Health.
     - Follow any additional measures directed by the quarantine officer following the mandatory health assessment.
 
-    **Guidance**
-
-    ---
-
-    **Asymptomatic Category 1**
-
-    Regular crew with **POC Risk Assessment**
-
-    **Symptomatic Category 1**
-
-    Regular crew with **POC Risk Assessment OR IDCT Activation**, depending on the clinical assessment.
 
     **Guidance**
 
@@ -333,9 +322,12 @@ Symptoms typically begin **2–21 days** after exposure.
     : Regular crew with **POC Risk Assessment OR IDCT Activation**, depending on the clinical assessment.
 ---
 
+
 !!! danger "**Category 2** – Known, or possible exposure to Ebola/Bundibugyo Virus Disease (EVD/BVD)"
 
     **Definition**
+
+    ---
 
     Travellers are placed in this category if there **IS known, likely or possible exposure1 to Bundibugyo virus in the preceding 21 days.**  **This applies if the traveller has had:**
 
@@ -348,6 +340,8 @@ Symptoms typically begin **2–21 days** after exposure.
     - Healthcare and humanitarian workers who have been in the Democratic Republic of Congo
 
     **Requirements**
+
+    ---
 
     **All requirements from Category 1. Additionally,**
     - The place of quarantine must be accessible by ground transportation within 250 km or 3 hours of a “hold and test” facility.
@@ -362,9 +356,14 @@ Symptoms typically begin **2–21 days** after exposure.
     
     **Guidance**
 
-     **Asymptomatic Category 2**: Regular crew with POC Risk Assessment **OR** IDCT activation, depending on the clinical assessment
+    ---
 
-    **Symptomatic Category 2**: **IDCT activation**
+    **Symptomatic Category 2**
+    : **Symptomatic Category 1**
+    : Regular crew with **POC Risk Assessment OR IDCT Activation**, depending on the clinical assessment
+
+    **Symptomatic Category 2**
+    : **IDCT activation**
 
 ---
 
