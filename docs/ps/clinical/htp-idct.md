@@ -267,15 +267,33 @@ Symptoms typically begin **2–21 days** after exposure.
     - Have access to health services and be able to contact Public Health.
     - Follow any additional measures directed by the quarantine officer following the mandatory health assessment.
 
-    **Guidance**
+    <p><strong>Guidance</strong></p>
 
-    ---
-    
-    **Asymptomatic Category 1**
-    : Regular crew with **POC Risk Assessment**
+<div class="decision-grid">
 
-    **Symptomatic Category 1**
-    : Regular crew with **POC Risk Assessment OR IDCT Activation**, depending on the clinical assessment.
+<div class="decision-card reference-card">
+
+<h3>Asymptomatic</h3>
+
+<p>
+Regular crew with <strong>POC Risk Assessment</strong>
+</p>
+
+</div>
+
+<div class="decision-card reference-card">
+
+<h3>Symptomatic</h3>
+
+<p>
+Regular crew with
+<strong>POC Risk Assessment OR IDCT Activation</strong>,
+depending on the clinical assessment.
+</p>
+
+</div>
+
+</div>
 
 
 !!! danger "**Category 2** – Known, or possible exposure to Ebola/Bundibugyo Virus Disease (EVD/BVD)"

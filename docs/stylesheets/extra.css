@@ -809,6 +809,12 @@ input.md-search__input {
     border-radius: 6px 6px 0 0;
 }
 
+.md-typeset dt strong {
+    font-size: inherit;
+    font-weight: 700 !important;
+    color: inherit;
+}
+
 .md-typeset dd {
     margin: 0 0 1rem 0;
     margin-inline-start: 0;
