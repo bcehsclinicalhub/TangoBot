@@ -288,14 +288,15 @@ Symptoms typically begin **2–21 days** after exposure.
 
 ## Risk Categories NEW! AUG06
 
-!!! warning "**Category 1** – No known, likely or possible exposure to Bundibugyo virus disease but returning from the Democratic Republic of Congo, Uganda or South Sudan in the preceding 21 days"
+!!! warning "**Category 1** – No probable exposure to Ebola/Bundibugyo Virus Disease (EVD/BVD)"
 
-    **Definition**
+    <div class="category-section">Definition</div>
 
     - Travellers are placed in this category if they have NO known, likely or possible exposure to the Bundibugyo virus (BVD) in the preceding 21 days
     - This applies if the traveller has been in the Democratic Republic of Congo, Uganda or South Sudan in the preceding 21 days but is assessed to have had none of the exposures listed in Category 2
 
-    **Requirements**
+    <div class="category-section">Requirements</div>
+
 
     - Includes the civic address of the place where the person plans to quarantine themselves during the mandatory 21 day quarantine period that begins on the day on which they enter Canada;
     - Includes the person’s contact information for the 21-day period that begins on the day on which they enter Canada;
@@ -306,19 +307,43 @@ Symptoms typically begin **2–21 days** after exposure.
     - Have access to health services and be able to contact public health; and
     - Other measures deemed necessary as instructed by the quarantine officer following the mandatory health assessment.
 
-    **Guidance**
+    <div class="category-section">Guidance</div>
 
-      **Asymptomatic Category 1**: Regular crew with POC Risk Assessment
+      <div class="guidance-grid">
 
-    **Symptomatic Category 1**: Regular crew with POC Risk Assessment **OR** IDCT activation, depending on the clinical assessment
+<div class="guidance-card">
 
+<h4>Asymptomatic</h4>
+
+Regular crew with
+<strong>POC Risk Assessment</strong>
+
+</div>
+
+<div class="guidance-card">
+
+<h4>Symptomatic</h4>
+
+Regular crew with
+<strong>POC Risk Assessment</strong>
+
+<strong>OR</strong>
+
+<strong>IDCT Activation</strong>
+
+depending on clinical assessment
+
+</div>
+
+</div>
 ---
 
-!!! danger "**Category 2** – Known,  likely or possible exposure to Bundibugyo virus  in the preceding 21 days"
+!!! danger "**Category 2** – Known, or possible exposure to Ebola/Bundibugyo Virus Disease (EVD/BVD)"
 
     **Definition**
 
     Travellers are placed in this category if there **IS known, likely or possible exposure1 to Bundibugyo virus in the preceding 21 days.**  **This applies if the traveller has had:**
+
     - Percutaneous (i.e., piercing the skin), mucous membrane (e.g., eye, nose or mouth), sexual or skin contact with blood or other body fluids (e.g. semen2, breastmilk) from a person with confirmed  Bundibugyo virus disease (BVD) or who is considered likely to have BVD, including through objects contaminated by that person
     - Close contact with a person who has confirmed BVD or who is considered likely to have BVD (with or without personal protective equipment) 
     - Cared for a person with confirmed BVD or who is considered likely to have BVD (with or without personal protective equipment) 
