@@ -25,10 +25,11 @@ keywords:
 
 ## Purpose
 
-BCEHS has an Infectious Disease Care Team (IDCT) to assist with the management and transport of patients with a high threat pathogen (HTP). The IDCT has additional HTP PPE training and specialized equipment that can be used as needed to transport patient with a suspected HTP. The IDCT team is both ground and air capable. It does take time to organize the team for deployment. 
+The BCEHS Infectious Disease Care Team (IDCT) provides specialized support for the assessment, management and transport of patients with suspected High Threat Pathogens (HTPs).
 
-Currently, there is an outbreak of Ebola virus (EVD) in DRC, South Sudan and Uganda. As the province of British Columbia and BCEHS prepare to transport any potential EVD patient, the following guidance is given to BCEHS, and specifically, Paramedic Specialists and EPOS physicians on how to evaluate the best mode of transport for these patients. 
+The IDCT has enhanced HTP PPE training and specialized equipment but requires time to deploy, which includes both ground and air capabilities. This guideline assists Paramedic Specialists and EPOS physicians in determining the most appropriate transport strategy for patients with suspected Ebola Virus Disease (EVD).
 
+Current Ebola outbreaks in **DRC, South Sudan and Uganda** require heightened awareness when patients present with compatible travel history, exposure risk and symptoms.
 
 ## Key Facts
 
@@ -36,31 +37,27 @@ Currently, there is an outbreak of Ebola virus (EVD) in DRC, South Sudan and Uga
 
     **Specialized Training**
 
-    Only **IDCT paramedics** are trained to manage patients requiring enhanced HTP PPE (e.g. double gloving). This includes patients with active hemorrhage, respiratory secretions, or significant fluid loss in the setting of a known exposure and later-stage EVD symptoms.
-
+    Only IDCT paramedics are trained to manage patients requiring enhanced HTP PPE (e.g. double gloving). This includes patients with active hemorrhage, respiratory secretions, or significant fluid loss in the setting of a known exposure and later-stage EVD symptoms.
     ---
 
     **PPE**
 
-    Double gloving is **not required** for low-risk suspected EVD patients who are **not** actively hemorrhaging, producing respiratory secretions, or losing fluids.
-
+    Double gloving is not required for low-risk suspected EVD patients who are **not** actively hemorrhaging, producing respiratory secretions, or losing fluids.
     ---
 
     **Transmission**
 
-    Patients **do not transmit Ebola while asymptomatic.**
-
+    Patients do not transmit Ebola while asymptomatic.
     ---
 
     **Clinical Decision**
 
-    Every suspected case should be evaluated individually with the **Paramedic Specialist, EPOS and MHO**.
-
+    Every suspected case should be evaluated individually with the Paramedic Specialist, EPOS and MHO.
     ---
 
     **Conveyance**
 
-    Consider **self-conveyance** whenever clinically appropriate for suspected EVD patients.
+    Consider self-conveyance whenever clinically appropriate for suspected EVD patients.
 
 ## Risk: Identified During 9-1-1 Call
 **Activation Threshold Guidance**
