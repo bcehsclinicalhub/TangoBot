@@ -73,7 +73,7 @@ Current Ebola outbreaks in **DRC, South Sudan and Uganda** require heightened aw
 !!! warning "Notification Required"
     EMCT notifies the PS/Charge Dispatcher
 
-!!! danger "PS/Charge"
+!!! danger "PS/CEMD"
     - Ensure the call is a **WAIT**
     - Add supporting notes to Supp Info
 
@@ -121,7 +121,7 @@ Choose ONE option
 !!! warning "Notification Required"
     Crew calls CliniCall and shares assessment and concerns
 
-!!! danger "PS/Charge"
+!!! danger "PS/CEMD"
     * Ensure the call is a **WAIT**
     * Add supporting notes to Supp Info
 
