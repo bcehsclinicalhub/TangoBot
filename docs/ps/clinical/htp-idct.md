@@ -352,17 +352,6 @@ Symptoms typically begin **2–21 days** after exposure.
 
     </div>
     
-    **Guidance**
-
-    ---
-
-    **Asymptomatic Category 2**
-    : Regular crew with **POC Risk Assessment OR IDCT Activation**, depending on the clinical assessment
-
-    **Symptomatic Category 2**
-    : **IDCT activation**
-
-    ---
 
 !!! note "Footnotes"
 
