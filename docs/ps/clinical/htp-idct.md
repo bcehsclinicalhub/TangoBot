@@ -38,21 +38,25 @@ Current Ebola outbreaks in **DRC, South Sudan and Uganda** require heightened aw
     **Specialized Training**
 
     Only IDCT paramedics are trained to manage patients requiring enhanced HTP PPE (e.g. double gloving). This includes patients with active hemorrhage, respiratory secretions, or significant fluid loss in the setting of a known exposure and later-stage EVD symptoms.
+
     ---
 
     **PPE**
 
     Double gloving is not required for low-risk suspected EVD patients who are **not** actively hemorrhaging, producing respiratory secretions, or losing fluids.
+
     ---
 
     **Transmission**
 
     Patients do not transmit Ebola while asymptomatic.
+
     ---
 
     **Clinical Decision**
 
     Every suspected case should be evaluated individually with the Paramedic Specialist, EPOS and MHO.
+    
     ---
 
     **Conveyance**
