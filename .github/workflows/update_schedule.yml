@@ -59,11 +59,14 @@ jobs:
                 sleep 630
                 continue
               else
-                echo "ByteBloc rate limit reached again on attempt 2. Exiting."
+                echo "ByteBloc rate limit still active."
+                echo "Keeping existing schedule.xml."
+                echo "Will try again during the next scheduled run."
+                echo "⚠ ByteBloc rate limit encountered. Existing schedule retained." >> "$GITHUB_STEP_SUMMARY"
                 rm -f schedule.tmp
-                exit 1
+                exit 0
               fi
-            fi
+            fi    
 
             # If we reached here without continuing, the download succeeded. Break the retry loop.
             break
