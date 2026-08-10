@@ -1,0 +1,170 @@
+.schedule-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+.schedule-card {
+    width: 100%;
+    max-width: 1050px;
+    background: var(--md-default-bg-color);
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: var(--md-shadow-z1);
+}
+
+.schedule-header {
+    padding: 1rem 1.25rem;
+    border-bottom: 2px solid var(--md-primary-fg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.schedule-title h2 {
+    margin: 0;
+    color: var(--md-primary-fg-color);
+    font-size: 1.5rem;
+    border: none;
+}
+
+.schedule-subtitle {
+    color: var(--md-default-fg-color--light);
+    font-size: 0.85rem;
+}
+
+.schedule-updated {
+    font-size: .80rem;
+    color: var(--md-default-fg-color--light);
+}
+
+.schedule-body {
+    padding: 1rem 1.25rem;
+}
+
+/* Day Sections */
+.day-section {
+    margin-bottom: 1.25rem;
+}
+.day-section:last-child {
+    margin-bottom: 0;
+}
+
+.day-header {
+    font-size: 1.1rem;
+    margin: 0 0 0.25rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    border: none;
+}
+
+.day-date {
+    font-size: 0.8rem;
+    color: var(--md-default-fg-color--light);
+    margin-bottom: 0.5rem;
+}
+
+/* Shift Cards Stack - Tighter Row Profiling */
+.shift-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem 0.75rem;
+    background: rgba(0, 0, 0, 0.01);
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 0.35rem;
+    margin-bottom: 0.35rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 0.85rem; /* Scales overall row text down */
+    transition: background-color 0.2s;
+}
+
+.shift-card:hover {
+    background: rgba(68, 138, 255, 0.04);
+}
+
+.shift-main {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: 140px;
+}
+
+.shift-code {
+    font-size: .80rem;
+    color: var(--md-default-fg-color--light);
+    font-family: var(--md-code-font-family);
+}
+
+.shift-time {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 3rem;
+    min-width: 120px;
+}
+
+/* Compact Pills & Badges */
+.shift-pill {
+    display: inline-block;
+    width: 76px; /* Expanded from 65px to prevent "EVENING" truncation */
+    text-align: center;
+    padding: .15rem 0;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 0.65rem; /* Tweak size slightly to fit 7 letters cleanly */
+}
+
+.day { background: #dff6dd; color: #1b5e20; }
+.swing { background: #fff3cd; color: #8a6100; }
+.evening { background: #dbeafe; color: #1d4ed8; }
+.night { background: #ede9fe; color: #6d28d9; }
+.other { background: #ececec; color: #444; }
+
+.time-pill {
+    display: inline-block;
+    padding: .2rem .6rem;
+    border-radius: 999px;
+    background: var(--md-code-bg-color);
+    font-weight: 600;
+    font-size: 0.8rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.provider-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: .25rem;
+    padding: .2rem .6rem;
+    border-radius: 999px;
+    background: rgba(68, 138, 255, 0.06);
+    color: var(--md-primary-fg-color);
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+/* Loading & Diagnostics */
+.schedule-loading {
+    text-align: center;
+    color: var(--md-default-fg-color--light);
+    padding: 1.5rem;
+}
+.loading-spinner {
+    border: 2px solid var(--md-default-fg-color--lightest);
+    border-top: 2px solid var(--md-primary-fg-color);
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 0.5rem auto;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
