@@ -71,7 +71,6 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 ## Uber Coverage Area
 
 ??? info "Metro Vancouver (17 communities)"
-??? info "Metro Vancouver (17 communities)"
 
     | | | |
     |---|---|---|

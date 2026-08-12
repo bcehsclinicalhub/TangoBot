@@ -848,24 +848,41 @@ input.md-search__input {
     margin-top: .5rem;
 }
 
-/* ==========================================================================
-   Area Coverage sections
-   ========================================================================== */
+/* ==================================================
+   Uber Coverage Tables
+================================================== */
 
-
-.coverage-columns div {
-    break-inside: avoid;
-    padding: .15rem 0;
+.md-typeset .coverage-table table {
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
 }
 
-@media (max-width: 900px) {
-    .coverage-columns {
-        column-count: 2;
-    }
+.md-typeset .coverage-table td,
+.md-typeset .coverage-table th {
+    border: none !important;
+    background: transparent !important;
+    padding: .18rem 1.5rem .18rem 0;
+    font-size: .90rem;
+    line-height: 1.35;
+    vertical-align: top;
+    white-space: nowrap;
 }
 
-@media (max-width: 600px) {
-    .coverage-columns {
-        column-count: 1;
-    }
+.md-typeset .coverage-table tbody tr {
+    border: none !important;
+}
+
+.md-typeset .coverage-table tbody tr:nth-child(odd),
+.md-typeset .coverage-table tbody tr:nth-child(even) {
+    background: transparent !important;
+}
+.coverage-table td:nth-child(1) {
+    width: 42%;
+}
+
+.coverage-table td:nth-child(2),
+.coverage-table td:nth-child(3) {
+    width: 29%;
 }
