@@ -71,33 +71,16 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 ## Uber Coverage Area
 
 ??? info "Metro Vancouver (17 communities)"
+??? info "Metro Vancouver (17 communities)"
 
-    <div class="coverage-columns">
-
-    <div>Anmore</div>
-    <div>Belcarra</div>
-    <div>Burnaby</div>
-
-    <div>Coquitlam</div>
-    <div>Delta</div>
-    <div>Langley (City & Township)</div>
-
-    <div>Maple Ridge</div>  
-    <div>New Westminster</div>  
-    <div>North Vancouver</div>
-
-    <div>Port Coquitlam</div>
-    <div>Pitt Meadows</div>
-    <div>Richmond</div>
-
-    <div>Surrey</div>
-    <div>UBC / Point Grey</div>
-    <div>Vancouver</div>
-
-    <div>White Rock</div>
-    <div>West Vancouver</div>
-
-    </div>
+    | | | |
+    |---|---|---|
+    | Anmore | Maple Ridge | Surrey |
+    | Belcarra | New Westminster | UBC / Point Grey |
+    | Burnaby | North Vancouver | Vancouver |
+    | Coquitlam | Port Coquitlam | White Rock |
+    | Delta | Pitt Meadows | West Vancouver |
+    | Langley (City & Township) | Richmond | |
 
 ??? info "Fraser Valley (6 communities)"
 
