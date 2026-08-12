@@ -842,29 +842,30 @@ input.md-search__input {
     font-size: .95rem;
     line-height: 1.5;
 }
-/* ==================================================
-   Uber Health Coverage Grid
-================================================== */
-
-.coverage-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(160px, 1fr));
-    gap: .25rem 2rem;
+.coverage-columns {
+    column-count: 3;
+    column-gap: 3rem;
     margin-top: .5rem;
 }
 
-.coverage-grid div {
-    padding: .1rem 0;
+/* ==========================================================================
+   Area Coverage sections
+   ========================================================================== */
+
+
+.coverage-columns div {
+    break-inside: avoid;
+    padding: .15rem 0;
 }
 
 @media (max-width: 900px) {
-    .coverage-grid {
-        grid-template-columns: repeat(2, 1fr);
+    .coverage-columns {
+        column-count: 2;
     }
 }
 
 @media (max-width: 600px) {
-    .coverage-grid {
-        grid-template-columns: 1fr;
+    .coverage-columns {
+        column-count: 1;
     }
 }

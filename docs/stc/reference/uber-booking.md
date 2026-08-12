@@ -72,7 +72,7 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 
 ??? info "Metro Vancouver (17 communities)"
 
-    <div class="coverage-grid">
+    <div class="coverage-columns">
 
     <div>Anmore</div>
     <div>Belcarra</div>
@@ -101,7 +101,7 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 
 ??? info "Fraser Valley (6 communities)"
 
-    <div class="coverage-grid">
+    <div class="coverage-columns">
 
     <div>Abbotsford</div>
     <div>Agassiz</div>
@@ -115,7 +115,7 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 
 ??? info "Sea to Sky (5 communities)"
 
-    <div class="coverage-grid">
+    <div class="coverage-columns">
 
     <div>Lions Bay</div>
     <div>Powell River</div>
@@ -128,7 +128,7 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 
 ??? info "Island South (11 communities)"
 
-    <div class="coverage-grid">
+    <div class="coverage-columns">
 
     <div>Central Saanich</div>
     <div>Colwood</div>
@@ -149,7 +149,7 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 
 ??? info "Island North (4 communities)"
 
-    <div class="coverage-grid">
+    <div class="coverage-columns">
 
     <div>Campbell River</div>
     <div>Courtenay</div>
@@ -161,7 +161,7 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 
 ??? info "Interior (7 communities)"
 
-    <div class="coverage-grid">
+    <div class="coverage-columns">
 
     <div>Cranbrook</div>
     <div>Kamloops</div>
@@ -177,7 +177,7 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 
 ??? info "Northern (5 communities)"
 
-    <div class="coverage-grid">
+    <div class="coverage-columns">
 
     <div>Fort St John</div>
     <div>Prince George</div>
