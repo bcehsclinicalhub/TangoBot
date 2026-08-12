@@ -28,20 +28,20 @@ keywords:
 
 Uber Health™ was contracted to supplement Yellow Cab Vancouver in the non-emergency medical transport pathway. 
 
-The Uber Health pathway is currently only for use Secondary Triage Clinicians and Low-Acuity Patient Navigators who have completed the necessary training and are scheduling transport for a 9-1-1 caller who has undergone a Manchester Triage assessment and mobility assessment.  
+The Uber Health pathway is currently only for use by Secondary Triage Clinicians and Low-Acuity Patient Navigators who have completed the necessary training and are scheduling transport for a 9-1-1 caller who has undergone a Manchester Triage assessment and mobility assessment.  
 
 ## Definitions
 
-a.	Uber Health: Uber Health is the business model through which BCEHS has contracted Uber drivers for deployment in this pathway. There is no practical difference between Uber and Uber Health on the user end.  
+a.	**Uber Health**: Uber Health is the business model through which BCEHS has contracted Uber drivers for deployment in this pathway. There is no practical difference between Uber and Uber Health on the user end.  
 
-b.	JAY Tool: “Justifiable, Accountable, You” tool available on the [Handbook](https://handbook.bcehs.ca/clinical-resources/miscellaneous-resources/jay-decision-making-tool/){:target="_blank .external-link} or Intranet.
+b.	**JAY Tool**: “Justifiable, Accountable, You” tool available on the [Handbook](https://handbook.bcehs.ca/clinical-resources/miscellaneous-resources/jay-decision-making-tool/){:target="_blank .external-link} or Intranet.
 
 ## Important Information
 1. Uber does **NOT** have wheelchair capable vehicles. In these cases, you will need to look at Yellow Cab as an option (if in Vancouver) or holding for an Emergency Ambulance.   
 
 2. Uber functions on a surge pricing model, meaning the cost of a trip can fluctuate wildly depending on the time of day or presence of a nearby popular event. Please utilize the JAY tool when deciding if the cost of the Uber pathway for your patient is reasonable.   
 
-3. Uber is **NOT** available throughout BC, but only available in the locations listed in the Appendix. When booking ensure the city/ town you are requesting is available.  
+3. Uber is **NOT** available throughout BC, but only available in the locations listed below. When booking ensure the city/ town you are requesting is available.  
 
 ## Procedure
 
@@ -53,7 +53,7 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 
 3)	Under **Plan ride**, ensure “One-way trip” is selected. Enter the patient’s location as the “Pickup address” and the patient’s destination as the “Dropoff address”. 
 
-        NOTE: The default for “Select when to ride” is “Pickup now”. If the patient has an appointment scheduled later in the day, toggle to “Future ride” and enter the pickup date and time. 
+**NOTE**: The default for “Select when to ride” is “Pickup now”. If the patient has an appointment scheduled later in the day, toggle to “Future ride” and enter the pickup date and time. 
 
 4)	Under **Vehicle type**, click the most affordable option (excluding Share). UberX should be the default.
 
@@ -68,21 +68,59 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 
 2. **Choose:** Needs Attention/ Awaiting pickup / In progress / Completed / Upcoming for current real-time status updates.   
 
+## Uber Health Area Coverage
+
+??? info "Metro Vancouver"
+
+<div class="coverage-grid">
+
+<div>• Anmore</div>
+<div>• Maple Ridge</div>
+<div>• Surrey</div>
+<div>• Belcarra</div>
+<div>• New Westminster</div>
+<div>• UBC / Point Grey</div>
+
+</div>
+
+??? info "Fraser Valley"
+
+    <3-column list>
+
+??? info "Sea to Sky"
+
+    <3-column list>
+
+??? info "Island South"
+
+    <3-column list>
+
+??? info "Island North"
+
+    <3-column list>
+
+??? info "Interior"
+
+    <3-column list>
+
+??? info "Northern"
+
+    <3-column list>
+
 
 ## FAQ
 
 **Does the rider need the Uber app?**   
 
-    No, riders do not need the Uber app or a smartphone. As long as they have a mobile phone, they will be able to use the service via SMS.   
+No, riders do not need the Uber app or a smartphone. As long as they have a mobile phone, they will be able to use the service via SMS.   
 
 **Are video tutorials available?**   
 
-    Yes. Link is in the References section.  
+Yes. Link is in the References section.  
 
-**Who do I contact with questions/ feedback?**    
+**Who do I contact with questions/ feedback?**
 
-    Lee.Roberts@bcehs.ca or your Off-car Paramedic Supervisor   
-
+David.W.Brown@bcehs.ca or your Off-Car Paramedic Supervisor (OCPS) 
 
 
 ## References
@@ -92,8 +130,6 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 **Related BCEHS Tools**
 
 [JAY Tool](https://handbook.bcehs.ca/clinical-resources/miscellaneous-resources/jay-decision-making-tool/){:target="_blank .external-link}
-
-
 
 
 ## Review Schedule
