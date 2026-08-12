@@ -72,26 +72,41 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 
 ??? info "Metro Vancouver (17 communities)"
 
-    | | | |
-    |---|---|---|
-    | Anmore | Maple Ridge | Surrey |
-    | Belcarra | New Westminster | UBC / Point Grey |
-    | Burnaby | North Vancouver | Vancouver |
-    | Coquitlam | Port Coquitlam | White Rock |
-    | Delta | Pitt Meadows | West Vancouver |
-    | Langley (City & Township) | Richmond | |
+    <div class="coverage-columns">
+
+    <div>📍 Anmore</div>
+    <div>📍 Belcarra</div>
+    <div>📍 Burnaby</div>
+    <div>📍 Coquitlam</div>
+    <div>📍 Delta</div>
+    <div>📍 Langley (City & Township)</div>
+
+    <div>📍 Maple Ridge</div>
+    <div>📍 New Westminster</div>
+    <div>📍 North Vancouver</div>
+    <div>📍 Port Coquitlam</div>
+    <div>📍 Pitt Meadows</div>
+    <div>📍 Richmond</div>
+
+    <div>📍 Surrey</div>
+    <div>📍 UBC / Point Grey</div>
+    <div>📍 Vancouver</div>
+    <div>📍 West Vancouver</div>
+    <div>📍 White Rock</div>
+
+    </div>
 
 ??? info "Fraser Valley (6 communities)"
 
     <div class="coverage-columns">
 
-    <div>Abbotsford</div>
-    <div>Agassiz</div>
-    <div>Chilliwack</div>
-    
-    <div>Harrison</div>
-    <div>Hope</div>
-    <div>Mission</div>
+    <div>📍 Abbotsford</div>
+    <div>📍 Agassiz</div>
+    <div>📍 Chilliwack</div>
+
+    <div>📍 Harrison</div>
+    <div>📍 Hope</div>
+    <div>📍 Mission</div>
 
     </div>
 
@@ -99,12 +114,13 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 
     <div class="coverage-columns">
 
-    <div>Lions Bay</div>
-    <div>Powell River</div>
-    <div>Sechelt</div>
+    <div>📍 Lions Bay</div>
+    <div>📍 Powell River</div>
 
-    <div>Squamish</div>
-    <div>Whistler</div>
+    <div>📍 Sechelt</div>
+    <div>📍 Squamish</div>
+
+    <div>📍 Whistler</div>
 
     </div>
 
@@ -112,20 +128,19 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 
     <div class="coverage-columns">
 
-    <div>Central Saanich</div>
-    <div>Colwood</div>
-    <div>Esquimalt</div>
+    <div>📍 Central Saanich</div>
+    <div>📍 Colwood</div>
+    <div>📍 Esquimalt</div>
+    <div>📍 Langford</div>
 
-    <div>Langford</div>
-    <div>Metchosin</div>
-    <div>North Saanich</div>
+    <div>📍 Metchosin</div>
+    <div>📍 North Saanich</div>
+    <div>📍 Oak Bay</div>
+    <div>📍 Saanich</div>
 
-    <div>Oak Bay</div>
-    <div>Saanich</div>
-    <div>Sidney</div>
-
-    <div>Victoria</div>
-    <div>View Royal</div>
+    <div>📍 Sidney</div>
+    <div>📍 Victoria</div>
+    <div>📍 View Royal</div>
 
     </div>
 
@@ -133,11 +148,11 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 
     <div class="coverage-columns">
 
-    <div>Campbell River</div>
-    <div>Courtenay</div>
+    <div>📍 Campbell River</div>
+    <div>📍 Courtenay</div>
 
-    <div>Nanaimo</div>
-    <div>Port Alberni</div>
+    <div>📍 Nanaimo</div>
+    <div>📍 Port Alberni</div>
 
     </div>
 
@@ -145,15 +160,15 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 
     <div class="coverage-columns">
 
-    <div>Cranbrook</div>
-    <div>Kamloops</div>
-    <div>Kelowna</div>
+    <div>📍 Cranbrook</div>
+    <div>📍 Kamloops</div>
+    <div>📍 Kelowna</div>
 
-    <div>Nelson</div>
-    <div>Penticton</div>
+    <div>📍 Nelson</div>
+    <div>📍 Penticton</div>
 
-    <div>Salmon Arm</div>
-    <div>West Kelowna</div>
+    <div>📍 Salmon Arm</div>
+    <div>📍 West Kelowna</div>
 
     </div>
 
@@ -161,12 +176,13 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 
     <div class="coverage-columns">
 
-    <div>Fort St John</div>
-    <div>Prince George</div>
-    <div>Prince Rupert</div>
+    <div>📍 Fort St John</div>
+    <div>📍 Prince George</div>
 
-    <div>Terrace</div>
-    <div>Williams Lake</div>
+    <div>📍 Prince Rupert</div>
+    <div>📍 Terrace</div>
+
+    <div>📍 Williams Lake</div>
 
     </div>
 

@@ -848,41 +848,27 @@ input.md-search__input {
     margin-top: .5rem;
 }
 
-/* ==================================================
-   Uber Coverage Tables
-================================================== */
-
-.md-typeset .coverage-table table {
-    width: 100%;
-    border: none;
-    box-shadow: none;
-    background: transparent;
+.coverage-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    row-gap: .15rem;
+    margin-top: .4rem;
 }
 
-.md-typeset .coverage-table td,
-.md-typeset .coverage-table th {
-    border: none !important;
-    background: transparent !important;
-    padding: .18rem 1.5rem .18rem 0;
-    font-size: .90rem;
-    line-height: 1.35;
-    vertical-align: top;
-    white-space: nowrap;
+.coverage-grid ul {
+    margin: 0;
+    padding-left: 1rem;
 }
 
-.md-typeset .coverage-table tbody tr {
-    border: none !important;
+.coverage-grid li {
+    margin: .15rem 0;
+    line-height: 1.25;
+    font-size: .9rem;
 }
 
-.md-typeset .coverage-table tbody tr:nth-child(odd),
-.md-typeset .coverage-table tbody tr:nth-child(even) {
-    background: transparent !important;
-}
-.coverage-table td:nth-child(1) {
-    width: 42%;
-}
-
-.coverage-table td:nth-child(2),
-.coverage-table td:nth-child(3) {
-    width: 29%;
+.coverage-columns div::before {
+    content: "📍";
+    margin-right: .45rem;
+    opacity: .8;
 }
