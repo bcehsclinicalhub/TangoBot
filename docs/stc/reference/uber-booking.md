@@ -68,45 +68,125 @@ Ensure that your patient qualifies for this pathway by conducting a thorough MTS
 
 2. **Choose:** Needs Attention/ Awaiting pickup / In progress / Completed / Upcoming for current real-time status updates.   
 
-## Uber Health Area Coverage
+## Uber Coverage Area
 
-??? info "Metro Vancouver"
+??? info "Metro Vancouver (17 communities)"
 
-<div class="coverage-grid">
+    <div class="coverage-grid">
 
-<div>• Anmore</div>
-<div>• Maple Ridge</div>
-<div>• Surrey</div>
-<div>• Belcarra</div>
-<div>• New Westminster</div>
-<div>• UBC / Point Grey</div>
+    <div>Anmore</div>
+    <div>Maple Ridge</div>
+    <div>Surrey</div>
 
-</div>
+    <div>Belcarra</div>
+    <div>New Westminster</div>
+    <div>UBC / Point Grey</div>
 
-??? info "Fraser Valley"
+    <div>Burnaby</div>
+    <div>North Vancouver</div>
+    <div>Vancouver</div>
 
-    <3-column list>
+    <div>Coquitlam</div>
+    <div>Port Coquitlam</div>
+    <div>West Vancouver</div>
 
-??? info "Sea to Sky"
+    <div>Delta</div>
+    <div>Pitt Meadows</div>
+    <div>White Rock</div>
 
-    <3-column list>
+    <div>Langley (City & Township)</div>
+    <div>Richmond</div>
 
-??? info "Island South"
+    </div>
 
-    <3-column list>
+??? info "Fraser Valley (6 communities)"
 
-??? info "Island North"
+    <div class="coverage-grid">
 
-    <3-column list>
+    <div>Abbotsford</div>
+    <div>Chilliwack</div>
+    <div>Hope</div>
 
-??? info "Interior"
+    <div>Agassiz</div>
+    <div>Harrison</div>
+    <div>Mission</div>
 
-    <3-column list>
+    </div>
 
-??? info "Northern"
+??? info "Sea to Sky (5 communities)"
 
-    <3-column list>
+    <div class="coverage-grid">
 
+    <div>Lions Bay</div>
+    <div>Sechelt</div>
+    <div>Whistler</div>
+
+    <div>Powell River</div>
+    <div>Squamish</div>
+
+    </div>
+
+??? info "Island South (11 communities)"
+
+    <div class="coverage-grid">
+
+    <div>Central Saanich</div>
+    <div>Metchosin</div>
+    <div>Sidney</div>
+
+    <div>Colwood</div>
+    <div>North Saanich</div>
+    <div>Victoria</div>
+
+    <div>Esquimalt</div>
+    <div>Oak Bay</div>
+    <div>View Royal</div>
+
+    <div>Langford</div>
+    <div>Saanich</div>
+
+    </div>
+
+??? info "Island North (4 communities)"
+
+    <div class="coverage-grid">
+
+    <div>Campbell River</div>
+    <div>Nanaimo</div>
+
+    <div>Courtenay</div>
+    <div>Port Alberni</div>
+
+    </div>
+
+??? info "Interior (7 communities)"
+
+    <div class="coverage-grid">
+
+    <div>Cranbrook</div>
+    <div>Nelson</div>
+    <div>West Kelowna</div>
+
+    <div>Kamloops</div>
+    <div>Penticton</div>
+
+    <div>Kelowna</div>
+    <div>Salmon Arm</div>
+
+    </div>
+
+??? info "Northern (5 communities)"
+
+    <div class="coverage-grid">
+
+    <div>Fort St John</div>
+    <div>Prince Rupert</div>
+    <div>Williams Lake</div>
+
+    <div>Prince George</div>
+    <div>Terrace</div>
+
+    </div>
 
 ## FAQ
 
