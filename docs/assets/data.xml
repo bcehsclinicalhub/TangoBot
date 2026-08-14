@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Schedule xmlns="https://bytebloc.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://bytebloc.com https://ca.bytebloc.com/sk/Content/xsd/MainScheduleV5.xsd">
   <ScheduleInfo xmlns="">
-    <DataOutputDate>2026-08-14T10:34:48-05:00</DataOutputDate>
+    <DataOutputDate>2026-08-14T11:34:34-05:00</DataOutputDate>
     <SchedId>f8ff180e651742e58451b47f0151c80c</SchedId>
     <SchedTitle>August 2026 EPOS Final</SchedTitle>
     <SchedDesc>As-worked</SchedDesc>
@@ -2280,7 +2280,7 @@
           <ShiftId>77cfcf3c76c34942bc2ba824015d5876</ShiftId>
           <SchedProviderList>
             <SchedProvider>
-              <ProviderId>c58536932f874be6896aa2128b190916</ProviderId>
+              <ProviderId>69a56c750d8a4c55b3d54877d022bac2</ProviderId>
               <ScheduledStart>2026-08-20T23:00:00-07:00</ScheduledStart>
               <ScheduledEnd>2026-08-21T07:00:00-07:00</ScheduledEnd>
               <WorkedStart>2026-08-20T23:00:00-07:00</WorkedStart>
@@ -2616,7 +2616,7 @@
           <ShiftId>77cfcf3c76c34942bc2ba824015d5876</ShiftId>
           <SchedProviderList>
             <SchedProvider>
-              <ProviderId>69a56c750d8a4c55b3d54877d022bac2</ProviderId>
+              <ProviderId>c58536932f874be6896aa2128b190916</ProviderId>
               <ScheduledStart>2026-08-26T23:00:00-07:00</ScheduledStart>
               <ScheduledEnd>2026-08-27T07:00:00-07:00</ScheduledEnd>
               <WorkedStart>2026-08-26T23:00:00-07:00</WorkedStart>
