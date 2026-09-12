@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Schedule xmlns="https://bytebloc.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://bytebloc.com https://ca.bytebloc.com/sk/Content/xsd/MainScheduleV5.xsd">
   <ScheduleInfo xmlns="">
-    <DataOutputDate>2026-09-12T12:26:37-05:00</DataOutputDate>
+    <DataOutputDate>2026-09-12T14:38:47-05:00</DataOutputDate>
     <SchedId>06c3c43c784047a4a4c0b49a00078397</SchedId>
     <SchedTitle>EPOS September 2026 Final</SchedTitle>
     <SchedDesc>As-worked</SchedDesc>
@@ -30,15 +30,6 @@
       <ShiftList>
         <Shift>
           <SiteId>0f457fbe12da41bfa0534d19d488ab33</SiteId>
-          <ShiftId>2980f0966b034ca8abd6a824015d3230</ShiftId>
-          <ShiftName>Eve 299MD3</ShiftName>
-          <ShiftAbbreviation>Eve299MD3</ShiftAbbreviation>
-          <ShiftStartTime>15:00</ShiftStartTime>
-          <ShiftEndTime>23:00</ShiftEndTime>
-          <ShiftHours>8</ShiftHours>
-        </Shift>
-        <Shift>
-          <SiteId>0f457fbe12da41bfa0534d19d488ab33</SiteId>
           <ShiftId>718a8e2b87df48d0bbe8a824015d02ca</ShiftId>
           <ShiftName>Swing 299MD2</ShiftName>
           <ShiftAbbreviation>Swg299MD2</ShiftAbbreviation>
@@ -62,6 +53,15 @@
           <ShiftAbbreviation>Nt299MD4</ShiftAbbreviation>
           <ShiftStartTime>23:00</ShiftStartTime>
           <ShiftEndTime>07:00</ShiftEndTime>
+          <ShiftHours>8</ShiftHours>
+        </Shift>
+        <Shift>
+          <SiteId>0f457fbe12da41bfa0534d19d488ab33</SiteId>
+          <ShiftId>2980f0966b034ca8abd6a824015d3230</ShiftId>
+          <ShiftName>Eve 299MD3</ShiftName>
+          <ShiftAbbreviation>Eve299MD3</ShiftAbbreviation>
+          <ShiftStartTime>15:00</ShiftStartTime>
+          <ShiftEndTime>23:00</ShiftEndTime>
           <ShiftHours>8</ShiftHours>
         </Shift>
       </ShiftList>
@@ -1795,10 +1795,17 @@
           <ShiftId>718a8e2b87df48d0bbe8a824015d02ca</ShiftId>
           <SchedProviderList>
             <SchedProvider>
-              <ProviderId>1d441a3cffb444c083a1a9740160c6d1</ProviderId>
+              <ProviderId>bfe1d627e80b4e679785e3c0cfe040c9</ProviderId>
               <ScheduledStart>2026-09-12T12:00:00-07:00</ScheduledStart>
-              <ScheduledEnd>2026-09-13T00:00:00-07:00</ScheduledEnd>
+              <ScheduledEnd>2026-09-12T16:00:00-07:00</ScheduledEnd>
               <WorkedStart>2026-09-12T12:00:00-07:00</WorkedStart>
+              <WorkedEnd>2026-09-12T16:00:00-07:00</WorkedEnd>
+            </SchedProvider>
+            <SchedProvider>
+              <ProviderId>1d441a3cffb444c083a1a9740160c6d1</ProviderId>
+              <ScheduledStart>2026-09-12T16:00:00-07:00</ScheduledStart>
+              <ScheduledEnd>2026-09-13T00:00:00-07:00</ScheduledEnd>
+              <WorkedStart>2026-09-12T16:00:00-07:00</WorkedStart>
               <WorkedEnd>2026-09-13T00:00:00-07:00</WorkedEnd>
             </SchedProvider>
           </SchedProviderList>
@@ -1821,8 +1828,22 @@
             <SchedProvider>
               <ProviderId>878961abf3b24a7bb1d3e773c1ae322f</ProviderId>
               <ScheduledStart>2026-09-12T23:00:00-07:00</ScheduledStart>
-              <ScheduledEnd>2026-09-13T07:00:00-07:00</ScheduledEnd>
+              <ScheduledEnd>2026-09-13T00:00:00-07:00</ScheduledEnd>
               <WorkedStart>2026-09-12T23:00:00-07:00</WorkedStart>
+              <WorkedEnd>2026-09-13T00:00:00-07:00</WorkedEnd>
+            </SchedProvider>
+            <SchedProvider>
+              <ProviderId>1d441a3cffb444c083a1a9740160c6d1</ProviderId>
+              <ScheduledStart>2026-09-13T00:00:00-07:00</ScheduledStart>
+              <ScheduledEnd>2026-09-13T04:00:00-07:00</ScheduledEnd>
+              <WorkedStart>2026-09-13T00:00:00-07:00</WorkedStart>
+              <WorkedEnd>2026-09-13T04:00:00-07:00</WorkedEnd>
+            </SchedProvider>
+            <SchedProvider>
+              <ProviderId>878961abf3b24a7bb1d3e773c1ae322f</ProviderId>
+              <ScheduledStart>2026-09-13T04:00:00-07:00</ScheduledStart>
+              <ScheduledEnd>2026-09-13T07:00:00-07:00</ScheduledEnd>
+              <WorkedStart>2026-09-13T04:00:00-07:00</WorkedStart>
               <WorkedEnd>2026-09-13T07:00:00-07:00</WorkedEnd>
             </SchedProvider>
           </SchedProviderList>
