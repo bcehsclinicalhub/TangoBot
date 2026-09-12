@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Schedule xmlns="https://bytebloc.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://bytebloc.com https://ca.bytebloc.com/sk/Content/xsd/MainScheduleV5.xsd">
   <ScheduleInfo xmlns="">
-    <DataOutputDate>2026-09-12T14:38:47-05:00</DataOutputDate>
+    <DataOutputDate>2026-09-12T16:52:13-05:00</DataOutputDate>
     <SchedId>06c3c43c784047a4a4c0b49a00078397</SchedId>
     <SchedTitle>EPOS September 2026 Final</SchedTitle>
     <SchedDesc>As-worked</SchedDesc>
@@ -30,6 +30,15 @@
       <ShiftList>
         <Shift>
           <SiteId>0f457fbe12da41bfa0534d19d488ab33</SiteId>
+          <ShiftId>2980f0966b034ca8abd6a824015d3230</ShiftId>
+          <ShiftName>Eve 299MD3</ShiftName>
+          <ShiftAbbreviation>Eve299MD3</ShiftAbbreviation>
+          <ShiftStartTime>15:00</ShiftStartTime>
+          <ShiftEndTime>23:00</ShiftEndTime>
+          <ShiftHours>8</ShiftHours>
+        </Shift>
+        <Shift>
+          <SiteId>0f457fbe12da41bfa0534d19d488ab33</SiteId>
           <ShiftId>718a8e2b87df48d0bbe8a824015d02ca</ShiftId>
           <ShiftName>Swing 299MD2</ShiftName>
           <ShiftAbbreviation>Swg299MD2</ShiftAbbreviation>
@@ -53,15 +62,6 @@
           <ShiftAbbreviation>Nt299MD4</ShiftAbbreviation>
           <ShiftStartTime>23:00</ShiftStartTime>
           <ShiftEndTime>07:00</ShiftEndTime>
-          <ShiftHours>8</ShiftHours>
-        </Shift>
-        <Shift>
-          <SiteId>0f457fbe12da41bfa0534d19d488ab33</SiteId>
-          <ShiftId>2980f0966b034ca8abd6a824015d3230</ShiftId>
-          <ShiftName>Eve 299MD3</ShiftName>
-          <ShiftAbbreviation>Eve299MD3</ShiftAbbreviation>
-          <ShiftStartTime>15:00</ShiftStartTime>
-          <ShiftEndTime>23:00</ShiftEndTime>
           <ShiftHours>8</ShiftHours>
         </Shift>
       </ShiftList>
