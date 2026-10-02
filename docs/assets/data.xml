@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Schedule xmlns="https://bytebloc.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://bytebloc.com https://ca.bytebloc.com/sk/Content/xsd/MainScheduleV5.xsd">
   <ScheduleInfo xmlns="">
-    <DataOutputDate>2026-10-01T19:15:23-05:00</DataOutputDate>
+    <DataOutputDate>2026-10-02T01:26:26-05:00</DataOutputDate>
     <SchedId>efbb7d93dc444990b2b1b4ba012a9968</SchedId>
     <SchedTitle>EPOS Final October 2026</SchedTitle>
     <SchedDesc>As-worked</SchedDesc>
@@ -2223,7 +2223,7 @@
           <ShiftId>59820dc1b98e4f83a7e1a824015ccc89</ShiftId>
           <SchedProviderList>
             <SchedProvider>
-              <ProviderId>878961abf3b24a7bb1d3e773c1ae322f</ProviderId>
+              <ProviderId>acf91725e5ed4744b5c1a32ddf122bc0</ProviderId>
               <ScheduledStart>2026-10-20T07:00:00-07:00</ScheduledStart>
               <ScheduledEnd>2026-10-20T15:00:00-07:00</ScheduledEnd>
               <WorkedStart>2026-10-20T07:00:00-07:00</WorkedStart>
@@ -2235,10 +2235,17 @@
           <ShiftId>718a8e2b87df48d0bbe8a824015d02ca</ShiftId>
           <SchedProviderList>
             <SchedProvider>
-              <ProviderId>acf91725e5ed4744b5c1a32ddf122bc0</ProviderId>
+              <ProviderId>878961abf3b24a7bb1d3e773c1ae322f</ProviderId>
               <ScheduledStart>2026-10-20T12:00:00-07:00</ScheduledStart>
-              <ScheduledEnd>2026-10-21T00:00:00-07:00</ScheduledEnd>
+              <ScheduledEnd>2026-10-20T21:00:00-07:00</ScheduledEnd>
               <WorkedStart>2026-10-20T12:00:00-07:00</WorkedStart>
+              <WorkedEnd>2026-10-20T21:00:00-07:00</WorkedEnd>
+            </SchedProvider>
+            <SchedProvider>
+              <ProviderId>acf91725e5ed4744b5c1a32ddf122bc0</ProviderId>
+              <ScheduledStart>2026-10-20T21:00:00-07:00</ScheduledStart>
+              <ScheduledEnd>2026-10-21T00:00:00-07:00</ScheduledEnd>
+              <WorkedStart>2026-10-20T21:00:00-07:00</WorkedStart>
               <WorkedEnd>2026-10-21T00:00:00-07:00</WorkedEnd>
             </SchedProvider>
           </SchedProviderList>
