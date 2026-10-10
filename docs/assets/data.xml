@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Schedule xmlns="https://bytebloc.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://bytebloc.com https://ca.bytebloc.com/sk/Content/xsd/MainScheduleV5.xsd">
   <ScheduleInfo xmlns="">
-    <DataOutputDate>2026-10-10T04:15:02-05:00</DataOutputDate>
+    <DataOutputDate>2026-10-10T10:45:10-05:00</DataOutputDate>
     <SchedId>efbb7d93dc444990b2b1b4ba012a9968</SchedId>
     <SchedTitle>EPOS Final October 2026</SchedTitle>
     <SchedDesc>As-worked</SchedDesc>
