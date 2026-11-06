@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Schedule xmlns="https://bytebloc.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://bytebloc.com https://ca.bytebloc.com/sk/Content/xsd/MainScheduleV5.xsd">
   <ScheduleInfo xmlns="">
-    <DataOutputDate>2026-11-05T04:04:40-06:00</DataOutputDate>
+    <DataOutputDate>2026-11-05T21:42:59-06:00</DataOutputDate>
     <SchedId>cca4692ca630424fb05fb4db0042361c</SchedId>
     <SchedTitle>November 2026 EPOS Final Schedule</SchedTitle>
     <SchedDesc>As-worked</SchedDesc>
@@ -1453,8 +1453,15 @@
             <SchedProvider>
               <ProviderId>1d441a3cffb444c083a1a9740160c6d1</ProviderId>
               <ScheduledStart>2026-11-06T12:00:00-07:00</ScheduledStart>
-              <ScheduledEnd>2026-11-07T00:00:00-07:00</ScheduledEnd>
+              <ScheduledEnd>2026-11-06T15:00:00-07:00</ScheduledEnd>
               <WorkedStart>2026-11-06T12:00:00-07:00</WorkedStart>
+              <WorkedEnd>2026-11-06T15:00:00-07:00</WorkedEnd>
+            </SchedProvider>
+            <SchedProvider>
+              <ProviderId>a144fc52605e43949300988c67b79dcc</ProviderId>
+              <ScheduledStart>2026-11-06T15:00:00-07:00</ScheduledStart>
+              <ScheduledEnd>2026-11-07T00:00:00-07:00</ScheduledEnd>
+              <WorkedStart>2026-11-06T15:00:00-07:00</WorkedStart>
               <WorkedEnd>2026-11-07T00:00:00-07:00</WorkedEnd>
             </SchedProvider>
           </SchedProviderList>
